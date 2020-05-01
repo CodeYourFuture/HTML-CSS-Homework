@@ -6,3 +6,5 @@ You can find instructions here:
 
 - Github Desktop: https://docs.codeyourfuture.io/students/guides/submitting-homework#creating-a-branch
 - Command Line: https://docs.codeyourfuture.io/students/guides/making-a-pull-request
+
+You should create a new branch for each week of your homework
