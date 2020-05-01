@@ -1,14 +1,8 @@
-# Week 1 Homework
-
-## Reading
-
-(Est. 2 hours) Read about advanced CSS selectors and then practice by playing this CSS selector game. It gets hard at the end, but try your best!
-
-## Karma-clone
+# Karma-clone
 
 The aim of this exercise is to create a page that looks just like this one: http://thinkful-ed.github.io/karma-clone/
 
-### Tasks
+## Tasks
 
 - Fork and clone this repo.
 - Create a branch with your name in the format: `flexbox/karma/LucyZidour`
