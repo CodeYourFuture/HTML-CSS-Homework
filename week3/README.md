@@ -1,9 +1,21 @@
-# Make a website using a 12-column grid system
+Create a responsive webpage showcasing your cake business
 
-Follow one of the 3 [designs attached here](https://classroom.google.com/u/0/c/Mzk3NDA1NjA4MTVa/a/NjE3NDA1ODQ5MDha/details)
+## Set up
+1) Fork this repository (so you have a copy of it in your own Github account)
+2) Clone the repository to your computer (so you can access it locally and can add code to it!)
+--
+3) Once you've started coding (folllowing the instructions below), remember to commit and push your code frequently.
+4) When you're ready to share something (even if it's unfinished!), open a Pull Request so a teacher can review your work.
 
-### Responsive grid reminder
 
-- Wrap each section of your page with a `container` (unless you have a background image that you want to bleed to the edges of the page at all times)
-- Wrap each set of elements in a `row`
-- Don't change the width, padding-left, padding-right, margin-left or margin-right of the items that have a `col-[x]` class on them.
+## Exercise
+
+### Start with your mobile design
+- Draw a wireframe of how the website will look like on mobile
+- Write the HTML following this mobile design
+- Then write your CSS for everything to look great on mobile
+
+### Then adapt the page to look good on desktop
+- Now add media queries to your CSS, and change the layout and sizing of elements so they make better use of a wider screen
+
+![Wireframe for inspiration:](./images/mums-w-frame.jpg)
