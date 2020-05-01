@@ -1,23 +1,17 @@
-# Week 2 Homework
+# Week 1 Homework
 
-## 1. Online Learning
+## Reading
 
-(Est. 1-2 hours) Complete the "Common Responsive Patterns" lesson of the Responsive Web Design Fundamentals course.
-(Est. 1-2 hours) Complete as many levels of the Flexbox Froggy game as you can. This will stretch your knowledge of Flexbox and you may need to do some research. It's ok if you can't complete all levels. Do as many as you can.
-(Est. 3 hours) Complete as many levels as you can from Flexbox Zombies
+(Est. 2 hours) Read about advanced CSS selectors and then practice by playing this CSS selector game. It gets hard at the end, but try your best!
 
-## 2. Responsive Website
+## Karma-clone
 
-Create a responsive webpage showcasing your cake business
+The aim of this exercise is to create a page that looks just like this one: http://thinkful-ed.github.io/karma-clone/
 
-### Start with your mobile design
+### Tasks
 
-- Draw a wireframe of how the website will look like on mobile
-- Write the HTML following this mobile design
-- Then write your CSS for everything to look great on mobile
-
-### Then adapt the page to look good on desktop
-
-- Now add media queries to your CSS, and change the layout and sizing of elements so they make better use of a wider screen
-
-![Wireframe for inspiration:](./images/mums-w-frame.jpg)
+- Fork and clone this repo.
+- Create a branch with your name in the format: `flexbox/karma/LucyZidour`
+- Edit `index.html` and `style.css` to create a perfect copy of the example!
+- Add, commit and push your code often so you get into the habit.
+- At the end, do a final push and create a Pull Request.
