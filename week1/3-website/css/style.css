@@ -9,8 +9,22 @@
 
 body{
     background-color: black;
+    margin-top: 100px;
 }
  h1{
     color:rgb(63, 63, 80);
     text-align: center;
+}
+.nav{
+
+    text-decoration-style: none;
+    color: midnightblue;
+    
+}
+h2{
+    color: olivedrab;
+}
+
+P:first-child{
+    color: orange;
 }
