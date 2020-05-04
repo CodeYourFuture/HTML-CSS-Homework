@@ -75,3 +75,50 @@ p {
 
 /*=====  End of GLOBAL STYLES  ======*/
 
+/*=============================================
+ =            HEADER            =
+ =============================================*/
+
+header {
+  margin: 1rem 1rem 4rem 1rem;
+}
+
+.brand {
+  margin-bottom: 2rem;
+}
+
+.brand-heading {
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.brand-slogan {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  background: var(--link-bg-color);
+  padding: 0.5rem 0.75rem;
+  color: var(--black-link-text);
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 0.2rem;
+}
+
+.nav-link:hover {
+  background: var(--link-bg-hover-color);
+}
+
+nav>ul li {
+  display: inline-block;
+}
+
+/*=====  End of HEADER  ======*/
