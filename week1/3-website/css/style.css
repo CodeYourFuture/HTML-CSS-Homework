@@ -31,3 +31,47 @@ ul {
 }
 
 /*=====  End of RESET BROWSER DEFAULTS  ======*/
+
+/*=============================================
+=            GLOBAL STYLES            =
+=============================================*/
+
+html {
+  --main-bg-color: #e0e4cc;
+  --featured-article-color: #a7dbd8;
+  --link-bg-color: #f38630;
+  --link-bg-hover-color: #fa6900;
+  --black-text: #3b3b3b;
+  --black-link-text: #030303;
+  --text-width: 46rem;
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+strong {
+  font-weight: 500;
+}
+
+p {
+  margin-bottom: 0.5rem;
+}
+
+.text-link {
+  color: var(--black-link-text);
+  padding: 0.1em 0.2em;
+}
+
+.text-link:hover {
+  color: #fff;
+  background: var(--black-link-text);
+}
+
+/*=====  End of GLOBAL STYLES  ======*/
+
