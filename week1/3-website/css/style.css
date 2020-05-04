@@ -18,16 +18,23 @@ body{
 .nav{
     display: inline;
     text-decoration-style: none;
-    color: midnightblue;
-    
+    color: midnightblue;   
+}
+article{
+    color:white;
+}
+ article:first-child{
+    color:orange;
 }
 h2{
     color: olivedrab;
 }
-
+/*p::first-letter{
+    font-size: 3rem;
+}
 P:first-of-type{
     color: orange;
 }
 p{
     color:whitesmoke;
-}
+}*/
