@@ -16,7 +16,7 @@ body{
     text-align: center;
 }
 .nav{
-
+    display: inline;
     text-decoration-style: none;
     color: midnightblue;
     
@@ -25,6 +25,9 @@ h2{
     color: olivedrab;
 }
 
-P:first-child{
+P:first-of-type{
     color: orange;
+}
+p{
+    color:whitesmoke;
 }
