@@ -180,3 +180,32 @@ article>p:first-of-type::first-letter {
 
 /*=====  End of MAIN  ======*/
 
+/*=============================================
+=            FOOTER            =
+=============================================*/
+
+footer {
+  height: 10rem;
+  background-color: #69d2e7;
+  display: flex;
+  align-items: center;
+}
+
+.footer-content {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content p:first-child {
+  margin-left: 2rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.footer-content p:nth-child(2) {
+  margin-right: 2rem;
+}
+
+/*=====  End of FOOTER  ======*/
