@@ -6,3 +6,11 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+body{
+    background-color: black;
+}
+ h1{
+    color:rgb(63, 63, 80);
+    text-align: center;
+}
