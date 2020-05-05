@@ -16,6 +16,32 @@
 body{
     font-family: 'Comfortaa', cursive;
 }
+
+/* ---------------------------- */
+/* ---------------------------- */
+/* -------------- SECTION TITLE -------------- */
+/* ---------------------------- */
+/* ---------------------------- */
+ .section-title{
+    font-size: 35px;
+    text-align: right;
+    width: max-content;
+    margin: 50px 0 50px auto;
+}
+
+.section-title::after{
+    content: '';
+    width: 50%;
+    height: 4px;
+    background-color: #787878;
+    display: block;
+}
+
+/* ---------------------------- */
+/* ---------------------------- */
+/* -------------- NAV-BAR -------------- */
+/* ---------------------------- */
+/* ---------------------------- */
 .nav-bar{
     width: 80%;
     margin: 0 auto;
@@ -46,6 +72,12 @@ body{
     color: black;
 }
 
+
+/* ---------------------------- */
+/* ---------------------------- */
+/* -------------- JUMBOTRON -------------- */
+/* ---------------------------- */
+/* ---------------------------- */
 .jumbotron{
     height: 600px;
     background-position: center;
@@ -65,5 +97,50 @@ body{
 .jumbotron-heading{
     margin-bottom: 30px;
 }
+
+
+main{
+    width: 80%;
+    margin: 100px auto;
+}
+
+
+/* ---------------------------- */
+/* ---------------------------- */
+/* -------------- ABOUT SECTION -------------- */
+/* ---------------------------- */
+/* ---------------------------- */
+
+.about-box{
+    margin-left: auto;
+    background-color: #f3f3f3;
+    padding: 50px 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+      
+}
+
+.about-img{
+    width: 40%;
+    height: auto;
+}
+
+.about-info{
+    margin-left: 100px;
+}
+
+.about-title{
+    margin-bottom: 100px;
+    font-size: 30px;
+}
+
+.about-description{
+    color: #787878;
+}
+
+
+
 
 
