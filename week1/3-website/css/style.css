@@ -53,8 +53,8 @@ figcaption {
     font-size: .75em;
 }
 
-img {
-    border-radius: 20px;
+img:first-of-type {
+    border-radius: 300px;
     border-style: dotted;
     box-shadow: 5px 5px 6px rgb(80, 60, 17);
     width: 170px;
