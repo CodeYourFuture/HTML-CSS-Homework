@@ -24,9 +24,12 @@ body{
 /* ---------------------------- */
  .section-title{
     font-size: 35px;
-    text-align: right;
     width: max-content;
     margin: 50px 0 50px auto;
+}
+
+.section-title-left{
+    margin: 50px auto 50px 0;
 }
 
 .section-title::after{
@@ -37,18 +40,27 @@ body{
     display: block;
 }
 
+
+
 /* ---------------------------- */
 /* ---------------------------- */
 /* -------------- NAV-BAR -------------- */
 /* ---------------------------- */
 /* ---------------------------- */
+.navigation{
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    background-color: white;
+    box-shadow: 1px 1px 2px black;
+}
 .nav-bar{
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-    display: flex;
+    padding: 20px 5%;
+    display: flex; 
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
+    
 }
 
 .logo{
@@ -101,7 +113,7 @@ body{
 
 main{
     width: 80%;
-    margin: 100px auto;
+    margin: 0 auto;
 }
 
 
@@ -110,6 +122,10 @@ main{
 /* -------------- ABOUT SECTION -------------- */
 /* ---------------------------- */
 /* ---------------------------- */
+
+.section-about{
+    margin-top: 200px;
+}
 
 .about-box{
     margin-left: auto;
@@ -141,6 +157,77 @@ main{
 }
 
 
+/* ---------------------------- */
+/* ---------------------------- */
+/* -------------- ARTICLE SECTION -------------- */
+/* ---------------------------- */
+/* ---------------------------- */
 
+.section-article{
+    margin: 200px 0;
+}
 
+.article-box{
+    display: flex;
+    justify-content: space-between;
+}
 
+.article{
+    width: 30%;
+    background-color: #f3f3f3;
+    transition: all .2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.article:first-child:hover{
+    /* border: 1px solid rgb(158, 39, 39); */
+    box-shadow: 2px 2px 5px black;
+    transform: scale(1.02);
+}
+.article:nth-child(2):hover {
+    transform: translateY(-10px);
+  
+}
+.article:last-child:hover{
+    transform: scaleX(1.03);
+}
+
+.article-img{
+    width: 100%;
+}
+
+.article-info{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.article-title, .article-description, .article-button {
+    margin: 10px 0;
+}
+
+.article-title{
+    font-size: 20px;
+}
+
+.article-description{
+    color: #787878;
+}
+
+.article-button{
+    outline: none;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.article-button:hover{
+    background-color: black;
+    color: white;
+}

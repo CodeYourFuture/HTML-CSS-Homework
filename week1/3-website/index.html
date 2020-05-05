@@ -18,17 +18,19 @@
   </head>
   <body>
     <header>
-      <nav class="nav-bar">
+      <div class="navigation">
+        <nav class="nav-bar">
 
-        <p class="logo">Lifestyle Blog</p>
+          <p class="logo">Lifestyle Blog</p>
 
-        <ul class="nav-list">
-          <li><a class="nav-item" href="">Home</a> </li>
-          <li><a class="nav-item" href="">About</a></li>
-          <li><a class="nav-item" href="">Contact</a></li>
-          <li><a class="nav-item" href="">Blog</a> </li>
-        </ul>
-      </nav>
+          <ul class="nav-list">
+            <li><a class="nav-item" href="#">Home</a> </li>
+            <li><a class="nav-item" href="#about">About</a></li>
+            <li><a class="nav-item" href="#blog">Blog</a></li>
+            <li><a class="nav-item" href="">Contact</a> </li>
+          </ul>
+        </nav>
+    </div>
 
       <div class="jumbotron" style="background-image: url('./assets/jumbo.jpg');">
         <div class="jumbotron-box">
@@ -39,7 +41,7 @@
     </header>
 
     <main>
-      <section class="section-about">
+      <section id='about' class="section-about">
         <h2 class="section-title">About</h2>
 
         <div class="about-box">
@@ -49,10 +51,47 @@
             
             <h3 class="about-title">Your lifestyle blog!</h3>
             <p class="about-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            
-
+          
           </div>
 
+        </div>
+      </section>
+
+      <section id='blog' class="section-article">
+        <h2 class="section-title section-title-left">Articles</h2>
+
+
+        <div class="article-box">
+          <article class="article">
+            <img class="article-img" src="./assets/article-1.png" alt="">
+            
+            <div class="article-info">
+              <h3 class="article-title">First title</h3>
+              <p class="article-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem explicabo natus nobis id harum odio ad illo aperiam? Laborum aliquid in magni! Eveniet consequatur facere ducimus porro repellat cum sapiente!</p>
+              <button class="article-button">Continue reading &rarr;</button>
+            </div>
+            
+          </article>
+          <article class="article">
+            <img class="article-img" src="./assets/article-2.png" alt="">
+            
+            <div class="article-info">
+              <h3 class="article-title">Second title</h3>
+              <p class="article-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem explicabo natus nobis id harum odio ad illo aperiam? Laborum aliquid in magni! Eveniet consequatur facere ducimus porro repellat cum sapiente!</p>
+              <button class="article-button">Continue reading &rarr;</button>
+            </div>
+            
+          </article>
+          <article class="article">
+            <img class="article-img" src="./assets/article-3.jpg" alt="">
+            
+            <div class="article-info">
+              <h3 class="article-title">Third title</h3>
+              <p class="article-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem explicabo natus nobis id harum odio ad illo aperiam? Laborum aliquid in magni! Eveniet consequatur facere ducimus porro repellat cum sapiente!</p>
+              <button class="article-button">Continue reading &rarr;</button>
+            </div>
+            
+          </article>
         </div>
       </section>
     </main>
