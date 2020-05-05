@@ -44,21 +44,18 @@ p:first-of-type:first-letter {
     color: rgb(80, 60, 17);
 }
 
-figure:first-of-type img {
+figure:first-of-type {
     float: right;
-    width: 180px;
-    border-radius: 20px;
-    border-style: dotted;
-    box-shadow: 5px 5px 6px rgb(80, 60, 17);
-    margin-top: 65px;
-    position: relative;
 }
 
 figcaption {
     text-transform: uppercase;
     font-size: .75em;
-    position: absolute;
-    bottom: ;
-    left: 1;
-    right:0;
+}
+
+img {
+    border-radius: 20px;
+    border-style: dotted;
+    box-shadow: 5px 5px 6px rgb(80, 60, 17);
+    width: 170px;
 }
