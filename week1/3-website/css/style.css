@@ -178,6 +178,10 @@ article>p:first-of-type::first-letter {
   font-size: 2rem;
 }
 
+article:target>h3 {
+  font-style: italic;
+}
+
 /*=====  End of MAIN  ======*/
 
 /*=============================================
