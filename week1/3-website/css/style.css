@@ -5,4 +5,65 @@
  * - Be organised, use comments and separate your styles into meaningful chunks
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
- */
+*/
+
+
+
+*{
+    margin: 0; 
+    padding: 0;
+}
+body{
+    font-family: 'Comfortaa', cursive;
+}
+.nav-bar{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.nav-list{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-item{
+    font-size: 20px;
+    color: #787878;
+    text-decoration: none;
+    margin-left: 30px; 
+}
+
+.nav-item:hover{
+    color: black;
+}
+
+.jumbotron{
+    height: 600px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jumbotron-box{
+    width: max-content;
+    background-color: #000000c7;
+    color: white;
+    padding: 100px;
+    text-align: center;
+}
+
+.jumbotron-heading{
+    margin-bottom: 30px;
+}
+
+
