@@ -6,3 +6,59 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+body {
+    margin: 20px;
+}
+
+ header, footer {
+     color: rgb(17, 80, 17);
+ }
+ 
+ /*I tried header:not(ul) to select everything in header but not ul but it didn't work*/
+ h1, h2, footer {
+     text-align: center;
+ }
+
+ h3 {
+    color: rgb(30, 139, 30);
+    text-shadow: 3px 3px 6px rgb(80, 60, 17);
+ }
+
+article:first-child {
+    background: rgba(0, 255, 0, 0.171);
+}
+
+article {
+    padding: 1px 30px 1px 30px;
+}
+
+p:last-of-type {
+    color: rgb(80, 60, 17);
+}
+
+p:first-of-type:first-letter {
+    font-weight: bold;
+    font-size: 1.3em;
+    font-style: oblique;
+    color: rgb(80, 60, 17);
+}
+
+figure:first-of-type img {
+    float: right;
+    width: 180px;
+    border-radius: 20px;
+    border-style: dotted;
+    box-shadow: 5px 5px 6px rgb(80, 60, 17);
+    margin-top: 65px;
+    position: relative;
+}
+
+figcaption {
+    text-transform: uppercase;
+    font-size: .75em;
+    position: absolute;
+    bottom: ;
+    left: 1;
+    right:0;
+}
