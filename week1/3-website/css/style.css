@@ -179,12 +179,22 @@ p{
     color: hotpink
 }
 
-@media (max-width: 600px) {
-    body{
-        font-size: 9px;
+@media screen and (max-width: 1064px){
+    .mainsection1 {
+        flex-direction: column;
+        font-size: 10px;
+        text-align: center;
     }
-    img {
-        width: auto;
-        height: auto;
+    .header {
+        flex-direction: column;
     }
+    #blog-img1 {
+        display: none;
+    }
+    .main-paragraph {
+        overflow: scroll;
+        justify-content: center;
+
+    }
+
 }
