@@ -178,3 +178,13 @@ p{
 .first-blog-article h3:first-child{
     color: hotpink
 }
+
+@media (max-width: 600px) {
+    body{
+        font-size: 9px;
+    }
+    img {
+        width: auto;
+        height: auto;
+    }
+}
