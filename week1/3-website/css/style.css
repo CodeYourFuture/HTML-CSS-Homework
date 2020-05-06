@@ -57,6 +57,14 @@ a:hover {
     font-weight: bold;
 }
 
+blockquote {
+    font-style: italic;
+}
+
+blockquote:hover, q:hover {
+    background: rgb(255, 238, 0, 0.3);
+}
+
 figure:first-of-type {
     float: right;
 }
