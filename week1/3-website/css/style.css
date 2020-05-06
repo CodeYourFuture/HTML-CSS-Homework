@@ -44,6 +44,19 @@ p:first-of-type:first-letter {
     color: rgb(80, 60, 17);
 }
 
+/*for accessibility*/
+a:focus {
+    background: rgba(255, 238, 0, 0.5);
+}
+
+a:visited {
+    color: rgb(126, 30, 139);
+}
+
+a:hover {
+    font-weight: bold;
+}
+
 figure:first-of-type {
     float: right;
 }
