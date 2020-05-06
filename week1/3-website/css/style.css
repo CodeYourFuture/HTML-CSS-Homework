@@ -6,3 +6,52 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ header {
+       text-align: center;
+  }
+ header h1 {
+     
+     background-color: chartreuse;
+ }
+ header p {
+     background-color: coral;
+ }
+ 
+
+  header ul {
+    margin: 20px 0 0 0;
+    padding: 0;
+  }
+  
+  header ul li {
+    /*position: fixed;*/
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .image-container {
+      
+    display: flex;
+    justify-content: center;
+  }
+img {
+    border: 5px solid #747c92;
+}
+.comments:last-of-type img {
+    border: 5px solid cyan;
+    width: 50%;
+    height: 50%;
+}
+  .comments h2 {
+      text-align: center;
+  }
+  .comments:first-child h2{
+   color: red;
+   font-style: italic;
+}
+.comments p {
+  
+    display: flex;
+    justify-content: center;
+}
+
+  
