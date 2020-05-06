@@ -162,3 +162,7 @@ footer{
     height: 100px;
     
 }
+
+.first-blog-article > section:first-child{
+    color:  darkgray;
+}
