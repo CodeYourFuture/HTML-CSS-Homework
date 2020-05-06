@@ -57,6 +57,7 @@ li{
     font-size: 25px;   
 }
 
+
 a{
     color: #E5E5E5;
     text-decoration: none;
@@ -132,6 +133,9 @@ a:hover{
     padding: 30px;
     
 }
+.footer{
+    font-size: 15px;
+}
 footer{
     height: 150px;
     color: white;
@@ -163,6 +167,14 @@ footer{
     
 }
 
-.first-blog-article > section:first-child{
-    color:  darkgray;
+h3{
+    color: #E5E5E5;
+    font-size: 30px;
+    padding-bottom: 60px;
+}
+p{
+    color: #e5e5e5;
+}
+.first-blog-article h3:first-child{
+    color: hotpink
 }
