@@ -64,9 +64,14 @@ body{
     
 }
 
+.logo-link{
+    text-decoration: none;
+    font-size: 0px;
+}
+
 .logo{
-    font-size: 25px;
-    font-weight: 700;
+    width: 180px;
+    height: auto;
 }
 
 .nav-list{
@@ -336,7 +341,7 @@ main{
 @media (max-width: 850px){
 
     .logo{
-        font-size: 20px;
+        width: 150px;
     }
     .about-box{
         flex-direction: column;
@@ -360,3 +365,4 @@ main{
         margin-bottom: 50px;
     }
 }
+
