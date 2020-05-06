@@ -6,3 +6,135 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+ *{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+ }
+ body{
+     height: 100vh;
+     background-color: #2F303A;
+ }
+ header{
+     padding-top: 30px;
+ }
+ 
+     
+ 
+ .logoandtitle{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .title{
+     color: #E5E5E5;
+     font-size: 60px;
+     
+     
+ }
+ .sub-title {
+     color: #E5E5E5;
+     font-size: 45px;
+ }
+ nav  {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+    
+ }
+
+ ul{
+    display: flex;
+    
+
+ }
+li{
+    list-style: none;
+    padding-right: 60px;
+    font-size: 25px;   
+}
+
+a{
+    color: #E5E5E5;
+    text-decoration: none;
+}
+a:hover{
+    color: gray;
+}
+.mainsection1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    margin-top: 30px;
+   
+}
+.main-article{
+    width: 30%;
+    padding-left: 50px;
+   
+}
+.main-paragraph{
+    color: #E5E5E5;
+    font-size: 18px;
+    padding-top: 35px;
+}
+.sec-section{
+    background: linear-gradient(#2F303A,#E5E5E5, #2F303A);
+    height: 180vh;
+    
+    display: grid;
+    justify-content: center;
+    
+}
+.inner-sec-section{
+   
+}
+#nature-img{
+    width: 460px;
+    height: 320px;
+    border-radius: 30px;
+}
+.first-blog-article {
+    background-color: #2F303A;
+    width: 800px;
+    height: 400px;
+    border-radius: 30px;
+    display: flex;
+    padding: 30px;
+    margin-top: 200px;
+   
+    align-items: center;
+   
+}
+
+.second-blog-article{
+    border: 1px solid white;
+    background-color: #2F303A;
+    width: 800px;
+    height: 400px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    
+}
+
+.third-blog-article{
+    border: 1px solid white;
+    background-color: #2F303A;
+    width: 800px;
+    height: 400px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    
+}
+footer{
+    height: 150px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
