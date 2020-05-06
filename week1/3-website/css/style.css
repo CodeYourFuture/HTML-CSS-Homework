@@ -6,3 +6,33 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+body {
+  margin: 0;
+  padding: 0px;
+}
+#header {
+  background-color: aquamarine;
+  background-image: url("https://cdn.pixabay.com/photo/2014/12/06/23/35/landscape-559434_960_720.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: burlywood;
+  min-height: 350px;
+  text-align: right;
+}
+.navigation li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 30px;
+}
+.navigation a {
+  text-decoration: none;
+}
+
+#title {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 40px;
+  padding-top: 100px;
+  padding-right: -100px;
+  text-align: center;
+}
