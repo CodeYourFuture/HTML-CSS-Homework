@@ -1,0 +1,39 @@
+body{
+    background-color: #f0f8ff;
+  }
+  #header{
+    text-align: center;
+  }
+  h1:hover{
+    color: blue;
+  }
+  #prag{
+    font-family: monospace;
+    text-size: 15px;
+    color: #f110ff;
+  }
+  article:first-child{
+    background-color: yellow;
+    color: blue;
+    padding: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  #article{
+    display: block;
+    padding: 30px;
+  }
+  #img-caption{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .caption{
+    text-align: center;
+  }
+  #footer{
+    color: #0effff;
+    text-align: right;
+    margin-right: 30px;
+    padding: 30px;
+  }
