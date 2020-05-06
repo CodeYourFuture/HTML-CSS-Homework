@@ -53,9 +53,26 @@ figcaption {
     font-size: .75em;
 }
 
-img:first-of-type {
+/*img:first-of-type {                   for some reason, this selects all <img> which is unintended
     border-radius: 300px;
     border-style: dotted;
     box-shadow: 5px 5px 6px rgb(80, 60, 17);
     width: 170px;
+}*/
+
+.img1 {
+    border-radius: 300px;
+    border-style: dotted;
+    box-shadow: 5px 5px 6px rgb(80, 60, 17);
+    width: 170px;
+}
+
+.img2 {
+    border-radius: 100px;
+    border-style: dotted;
+    box-shadow: 5px 5px 6px rgb(80, 60, 17);
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
