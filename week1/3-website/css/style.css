@@ -54,6 +54,7 @@ body{
     top: 0;
     background-color: white;
     box-shadow: 1px 1px 2px black;
+    z-index: 10;
 }
 .nav-bar{
     padding: 20px 5%;
@@ -91,8 +92,11 @@ body{
 /* ---------------------------- */
 /* ---------------------------- */
 .jumbotron{
+    padding: 50px 0;
     height: 600px;
+    background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -112,7 +116,7 @@ body{
 
 
 main{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -149,7 +153,7 @@ main{
 
 .about-title{
     margin-bottom: 100px;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .about-description{
@@ -179,19 +183,16 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
 }
 
-.article:first-child:hover{
-    /* border: 1px solid rgb(158, 39, 39); */
-    box-shadow: 2px 2px 5px black;
-    transform: scale(1.02);
+.article:first-child{
+    border-left: 1px solid rgb(231, 43, 43);
 }
-.article:nth-child(2):hover {
-    transform: translateY(-10px);
-  
-}
-.article:last-child:hover{
-    transform: scaleX(1.03);
+
+.article:hover{
+    transform: translateY(-5px);
+    box-shadow: 1px 1px 5px black;
 }
 
 .article-img{
@@ -211,7 +212,7 @@ main{
 }
 
 .article-title{
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .article-description{
@@ -231,3 +232,62 @@ main{
     background-color: black;
     color: white;
 }
+
+.article-label{
+    background-color: rgb(231, 43, 43);
+    width: max-content;
+    padding: 10px 20px;
+    color: white;
+    position: absolute;
+    top: 50px;
+}
+
+/* ---------------------------- */
+/* ---------------------------- */
+/* -------------- FOOTER -------------- */
+/* ---------------------------- */
+/* ---------------------------- */
+
+.footer{
+    background-color: #787878;
+    padding: 30px 100px 20px 100px;
+    text-align: center;
+    color: white;
+}
+
+.footer-container{
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo{
+    font-size: 25px;
+}
+
+.footer-social a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    margin: 0 20px;
+}
+
+.footer-social a:hover{
+    color: #f3f3f3;
+}
+
+.footer-contact{
+    text-align: left;
+}
+
+.footer-contact p {
+    margin: 10px 0;
+}
+
+.footer-contact p i{
+    margin-right: 10px;
+    color: black;
+    font-size: 25px;
+}
+
