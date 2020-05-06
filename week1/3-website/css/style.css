@@ -82,7 +82,6 @@ a:hover{
 .sec-section{
     background: linear-gradient(#2F303A,#E5E5E5, #2F303A);
     height: 180vh;
-    
     display: grid;
     justify-content: center;
     
@@ -137,4 +136,26 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#med-ellipse{
+    position: absolute;
+    top: 500px;
+    right: 100px;
+}
+#small-ellipse{
+    position: absolute;
+    top: 560px;
+    left: 200px;
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+   
+}
+#big-ellipse{
+    position: absolute;
+    top: 300px;
+    right: 800px;
+    width: 100px;
+    height: 100px;
+    
 }
