@@ -27,6 +27,31 @@ article:first-child {
     border: 2px solid blueviolet;
 }
 
+/* nav style */
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+    border: solid 1px black;
+    background-color: blueviolet;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: beige;
+}
+
+nav ul li a:hover {
+    font-size: medium;
+    font-weight: bold;
+    background-color: chocolate;
+}
+
 /* image CSS */
 img {
     max-width: 100%;
