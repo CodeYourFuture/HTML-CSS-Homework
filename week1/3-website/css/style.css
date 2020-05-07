@@ -64,3 +64,11 @@ img {
     width: 200px;
     height: 200px;
 }
+
+/* media query*/
+@media (max-width: 479px) {
+
+    nav ul li {
+        display: block;
+    }
+}
