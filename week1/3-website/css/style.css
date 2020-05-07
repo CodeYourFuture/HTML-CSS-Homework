@@ -1,8 +1,80 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+body {
+  background-image:url("https://images.designtrends.com/wp-content/uploads/2015/11/24060111/Brown-Backgrounds1.jpg");
+ 
+   color:#ffffff;
+   font-family: Times New Roman;
+   font-weight:10px;  
+   font-size: 24px;
+   
+ }
+  
+  
+ 
+ nav {
+   overflow: hidden;
+   background-color:#0a2929;
+   
+ }
+ 
+ nav a {
+   float: left;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 22px;
+   cursor: pointer;
+ }
+ 
+ nav a:hover {
+   background-color: #ddd;
+   color: black;
+ }
+ 
+ 
+ article {
+   background-color:rgb(31, 122, 122 , 0.7);
+   font-size:20px;
+   width: 60%;
+   height: auto;
+   margin-left: 10%;
+   border: 3px solid #0a2929;
+   border-style: dashed;
+   padding: 1em;
+   margin: 1em;
+   border-radius: 20px;
+   position:relative;
+   left:80px;
+    
+ }
+ .first {
+   border-radius: 50px;
+  position: relative;
+   left: 400px;
+   
+ }
+ 
+ .second{
+   position: relative;
+   left:400px;
+ }
+ 
+ img {
+   
+   float:left;
+   padding: 20px;
+ }
+ 
+ li a {
+   color:white;
+   text-decoration: none;
+   cursor: pointer;
+ 
+ }
+ 
+ footer {
+   background-color:#0a2929;
+   text-align: center;
+   font-size:14px;
+   padding: 10px;
+ }
