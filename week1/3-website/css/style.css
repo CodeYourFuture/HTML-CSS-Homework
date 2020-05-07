@@ -6,3 +6,73 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+#header,
+footer {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
+
+#logo {
+    width: 20%;
+    height: 25%;
+}
+
+#title {
+    float: center;
+    display: inline-block;
+}
+
+.btn-login-donate {
+    margin-right: 5%;
+    float: right;
+    width: auto;
+    height: 50px;
+    border-radius: 5mm;
+    background-color: red;
+    block: inline-block;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    width: 100px;
+}
+
+#nav-bar {
+    font-size: x-large;
+    width: 10%;
+    padding-left: 0%;
+    display: inline-block;
+}
+
+#nav-bar ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#nav-bar ul li {
+    margin: 30px;
+}
+
+#nav-bar ul li a {
+    padding: 0px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: block;
+}
+
+#main {
+    background-color: darkred;
+    display: inline-block;
+    width: 89%;
+}
+
+#logo {
+    float: left;
+}
+
+#contacts {
+    float: right;
+}
