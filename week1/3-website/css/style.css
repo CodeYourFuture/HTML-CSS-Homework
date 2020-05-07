@@ -9,14 +9,7 @@
  header {
        text-align: center;
   }
- header h1 {
-     
-     background-color: chartreuse;
- }
- header p {
-     background-color: coral;
- }
- 
+
 
   header ul {
     margin: 20px 0 0 0;
@@ -35,11 +28,12 @@
   }
 img {
     border: 5px solid #747c92;
+    width:400px;
+    height: 400px;
 }
 .comments:last-of-type img {
     border: 5px solid cyan;
-    width: 50%;
-    height: 50%;
+
 }
   .comments h2 {
       text-align: center;
@@ -49,9 +43,12 @@ img {
    font-style: italic;
 }
 .comments p {
-  
+  padding: 0px 350px 0px 350px;
     display: flex;
     justify-content: center;
+}
+main a {
+  padding-left: 1000px;
 }
 
   
