@@ -1,8 +1,97 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+body {
+    background-color: aquamarine;
+
+}
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-style: italic;
+    font-weight: 200px;
+    text-align: center;
+
+}
+#header-img {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width:50%;
+
+}
+
+
+p{
+    color: beige;
+    font-style: italic;
+}
+
+#Article1{
+    background-color:#0000ff; 
+    width: 1000px;
+    height: 250px;
+    padding: 10px 10px 10px 10px;
+    margin: 15px 10px 15px 10px;
+    border:10px:
+   
+}
+#image1, #image2, #image3{
+    position: absolute;
+    right:20px;
+    width:200px;
+    height:200px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+
+#Article2 {
+    background-color: blueviolet;
+    width: 1000px;
+    height: 250px;
+    padding: 10px 15px 20px 15px;
+    margin: 15px 10px 15px 10px;
+    border: 10px;
+    
+}
+#Article3 {
+    background-color: rgb(156, 226, 43);
+    width: 1000px;
+    height: 250px;
+    padding: 10px 15px 20px 15px;
+    margin: 15px 10px 15px 10px;
+    border: 10px;
+}
+
+.nav-bar {
+    overflow:hidden;
+    position:flex;
+    background-color: blue;
+    width:100%;
+    top:47px;
+}
+#nav-link:hover{
+    background-color:#008fb3;
+  }
+  #nav-link{
+    color:white;
+    text-decoration:none;
+    text-align:center;
+    font-size:18px;
+    padding:14px 50px;
+    float:left;
+    transition:background .5s ease;
+  }
+  #nav-link{
+    width:100%;
+    margin:auto;
+  }
+  ul{
+    list-style:none;
+    display:flex; 
+  }
+  li { 
+      padding:0.5em;
+  }
+
+ 
