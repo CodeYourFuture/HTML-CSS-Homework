@@ -9,7 +9,7 @@
 
 body {
     margin: 20px;
-    line-height: 1.5;
+    line-height: 1.5; /* to create gaps between lines for easy readying*/
 }
 
  header, footer {
@@ -21,11 +21,13 @@ body {
      text-align: center;
  }
 
+ /*article subheadings*/
  h3 {
     color: rgb(30, 139, 30);
     text-shadow: 4px 4px 6px rgb(80, 60, 17);
  }
 
+ /*title cooked*/
  .cooked {
      text-decoration: line-through;
      background: rgb(0, 0, 0);
@@ -66,18 +68,29 @@ a:hover {
 
 /*first 3 <a> tags*/
 li a:nth-child(-n+3) {
+    font-size: 20px;
+    color: rgb(30, 139, 30);
     text-decoration: none;
+    background: rgb(80, 60, 17, .1);
+    border-radius: 50px;
+    padding: 2px;
+    font-variant: small-caps;
 }
 
+/*Back to top link*/
 br + a {
     font-size: 15px;
-    color: grey;
+    color: rgb(30, 139, 30);
+    background: rgb(80, 60, 17, .1);
+    border-radius: 50px;
+    padding: 5px;
     font-variant: small-caps;
+    text-decoration: none;
     text-align: right;          /*text-align doesn't work*/
 }
 
 br + a:visited {
-    color: grey;
+    color:rgb(30, 139, 30);
 }
 
 blockquote {
@@ -118,6 +131,7 @@ figcaption {
     box-shadow: 5px 5px 6px rgb(80, 60, 17);
     width: 50%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;     /*BUG: when window size changes, .img2 moves to a different place which isn't desirable*/
+    top: 1500px;
+    left: 300px;
 }
