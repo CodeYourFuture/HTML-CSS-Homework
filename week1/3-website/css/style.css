@@ -6,3 +6,16 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+.head_img{
+ width: 200px;
+ height: 100px;
+
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
