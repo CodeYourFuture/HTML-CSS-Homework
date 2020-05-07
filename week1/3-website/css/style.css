@@ -1,8 +1,31 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+body{
+    background: linear-gradient(90deg,#808000,#40E0D0);
+    text-align: center; 
+    margin-left: 100px;
+    margin-right: 100px;
+    border-left: bold;
+    text-align: justify;
+    text-justify: inter-word;
+}
+#title{
+    font-family: cursive;
+    text-align: justify;
+    text-justify: inter-word;
+    text-align: center;
+
+}
+h1,h2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+h3{
+    font-family: sans-serif;
+}
+p{
+    font-family: monospace;
+}
+main:first-child{
+    background-color: red;
+}
