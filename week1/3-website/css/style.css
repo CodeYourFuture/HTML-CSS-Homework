@@ -32,10 +32,20 @@ body {
      text-decoration: line-through;
      background: rgb(0, 0, 0);
      color: rgb(255, 255, 255);
+     transform: rotate(-30deg); /*BUG not working - I want to rotate the text in the title*/
+ }
+
+ /*BUG: linear-gradient not working*/
+ .body {
+    background: linear-gradient (rgb(0, 255, 0), rgb(255, 255, 255));
+ }
+/*BUG: linear-gradient not working*/
+ footer {
+    background: linear-gradient (rgb(0, 255, 0), rgb(255, 255, 255));
  }
 
 article:first-child {
-    background: rgba(0, 255, 0, 0.171);*
+    background: rgba(0, 255, 0, 0.171);
 }
 
 article {
@@ -86,7 +96,9 @@ br + a {
     padding: 5px;
     font-variant: small-caps;
     text-decoration: none;
-    text-align: center;          /*text-align doesn't work*/
+    text-align: center;         /*text-align doesn't work so I use display: table; and margin: auto;*/
+    display: table;
+    margin: auto;
 }
 
 br + a:visited {
@@ -113,7 +125,7 @@ blockquote:hover, q:hover {
     transition: .5s;
 }
 
-figure:first-of-type {
+.article figure:first-of-type {
     float: right;
 }
 
@@ -122,19 +134,34 @@ figcaption {
     font-size: .75em;
 }
 
-/*img:first-of-type {                   for some reason, this selects all <img> which is unintended
+.article img:first-of-type {                   /*for some reason, this selects all <img> which is unintended*/
     border-radius: 300px;
     border-style: dotted;
     box-shadow: 5px 5px 6px rgb(80, 60, 17);
     width: 170px;
-}*/
+}
 
+.img2 {
+    width: 50vw;    /*vw allows for responsive web design*/
+    display: table;
+    margin: auto;
+    border-radius: 100px;
+    border-style: dotted;
+    box-shadow: 5px 5px 6px rgb(80, 60, 17);
+}
+
+.figure2 figcaption {
+    text-align: center;
+    margin-top:2em;
+}
+
+/*
 .img1 {
     border-radius: 300px;
     border-style: dotted;
     box-shadow: 5px 5px 6px rgb(80, 60, 17);
     width: 220px;
-}
+} 
 
 .img2 {
     border-radius: 100px;
@@ -142,7 +169,7 @@ figcaption {
     box-shadow: 5px 5px 6px rgb(80, 60, 17);
     width: 50%;
     display: block;
-    position: absolute;     /*BUG: when window size changes, .img2 moves to a different place which isn't desirable*/
+    position: absolute;     BUG: when window size changes, .img2 moves to a different place which isn't desirable
     top: 1500px;
     left: 300px;
-}
+}*/
