@@ -73,6 +73,10 @@ p {
   padding: 0 0.1em;
 }
 
+::selection {
+  background-color: lightgrey;
+}
+
 /*=====  End of GLOBAL STYLES  ======*/
 
 /*=============================================
