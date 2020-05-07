@@ -86,20 +86,31 @@ br + a {
     padding: 5px;
     font-variant: small-caps;
     text-decoration: none;
-    text-align: right;          /*text-align doesn't work*/
+    text-align: center;          /*text-align doesn't work*/
 }
 
 br + a:visited {
     color:rgb(30, 139, 30);
 }
 
+/*blockquote original state*/
 blockquote {
     font-style: italic;
     text-indent: 30px;
+    transition: 1s;
 }
 
+/*quote original state*/
+q {
+    transition: 1s;
+}
+
+/*blockquote and quote hover state*/
 blockquote:hover, q:hover {
     background: rgb(255, 238, 0, 0.3);
+    border-radius: 50px;
+    padding: 15px;
+    transition: .5s;
 }
 
 figure:first-of-type {
