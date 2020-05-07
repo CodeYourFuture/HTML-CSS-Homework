@@ -6,3 +6,29 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+/* text general style */
+body {
+    text-align: center;
+    background: indianred;
+    margin: 0;
+}
+
+p {
+    font-size: small;
+    font-family: Courier New;
+}
+
+article {
+    border: 1px solid black;
+
+}
+
+article:first-child {
+    border: 2px solid blueviolet;
+}
+
+/* image CSS */
+img {
+    max-width: 100%;
+    height: auto;
+}
