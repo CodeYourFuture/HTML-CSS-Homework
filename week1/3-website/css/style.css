@@ -1,5 +1,5 @@
 body {
-    background-color: aquamarine;
+    background-color:rgb(147, 178, 214);
 
 }
 
@@ -12,6 +12,9 @@ h1{
     text-align: center;
 
 }
+pattern:first-child{
+    background-color: rgb(219, 84, 30);
+}
 #header-img {
     display: block;
     margin-left:auto;
@@ -21,13 +24,8 @@ h1{
 }
 
 
-p{
-    color: beige;
-    font-style: italic;
-}
-
 #Article1{
-    background-color:#0000ff; 
+    background-color:green; 
     width: 1000px;
     height: 250px;
     padding: 10px 10px 10px 10px;
@@ -35,16 +33,6 @@ p{
     border:10px:
    
 }
-#image1, #image2, #image3{
-    position: absolute;
-    right:20px;
-    width:200px;
-    height:200px;
-    border: 3px solid #73AD21;
-    padding: 10px;
-}
-
-
 #Article2 {
     background-color: blueviolet;
     width: 1000px;
@@ -63,6 +51,17 @@ p{
     border: 10px;
 }
 
+#image1, #image2, #image3{
+    position: absolute;
+    right:20px;
+    width:200px;
+    height:200px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+
+
 .nav-bar {
     overflow:hidden;
     position:flex;
@@ -70,28 +69,53 @@ p{
     width:100%;
     top:47px;
 }
-#nav-link:hover{
-    background-color:#008fb3;
-  }
   #nav-link{
+      justify-content: space-between;
     color:white;
     text-decoration:none;
     text-align:center;
-    font-size:18px;
-    padding:14px 50px;
+    font-size:16px;
+    padding:10px 5px;
     float:left;
-    transition:background .5s ease;
+    transition:background .3s ease;
   }
   #nav-link{
     width:100%;
     margin:auto;
   }
   ul{
-    list-style:none;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
     display:flex; 
   }
-  li { 
-      padding:0.5em;
-  }
 
- 
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.major) {
+    background-color: #111;
+  }
+  
+  li {
+    border-right: 1px solid #bbb;
+  }
+  
