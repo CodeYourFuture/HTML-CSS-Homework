@@ -155,10 +155,12 @@ figcaption {
     margin-top:2em;
 }
 
+/*zoom hover img part 1*/
 img {
     transition: transform .1s;
 }
 
+/*zoom hover img part 2*/
 img:hover {
     transform: scale(1.1);
 }
