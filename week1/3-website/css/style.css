@@ -155,6 +155,14 @@ figcaption {
     margin-top:2em;
 }
 
+img {
+    transition: transform .1s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
 /*
 .img1 {
     border-radius: 300px;
