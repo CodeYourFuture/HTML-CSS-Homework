@@ -12,8 +12,9 @@ h1{
     text-align: center;
 
 }
-pattern:first-child{
-    background-color: rgb(219, 84, 30);
+.page_wrapper> :first-child{
+    color: red;
+    background-color: rgb(109, 206, 19);
 }
 #header-img {
     display: block;
@@ -59,8 +60,6 @@ pattern:first-child{
     border: 3px solid #73AD21;
     padding: 10px;
 }
-
-
 
 .nav-bar {
     overflow:hidden;
@@ -118,4 +117,3 @@ pattern:first-child{
   li {
     border-right: 1px solid #bbb;
   }
-  
