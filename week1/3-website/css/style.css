@@ -32,3 +32,10 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+#cat-1,
+#cat-2,
+#cat-3 {
+    width: 200px;
+    height: 200px;
+}
