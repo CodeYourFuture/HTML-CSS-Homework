@@ -105,7 +105,7 @@ a:hover{
     display: flex;
     padding: 30px;
     margin-top: 200px;
-   
+    flex: 1;
     align-items: center;
    
 }
@@ -117,6 +117,7 @@ a:hover{
     height: 400px;
     border-radius: 30px;
     display: flex;
+    flex: 1;
     align-items: center;
     padding: 30px;
     
@@ -129,6 +130,7 @@ a:hover{
     height: 400px;
     border-radius: 30px;
     display: flex;
+    flex: 1;
     align-items: center;
     padding: 30px;
     
