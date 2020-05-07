@@ -65,12 +65,12 @@ p {
 
 .text-link {
   color: var(--black-link-text);
-  padding: 0.1em 0.2em;
 }
 
 .text-link:hover {
   color: #fff;
   background: var(--black-link-text);
+  padding: 0 0.1em;
 }
 
 /*=====  End of GLOBAL STYLES  ======*/
@@ -117,7 +117,7 @@ nav {
   background: var(--link-bg-hover-color);
 }
 
-nav>ul li {
+nav > ul li {
   display: inline-block;
 }
 
@@ -174,11 +174,11 @@ article p {
   line-height: 1.5;
 }
 
-article>p:first-of-type::first-letter {
+article > p:first-of-type::first-letter {
   font-size: 2rem;
 }
 
-article:target>h3 {
+article:target > h3 {
   font-style: italic;
 }
 
