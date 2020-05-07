@@ -6,3 +6,58 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ * {
+     font-family: 'Roboto';
+     box-sizing: border-box;
+ }
+
+ /*basic sitewide styles*/
+ .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+/*
+header {
+  background-color:#cc6464;
+  color: #000000;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  padding: 50px;
+}
+
+
+/*---------------------Navbar styles*/
+#header{
+  background-color: #fdd7cf;
+  height: 120px;
+}
+
+.navlinks{
+  float:right;
+  list-style-type: none;
+  margin-top: 50px;
+ 
+}
+
+a {
+  text-decoration: none;
+  font-size: 50px;
+  padding: 10px;
+  margin: 0.8rem;
+  color: #c44c4c;
+  line-height: 1rem;
+  font-weight: bold;
+ 
+}
+.navbrand{
+  height: 120px;
+  float: left;
+
+}
