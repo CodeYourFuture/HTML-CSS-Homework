@@ -12,13 +12,29 @@ body{
     margin-top: 100px;
 }
  h1{
+     border:10px solid purple; 
     color:rgb(63, 63, 80);
     text-align: center;
+    font-size: 3 rem;
 }
-.nav{
+.nav ul{
+    width: 40%;
+    border: 10px dashed green;
+    list-style: none;
+    color: midnightblue; 
+    margin: 0 auto;
+
+}
+.nav li{
+    
+    border: 10px solid yellow;
     display: inline;
-    text-decoration-style: none;
-    color: midnightblue;   
+    
+/*margin-left: 5rem;*/
+
+}
+.nav a{
+    text-decoration: none;
 }
 article{
     color:white;
@@ -28,6 +44,12 @@ article{
 }
 h2{
     color: olivedrab;
+}
+section{
+    width: 80%;
+    border: 10px solid red;
+    margin: auto;
+
 }
 /*p::first-letter{
     font-size: 3rem;
