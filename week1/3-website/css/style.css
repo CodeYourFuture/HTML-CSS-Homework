@@ -149,41 +149,41 @@ main {
   font-size: 1.75rem;
 }
 
-.article-container {
+.article {
   padding: 2rem 0.75rem;
 }
 
-.article-container:nth-child(2) {
+.article:first-of-type {
   background-color: var(--featured-article-color);
 }
 
-.article-container h3 {
+.article h3 {
   font-size: 2rem;
   margin-bottom: 0.25rem;
   font-weight: 400;
 }
 
-.article-container img {
+.article:target h3 {
+  font-style: italic;
+}
+
+.article img {
   margin: 1rem 0;
 }
 
-article {
+.article-wrapper {
   margin: 0 auto;
   max-width: var(--text-width);
 }
 
-article p {
+.article-wrapper p {
   text-align: justify;
   font-size: 1.25rem;
   line-height: 1.5;
 }
 
-article > p:first-of-type::first-letter {
+.article-wrapper > p:first-of-type::first-letter {
   font-size: 2rem;
-}
-
-article:target > h3 {
-  font-style: italic;
 }
 
 /*=====  End of MAIN  ======*/
