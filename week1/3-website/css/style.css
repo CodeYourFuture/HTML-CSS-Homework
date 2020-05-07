@@ -16,7 +16,7 @@ body {
      color: rgb(17, 80, 17);
  }
  
- /*I tried header:not(ul) to select everything in header but not ul but it didn't work*/
+ /*BUG: I tried header:not(ul) to select everything in header but not ul but it didn't work*/
  h1, h2, footer {
      text-align: center;
  }
@@ -35,10 +35,6 @@ body {
      transform: rotate(-30deg); /*BUG not working - I want to rotate the text in the title*/
  }
 
- /*BUG: linear-gradient not working*/
- .body {
-    background: linear-gradient (rgb(0, 255, 0), rgb(255, 255, 255));
- }
 /*BUG: linear-gradient not working*/
  footer {
     background: linear-gradient (rgb(0, 255, 0), rgb(255, 255, 255));
@@ -96,7 +92,7 @@ br + a {
     padding: 5px;
     font-variant: small-caps;
     text-decoration: none;
-    text-align: center;         /*text-align doesn't work so I use display: table; and margin: auto;*/
+    text-align: center;         /*BUG text-align doesn't work so I use display: table; and margin: auto;*/
     display: table;
     margin: auto;
 }
@@ -134,7 +130,7 @@ figcaption {
     font-size: .75em;
 }
 
-.article img:first-of-type {                   /*for some reason, this selects all <img> which is unintended*/
+.article img:first-of-type {
     border-radius: 300px;
     border-style: dotted;
     box-shadow: 5px 5px 6px rgb(80, 60, 17);
