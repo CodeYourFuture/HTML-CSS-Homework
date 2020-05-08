@@ -1,22 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <title>My Blog</title>
-    <link
-      href="//fonts.googleapis.com/css?family=Roboto:400,500,300"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-  </head>
-  <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Skills Development</title>
+    <link href="//fonts.googleapis.com/css?family=Roboto:400,500,300" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+
+<body>
     <!-- Add your HTML markup here -->
-    <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
-  </body>
+    <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc
+         -->
+
+    <header id="header">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAB+CAMAAAA9WLe4AAAAz1BMVEX///8/Pz/RLy8sLCzV1dU7OzsjIyM0NDQwMDA3NzdFRUUyMjI5OTktLS3OFRXy0tLNAADQKiq/v7/PHx/ODQ2ioqLg4OCsrKz67e2amprQJSX39/dubm7p6ennp6cnJyeIiIjGxsZfX1/WT097e3vTQUHlnp5SUlLx8fG1tbXZ2dnqsrJLS0udnZ1jY2OMjIzee3vikZF2dnbYXl4AAAAdHR3229vxycn66enTOzvrsbHkk5PWS0vdb2/UQUHhhYXvwMDffn7ZWVlTYGARERFD7luuAAAURklEQVR4nO1de0OiTheGEAEBy/sFDTVX1DVtbbP71vbu9/9MLwMMnDPMoJbtrzaevwqGAc/DnNucGSQpR44cOXLkyJEjR44cOXLkyJEjR44cOXLkyJEjR44cOd4BTntzfbzZtP/r5/iX0f7+dHn76+Fysgn+vTmmYBs+/7is1Otlgnr37Pe1g08fM9hsNjdth+0kuCPblIdD/LR5azVYL73RsjfuzOaH6PH9cfxYK3crBLXyr2v/QDcUebl+hNq1J7flWuUoRqVbrlxsQAPnpMyiVutWjr493W0kjLt0Uxb1b+yDTs1SCsbQPzHX8EEvuqAwVm3TMCzVh2Vppr7oxJzIqa704PjMSt+kVFoQeAQ+tevxYNWZDfvcV+3NaF/Uu0DI5Ufnukz/QSKZ1CAbEbrlp0R3OfXU+Yi5Wv3hFOm47zV+U3jVGfuoU1dOQQkIwSfURdC8sHQNprWquetm2Jmmsl0Vg+MzPX2T8NoYlmUYmmm7+rJ1eE6ua10sh+7tA5U7JGTzIBBht3y9jZCgr1rtHjz9wQixA0IUDiEr1+LJ1VJWQWcsVzEhpoAQHkem0TowH6f19FsfHwGEXHNGB0V5sgMhPmpH3/8eIc5IKFhz6RyIEB/K+KB8TDJFmBDyfJLVrn6/EyFHlfoFHSTvTUi/xB0eISy1fzBCZP2QjJxmSzAm5Lic2e6o/LwTIf4gOXP+BiHetJSyEIgR73CEyEr1YHxcb5EzJcTJ0Fch6jdBu5MatkjExcLo/gpt+90J4yLUKBKF+WpC5NIikw9Z1npiQkRGXQS1dCg+nJS4BIQ8Yrvv2+cy6wk8Bh3eTyb34Ext8vjQZZp2L4MujyeTyWMFNo1w+i12KdKEXBkGI2mrGBBSBOJVtZTMDI0VvzKUDazUDOMqJMRFJ3yHCt/TP2Dq6IhSOBAhvxm1Ual1GcmHhFxjTVQ7O25v7plBU6euVhs0PiEHNvdl1LR8T+9/Cu5fj5/qEhFSGDIP7UFZqKP4eIvSYI2cFqZE1VatlcxQovrXLJO+rDW4Rz/RWm7AEdBi5MC0ijwGrfMmGpxZpMY3WGFVao+T+wtESUTIAxJoOBikY4Y7+jqnCPFvdIuV0w2PkNglRoQ4mjLCKrpgQ7HaM/qrYtlqUwkrLHVBIg9njFkyG5iQHrjHPNFaLnmuFiQkfNABOGS9xazPB3oxcp2xIqpUgkyFcwGkFBLyjIiLDf13zGd5IyREalcgIxGjOxEy0GRV8RAlAyhYdRFd16ACslvSEFsUqx82WSIVRVxjQIi6JyHo2uWr6Sj0dH/k6lNWcvC9BTyFwsfERQ6Vj1/4vZ+ICfGjGNi0frMrIc1gOKj6gg4EiQwaKFc9fLscKmzV95/WSPI6vbaJ3Se7IBTqPBmFQkKGCWmqJ70Ow6UbPIExIP9NkJDKp7RVO3nzA0IcJHdgaXEHlYcMQjCptfssQs5OKG6lXiRaVS8lSYoZUlpycKxDWXILUh8xFqVRCHpIk/lS6AkIKexASD8Zhq8kpOrZ9P4mUapnUNDQo3mKhRcQgjVWLSZO2mCfoN7OIAQFMlTr8QkBaALdY6oxJUso2GCITOmYMNas36o1Eglgh9aI+ZaRe7A/IfDa3elQkp9BhsgNHiDPSdMkOgkk94Q1FkjbfsPe03UGIRKy6+WbNCG8hx6gsWDKjVAYTRiOBCMgHiCaby8GyJ/Sm3F3Dg5jXGctIGS4n8oy9jfq1YWNvMWfU9ZUg8ZONw7Sbv1/X5DYgYwZ4xKNHQEhv5HO+p4iJI5D/EgmHizztY6Ea2ohJSuolHxHa0oFaJ77Z0tI7Bp4YOx92fMxIASqnV0IAcPUZV3zbZh5iA7LJW4LsgDdJ9j+9AcFUfZMvAHaYSPSvcgiBAqfOgD4WIwTkKdvjnEGPRwlDjzkizImyCLXFBEhFnjgMbL22mwgImS7lwWcaGtPjTUrIToMex0EljBMjl0kDtrYUtTAKWaQPWYRgrI0keN7ys9n1dHESX+gISPtkiisCh1brUX/CtIofayYYF4DB4xGR0QIMDYKS4jS7M+HKxD5q3J/Lz6GV5AOzR1HOhVFe8BUs2BMN9RtOOVYeckiBFv1s90J8SW8soEgQyONYorY5Q08JRw5AieLterGagVG3wJ4FSAy11lCZMVVoCLV1Ka0FwrgZdKM1ZQex+/9nfB6TEjlFpxiCAn9XgEhKC0QNd2REF9FNZJRHhLS5KVk3UA0QyR1kSoiPA46QLCladIOjCQtRQiCoYz3nTNMghxN64CbYmf2u/D6DEJw7qXyKzj4HoSQfM8iEooWRoKdtIy0QXBmiEeIwHsip9bn0D4B2ZwDA5FJiLXaT10R0DSAKp8jLpEwdh4hR7DsYYNi/ewRcvw2QnxUwzFiRomfdIJdDUXKSB2OEKzNrHEDqEILiLaTHFezCRm/npAFcynOe+xsQ7rgFKOywry6gBDkAERNESHdGCc8QpyGF/4OM8qEYLn70Bu8EyJ3lkhzAI28BuQDbcsWlaXtPadOta1qQIXFRGq7e1llcOoZu72ZXtYdx8uGhHQvYjymCemvTCoTSggMs4PfR603M1kFjTqeDDQ6M0CIDQhJQsuwV0SIioemsm/uvRnfVNOgxkNRHY5DMJg4BEgLq5yoDwEh9ygwPE1dz43UI8zHZiI5naZ++0yukEZnTDyugo7OkdurNarInU3aJfFKaIIgIaq3kNH8lLLnGIHPrdmD+Lb3eD5D3AGTIAHlhL9xpB6OMgEhKHMWZVm25rICDHuwnMe4isPiBmTESpKDOGNlAr2AA0NzBr0uHYTbSRQeZuVbeILKGSIDpuzn9zojG/4em8YheDoD5rICPMVjBueyoD+GJ66iLviE4Fx/NxxmuxAy8+Djayoc5FAsQCoo9yjrc/4FJP8OtRs0BknyJZxITEXqTUj63qmsAnrFLCWM1G8YdxYL5Kkcz7Q+80x30AMeY9EsB58Qnk0XEHJ8TXHstGAOTjWNc2QGgZMEJ+06WDElgmZqJNwpyNjCHkCsb6y4hKCJ5Fdk35tjOMlvKUvy1pxhP+s3vOCinMyQtPHMYDyRxZiQ7PkQdDPqZAvmQ+q0uPfX/yAd9oJV1oCQcIonhNDNYtLvsuTAtJcSPwFgNHQh0oQg5efuGxtKJCPkQp/7yh/4Pxj3KfF825fBqfJ3jjCTCVjGuFC/gEsI8rGOyk4WIcmM4UsSSVvKIl39JCBkisUeW3tGl5GXH2WVqLs0BcK2C3xCoGMsK3Npuuz1lnvako6cvCAlKTWFe1SPqqbbE1q4E1WSMDVt9ej9Zgk9FhNyjG5Vo+ZpKyE0y2DYPV6GW0CINMYFJlak56o4ciGyxnINHWrHg0bL4ROCHGHf8esXLau4b5DotKi/ppFpA7ba6qhWebz/PnmsJGKqhbNRTDldaNcZPuLaBw4hd0yBCvWct8+ph0+rjPnvnoiQArYVVlDKKxWY2iAvxZG+akpO1YMlXqHvliYEZcWMTpADMKfsA25HdRTMG4azaGxSxFc7NVx5WKkEBmPCNKw/Pp/eMsdiN83BhLQ3k1umPCXWjXfcOAQS0tBUXe6IfigItEPjSzHCsZvhFZxphyluDKd+8TFDcV0UY0QFEozbK6G6FB+LaTD3+KqlCYWlrRlRycv91vrabpgwxNYiII45EubenW9nZ9DiVC4fjspM06hy8fnh7OUb7OAswgs45GuChWgFxqxahRN+vWp1FhNXYNIqqrlgyxlVpjiCD2Ma3AjMm/hmvjorSH2cUlatN9SeNDsGLX18YJRWCvXQrh9n1r4TlKPa3koF16ikalW7v0IB35WZcxUKSIgktJPOH12Hno6q63+SxuNsOcuxqXfYjBjmY+A3YW4km7o74JVqo1K7/RC/c+2jlMCQjKifJd1vq34PDf326vfubWRAXlX9Dn9Duu4aRsxexmIEAp2quJmS0UohYy59I6If16kbYK35StxklVt3K0ma5EcmI/UoN7mVkPILNejvTMhUzWRES97mgXiMhFkqPiHDFJH2vqUOfEZEC9V84V3CrOuPspC6yq4rqLq0Qk56d0KkvpehtXSoXYSMmGHszicEF30HhBxoueEFZ02bj1qZmSK5rglEWKvstsawW38ENV3vTYjkrF3BGhHVxcqlxW9oR6wJCGkyx823lcADHL+wiz3IuoQfqUmJ9lM3LUS/JVjKySWkUul2a+Xutx9vX4ULsJUQUm7DW3qj2h6rWwq4TCpqRgUsIEQqoGUkhnfA9bjXF3WyTp1Kr1z/dcqdRb35cVSvRQ2JV9St1W8nsGX7BIDsL0DCmofLi6f76xumr9OT7biVxCBeFoM/rEvmtHQFL7ZRNdebcXqrllBD1XBH8SKc9I2Il+WjOXK1cLZKtZTRK6LCrJ/3/PRye9Q9uv328vj0zAoPYDN5JA3LtaPbh5eLu4yW741qGhyZFFaepuimpmmmbiul0bloLwe/oe03NEkzwxuANVGcG9Gzhc5yIVuG6q0Pt8wwgdP2scu48xveCDbM+Ijoz6uzVqM1qxaa2W8xaTjzm/X3edmd6XSv9jly5MiRI0eOHDn+FTiF7WhKzfRBh391X5rv0COBNE0fC+dVU4fnUh/9O583ffQFLiznYQU3+ojo/1G2obiWxkX24J859+qrc2nhbu2R4KdUTd36KpitliymB3chnV+B/21b96NCTfPj9dJo3CgwUdY69bApXB0sl3Vw9DlbxDCwxszSzCAXNederTXYKVkRiswCkOhqggVzWB3BGXnmnKUp2gC98OMt0ysyrVP4kPjshAQwUMluTggW6X9AiP84IEmfEwJ/6X9EiOwmYyQnBP7S/4oQWY/tyCcn5ErD+4VZWoTkiE+Igvdp1bSrOb0aXeueJ4QYqBciWHjAJ6SoIdEZmhsSIpvwbqqme1LDTXXF7I6mxUprreC2spb6SR+YkGmn0YA1mtagEaKVHBpL1fMG2gym0Tjv06vBtePG+TAmxOiQboBo1B48UJSa5w1YQ2WsyNUEfiuw6GPkP4s0PG/AJW3q0n9qtPYBLPap+td74MSiFf2k5GE+MCEEsNA/WQoTr7sIa//hgia40Elir6WEKAFloGQ9lAI9EOyZCNd82HDvveQdSepOYVdBHNHsoV07oO8Ltw5KlvbGPXxwQpr7EmLAUCx5TcMFbDEhwSRtSopiQuDs+WAXQnztBMY2IvQLEAKVjwkJARsp7E1IU0RIYpgzCZkCPQqXuX0FQqAKVyAhycV/nxBYk6jDgoh/kRCl6Ia4Sq+lhIQknu/bCEFv+HpHQoA/Ym8fIT+jX+T++bi5LAKhWCCEhCRy2p+QPihE1GExyK6EgJhjBxvyWbATIWg7XJj3ZkeIp8DKq5QUaeXUT/IPXCiACOntSAjY/wzp0a9GCPAwHZYQWg8VrgBJSXFGT5N/4BaYJt8GZBICdqvD651h1JTEIY1Df67infAmQsDyZd61vNc6ASIESmu5CyH9caLxVAOl4FEYG0fqpry7UP5LoP1EZ9M+BZr4gcuUYWEuSGfxavy3EAKXbDbAiVE2IX6k3hkvFLBTnI23dO/xE2oL6VMAEiKbbuyKoMJaRMice/H+hMA4ArmiyfqBZGkNXKeuapoFr5WZLfb/IUISICuLVvjD13H+JkJk/mlnsYUQBFVOrYf6aoQAyYNdCW3OlyC2EAK8JLjKzEmOGx1OV5gPzgLOL0AI3A4SngGLaPcnxAFTH3D1usO7SjhCrGWqTP4LEDIXEAJGjsJZPrA7IXBLGicx14lpERIiqwq7jgQRYlFoB/u8zvtiJ0KQKwY8VLhtLmdddDYhcPEf/AbFVOHcCxl1E8+YuUyEAQkpDcYUg1fJ568DEaIaFC4iBM7WQnUP0vIup3BtCyFgvheagjmbsWS6UnuzxhJv2Ywdin8nUld7qwEFMgkO/EoNeJlBNqnI6XsLIUi1JHyCYZc4EGxXc7RD/sIR9PvJCRFG6sDxQS8z3Oeec9kWQmBBApjyA7l+ey7sClU+uOj1+QKEoGoSNX6ZAU/c/UO2EAK3LwG3BtMcSUok1RXaJQVlXgSEDGPsueP4X8ZuhMD9KRLFDpwstOsSxRZCYFI/+faaA3cVF3eFvs5D7j4lCNoK5kPsCMV/YD4EVznEGhu4SSYvl7qFELRvb+w2gyQu+LpRqiu0XxMZn4OraDbtn5wxZIEUhOUFg76/hFUGPD2whRAJf5MiuLmzAncCLKe7Qjtm2D4hFh2mX4EQB+2FrJrjVmsMK91Ubhi8jRC8UY+9PJ+tSshWNzO6Qvsy+u/DIj7zuQnh12WlwOwfZmm48JD/Cc1UXRYDZvsyVTNRHSV0FNKEoKJRdU00XTSi1p+WkL43GqFqXPL/yOPtoTDNrq8tshpr4HeE3uHF0u+ZzXct+VmnCFRjtbxUV96U2Y1cJVT6YcvKvy38tFVpOYqQfGD0AxNSVJkN6/3/VZf7BV/OZ0ASGGu2eU/jdJ3quZBZ7a3Sb4Pqqa6K/dTevkTUTWmscX5RgKTVByaEKw/BJ5Wztn4zUyY9vY+bzMsIdzK+wB0nDTnV726ft8uQ7Hz26vd9CJmWhL+Vze5JOxMirYXbxCV7yfEJQaWkAUipwxciRJqOBHZEH6Qb70qItBIwYiT5KQEhfZYQohG/EiG+pS7yjLDL21NyZ0KkmZLeN9QnGWxrJSBEGjLbMBOP6msRIg1HqR3dTJm7A9XuhEj9tc42NnToRosIkYYW3NvaIIbskxPys8jBTzEh5Eu9RdOKdmcjq5LNc/4C/uUVr2dBnDPvubYR+UGqaugu3rG88yfdU5h17I9d07As1TI0N0wf9Hj3xfjgtb17Yzpbj/youFTyRr3OQTZcJRgORl7J73Qx6q14G86Jn2a17vXW40bWW/TvwyGZ1YPvVPcunebIkSNHjhw5cuTIkSNHjhw5cuTIkSPHX8L/AYBnEnZG/zaYAAAAAElFTkSuQmCC"
+            id="logo" alt="logo" />
+        <h1 id="title">Skills Development with CodeYourFuture</h1>
+        <button class="btn-login-donate">Donate</button>
+        <button class="btn-login-donate">Login</button>
+
+
+        <!--navigation baar---------------------------------------------------------->
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="#technical" class="nav-link">Technical Skill</a></li>
+                <li><a href="#soft" class="nav-link">Soft Skills</a></li>
+                <li><a href="#career" class="nav-link">Career</a></li>
+                <li><a href="#cities" class="nav-link">Cities</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+            </ul>
+        </nav>
+        <!--slide show------------------------------------------------------------------------->
+        <div id="banner">
+            <div>
+                <img src="https://codeyourfuture.io/wp-content/uploads/2019/03/volunteers.jpg" alt="banner" />
+            </div>
+            <div>
+                <img src="https://miro.medium.com/fit/c/700/210/1*v7n9NVgRJur53P3QH62Nvg.png" alt="banner" />
+            </div>
+            <div>
+                <img src="https://external.fbhx1-1.fna.fbcdn.net/safe_image.php?d=AQAzTjZtSKvGNNdP&w=540&h=282&url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F97388232%252F208583538221%252F1%252Foriginal.20200323-141539%3Fw%3D1000%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C58%252C1666%252C833%26s%3D2f5fc4372272678ca587920dbf889ddc&cfs=1&upscale=1&fallback=news_d_placeholder_publisher&_nc_hash=AQAIzUdsHfasmj3G"
+                    alt="banner" />
+            </div>
+            <div>
+                <img src="https://www.londonacademyofit.co.uk/blog/images/1013/web-design-that-drives-sales.jpg" alt="banner" />
+            </div>
+        </div>
+
+    </header>
+
+    <main id="main">
+        <article id="technical" class="article">
+            <h2>Web Development</h2>
+            <p>
+                We provide peaople full stack web development course. During the course you will learn the whole web development stack, including HTML/CSS, JavaScript, React and Node technologies. We’ll complement the training with workshops on modern software methodologies
+                and job interview practices, and then we help you to find work.
+            </p>
+            <p>
+                Our <b>8-month web development progra</b> has proven a success, our graduates have gone on to work at companies like Capgemini, the BBC, PA Consulting, the Financial Times and Live Nation.
+            </p>
+        </article>
+        <article id="soft" class="article">
+            <h2>Soft Skill</h2>
+            <p>
+                Code Your Future help people in development thier soft skills,which are very important to make thier professional career.
+                <ul>
+                    <li>Communication Skills.</li>
+                    <li>Problem Solving Skills.</li>
+                    <li>Leadership Skills.</li>
+                    <li>Teamwork.</li>
+                    <li>Emotional Intelligence</li>
+                </ul>
+            </p>
+        </article>
+        <article id="career" class="article">
+            <h2>HIRE OUR AMAZING DEVELOPERS</h2>
+            <p>
+                A graduate of our program will have completed an intensive 8-month, project orientated coding course, delivered by professional developers and experienced soft skills trainers. By the time they graduate, they will have completed approx. 800 hours of study
+                and practice.
+
+            </p>
+            <h3>They have the following work-ready skills:</h3>
+            <ul>
+                <li>Full-stack tech skills: HTML and CSS, JavaScript and OOP, React js, Node.js, MongoDB, Testing, asynchronous programming </li>
+                <li>Soft skills: teamwork / collaboration, critical thinking, communication, remote collaboration </li>
+                <li>
+                    <Project delivery experience/li>
+            </ul>
+        </article>
+        <article id="cities" class="article">
+            <h2>CODEYOUR FUTURE CITIES</h2>
+            <p>
+                CodeYourFuture is running classes in Manchester (Northwest), Birmingham (West Midlands), London, Glasgow (Scotland) and Rome (Italy).
+
+            </p>
+            <p>We are excited to be setting up in Tunis (Tunisia) and Cape Town (South Africa). </p>
+        </article>
+        <article id="about" class="article">
+            <h2>ABOUT CODE YOUR FUTURE</h2>
+            <p>
+                We are a non-profit organisation supporting refugees and disadvantaged individuals with the dream of becoming developers.
+            </p>
+            <p>n their journey of interrupted lives, unfinished studies and integration challenges, many of these individuals yearn to update their tech skills, but lack learning opportunities. We want to change this.</p>
+            <p>In 2016 we launched the first cohort of our 8-month web development programme, coached by a group of professional developers. Today we are setting up our sixth class in London, our third in Manchester our fourth in Glasgow. Rome and Medellín
+                have started their first classes. This is just the beginning. With your help we will be expanding to other regions and cities.</p>
+            <p>For all other inquiries please contact us at <a href>contact@codeyourfuture.io</a> or for Italy email us at <a href>italy@codeyourfuture</a>.io</p>
+        </article>
+    </main>
+    <footer id="footer ">
+        All right reserved|registered charity|<a>Feed Back</a>
+        <span id="contacts ">
+        <img src=" " id=" " alt="FB " />
+        <img src=" " id=" " alt="TWT " />
+        <img src=" " id=" " alt="INSTAGRAM " />
+      </span>
+    </footer>
+</body>
+
 </html>

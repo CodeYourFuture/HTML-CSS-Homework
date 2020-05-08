@@ -6,3 +6,147 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+#header,
+footer {
+    text-align: center;
+    font-family: monospace;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1px;
+    border: 0px solid;
+    padding: 10px;
+    box-shadow: 0px 0px 18px #888888;
+}
+
+#logo {
+    width: 20%;
+    height: 25%;
+}
+
+#title {
+    font-style: italic;
+    float: center;
+    display: inline-block;
+}
+
+.btn-login-donate {
+    margin-right: 1%;
+    display: inline-block;
+    float: right;
+    width: auto;
+    height: 50px;
+    border-radius: 5mm;
+    background-color: red;
+    block: inline-block;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    width: 100px;
+}
+
+
+/*div that show moving bannet in header******************************/
+
+#banner {
+    -index: -999;
+    overflow: hidden;
+    margin: auto;
+    max-width: 800px;
+    max-height: 400px;
+}
+
+#banner div {
+    z-index: -999;
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    font-size: 0;
+    animation: 20s slider infinite;
+}
+
+#banner div img {
+    z-index: -999;
+    width: 20%;
+    float: left;
+    width: 800px;
+    height: 250px;
+}
+
+@keyframes slider {
+    0% {
+        left: 0%;
+    }
+    20% {
+        left: 0%;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    80% {
+        left: -300%;
+    }
+}
+
+
+/*******navigation bar*****************************************************/
+
+#nav-bar {
+    font-family: monospace;
+    font-size: 18px;
+    width: auoto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nav-bar ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#nav-bar ul li {
+    margin: 20px;
+    display: inline;
+}
+
+#nav-bar ul li a {
+    padding: 0px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+
+/*****body of page************************************************/
+
+#main {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    border: 0px solid;
+    padding: 10px;
+    box-shadow: 0px 10px 18px #888888;
+}
+
+#logo {
+    float: left;
+}
+
+#contacts {
+    float: right;
+}
