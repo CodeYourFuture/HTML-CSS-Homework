@@ -10,9 +10,14 @@
 #header,
 footer {
     text-align: center;
+    font-family: monospace;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
-    padding: 1%;
+    padding: 1px;
+    border: 0px solid;
+    padding: 10px;
+    box-shadow: 0px 0px 18px #888888;
 }
 
 #logo {
@@ -21,12 +26,14 @@ footer {
 }
 
 #title {
+    font-style: italic;
     float: center;
     display: inline-block;
 }
 
 .btn-login-donate {
-    margin-right: 5%;
+    margin-right: 1%;
+    display: inline-block;
     float: right;
     width: auto;
     height: 50px;
@@ -39,11 +46,71 @@ footer {
     width: 100px;
 }
 
+
+/*div that show moving bannet in header******************************/
+
+#banner {
+    -index: -999;
+    overflow: hidden;
+    margin: auto;
+    max-width: 800px;
+    max-height: 400px;
+}
+
+#banner div {
+    z-index: -999;
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    font-size: 0;
+    animation: 20s slider infinite;
+}
+
+#banner div img {
+    z-index: -999;
+    width: 20%;
+    float: left;
+    width: 800px;
+    height: 250px;
+}
+
+@keyframes slider {
+    0% {
+        left: 0%;
+    }
+    20% {
+        left: 0%;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    80% {
+        left: -300%;
+    }
+}
+
+
+/*******navigation bar*****************************************************/
+
 #nav-bar {
-    font-size: x-large;
-    width: 10%;
-    padding-left: 0%;
-    display: inline-block;
+    font-family: monospace;
+    font-size: 18px;
+    width: auoto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #nav-bar ul {
@@ -52,7 +119,8 @@ footer {
 }
 
 #nav-bar ul li {
-    margin: 30px;
+    margin: 20px;
+    display: inline;
 }
 
 #nav-bar ul li a {
@@ -60,13 +128,19 @@ footer {
     text-decoration: none;
     font-weight: bold;
     color: black;
-    display: block;
 }
 
+
+/*****body of page************************************************/
+
 #main {
-    background-color: darkred;
-    display: inline-block;
-    width: 89%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    border: 0px solid;
+    padding: 10px;
+    box-shadow: 0px 10px 18px #888888;
 }
 
 #logo {
