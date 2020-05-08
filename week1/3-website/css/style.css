@@ -21,6 +21,7 @@ body {
 .text {
   color: burlywood;
   text-align: center;
+  font-family: Roboto;
 }
 .header-text {
   padding-top: 50px;
@@ -43,4 +44,22 @@ body {
   padding-top: 100px;
   padding-right: -100px;
   text-align: center;
+}
+#footer {
+  height: 80px;
+  background-color: #080501;
+  padding-left: 30px;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-title {
+  font-size: 14;
+  padding-top: 10px;
+  text-align: left;
+  width: 250px;
+}
+.footer-nav {
+  text-align: right;
+  width: 450px;
 }
