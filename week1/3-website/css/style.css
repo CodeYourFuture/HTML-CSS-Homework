@@ -7,53 +7,79 @@
  * 
  */
 
-body{
-    background-color: black;
-    margin-top: 100px;
+body {
+  background-color: black;
 }
- h1{
-     border:10px solid purple; 
-    color:rgb(63, 63, 80);
-    text-align: center;
-    font-size: 3 rem;
+h1 {
+  /*border: 5px solid yellow;*/
+  margin-top: auto;
+  width: auto;
+  margin-bottom: auto;
+  background-color: rgb(67, 75, 83);
+  color: orange;
+  text-align: center;
+  font-size: 6rem;
 }
-.nav ul{
-    width: 40%;
-    border: 10px dashed green;
-    list-style: none;
-    color: midnightblue; 
-    margin: 0 auto;
+.nav {
+  width: max-content;
+  margin-left: 150px;
+  margin-bottom: 10px;
+  border: 2px dashed green;
+  border-top: none;
+  list-style: none;
+  text-align: center;
+}
+.nav li {
+  display: inline;
+  /*border: 2px solid yellow;*/
+  margin-inline-start: auto;
+  margin: 60px;
+}
+.nav a {
+  text-decoration: none;
+  color: wheat;
+}
+.nav a:hover {
+  color: tomato;
+}
+article {
+  height: 550px;
+  color: wheat;
+  background-color: rgb(31, 30, 30);
+  margin-bottom: 30px;
+}
+article:first-child {
+  color: orange;
+}
+h2 {
+  background-color: darkolivegreen;
+  color: rgb(35, 46, 13);
+  text-align: center;
+}
+section {
+  width: 80%;
+  /*border: 10px solid purple;*/
+  margin: auto;
+  margin-top: 50px;
+}
 
+img {
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+  /*margin-left: 400px;*/
+  /* margin-bottom: 50px;*/
 }
-.nav li{
-    
-    border: 10px solid yellow;
-    display: inline;
-    
-/*margin-left: 5rem;*/
 
+article a {
+  color: tomato;
 }
-.nav a{
-    text-decoration: none;
-}
-article{
-    color:white;
-}
- article:first-child{
-    color:orange;
-}
-h2{
-    color: olivedrab;
-}
-section{
-    width: 80%;
-    border: 10px solid red;
-    margin: auto;
 
+p:first-of-type::first-letter {
+  font-size: 3rem;
 }
-/*p::first-letter{
-    font-size: 3rem;
-}
+
+/*
 P:first-of-type{
     color: orange;
 }
