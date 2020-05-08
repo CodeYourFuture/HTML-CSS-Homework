@@ -1,6 +1,6 @@
 /* This is main styling of the page */
 body{
-    background-color: #edeae6;
+    background-color: #fef5fe;
     font-size: large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -13,6 +13,9 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #a2a4ac;
+    border-radius: 5px;
+    border-style:hidden;
+    
   }
   
   li {
@@ -25,20 +28,87 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 30px;
   }
   
   li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #101111;
   }
   
   .active {
-    background-color: #4CAF50;
+    background-color: #925129;
   }
 /*Navigation bar end*/
 
-h1{
+/* Blog-main styling*/
+.blog-main{
+    border-style:hidden;
+    border-radius: 8px;
+    border-width: 3px;
+    border-color:#101111;
+    padding: 20px;
+    margin: 5px;
+    background-color: #d1b6b5;
+}
+/* Blog-main styling finished*/
 
+/* Article-slack styling*/
+.article-slack{
+    border-style:hidden;
+    border-width: 3px;
+    border-radius: 8px;
+    border-color:#101111;
+    padding: 20px;
+    margin: 5px;
+    background-color: #c5caaf;
+}
+/* Article-slack styling finished*/
+
+/* Article-zoom styling*/
+.article-zoom{
+    border-style:hidden;
+    border-width: 3px;
+    border-radius: 8px;
+    border-color:#101111;
+    padding: 20px;
+    margin: 5px;
+    background-color: #c5caaf;
+}
+/* Article-zoom styling finished*/
+
+/* Article-trello styling*/
+.article-trello{
+    border-style:hidden;
+    border-width: 3px;
+    border-radius: 8px;
+    border-color:#101111;
+    padding: 20px;
+    margin: 5px;
+    background-color: #c5caaf;
+}
+/* Article-trello styling finished*/
+h1{
+    text-decoration: underline;
+    padding: 20px;
+    margin: 5px;    
+    text-align: center;
 }
 p{
     font-size: 30px;
 }
+
+/* Footer styling*/
+.index-footer{
+    border-style:hidden;
+    border-width: 3px;
+    border-radius: 8px;
+    border-color:#101111;
+    padding: 20px;
+    margin: 5px;
+    background-color: #a2a4ac;
+}
+
+.index-footer p:last-of-type{
+    text-align: center;
+}
+/* Footer styling*/
