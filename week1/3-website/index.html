@@ -12,21 +12,21 @@
 </head>
 
 <body>
-  <header>
+  <header id="home">
     <!-- nav>ul>(li>a)*5 -->
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">Article 1</a></li>
-        <li><a href="#">Article 2</a></li>
-        <li><a href="#">Article 3</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#a1">Article 1</a></li>
+        <li><a href="#a2">Article 2</a></li>
+        <li><a href="#a3">Article 3</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
   <!-- section#articles>(article>h2{article $}+h3{about article $}+p>lorem20^a)*3 -->
   <section id="articles">
-    <article>
+    <article id="a1">
       <h2>article 1</h2>
       <h3>about article 1</h3>
       <figure>
@@ -38,7 +38,7 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore doloremque ab labore non optio voluptates
         omnis repellendus laborum molestias debitis.</p>
     </article>
-    <article>
+    <article id="a2">
       <h2>article 2</h2>
       <h3>about article 2</h3>
       <figure>
@@ -51,7 +51,7 @@
         accusantium odio expedita dolorem ullam iusto?</p>
       <a href=""></a>
     </article>
-    <article>
+    <article id="a3">
       <h2>article 3</h2>
       <h3>about article 3</h3>
       <figure>
@@ -67,7 +67,7 @@
   </section>
   <!-- Add your HTML markup here -->
   <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
-  <footer>
+  <footer id="contact">
     <p>Posted by: Daniel Carter</p>
     <p>Contact information: <a href="mailto:carterdaniel@hotmail.com">
         carterdaniel@hotmail.com</a>.</p>
