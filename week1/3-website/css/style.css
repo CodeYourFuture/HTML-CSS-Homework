@@ -9,13 +9,26 @@
 .head_img{
  width: 200px;
  height: 100px;
-
  display: block;
  margin-left: auto;
  margin-right: auto;
-
 }
 ul{
     display: flex;
     justify-content: space-evenly;
+   
 }
+.footer {
+  /*  position: fixed;*/
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(18, 236, 47);
+    color: white;
+    text-align: center;
+  }
+ nav{
+    padding: 25px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRJr9Jt9_G-3-v3_JDEM_H0L-TT2hpaqPGWDxo0xtwf7tiEY_je&usqp=CAU);
+    background-size: cover;
+  }
