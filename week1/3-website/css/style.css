@@ -9,6 +9,7 @@
 body {
   margin: 0;
   padding: 0px;
+  background-color: #f0d8c1e3;
 }
 #header {
   background-color: #f7cd95;
@@ -45,6 +46,39 @@ body {
   padding-right: -100px;
   text-align: center;
 }
+#section-blog {
+  margin: auto;
+  width: 80%;
+}
+.article-box {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 20px;
+  border: 1px solid brown;
+}
+.article-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  padding-right: 50px;
+}
+.article-title {
+}
+.article-text {
+  width: 80%;
+  text-align: justify;
+}
+.article-button {
+  background-color: black;
+  padding: 10px;
+  border-radius: 2px;
+  color: burlywood;
+}
+.article-button:hover {
+  background-color: chocolate;
+  color: black;
+}
 #footer {
   height: 80px;
   background-color: #080501;
@@ -57,9 +91,4 @@ body {
   font-size: 14;
   padding-top: 10px;
   text-align: left;
-  width: 250px;
-}
-.footer-nav {
-  text-align: right;
-  width: 450px;
 }
