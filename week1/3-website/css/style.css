@@ -30,6 +30,13 @@ body, html {
   width: 100%;
 }
 
+.header-style{
+  color: #c44c4c;
+  float:right;
+  font-size: 3rem;
+}
+
+
 
 
 /*---------------------Navbar styles*/
@@ -106,12 +113,6 @@ a {
 .about {
   margin-top: 30px;
 }
-.about-header {
-  color: #c44c4c;
-  float:right;
-  font-size: 3rem;
-}
-
 .card {
   column-count: 2;
   column-width: 100%;
@@ -132,3 +133,18 @@ a {
   max-width: 100%;
   height: auto;
 }
+
+/*--------------------About section*/
+.blog {
+  margin-top: 30px;
+}
+.blog-card{
+  column-count: 3;
+  column-width: 100%;
+  margin-top: 30px;
+}
+
+.blog-section img {
+  max-width: 100%;
+}
+
