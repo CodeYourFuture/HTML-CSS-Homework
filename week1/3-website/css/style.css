@@ -134,7 +134,7 @@ a {
   height: auto;
 }
 
-/*--------------------About section*/
+/*--------------------Blog section*/
 .blog {
   margin-top: 30px;
 }
@@ -148,3 +148,34 @@ a {
   max-width: 100%;
 }
 
+.blog-section button {
+  font-size: 1rem;
+  margin: 1rem 0 1rem 0;
+  padding: 0.5rem;
+  
+  background-color: #7b3030;
+  color: #feebe7;
+  border-radius: 0.5rem;
+  transition-duration: 0.4s;
+}
+.blog-section button:hover {
+  background-color: #cc8d7c;
+  color: white;
+}
+
+/*--------------------Footer section*/
+footer{
+  display: block;
+  background-color: #7b3030;
+}
+
+footer a{
+  font-size: 20px;
+  font-family: Roboto;
+  color: #feebe7;
+}
+
+footer p{
+  color: #feebe7;
+  padding: 1rem;
+}
