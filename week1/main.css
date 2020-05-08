@@ -1,6 +1,6 @@
 /* This is main styling of the page */
 body{
-    background-color: #fef5fe;
+    background-color: #fbfbfb;
     font-size: large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -40,6 +40,15 @@ ul {
   }
 /*Navigation bar end*/
 
+/* Brand-logo styling*/
+.brand-logo{
+
+}
+.brand-logo img{
+  border-radius: 50%;
+}
+/* Brand-logo styling finished*/
+
 /* Blog-main styling*/
 .blog-main{
     border-style:hidden;
@@ -49,6 +58,7 @@ ul {
     padding: 20px;
     margin: 5px;
     background-color: #d1b6b5;
+    box-shadow: 5px 10px 8px #888888;
 }
 /* Blog-main styling finished*/
 
@@ -61,6 +71,7 @@ ul {
     padding: 20px;
     margin: 5px;
     background-color: #c5caaf;
+    box-shadow: 5px 10px 8px #888888;
 }
 /* Article-slack styling finished*/
 
@@ -73,6 +84,7 @@ ul {
     padding: 20px;
     margin: 5px;
     background-color: #c5caaf;
+    box-shadow: 5px 10px 8px #888888;
 }
 /* Article-zoom styling finished*/
 
@@ -85,6 +97,7 @@ ul {
     padding: 20px;
     margin: 5px;
     background-color: #c5caaf;
+    box-shadow: 5px 10px 8px #888888;
 }
 /* Article-trello styling finished*/
 h1{
