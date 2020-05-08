@@ -23,6 +23,8 @@ article {
 
 }
 
+/* first child */
+
 article:first-child {
     border: 2px solid blueviolet;
     font-size: larger;
