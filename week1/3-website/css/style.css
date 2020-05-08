@@ -6,3 +6,56 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+ body, html {
+     height: 100%;
+     margin: 0;
+ }
+.nav-links {
+    display:flex;
+    justify-content: flex-end;
+    padding: 10px;
+    
+    background-color: red;
+    color: white;
+    
+}
+
+.title {
+    background-color: white;
+    color: black;
+}
+
+.image-section {
+    height: 400px;
+	background-image: url('https://wp-media.patheos.com/blogs/sites/541/2019/08/cant-stop-the-signal-mr-universe-serenity-firefly.gif');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 100px 5%;
+
+}
+
+.wrapper {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.one {
+    grid-column: 0/3;
+    grid-row: 1;
+    }
+
+.two {
+    grid-column: 2/3;
+    grid-row: 1;
+    }
+
+.three {
+    grid-column: 3/3;
+    grid-row: 1
+}
+
+footer {
+    text-align: center;
+}
