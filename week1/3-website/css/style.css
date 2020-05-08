@@ -3,7 +3,6 @@ body{
     text-align: center; 
     margin-left: 100px;
     margin-right: 100px;
-    border-left: bold;
     text-align: justify;
     text-justify: inter-word;
 }
@@ -13,6 +12,14 @@ body{
     text-justify: inter-word;
     text-align: center;
 
+}
+main div:first-child /*This will selct the Introduction "box" which can be selcted otherwise by the id #introduction  */
+{
+    padding: 40px;
+  box-shadow: 
+       inset 0 -3em 3em #808000, 
+             0 0  0 2px #808000,
+             0.3em 0.3em 1em #40E0D0;
 }
 h1,h2{
     text-align: center;
@@ -26,6 +33,30 @@ h3{
 p{
     font-family: monospace;
 }
-main:first-child{
-    background-color: red;
+.summary{ /*Styling the summaries in shadow boxes */
+    font-size: 12px;
+    font-family: cursive;
+    font-style: italic;
+   width: 350px;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #808000;
+  box-shadow: 10px 10px 5px;
+}
+
+
+#footer {
+	height: 40px;
+	width: 100%;
+	background-color: olive;
+    color: black;
+    border-style: ridge;
+    border-color: darkslategrey;  
+}
+  
+@media (min-width: 800px) {
+	body {
+        margin-left: 350px;
+    margin-right: 350px;
+
+	}
 }
