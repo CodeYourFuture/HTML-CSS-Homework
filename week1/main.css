@@ -15,6 +15,7 @@ ul {
     background-color: #a2a4ac;
     border-radius: 5px;
     border-style:hidden;
+    text-shadow: 5px 5px 10px blue"
     
   }
   
@@ -41,11 +42,11 @@ ul {
 /*Navigation bar end*/
 
 /* Brand-logo styling*/
-.brand-logo{
-
-}
 .brand-logo img{
   border-radius: 50%;
+  border: 5px solid #59baf2;
+  padding: 0px;
+  border-color: #2c2e3d;
 }
 /* Brand-logo styling finished*/
 
@@ -123,5 +124,15 @@ p{
 
 .index-footer p:last-of-type{
     text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.footer-info{
+
+  font-size: 30px;
+  text-decoration: underline;
+  border-spacing: 20px;
+  justify-content: space-around;
+  width: 100%;
 }
 /* Footer styling*/
