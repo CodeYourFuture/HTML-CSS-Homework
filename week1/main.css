@@ -1,9 +1,22 @@
 /* This is main styling of the page */
 body{
-    background-color: #fbfbfb;
+    background-color: white;
     font-size: large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+/*Add-head-logo styling*/
+.add-head-logo{
+  border-style:none;
+  border-radius: 5px;
+  border-color: #bab5d4;
+  border-width: thick;
+  background-color: #a2a4ac;
+  box-shadow: 15px 15px 15px #888888;
+
+}
+
+/*Add-head-logo styling end*/
 
 /*Navigation bar styling*/
 
@@ -12,10 +25,10 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #a2a4ac;
+    background-color: #a7b492;
     border-radius: 5px;
     border-style:hidden;
-    
+    box-shadow: 15px 15px 15px #888888;
     
   }
   
@@ -46,7 +59,9 @@ ul {
   border-radius: 50%;
   border: 5px solid #59baf2;
   padding: 0px;
-  border-color: #2c2e3d;
+  border-color: #4a4a4a;
+  margin-left: auto;
+  margin-right: auto
 }
 /* Brand-logo styling finished*/
 
@@ -54,12 +69,12 @@ ul {
 .blog-main{
     border-style:hidden;
     border-radius: 8px;
-    border-width: 3px;
+    border-width: 1px;
     border-color:#101111;
     padding: 20px;
     margin: 5px;
-    background-color: #d1b6b5;
-    box-shadow: 5px 10px 8px #888888;
+    background-color: #f5fdce;
+    box-shadow: 5px 10px 10px #888888;
 }
 /* Blog-main styling finished*/
 
@@ -71,7 +86,7 @@ ul {
     border-color:#101111;
     padding: 20px;
     margin: 5px;
-    background-color: #c5caaf;
+    background-color: #fde1fd;
     box-shadow: 5px 10px 8px #888888;
 }
 /* Article-slack styling finished*/
@@ -84,7 +99,7 @@ ul {
     border-color:#101111;
     padding: 20px;
     margin: 5px;
-    background-color: #c5caaf;
+    background-color: #fde1fd;
     box-shadow: 5px 10px 8px #888888;
 }
 /* Article-zoom styling finished*/
@@ -97,7 +112,7 @@ ul {
     border-color:#101111;
     padding: 20px;
     margin: 5px;
-    background-color: #c5caaf;
+    background-color: #fde1fd;
     box-shadow: 5px 10px 8px #888888;
 }
 /* Article-trello styling finished*/
