@@ -6,3 +6,127 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+    
+/* body start  */
+body {
+    margin:0%;
+    background-color:  rgba(171, 201, 253, 0.548);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/* header start */
+header {
+    
+    padding: 1%;
+    background-color: rgba(255, 255, 255, 0.945) ;
+    
+}
+
+h2 {
+    margin : 0%;
+    padding: 2% 5% 0% 2%;
+    text-align: center;
+    display: inline;
+
+}
+span {
+    margin : 0%;
+    padding: 2% 0% 0% 2%;
+    display: inline-table;
+}
+
+/*  navigation start  */
+nav {
+    margin : 2% 0% 0% 0%;
+    background-color:  #0D47A1;
+    overflow: hidden;
+    
+    
+}
+
+nav a {
+
+    color : rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    float: left;
+    padding: 14px 16px;
+}
+nav a:hover {
+    background-color: rgb(39, 199, 49);
+    color: rgb(0, 0, 0);
+    
+}
+/* navigation end */
+
+/*  header end */
+
+
+
+
+/* main start */
+
+main {
+    margin: 2% 1% 2% 1%;
+    
+}
+
+/* article start */
+
+  img {
+    width: 95%;
+    height: 300px;
+    background-image: url("https://image.freepik.com/free-psd/aerial-view-computer-laptop-wooden-table_53876-11990.jpg");
+    background-size: 100% 100%;
+    border-radius: 50px;
+    border: solid rgb(238, 255, 0);
+      
+  }
+
+ main > article:first-child {
+    background-color: rgba(246, 248, 144, 0.74);
+    color: #304FFE ;
+}
+article {
+    padding: 1% 10% 1% 10%;
+    margin :1%;
+    background-color: rgba(255, 255, 255, 0.904);
+    text-align: center;
+    
+    
+}
+
+h5,h4 {
+    text-align: center;
+}
+
+ol {
+    text-align: left;
+}
+
+p{
+    padding: 1%;
+    color: black;
+    text-align: justify ; 
+}
+
+/* article end  */
+
+/* main end */
+
+/* footer start */
+
+h6 {
+    text-align: center;
+    margin : 2%;
+    padding: 2%;
+    background-color:  #0D47A1;
+    overflow: hidden;
+    color: white;
+}
+
+
+/* footer end */
+
+/* body end */
