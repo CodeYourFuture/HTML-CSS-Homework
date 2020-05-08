@@ -78,7 +78,11 @@ article a {
 p:first-of-type::first-letter {
   font-size: 3rem;
 }
-
+footer{
+  background-color: olivedrab;
+  text-align: center;
+  font-weight: bold;
+}
 /*
 P:first-of-type{
     color: orange;
