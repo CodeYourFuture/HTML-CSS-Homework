@@ -53,9 +53,7 @@ body {
 .article-box {
   display: flex;
   justify-content: space-between;
-
   padding: 20px;
-  border: 1px solid brown;
 }
 .article-img {
   width: 200px;
@@ -66,7 +64,7 @@ body {
 .article-title {
 }
 .article-text {
-  width: 80%;
+  width: 70%;
   text-align: justify;
 }
 .article-button {
