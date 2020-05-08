@@ -11,14 +11,19 @@ body {
   padding: 0px;
 }
 #header {
-  background-color: aquamarine;
-  background-image: url("https://cdn.pixabay.com/photo/2014/12/06/23/35/landscape-559434_960_720.jpg");
+  background-color: #f7cd95;
+  background-image: url("/images/sunset.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 100%;
+  height: 75vh;
+}
+.text {
   color: burlywood;
-  min-height: 350px;
-  text-align: right;
+  text-align: center;
+}
+.header-text {
+  padding-top: 50px;
 }
 .navigation li {
   list-style-type: none;
@@ -28,7 +33,10 @@ body {
 .navigation a {
   text-decoration: none;
 }
-
+.navigation a:hover {
+  background-color: burlywood;
+  color: black;
+}
 #title {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 40px;
