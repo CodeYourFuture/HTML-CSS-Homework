@@ -92,9 +92,21 @@ a:hover{
 }
 
 #nature-img{
-    width: 460px;
+    width: 440px;
     height: 320px;
     border-radius: 30px;
+}
+#blog1-paragraph{
+    
+    width: 300px;
+}
+#blog2-paragraph{
+    
+    width: 300px;
+}
+#blog3-paragraph{
+    
+    width: 300px;
 }
 .first-blog-article {
     
@@ -105,9 +117,11 @@ a:hover{
     display: flex;
     padding: 30px;
     margin-top: 200px;
-    flex: 1;
     align-items: center;
    
+}
+.first-blog-article > p {
+    flex: 1;
 }
 
 .second-blog-article{
@@ -180,6 +194,7 @@ p{
 .first-blog-article h3:first-child{
     color: hotpink
 }
+
 
 @media screen and (max-width: 1064px){
     .mainsection1 {
