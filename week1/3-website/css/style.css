@@ -6,10 +6,9 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
-body {
+* {
   margin: 0;
   padding: 0px;
-  background-color: #f0d8c1e3;
 }
 #header {
   background-color: #f7cd95;
@@ -20,7 +19,7 @@ body {
   height: 75vh;
 }
 .text {
-  color: burlywood;
+  color: wheat;
   text-align: center;
   font-family: Roboto;
 }
@@ -42,18 +41,26 @@ body {
 #title {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 40px;
-  padding-top: 100px;
+  padding-top: 200px;
   padding-right: -100px;
   text-align: center;
 }
-#section-blog {
-  margin: auto;
-  width: 80%;
+#main {
+  background-color: #f0d8c1e3;
+}
+#section-blog h2 {
+  font-size: 30px;
+  padding: 30px;
+}
+#section-blog article > :first-child {
+  font-family: cursive;
 }
 .article-box {
   display: flex;
   justify-content: space-between;
   padding: 20px;
+  width: 60%;
+  margin: auto;
 }
 .article-img {
   width: 200px;
@@ -62,16 +69,20 @@ body {
   padding-right: 50px;
 }
 .article-title {
+  font-size: 25px;
+  padding-bottom: 20px;
 }
 .article-text {
-  width: 70%;
   text-align: justify;
+  line-height: 1.2em;
+  padding-bottom: 20px;
 }
 .article-button {
   background-color: black;
   padding: 10px;
   border-radius: 2px;
   color: burlywood;
+  border: none;
 }
 .article-button:hover {
   background-color: chocolate;
@@ -87,6 +98,7 @@ body {
 }
 .footer-title {
   font-size: 14;
-  padding-top: 10px;
+  padding-top: 30px;
   text-align: left;
+  vertical-align: center;
 }
