@@ -8,7 +8,7 @@ h1{
     font-style: italic;
     font-weight: 200px;
     text-align: center;
-    text-shadow: 2px 2px 4px #000000;
+    /* text-shadow: 2px 2px 4px #000000; */
     margin: 20px;
    
 
@@ -25,6 +25,7 @@ article :first-child{
 }
 #header-img {
     display: block;
+    margin-top: 3vw;
     margin-left:auto;
     margin-right: auto;
     border: black;
@@ -53,8 +54,8 @@ article :first-child{
   background-color: rgb(190, 60, 125);
 }
 .link{
-  background-color:rgb(34, 39, 85);
-  color:white;
+  background-color: white;
+  color:rgb(39, 9, 128);
   padding: 1.5px;
 
 }
@@ -123,7 +124,7 @@ article :first-child{
     background-color: #111;
   }
   a:hover {
-    color: red;
+    color: rgba(241, 7, 7, 0.856);
   }
   
   .footer{
