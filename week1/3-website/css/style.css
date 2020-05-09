@@ -47,6 +47,7 @@ article {
   color: wheat;
   background-color: rgb(31, 30, 30);
   margin-bottom: 30px;
+  box-shadow: 12px 12px rgb(14, 13, 13);
 }
 article:first-child {
   color: orange;
