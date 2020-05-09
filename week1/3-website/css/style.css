@@ -17,7 +17,6 @@
   }
   
   header ul li {
-    /*position: fixed;*/
     display: inline-block;
     margin-right: 10px;
   }
@@ -35,6 +34,7 @@ img {
     border: 5px solid cyan;
 
 }
+
   .comments h2 {
       text-align: center;
   }
@@ -49,6 +49,9 @@ img {
 }
 main a {
   padding-left: 1000px;
+}
+p::first-letter{
+  color: crimson;
 }
 
   
