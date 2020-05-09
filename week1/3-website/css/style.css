@@ -6,3 +6,115 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+article {
+       display:inline-block;
+       border: 5px solid transparent;
+       margin: 0px, 0px, 0px, 0px;
+       background-color: lightgray;
+       padding:50px;
+       width: 100%;
+       font-size:20px;  
+       }
+
+header {
+       display:inline-block;
+       border: 5px solid transparent;
+       margin: 0px, 0px, 0px, 0px;
+       background-color: #696969;
+       padding:10px;
+       width: 100%;
+       }
+
+#header-img{ display:inline-block;
+            float: left;
+                width: 100px;     
+            height:100px;
+            margin:0% 0% 0% 0%;
+            border-radius:10%;
+           }
+.about-img{ display:inline-block;
+            float: left;
+                width: 200px;     
+            height:200px;
+            margin:0% 0% 0% 0%;
+            border-radius:10%;
+            padding:10px;
+           }
+
+#nav-bar{
+        display:inline;
+        overflow:hidden;
+        position:flex;
+        top:0px;
+        background-color:#696969;
+        width:100%;
+        font-size: 0.5em;
+       }
+
+input {display:inline-block;
+      margin: 25px 0px 0px 0px;
+     }
+
+
+#nav-bar>a { display:inline-block;
+               float: right;
+               color: white;
+               text-align: center;
+               padding: 10px 16px;
+               text-decoration: none;
+           background-color:#696969;
+           font-size: 5em;
+         }
+
+#nav-bar>h1 {  display:inline-block;
+               float: left;
+               color:white;
+               text-align: center;
+               padding: 10px 16px;
+               text-decoration: none;
+           background-color:#696969;
+           font-size: 5em;
+         }
+
+#nav-bar>a:hover {
+                     background-color: lightgray;
+                     color: black;
+                 }
+
+.nav-link { 
+          font:black;
+          font-size: 0.5cm;
+               }
+
+.footer-format{
+              padding:20px;
+              text-align:center; 
+              background-color:#696969;
+              border-radius:0%;
+              font-size: 0.5cm;
+             }
+
+.footer-text{
+           text-align:center; 
+           background-color:#696969;
+           font-size: 0.5cm;
+           }
+
+#About aside p:first-of-type{
+                             color:blue;
+                           }
+
+main article:first-child{
+                         color:#1E90FF;
+                       }
+
+main article:nth-of-type(2n){
+                             color:	#7B68EE;
+                           }
