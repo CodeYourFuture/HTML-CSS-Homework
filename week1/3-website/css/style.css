@@ -11,7 +11,7 @@
   padding: 0px;
 }
 body {
-  font-family: Roboto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 #header {
   background-color: #f7cd95;
@@ -97,9 +97,8 @@ body {
   margin: 20px auto;
   background-color: wheat;
 }
-.article-box div:first-child {
-  border: 5px solid red;
-  padding: 50px;
+.article-box:first-child {
+  color: #bd710e;
 }
 .image {
   width: 200px;
