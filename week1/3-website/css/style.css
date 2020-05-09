@@ -188,6 +188,11 @@ a:hover {
   text-decoration: underline;
 }
 
+.blog-section:first-child{
+  border-style: double;
+  border-color: #c44c4c;
+}
+
 /*--------------------Footer section*/
 footer {
   display: block;
