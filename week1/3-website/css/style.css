@@ -6,3 +6,335 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+.company-name
+{
+    font-size: 6vw ;
+    font: 5rem/1.56 "ubuntu",Verdana,Arial,sans-serif;
+    color: rgb(42, 166, 238);
+    margin-bottom: 3px;
+    margin-top: 3vw;
+}
+
+.sponsor
+{
+    color: rgb(44, 127, 138);
+    font-size: 2vw;
+    font-style: italic;
+}
+
+
+.capgemini-logo
+{
+    width:20vw;
+    height: auto;
+    float: right;
+}
+
+
+.sponsor a
+{
+    font: 2.5rem/1.56 "ubuntu",Verdana,Arial,sans-serif;
+    color: rgb(19, 120, 179);
+    text-decoration: none;
+}
+
+.sponsor a:hover
+{
+    font: 3rem/1.56 "ubuntu",Verdana,Arial,sans-serif;
+    color: rgb(255, 44, 90);
+}
+
+.tag-line
+{
+    font-size: 1.6vw;
+    font-family:Marker Felt, fantasy;
+    color: rgb(7, 104, 104);
+    margin-bottom: 0px;
+    font: 1.4rem/1.56 "ubuntu",Verdana,Arial,sans-serif;
+}
+
+.navbar
+{
+    height:10vw;
+    font: 1rem/1.56 "ubuntu",Verdana,Arial,sans-serif;
+}
+
+nav ul li
+{
+   list-style-type:none;
+   width:150px;
+   float:left;
+   padding-left:4vw;
+   font-size: 2vw;
+   margin-top: 3vw;
+   color: rgb(7, 148, 204);
+   font-weight: bold;
+}
+
+.navbar a 
+{
+    text-decoration: none;
+    color: rgb(7, 148, 204);  
+}
+
+.nav-list-item a:hover , .caption a:hover
+{
+   color: rgb(255, 44, 90);
+   font-size: 2.4vw;
+}
+
+.body
+{
+    background: linear-gradient( #f2fafa, #b9faff,#9eedf3, #96d2f5);
+ 
+}
+
+.main-image
+{
+
+    width:70vw;
+    height:auto;
+    display:table;
+    margin:auto; 
+    border-radius: 2em;
+    border-style: solid;
+    border-color: rgb(15, 176, 240);
+    border-width: 10px;
+}    
+
+
+
+
+
+ .caption
+ {
+     text-align: center;
+     font-size: 3vw;
+     margin-top: 0.7em;
+     color: rgb(4, 62, 114);
+     font: 2rem/1.56 "ubuntu",Verdana,Arial,sans-serif;
+ }
+
+
+ .caption a 
+ {
+     text-decoration: none;
+     color: rgb(4, 62, 114);
+ }
+ 
+
+
+ .center-text h3
+ {
+     font-size: 3vw;
+     margin-bottom: auto;
+     font: 3rem/1.56 "ubuntu",Verdana,Arial,sans-serif;
+     color: rgb(145, 37, 82);
+ }
+
+ .center-text p
+ {
+     
+     color: rgb(3, 65, 68);
+     font: 1.3rem/1.56 "ubuntu",Verdana,Arial,sans-serif;
+ }
+
+ .article-container
+ {
+     display:grid;
+     grid-template-columns: 31vw 31vw 31vw;
+     grid-gap:30px;
+     justify-items:center;
+     
+     font: 1rem/1.56 "ubuntu",Verdana,Arial,sans-serif;
+
+ } 
+
+ .article-container a:hover img
+{
+    border-color: #ff8e0c;
+}
+
+ .article-item
+ {   
+     border-radius: 1em;
+     text-align: center;
+     color: #aceef3;
+     text-shadow: blue;
+     font-size: 1.5vw;
+     background-color: rgb(38, 107, 109);
+ }
+
+ .article-image
+ {
+     width:20vw; 
+     height:auto;
+     display:table;
+     margin:auto;
+     border-radius:50em;
+     border-color: #9eedf3;
+     border-style: solid;
+     border-width: 5px
+}
+
+.third-image
+{
+    width:13vw;
+}
+
+.article-item h3
+{
+    text-align: center;
+}
+
+
+article:first-child
+{
+    color: #aceef3;
+
+}
+
+.slide-container
+{
+    width:400px;
+    height:300px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow:hidden;
+    text-align: center;
+    margin-top: 5em;
+}
+
+.image-container
+{
+    width:1600px;
+    height:300px;
+    position: relative;
+    transition:left 2s;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+}
+
+.slider-image
+{
+    float:left;
+    margin:0px;
+    padding:0px;
+    border-radius: 5%;
+}
+
+.button-container
+{
+    top:-20px;
+    position: relative;
+}
+.slider-button
+{
+    display:inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: #a9f5f5;
+}
+
+#slider-image-1:target~ .image-container
+{
+    left:0px;
+}
+#slider-image-2:target~ .image-container
+{
+    left:-400px;
+}
+#slider-image-3:target~ .image-container
+{
+    left:-800px;
+}
+#slider-image-4:target~ .image-container
+{
+    left:-1200px;
+}
+
+.slide-show-caption
+{
+    font: 2rem/1.56 "ubuntu",Verdana,Arial,sans-serif;
+    text-align: center;
+    color:rgb(22, 91, 94);
+    
+}
+
+
+
+
+
+.covid-19
+{
+    font: 1.6rem/1.56 "ubuntu",Verdana,Arial,sans-serif;
+
+    background: linear-gradient( #0d7070, #c3ecee,hsl(292, 28%, 16%));
+    background-color: rgb(38, 107, 109);
+    border-radius: 0.5em;
+    color: rgb(190, 238, 228);
+    margin-bottom: 10vw;
+    
+}
+
+
+.covid-19 h3
+{
+    color: #caedf0;
+    font-size: 3vw;
+    margin-bottom: auto;
+    margin-left: 1vw;
+}
+
+.covid-19 img
+{
+    width:30vw;
+    display:table;
+    margin:auto; 
+    border-radius: 3.5em;
+    border-color: #d4cbd4;
+    border-style: solid;
+    border-width: 5px
+}
+
+.covid-19 a:hover img
+{
+    border-color: #ff8e0c;
+}
+
+.covid-19 p
+{
+    text-align: center;
+    color: rgb(252, 236, 229);
+}
+
+
+.rights
+{
+    text-align: center;
+    font: 1.2rem/1.56 "ubuntu",Verdana,Arial,sans-serif;
+}
+
+
+
+.footer-image
+{
+    width:3vw;
+    height:auto;
+    border-radius: 5%;    
+    opacity: 75%;
+    padding: 0.5vw;
+    margin-top: 5vw;    
+}
+
+.footer-image:hover 
+{
+    border-radius: 50%; 
+
+}
+
+
+
