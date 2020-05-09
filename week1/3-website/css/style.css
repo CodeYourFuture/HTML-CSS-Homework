@@ -3,15 +3,18 @@ body {
 
 }
 
-
 h1{
     font-family: Arial, Helvetica, sans-serif;
-    /* font-size: ; */
     font-style: italic;
     font-weight: 200px;
     text-align: center;
     text-shadow: 2px 2px 4px #000000;
+    margin: 20px;
+   
 
+}
+.meesage {
+  margin-top: 4vw;
 }
 p {
   font-family: Verdana,sans-serif;
@@ -49,43 +52,26 @@ article :first-child{
 .article:last-child{
   background-color: rgb(190, 60, 125);
 }
-.link1,.link2, .link3 {
+.link{
   background-color:rgb(34, 39, 85);
   color:white;
   padding: 1.5px;
 
 }
- /* #article2 {
-    background-color: blueviolet;
-    width: 1000px;
-    height: auto;
-    padding: 10px 15px 20px 15px;
-    margin: 15px 10px 15px 10px;
-    border: 10px;
-    
-}
-#article3 {
-    background-color: rgb(190, 60, 125);
-    width: 1000px;
-    height: auto;
-    padding: 10px 15px 20px 15px;
-    margin: 15px 10px 15px 10px;
-    border: 10px;
-} */
 
 #image1, #image2, #image3{
     position: absolute;
     right:20px;
     width:200px;
-    height:280px;
+    height:270px;
     border: 3px solid #73AD21;
     padding: 10px;
 }
 #image2{
-  height: 220px;
+  height: 200px;
 }
 #image3{
-  height:180px;
+  height:160px;
 }
 
 .nav-bar {
@@ -94,6 +80,7 @@ article :first-child{
     background-color: blue;
     width:100%;
     top:47px;
+    margin-top: 3vw;
 }
   #nav-link{
       justify-content: space-between;
@@ -134,6 +121,9 @@ article :first-child{
   
   li a:hover:not(.major) {
     background-color: #111;
+  }
+  a:hover {
+    color: red;
   }
   
   .footer{
