@@ -17,7 +17,7 @@ p {
   font-family: Verdana,sans-serif;
 }
 
-.page_wrapper>:first-child{
+article :first-child{
     color:white;
 }
 #header-img {
@@ -30,16 +30,32 @@ p {
 
 }
 
-#Article1{
-    background-color:rgb(44, 35, 167); 
+.article{
     width: 1000px;
     height: auto;
     padding: 10px 10px 10px 10px;
     margin: 15px 10px 15px 10px;
-    border:10px:
+    border:10px;
    
 }
-#Article2 {
+.article:first-child{
+  background-color:rgb(44, 35, 167); 
+  color:white;
+}
+
+.article:nth-child(2){
+  background-color: blueviolet;
+}
+.article:last-child{
+  background-color: rgb(190, 60, 125);
+}
+.link1,.link2, .link3 {
+  background-color:rgb(34, 39, 85);
+  color:white;
+  padding: 1.5px;
+
+}
+ /* #article2 {
     background-color: blueviolet;
     width: 1000px;
     height: auto;
@@ -48,14 +64,14 @@ p {
     border: 10px;
     
 }
-#Article3 {
+#article3 {
     background-color: rgb(190, 60, 125);
     width: 1000px;
     height: auto;
     padding: 10px 15px 20px 15px;
     margin: 15px 10px 15px 10px;
     border: 10px;
-}
+} */
 
 #image1, #image2, #image3{
     position: absolute;
