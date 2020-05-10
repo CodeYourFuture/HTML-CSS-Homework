@@ -41,6 +41,7 @@ h1 {
 }
 .nav a:hover {
   color: tomato;
+/* font-size: 30px; */
 }
 article {
   height: 550px;
