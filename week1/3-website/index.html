@@ -6,65 +6,90 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>Life Blog</title>
+    <title>Study Blog</title>
     <link
       href="//fonts.googleapis.com/css?family=Roboto:400,500,300"
       rel="stylesheet"
       type="text/css"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <script
+      src="https://kit.fontawesome.com/0ac2206fb4.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <!-- Add your HTML markup here -->
-    <header>
-      <h1>Life Blog</h1>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <article class="post">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, autem
-        nisi provident doloremque saepe nemo omnis nobis, illum repellendus quis
-        excepturi delectus vel inventore molestiae dignissimos ea est eos
-        officia error. Deserunt assumenda facere aliquam aliquid eius odio
-        nihil! Ex sed aperiam eaque? Porro consequatur distinctio earum omnis
-        consequuntur cum.
-      </article>
-      <article class="post">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi ut,
-        expedita maxime voluptatem distinctio et tempora autem sapiente. Quam
-        commodi enim cum vel eveniet maxime nesciunt, sint doloribus reiciendis
-        pariatur. Tempora non sunt, provident dolor, eveniet molestiae quibusdam
-        facilis officiis quam ducimus incidunt corrupti eligendi.
-      </article>
-      <section class="blog">
-        <article class="post">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque iste
-          voluptatum distinctio quis adipisci itaque non quam hic, nulla earum
-          facilis eos recusandae, consequatur quasi alias. Quas quidem possimus
-          vero et ea, nisi culpa eius, nam impedit sapiente molestias. Veritatis
-          aperiam quaerat, expedita dolore debitis enim reiciendis suscipit
-          nostrum quasi.
-        </article>
-        <article class="post">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero quia
-          sunt in repellat, maiores unde illum! Maiores, illum. Officiis fugit
-          distinctio aspernatur! Esse, deserunt. Fugit aperiam nisi placeat amet
-          impedit nam, iure quasi reprehenderit aut suscipit quos itaque ex ut
-          tenetur ipsam obcaecati. Harum itaque temporibus reprehenderit quam?
-        </article>
-      </section>
-      <footer>
-        Copyright @ 2020 CYF Homework Week One
-      </footer>
-    </main>
-    <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
+    <!-- Navbar -->
+    <input type="checkbox" class="checkbox" id="click" hidden />
+    <div class="sidebar">
+      <!-- sidebar -->
+      <label for="click">
+        <div class="menu-icon">
+          <div class="line line-1"></div>
+          <div class="line line-2"></div>
+          <div class="line line-3"></div></div
+      ></label>
+      <ul class="social-icons-list">
+        <li>
+          <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+        </li>
+        <li>
+          <a href="" class="social-link"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="" class="social-link"
+            ><i class="fab fa-google-plus-g"></i
+          ></a>
+        </li>
+        <li>
+          <a href="" class="social-link"
+            ><i class="fab fa-instagram-square"></i
+          ></a>
+        </li>
+      </ul>
+      <div class="year">
+        <p>&copy; 2020</p>
+      </div>
+    </div>
+    <!-- Navigation -->
+
+    <nav class="navigation">
+      <div class="navigation-header">
+        <h1 class="navigation-heading">Study Blog</h1>
+        <form action="" class="navigation-search">
+          <input
+            type="text"
+            class="navigation-search-input"
+            placeholder="Search..."
+          />
+          <button class="navigation-search-button">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </div>
+
+      <ul class="navigation-list">
+        <li class="navigation-item">
+          <a href="#" class="navigation-link">Home</a>
+        </li>
+        <li class="navigation-item">
+          <a href="#" class="navigation-link">About</a>
+        </li>
+
+        <li class="navigation-item">
+          <a href="#" class="navigation-link">Contact</a>
+        </li>
+      </ul>
+
+      <div class="copyright">
+        <p>&copy; 2020 Study Blog. All rights reserved.</p>
+      </div>
+    </nav>
+    <!-- End Navigation -->
   </body>
 </html>
