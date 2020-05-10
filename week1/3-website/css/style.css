@@ -21,13 +21,65 @@ h1 {
   font-size: 6rem;
 }
 .nav {
-  width: max-content;
+  /* width: max-content;
   margin-left: 150px;
   margin-bottom: 10px;
-  border: 2px dashed green;
-  border-top: none;
-  list-style: none;
+  /* border: 2px dashed green; */
+  /*border-top: none;
+  list-style: none; */
   text-align: center;
+  margin-top: 20px;
+}
+.btn{
+  border: 1px solid olivedrab;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "montserrat";
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+.btn1,.btn2{
+  color: olivedrab;
+}
+.btn3,.btn4{
+  color:orange;
+}
+.btn1:hover,.btn2:hover{
+  color:orange;
+}
+.btn3:hover,.btn4:hover{
+  color: olivedrab;
+}
+.btn::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: olivedrab;
+  z-index: -1;
+  transition: 0.8s;
+}
+.btn1::before,.btn3::before{
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+.btn2::before,.btn4::before{
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+.btn3::before,.btn4::before{
+  height: 180%;
+}
+.btn1:hover::before,.btn2:hover::before{
+  height: 180%;
+}
+.btn3:hover::before,.btn4:hover::before{
+  height: 0%;
 }
 .nav li {
   display: inline;
@@ -66,15 +118,22 @@ section {
 }
 
 img {
-  border: 2px solid black;
+  /* border: 2px solid black; */
+  border-radius: 20px;
   width: 200px;
   height: 200px;
-  /*margin-left: 400px;*/
+  margin-left: 40px;*/
   /* margin-bottom: 50px;*/
+}
+img:hover{
+  transform: scale(1.1);
+   border: 2px solid orange; 
+  background-color: rgb(255, 255, 255, 0.6);
 }
 
 article a {
   color: tomato;
+  text-decoration: none;
 }
 
 p:first-of-type::first-letter {
@@ -84,6 +143,24 @@ footer{
   background-color: olivedrab;
   text-align: center;
   font-weight: bold;
+}
+form{
+  background-color:black;
+  color: blue;
+  margin-top: 40px;
+}
+form input{
+  border: orange;
+  background-color: olivedrab;
+  padding: 10px;
+  margin: 10px;
+}
+form button{
+  border: orange;
+  color:black;
+  background-color: olivedrab;
+  padding: 10px;
+  margin: 10px;
 }
 /*
 P:first-of-type{
