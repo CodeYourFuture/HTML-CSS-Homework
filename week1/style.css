@@ -6,7 +6,7 @@ background-color: #a8bddb;
 }
 
 .about-title {
- font-size: 25px;
+ font-size: 35px;
 }
 
 .section-about{
@@ -31,8 +31,11 @@ background-color: #a8bddb;
    background-position: center;
    padding: 10px;
    height: 600px;
-   border-top-width:20px ;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
    
+     
 }
 .about-title{
     margin-bottom: 50px;
@@ -92,7 +95,7 @@ background-color: #a8bddb;
 .footer-logo{
     text-align: left;
     font-size: 30px;
-    color: white;
+    color: black;
 }
 .footer-social-icons{
     margin-bottom: 40px;
