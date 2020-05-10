@@ -197,18 +197,21 @@ p{
 }
 
 
-@media screen and (max-width: 1064px){
+@media screen and (max-width: 360px){
    
     body{
         
         align-items: center;
         display: grid;
     }
+    .title{
+        font-size: 40px;
+    }
     nav {
         
         flex-direction: column;
         align-items: flex-start;
-        margin-left: 15px;
+        margin-left: 25px;
          
 
     }
@@ -229,8 +232,8 @@ p{
        display: none;
     }
     .main-paragraph {
-        width: 270px;
-        height: 300px;
+        width: 50vh;
+        height: 50vh;
         font-size: 15px;
         overflow: hidden;
     
@@ -241,7 +244,7 @@ p{
         padding-top: 30px;
     }
     li{
-      
+       font-size: 18px;
        padding-left: 13px;
     }
     .sub-title{
@@ -250,7 +253,8 @@ p{
     }
     .first-blog-article{
        
-        width: fit-content;
+        width: 45vh;
+        height: 50vh;
        
     }
     #nature-img{
@@ -258,11 +262,12 @@ p{
     }
     .second-blog-article{
         
-        width: fit-content;
-    }
+        width: 45vh;
+        height: 50vh;    }
     .third-blog-article{
        
-        width: fit-content;
+        width: 45vh;
+        height: 50vh;
     }
     .footer{
         display: block;
@@ -272,4 +277,105 @@ p{
         padding-bottom: 1vh;
     }
 
+}
+@media screen and (max-width: 1200px){
+  
+    .main-paragraph{
+       
+        max-height: 330px;
+        overflow: hidden;
+    }
+
+ }
+ @media screen and (max-width: 920px){
+     .sub-title{
+         display: none;
+     }
+    .main-paragraph{
+      display: none;
+    }
+
+ }
+
+
+@media (max-width: 768px) {
+    
+    nav {
+        display: block;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 25px;
+         
+
+    }
+    li{
+        padding-top: 5vh;
+        padding-left: 4vh;
+    }
+    .mainsection1{
+        min-height: 80vh;
+       
+        display: block;
+    }
+    #blog-img1{
+        padding-left: 60px;
+    }
+    .main-paragraph{
+       display: block;
+        width: 65vh;
+        font-size: 20px;
+        
+        padding-top: 5px;
+    }
+    .sub-title{
+        display: block;
+        padding-left: 35px;
+        padding-bottom: 10px;
+    }
+    .first-blog-article{
+        width: 80vh;
+    }
+    article h3, p, a {
+        padding-left: 40px;
+    }
+}
+ 
+@media screen and (max-width: 360px){
+    nav {
+        display: block;
+    }
+    .logoandtitle{
+        display: flex;
+        justify-content: start;
+        padding-left: 40px;
+        
+    }
+    li{
+        padding-left: 0px;
+
+    }
+    ul{
+        padding-top: 0px;
+    }
+    .main-paragraph{
+        padding-right: 30px;
+    }
+    .first-blog-article, .second-blog-article, .third-blog-article{
+       
+        width: 60vh;
+        height: 60vh;
+       
+    }
+    .sec-section{
+        min-height: 250vh;
+        
+    }
+    #blog1-paragraph, #blog2-paragraph, #blog3-paragraph{
+        width: fit-content;
+        padding-left: 5px;
+    }
+    section h3{
+        padding-left: 5px;
+        padding-bottom: 30px;
+    }
 }
