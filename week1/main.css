@@ -157,3 +157,13 @@ p{
   color:blue;
 }
 /* Footer styling*/
+
+/* Reference P styling*/
+.blog-main p:nth-child(3){
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-style: italic;
+  text-align: right;
+}
+/* Reference P styling end*/
