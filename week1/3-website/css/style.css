@@ -31,7 +31,7 @@
   margin: 75px;
   }
 
-  p {
+  p, li {
   margin-top: 10px;
   margin-bottom: 10px;
   margin-right: 200px;
@@ -46,8 +46,23 @@
   color: rgb(123, 230, 116);
   }
 
-  li {
+  .container p:first-child {
+  text-decoration: khaki;
+  } 
 
+  h3 {
+  text-align: center;
+  color: rgb(16, 23, 48)
+  }
+  
+
+ul {
+  margin: 10px 10px 20px 20px;
+  text-align: justify;
+}
+
+  li:nth-child(3n) {
+    text-shadow: 2px 1px rgb(119, 112, 70);
   }
 
 .dropin {
