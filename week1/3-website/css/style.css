@@ -17,11 +17,11 @@
      background-color: #2F303A;
  }
  header{
-     padding-top: 30px;
+     padding-top: 5vh;
  }
  
   #blog-img1{
-      padding-bottom: 80px;
+      padding-bottom: 10vh;
   }
  
  .logoandtitle{
@@ -53,7 +53,7 @@
  }
 li{
     list-style: none;
-    padding-right: 60px;
+    padding-right: 10vh;
     font-size: 25px;   
 }
 
@@ -69,19 +69,19 @@ a:hover{
     height: 50vh;
     display: flex;
     justify-content: space-evenly;
-    padding-top: 50px;
-    margin-top: 30px;
+    padding-top: 3vh;
+    margin-top: 5vh;
    
 }
 .main-article{
     width: 30%;
-    padding-left: 50px;
+    padding-left: 5vh;
    
 }
 .main-paragraph{
     color: #E5E5E5;
     font-size: 18px;
-    padding-top: 35px;
+    padding-top: 5vh;
 }
 .sec-section{
     background: linear-gradient(#E5E5E5, #2F303A);
@@ -92,31 +92,31 @@ a:hover{
 }
 
 #nature-img{
-    width: 440px;
-    height: 320px;
+    width: 45vh;
+    height: 33vh;
     border-radius: 30px;
 }
 #blog1-paragraph{
     
-    width: 300px;
+    width: 30vh;
 }
 #blog2-paragraph{
     
-    width: 300px;
+    width: 30vh;
 }
 #blog3-paragraph{
     
-    width: 300px;
+    width: 30vh;
 }
 .first-blog-article {
     
     background-color: #2F303A;
-    width: 800px;
-    height: 400px;
+    width: 82vh;
+    height: 40vh;
     border-radius: 30px;
     display: flex;
-    padding: 30px;
-    margin-top: 200px;
+    padding: 3vh;
+    margin-top: 20vh;
     align-items: center;
    
 }
@@ -127,33 +127,34 @@ a:hover{
 .second-blog-article{
     border: 1px solid white;
     background-color: #2F303A;
-    width: 800px;
-    height: 400px;
+    width: 82vh;
+    height: 40vh;
     border-radius: 30px;
     display: flex;
     flex: 1;
     align-items: center;
-    padding: 30px;
+    padding: 3vh;
     
 }
 
 .third-blog-article{
     border: 1px solid white;
     background-color: #2F303A;
-    width: 800px;
-    height: 400px;
+    width: 82vh;
+    height: 40vh;
     border-radius: 30px;
     display: flex;
     flex: 1;
     align-items: center;
-    padding: 30px;
+    padding: 3vh;
     
 }
 .footer{
     font-size: 15px;
 }
 footer{
-    height: 150px;
+    
+    height: 20vh;
     color: white;
     display: flex;
     justify-content: center;
@@ -161,32 +162,32 @@ footer{
 }
 #med-ellipse{
     position: absolute;
-    top: 400px;
-    right: 100px;
+    top: 42vh;
+    right: 17vh;
 }
 #small-ellipse{
     position: absolute;
-    top: 560px;
-    left: 200px;
-    width: 100px;
-    height: 100px;
+    top: 59vh;
+    left: 19vh;
+    width: 10vh;
+    height: 10vh;
     opacity: 1;
     z-index: -1;
    
 }
 #big-ellipse{
     position: absolute;
-    top: 300px;
-    right: 800px;
-    width: 100px;
-    height: 100px;
+    top: 30vh;
+    right: 83vh;
+    width: 12vh;
+    height: 12vh;
     
 }
 
 h3{
     color: #E5E5E5;
     font-size: 30px;
-    padding-bottom: 60px;
+    padding-bottom: 5vh;
 }
 p{
     color: #e5e5e5;
@@ -197,21 +198,78 @@ p{
 
 
 @media screen and (max-width: 1064px){
+   
+    body{
+        
+        align-items: center;
+        display: grid;
+    }
+    nav {
+        
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 15px;
+         
+
+    }
     .mainsection1 {
         flex-direction: column;
         font-size: 10px;
-        text-align: center;
+       
+        
+       
+        
     }
     .header {
         flex-direction: column;
+        
+        
     }
     #blog-img1 {
-        display: none;
+       display: none;
     }
     .main-paragraph {
-        overflow: scroll;
-        justify-content: center;
+        width: 270px;
+        height: 300px;
+        font-size: 15px;
+        overflow: hidden;
+    
+        
 
+    }
+    ul{
+        padding-top: 30px;
+    }
+    li{
+      
+       padding-left: 13px;
+    }
+    .sub-title{
+        font-size: 30px;
+       
+    }
+    .first-blog-article{
+       
+        width: fit-content;
+       
+    }
+    #nature-img{
+        display: none;
+    }
+    .second-blog-article{
+        
+        width: fit-content;
+    }
+    .third-blog-article{
+       
+        width: fit-content;
+    }
+    .footer{
+        display: block;
+    }
+    h3{
+        
+        padding-bottom: 1vh;
     }
 
 }
