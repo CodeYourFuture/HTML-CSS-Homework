@@ -120,7 +120,7 @@ article :first-child{
     text-decoration: none;
   }
   
-  li a:hover:not(.major) {
+  li a:hover {
     background-color: #111;
   }
   a:hover {
