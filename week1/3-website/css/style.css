@@ -6,21 +6,46 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ body{
+ /*background-color: darkgray;*/
+   background-image: url("ChessStart6.jpg");
+  /*background-repeat: no-repeat;*/
+ }
  header {
        text-align: center;
+      /* background-image: url("ChessStart.jpg");*/
+       background-color: darkorchid;
+       border-radius: 15px;
+       background-image: url('Book2.jpg');
+      /* background-repeat: no-repeat;*/
   }
+h1 {
+  font-family: 'Amita', cursive;
+  font-size: 5em;
+  color: aqua;
+}
 
+header p {
+  font-size: xx-large;
+  color: aqua;
+}
+nav {
+  width: 100%;
+  overflow: auto;
+}
 
-  header ul {
-    margin: 20px 0 0 0;
-    padding: 0;
-  }
-  
-  header ul li {
-    display: inline-block;
-    margin-right: 10px;
-  }
-  .image-container {
+nav a {
+  float: right;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav a:hover {
+  background-color: #000;
+}
+.image-container {
       
     display: flex;
     justify-content: center;
@@ -30,6 +55,13 @@ img {
     width:400px;
     height: 400px;
 }
+.comments {
+  width: 800px;
+  /*background-color: white;/*darkgray;*/
+  margin: auto;
+  border-radius: 15px;
+  background-image: url('Becuo.jpg');
+}
 .comments:last-of-type img {
     border: 5px solid cyan;
 
@@ -37,21 +69,38 @@ img {
 
   .comments h2 {
       text-align: center;
-  }
+      
+    }
   .comments:first-child h2{
    color: red;
-   font-style: italic;
+   font-family: 'Amita', cursive;
 }
 .comments p {
-  padding: 0px 350px 0px 350px;
-    display: flex;
-    justify-content: center;
-}
-main a {
-  padding-left: 1000px;
-}
-p::first-letter{
-  color: crimson;
+    width: auto;
+    margin: auto;
+    padding: 30px 30px 30px 30px;
+    font-family: 'Jacques Francois Shadow', cursive;
+    font-family: 'Aladin', cursive;
+    font-size: x-large;
+  
 }
 
-  
+p::first-letter{
+  color: aqua;
+ /* font-family: 'Amita', cursive;*/
+  font-size: xx-large;
+  background-color: goldenrod;
+  border: 7px groove salmon;
+ }
+
+p {
+  margin: auto;
+  width: 800px;
+}  
+
+.linktop {
+  width: auto;
+  margin-left: 690px;
+
+
+}
