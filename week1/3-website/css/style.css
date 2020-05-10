@@ -1,12 +1,18 @@
-header {
-  color: white;
-  background-color: #d89898;
-  }
-  
-  .container {
+.container {
   background-color: #42685c;
   width: 100%;
   height: 100%;
+  }
+
+  .head {
+  font-size: 2em;   
+  text-align: center;
+  color: blue;
+  }
+
+.nav {
+  color: white;
+  background-color: #d89898;
   }
 
   #navigation {
@@ -29,9 +35,12 @@ header {
   margin-right: 200px;
   margin-left: 200px;
   text-align: justify;
+  color: white;
   }
 
   h1, h2{
   text-align: center;
   color: blue;
   }
+
+  
