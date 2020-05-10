@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  <div class="container">
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -16,65 +17,81 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
   </head>
   <body>
-    <!-- Add your HTML markup here -->
-    <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
-      <header>
+      <header id="header">
+        
         <h1>The importance of good sleep</h1>
-        <p>Sleep is essential to the maintenance of physical and psychological health.  We all know how difficult life can be when we’re not sleeping well.  Poor sleep can have a negative impact on your energy levels, mood, performance and enjoyment of life.  So it’s worth taking a few minutes to think about how you might be able to improve your quality and quantity of sleep.</p>
+        <!--<img id="header-img" src="images/sleepingCat.jpeg"      height: 90px;    width: 50px;  alt="a sleeping cat" />-->
+        <p>Sleep is essential to the maintenance of physical and psychological health.<br>  We all know how difficult life can be when we’re not sleeping well.<br>  Poor sleep can have a negative impact on your energy levels, mood, performance and enjoyment of life. <br> So it’s worth taking a few minutes to think about how you might be able to improve your quality and quantity of sleep.</p>
         <nav>
           <ul>
-            <li><a class="nav-link" href="#article1">Top tips to get to sleep and sleep better</a></li>
-            <li><a class="nav-link" href="#article2">What the Science Says</a></li>
-            <li><a class="nav-link" href="#article3">How Your Body Uses Calories While You Sleep</a></li>
+            <li><a class="nav-link" href="#tips">Top tips to sleep better</a></li>
+            
+            <li><a class="nav-link" href="#calories">How Body Uses Calories While Sleep</a></li>
+
+            <li><a class="nav-link" href="#science">What the Science Says</a></li>
             
          </ul>
         </nav>
-        <img id="header-img" src="sleepingCat.jpeg"        alt="a sleeping cat" />
+       
 
       </header>
-      <section>
-        <article id="article1" >
-          <h2>Top tips to get to sleep and sleep better
-         </h2>
-         <img id="header-img" src="brainWhileSleeping.jpg"        alt="a drawing showing the toxing cleaning while asleep" />
-           <p>
-             1-Keep regular sleep hours
-                Going to bed when you feel tired and getting up at roughly the same time helps teach your body to sleep better. Try to avoid napping where possible.
-             2-Create a restful environment
-               Dark, quiet and cool environments generally make it easier to fall asleep and stay asleep. Watch our video for tips on how to sleep better.
-             3-Move more, sleep better
-               Being active can help you sleep better. These videos can get you going, but remember to avoid vigorous activity near bedtime if it affects your sleep.
-             4-Confront sleeplessness
-               If you are lying awake unable to sleep, do not force it. Get up and do something relaxing for a bit, and return to bed when you feel sleepier.
-             5-Write down your worries
-             If you often lie awake worrying about tomorrow, set aside time before bed to make a list for the next day. This can help put your mind at rest.
-             6-Put down the pick-me-ups
-             Caffeine and alcohol can stop you falling asleep and prevent deep sleep. Try to cut down on alcohol and avoid caffeine close to bedtime.
-           </p>
+      <div class="content">
+      <main>
+         <img id="header-img" src="images/brainWhileSleeping.jpg"        alt="a drawing showing the toxing cleaning while asleep" />
+         
+        <section>
+         <article id="tips" class="article" >
+          <h2 >Top tips to get  better sleep
+          </h2>
+          <p> <ol>
+             <li>Keep regular sleep hours
+                Going to bed when you feel tired and getting up at roughly the same time helps teach your body to sleep better. Try to avoid napping where possible.<br>
+              </li><li>Create a restful environment
+               Dark, quiet and cool environments generally make it easier to fall asleep and stay asleep. Watch our video for tips on how to sleep better.<br>
+              </li><li>Move more, sleep better
+               Being active can help you sleep better. These videos can get you going, but remember to avoid vigorous activity near bedtime if it affects your sleep.<br>
+              </li><li>Confront sleeplessness
+               If you are lying awake unable to sleep, do not force it. Get up and do something relaxing for a bit, and return to bed when you feel sleepier.<br>
+              </li><li>Write down your worries
+             If you often lie awake worrying about tomorrow, set aside time before bed to make a list for the next day. This can help put your mind at rest.<br>
+            </li><li>Put down the pick-me-ups
+             Caffeine and alcohol can stop you falling asleep and prevent deep sleep. Try to cut down on alcohol and avoid caffeine close to bedtime.<br>
+            </li> </ol>
+            </p>
 
 
         </article>
-        <article id="article2">
-         <h2>What the Science Says</h2>
-          <p></p>
-
-
-       </article>
-       <article id="article3">
-         <h2>How Your Body Uses Calories While You Sleep</h2>
-         <img id="header-img" src="man-taking-a-nap.jpg"        alt="man taking a nap" />
-          <p>
+        
+         
+         <article id="calories" class="article">
+          <h2 >How Your Body Uses Calories While You Sleep</h2>
+        <p>
            During the night, your body goes to work repairing any damage done on a cellular level during your waking hours. For instance, if you exercise during the day, your muscles will recover and repair themselves at night, which requires energy. Food digestion also uses energy, as your body breaks down your meal into usable fuel for the following day.
           </p>
-
+         </article>
+        
+        
+         <article id="science"class="article" >
+          <h2 >What the Science Says</h2>
+        <p>
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at erat ornare,<br>
+            bibendum nulla sed, efficitur mi. Morbi lobortis mi ipsum, et fermentum neque varius vel.<br> Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed purus nulla, dignissim id nulla et, imperdiet aliquet metus. Aliquam luctus eleifend tellus in suscipit. Sed non eleifend augue, ac hendrerit erat. Cras vel massa a nulla sollicitudin lacinia at id nisl. Nullam molestie tellus eget venenatis finibus. Nullam sit amet ullamcorper metus. Vivamus quis semper enim, ornare maximus sem.
+        </p>
 
        </article>
+       <img id="header-img" src="images/man-taking-a-nap.jpg"        alt="man taking a nap" />
+
+       </section>
+       
+         
         
-    </section>
+      </main>
+  </div>
       <footer>
-        site map     about   reference   Mai 2020
+            by:Abdennour Hachemi                                           Mai 2020
       </footer>
   </body>
+</div>
 </html>
 
 
@@ -83,10 +100,6 @@
   
        
     
-
-
-
-
 
 
 
