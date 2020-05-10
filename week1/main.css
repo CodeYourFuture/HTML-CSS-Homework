@@ -135,6 +135,7 @@ p{
     padding: 20px;
     margin: 5px;
     background-color: #a2a4ac;
+    box-shadow: 5px 10px 8px #888888;
 }
 
 .index-footer p:last-of-type{
