@@ -6,11 +6,11 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
- #header {
+ header {
     color: white;
     background-color: brown;
 
-.container{
+.container { 
     background-color: green;
 }
 
