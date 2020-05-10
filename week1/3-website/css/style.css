@@ -179,7 +179,6 @@ body {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
     url(../banner1.jpg) center no-repeat;
   background-size: cover;
-  margin-bottom: 5rem;
 }
 
 .brand {
@@ -254,8 +253,8 @@ main {
   margin-left: 10rem;
 }
 
-main:first-child {
-  color: aqua;
+article p:first-child {
+  color: red;
 }
 article {
   display: flex;
@@ -268,9 +267,15 @@ article img {
 article h2 {
   text-align: center;
   text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2.7rem;
+  font-weight: 400;
 }
 h2 a {
   text-decoration: none;
+}
+h2 a:visited {
+  color: #555;
 }
 footer {
   padding: 2.5rem;
