@@ -12,12 +12,14 @@ html {
   box-sizing: border-box;
 }
 
-* {
-}
 body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
+}
+.container {
+  margin: 0;
+  padding: 0;
 }
 .sidebar {
   width: 8rem;
@@ -168,4 +170,109 @@ body {
 }
 .checkbox:checked ~ .navigation {
   left: 8rem;
+}
+
+/* header */
+.header {
+  margin-left: 8rem;
+  height: 90vh;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url(../banner1.jpg) center no-repeat;
+  background-size: cover;
+  margin-bottom: 5rem;
+}
+
+.brand {
+  display: flex;
+  cursor: pointer;
+}
+
+.blog-heading {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2.7rem;
+  font-weight: 400;
+  color: #86debc;
+  letter-spacing: 0.2rem;
+  margin-left: 2rem;
+}
+
+.banner {
+  color: #ddd;
+  height: 65rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-heading {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 7rem;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 20;
+}
+
+.banner-paragraph {
+  font-size: 3.5rem;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+.banner-button {
+  width: 21rem;
+  padding: 1.2rem 2rem;
+  font-size: 2rem;
+  color: #333;
+  letter-spacing: 0.1rem;
+  border: none;
+  border-radius: 10rem;
+  outline: none;
+  background: linear-gradient(
+    to right,
+    rgba(0, 247, 255, 0.658),
+    rgb(32, 206, 218)
+  );
+  cursor: pointer;
+  margin-bottom: 30rem;
+}
+
+.banner-button:hover {
+  background: linear-gradient(to left, rgb(0, 174, 255), rgb(32, 159, 218));
+}
+
+.banner-button:active {
+  transform: translateY(0.2rem);
+}
+
+main {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem;
+  margin-left: 10rem;
+}
+
+main:first-child {
+  color: aqua;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+article img {
+  margin-bottom: 2rem;
+}
+article h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+h2 a {
+  text-decoration: none;
+}
+footer {
+  padding: 2.5rem;
+  text-align: center;
 }
