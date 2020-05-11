@@ -9,7 +9,7 @@
 
 body {
     margin: 20px;
-    line-height: 1.5; /* to create gaps between lines for easy readying*/
+    line-height: 1.5; /* to create gaps between lines for easy reading*/
 }
 
  header, footer {
@@ -32,16 +32,18 @@ body {
      text-decoration: line-through;
      background: rgb(0, 0, 0);
      color: rgb(255, 255, 255);
-     transform: rotate(-30deg); /*BUG not working - I want to rotate the text in the title*/
+     display: inline-block;
+     transform: rotate(-20deg); /*BUG not working - I want to rotate the text in the title*/
  }
 
 /*BUG: linear-gradient not working*/
  footer {
-    background: linear-gradient (rgb(0, 255, 0), rgb(255, 255, 255));
+    background: linear-gradient(rgba(0, 255, 0, 0.171), rgb(255, 255, 255));
  }
 
 article:first-child {
-    background: rgba(0, 255, 0, 0.171);
+    /*background: rgba(0, 255, 0, 0.171);*/
+    background: linear-gradient(rgba(0, 255, 0, 0.171), rgb(255, 255, 255));
 }
 
 article {
