@@ -7,6 +7,7 @@
  * 
  */
 /* Basic Reset */
+
 html {
   font-size: 62.5%;
   box-sizing: border-box;
@@ -17,10 +18,7 @@ body {
   padding: 0;
   font-family: "Roboto", sans-serif;
 }
-.container {
-  margin: 0;
-  padding: 0;
-}
+
 .sidebar {
   width: 8rem;
   height: 100%;
@@ -130,7 +128,7 @@ body {
   right: 1rem;
   cursor: pointer;
 }
-.navigation-search-btn:focus {
+.navigation-search-button:focus {
   outline: none;
 }
 .navigation-list {
@@ -175,7 +173,7 @@ body {
 /* header */
 .header {
   margin-left: 8rem;
-  height: 90vh;
+  height: 100vh;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
     url(../banner1.jpg) center no-repeat;
   background-size: cover;
@@ -233,7 +231,7 @@ body {
     rgb(32, 206, 218)
   );
   cursor: pointer;
-  margin-bottom: 30rem;
+  margin-bottom: 10rem;
 }
 
 .banner-button:hover {
@@ -244,7 +242,7 @@ body {
   transform: translateY(0.2rem);
 }
 
-main {
+section {
   font-size: 1.5rem;
   display: flex;
   flex-direction: column;
@@ -253,8 +251,9 @@ main {
   margin-left: 10rem;
 }
 
-article p:first-child {
-  color: red;
+article:first-child {
+  font-weight: 400;
+  letter-spacing: 0.2rem;
 }
 article {
   display: flex;

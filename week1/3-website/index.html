@@ -1,203 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <title>Study Blog</title>
-    <link
-      href="//fonts.googleapis.com/css?family=Roboto:400,500,300"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-    <script
-      src="https://kit.fontawesome.com/0ac2206fb4.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Study Blog</title>
+  <link href="//fonts.googleapis.com/css?family=Roboto:400,500,300" rel="stylesheet" type="text/css" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <script src="https://kit.fontawesome.com/0ac2206fb4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Navbar -->
+    <input type="checkbox" class="checkbox" id="click" hidden />
+    <div class="sidebar">
+      <!-- sidebar -->
+      <label for="click">
+        <div class="menu-icon">
+          <div class="line line-1"></div>
+          <div class="line line-2"></div>
+          <div class="line line-3"></div>
+        </div>
+      </label>
+      <ul class="social-icons-list">
+        <li>
+          <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+        </li>
+        <li>
+          <a href="" class="social-link"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="" class="social-link"><i class="fab fa-google-plus-g"></i></a>
+        </li>
+        <li>
+          <a href="" class="social-link"><i class="fab fa-instagram-square"></i></a>
+        </li>
+      </ul>
+      <div class="year">
+        <p>&copy; 2020</p>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+
+    <nav class="navigation">
+      <div class="navigation-header">
+        <h1 class="navigation-heading">Study Blog</h1>
+        <form action="" class="navigation-search">
+          <input type="text" class="navigation-search-input" placeholder="Search..." />
+          <button class="navigation-search-button">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </div>
+
+      <ul class="navigation-list">
+        <li class="navigation-item">
+          <a href="#" class="navigation-link">Home</a>
+        </li>
+        <li class="navigation-item">
+          <a href="#" class="navigation-link">About</a>
+        </li>
+
+        <li class="navigation-item">
+          <a href="#" class="navigation-link">Contact</a>
+        </li>
+      </ul>
+
+      <div class="copyright">
+        <p>&copy; 2020 Study Blog. All rights reserved.</p>
+      </div>
+    </nav>
+
+    <!-- End Navigation -->
+    <!-- Main Body -->
     <div class="container">
-      <!-- Navbar -->
-      <input type="checkbox" class="checkbox" id="click" hidden />
-      <div class="sidebar">
-        <!-- sidebar -->
-        <label for="click">
-          <div class="menu-icon">
-            <div class="line line-1"></div>
-            <div class="line line-2"></div>
-            <div class="line line-3"></div></div
-        ></label>
-        <ul class="social-icons-list">
-          <li>
-            <a href="#" class="social-link"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-          </li>
-          <li>
-            <a href="" class="social-link"><i class="fab fa-twitter"></i></a>
-          </li>
-          <li>
-            <a href="" class="social-link"
-              ><i class="fab fa-google-plus-g"></i
-            ></a>
-          </li>
-          <li>
-            <a href="" class="social-link"
-              ><i class="fab fa-instagram-square"></i
-            ></a>
-          </li>
-        </ul>
-        <div class="year">
-          <p>&copy; 2020</p>
+      <!-- Header -->
+      <header class="header">
+        <div class="brand">
+          <!-- <img src="img/crown.png" width="80" /> -->
+          <h3 class="blog-heading">Study Blog</h3>
         </div>
-      </div>
-
-      <!-- Navigation -->
-
-      <nav class="navigation">
-        <div class="navigation-header">
-          <h1 class="navigation-heading">Study Blog</h1>
-          <form action="" class="navigation-search">
-            <input
-              type="text"
-              class="navigation-search-input"
-              placeholder="Search..."
-            />
-            <button class="navigation-search-button">
-              <i class="fas fa-search"></i>
-            </button>
-          </form>
+        <div class="banner">
+          <h1 class="banner-heading">
+            Study Blog
+          </h1>
+          <p class="banner-paragraph">
+            Learning how to learn effectively.
+          </p>
+          <button class="banner-button">Read More</button>
         </div>
-
-        <ul class="navigation-list">
-          <li class="navigation-item">
-            <a href="#" class="navigation-link">Home</a>
-          </li>
-          <li class="navigation-item">
-            <a href="#" class="navigation-link">About</a>
-          </li>
-
-          <li class="navigation-item">
-            <a href="#" class="navigation-link">Contact</a>
-          </li>
-        </ul>
-
-        <div class="copyright">
-          <p>&copy; 2020 Study Blog. All rights reserved.</p>
-        </div>
-      </nav>
-
-      <!-- End Navigation -->
-      <!-- Main Body -->
-      <div class="container">
-        <!-- Header -->
-        <header class="header">
-          <div class="brand">
-            <!-- <img src="img/crown.png" width="80" /> -->
-            <h3 class="blog-heading">Study Blog</h3>
-          </div>
-          <div class="banner">
-            <h1 class="banner-heading">
-              The Study Blog
-            </h1>
-            <p class="banner-paragraph">
-              This is all about learning how to learn effectively.
-            </p>
-            <button class="banner-button">Read More</button>
-          </div>
-        </header>
-
-        <main>
-          <article>
-            <h2><a href="#">How are you studying?</a></h2>
-            <img src="https://placeimg.com/800/540/tech" alt="blog-1" />
-            
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Aspernatur asperiores non ab! Architecto eaque odit illum nobis
-              non quod unde ab voluptas, id impedit cumque praesentium neque
-              iusto asperiores totam atque possimus, eum, est repellendus? Omnis
-              culpa voluptatem enim rem ipsam distinctio vitae nesciunt id
-              tenetur dolor nam, illo velit nulla voluptate, maiores dolore
-              sunt, adipisci temporibus in! Placeat, porro maiores numquam modi
-              animi, accusamus ab ut perspiciatis earum expedita obcaecati,
-              minima fugit illum explicabo saepe? Necessitatibus eum maiores
-              deleniti quidem nemo magnam ducimus tempore, fugit impedit in vel
-              assumenda nesciunt magni minus! A autem, rem exercitationem iste
-              accusantium quae facere tempore eos corrupti? Tempora, quisquam
-              exercitationem quasi, aut veritatis at molestias excepturi ducimus
-              harum commodi, ut optio. Iusto est hic aliquid enim in molestias
-              error? Doloribus maxime quas eius soluta accusamus? Numquam sit
-              nesciunt culpa nulla placeat, inventore nostrum, reprehenderit
-              suscipit illo voluptas sunt dolorum recusandae, corporis optio
-              enim!
-            </p>
-          </article>
-          <article>
-                  <h2><a href="#">How are you studying?</a></h2>
-                  <img src="https://placeimg.com/800/540/nature" alt="blog-2" />
-              <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-              dolore dolores, voluptatibus, aspernatur libero possimus ut,
-              tempore itaque consequuntur illo accusamus aperiam? Autem,
-              laboriosam explicabo unde quia nisi blanditiis dolor itaque in
-              cumque rem veniam ipsum fuga quibusdam, exercitationem
-              consectetur! Nobis animi nihil saepe labore quae harum, quasi modi
-              impedit adipisci ab, expedita unde sit aperiam reiciendis
-              repudiandae fugit nostrum! Id tenetur totam voluptatum facere odio
-              quis architecto harum error atque inventore labore, eligendi
-              placeat modi omnis ducimus, at porro culpa voluptatem quos maiores
-              debitis laboriosam. Quis aperiam at alias, aliquid dolorum quidem
-              accusantium sequi asperiores, quo error perferendis perspiciatis
-              doloribus tempore expedita qui odit ut officiis odio cum molestiae
-              dolorem, facere nulla magni. Obcaecati alias cupiditate rem
-              laboriosam dolorum at quae dignissimos quisquam ducimus nobis
-              nesciunt adipisci quaerat tempora veniam illo quam nulla velit
-              aliquid, quas earum dolores illum. Commodi expedita nesciunt
-              laboriosam dignissimos vero, earum dolore quis ducimus!
-            </p>
-          </article>
-          <article>
-            <h2><a href="#">How are you studying?</a></h2>
-            <img src="https://placeimg.com/800/540/animals" alt="blog-3" />
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur
-              obcaecati explicabo assumenda, culpa dignissimos asperiores cum
-              rem, necessitatibus unde vel veniam harum enim dolorem vitae,
-              voluptates ut odio eos ea fuga? Molestias earum voluptatem
-              pariatur placeat, vero nihil cupiditate esse in tempora nesciunt
-              voluptates, perferendis molestiae ea soluta, numquam optio saepe
-              distinctio animi odit? Ipsum ipsam, praesentium quod delectus
-              error animi cumque explicabo tempora libero dignissimos hic saepe
-              vero modi! At molestiae doloribus recusandae quia quod illum
-              incidunt mollitia architecto, ut perspiciatis ipsa dolorem
-              nostrum, consequuntur saepe reprehenderit exercitationem iste
-              quidem iure, tenetur deserunt fugiat. Nesciunt nihil nam at
-              dolorem enim rem? Saepe, reprehenderit magnam iste nostrum
-              dolorem, ut at unde distinctio modi a error molestiae eius beatae,
-              sapiente aperiam. Consectetur ratione inventore, non
-              exercitationem quaerat, ipsam accusamus minus possimus et est
-              veritatis repudiandae ab excepturi? Perferendis dolor deserunt
-              nostrum vitae assumenda a aliquid blanditiis, possimus eligendi at
-              iure natus.
-            </p>
-          </article>
-          
-        </main>
-        <footer class="year">
-          <p>&copy; 2020 Study Blog. All rights reserved.</p>
-        </footer>
-      </div>
+      </header>
       <!-- End of Header -->
 
-      <!--  End of main body-->
+      <section>
+        <article>
+          <h2><a href="#">What are you studying?</a></h2>
+          <img src="https://placeimg.com/800/540/tech" alt="blog-1" />
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Aspernatur asperiores non ab! Architecto eaque odit illum nobis
+            non quod unde ab voluptas, id impedit cumque praesentium neque
+            iusto asperiores totam atque possimus, eum, est repellendus? Omnis
+            culpa voluptatem enim rem ipsam distinctio vitae nesciunt id
+            tenetur dolor nam, illo velit nulla voluptate, maiores dolore
+            sunt, adipisci temporibus in! Placeat, porro maiores numquam modi
+            animi, accusamus ab ut perspiciatis earum expedita obcaecati,
+            minima fugit illum explicabo saepe? Necessitatibus eum maiores
+            deleniti quidem nemo magnam ducimus tempore, fugit impedit in vel
+            assumenda nesciunt magni minus! A autem, rem exercitationem iste
+            accusantium quae facere tempore eos corrupti? Tempora, quisquam
+            exercitationem quasi, aut veritatis at molestias excepturi ducimus
+            harum commodi, ut optio. Iusto est hic aliquid enim in molestias
+            error? Doloribus maxime quas eius soluta accusamus? Numquam sit
+            nesciunt culpa nulla placeat, inventore nostrum, reprehenderit
+            suscipit illo voluptas sunt dolorum recusandae, corporis optio
+            enim!
+          </p>
+          <a href="http://bbc.co.uk">Read More</a>
+        </article>
+        <article>
+          <h2><a href="#">How are you studying?</a></h2>
+          <img src="https://placeimg.com/800/540/nature" alt="blog-2" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+            dolore dolores, voluptatibus, aspernatur libero possimus ut,
+            tempore itaque consequuntur illo accusamus aperiam? Autem,
+            laboriosam explicabo unde quia nisi blanditiis dolor itaque in
+            cumque rem veniam ipsum fuga quibusdam, exercitationem
+            consectetur! Nobis animi nihil saepe labore quae harum, quasi modi
+            impedit adipisci ab, expedita unde sit aperiam reiciendis
+            repudiandae fugit nostrum! Id tenetur totam voluptatum facere odio
+            quis architecto harum error atque inventore labore, eligendi
+            placeat modi omnis ducimus, at porro culpa voluptatem quos maiores
+            debitis laboriosam. Quis aperiam at alias, aliquid dolorum quidem
+            accusantium sequi asperiores, quo error perferendis perspiciatis
+            doloribus tempore expedita qui odit ut officiis odio cum molestiae
+            dolorem, facere nulla magni. Obcaecati alias cupiditate rem
+            laboriosam dolorum at quae dignissimos quisquam ducimus nobis
+            nesciunt adipisci quaerat tempora veniam illo quam nulla velit
+            aliquid, quas earum dolores illum. Commodi expedita nesciunt
+            laboriosam dignissimos vero, earum dolore quis ducimus!
+          </p>
+          <a href="http://bbc.co.uk">Read More</a>
+        </article>
+        <article>
+          <h2><a href="#">How much are you studying?</a></h2>
+          <img src="https://placeimg.com/800/540/animals" alt="blog-3" />
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur
+          obcaecati explicabo assumenda, culpa dignissimos asperiores cum
+          rem, necessitatibus unde vel veniam harum enim dolorem vitae,
+          voluptates ut odio eos ea fuga? Molestias earum voluptatem
+          pariatur placeat, vero nihil cupiditate esse in tempora nesciunt
+          voluptates, perferendis molestiae ea soluta, numquam optio saepe
+          distinctio animi odit? Ipsum ipsam, praesentium quod delectus
+          error animi cumque explicabo tempora libero dignissimos hic saepe
+          vero modi! At molestiae doloribus recusandae quia quod illum
+          incidunt mollitia architecto, ut perspiciatis ipsa dolorem
+          nostrum, consequuntur saepe reprehenderit exercitationem iste
+          quidem iure, tenetur deserunt fugiat. Nesciunt nihil nam at
+          dolorem enim rem? Saepe, reprehenderit magnam iste nostrum
+          dolorem, ut at unde distinctio modi a error molestiae eius beatae,
+          sapiente aperiam. Consectetur ratione inventore, non
+          exercitationem quaerat, ipsam accusamus minus possimus et est
+          veritatis repudiandae ab excepturi? Perferendis dolor deserunt
+          nostrum vitae assumenda a aliquid blanditiis, possimus eligendi at
+          iure natus.
+          </p>
+          <a href="http://bbc.co.uk">Read More</a>
+        </article>
+
+      </section>
+      <footer class="year">
+        <p>&copy; 2020 Study Blog. All rights reserved.</p>
+      </footer>
     </div>
-  </body>
+   
+
+    <!--  End of main body-->
+  </div>
+</body>
+
 </html>
