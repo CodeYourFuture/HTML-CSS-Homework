@@ -7,7 +7,6 @@
  * 
  */
 /* Basic Reset */
-
 html {
   font-size: 62.5%;
   box-sizing: border-box;
@@ -279,4 +278,16 @@ h2 a:visited {
 footer {
   padding: 2.5rem;
   text-align: center;
+}
+
+/* Media queries */
+@media only screen and (max-width: 800px) {
+  .sidebar {
+    position: unset;
+    width: 0rem;
+    height: 0;
+  }
+  .navigation {
+    left: -50rem;
+  }
 }
