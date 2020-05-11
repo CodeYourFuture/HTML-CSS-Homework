@@ -162,6 +162,9 @@ form button{
   padding: 10px;
   margin: 10px;
 }
+form label{
+  color: olive;
+}
 /*
 P:first-of-type{
     color: orange;
