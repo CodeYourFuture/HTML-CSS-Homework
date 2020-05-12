@@ -89,7 +89,7 @@ p{
 /* Blog-main styling finished*/
 
 /* Reference P styling*/
-.blog-main p:nth-child(3){
+.blog-main p:last-of-type{
   font-size: 15px;
   font-family: sans-serif;
   font-weight: bolder;
@@ -99,7 +99,7 @@ p{
 /* Reference P styling end*/
 
 /* Articles-section styling*/
-.articles-section{
+section{
   display: flex;
   justify-content: center;
 }
@@ -113,8 +113,24 @@ p{
   margin: 5px;
   background-color: #fde1fd;
   box-shadow: 5px 15px 15px #464545;
+  justify-content: center;
+  
 }
-/* Articles-section styling end*/
+article p:last-of-type{
+  width:400px;
+  font-size: 20px;
+  border-style:hidden;
+  border-width: 5px;
+  border-radius: 8px;
+  padding: 0px;
+  margin: 0px;
+  border-color:#101111;
+  background-color: #f5eff5;
+  box-shadow: 5px 15px 15px #464545;
+}
+
+
+/* Articles-section styling end*/s
 
 /* Footer styling*/
 .index-footer{
@@ -128,7 +144,7 @@ p{
   box-shadow: 5px 10px 8px #888888;
 }
 
-.index-footer p:last-of-type{
+footer p:last-of-type{
   text-align: center;
   font-size: 30px;
   font-weight: bolder;
