@@ -35,10 +35,16 @@
 
 .main {
   margin-top: 0px;
+  float: left;
 }
 
 #intro {
   margin-top: 0px;
+}
+
+#text{
+  color: white;
+  float: right;
 }
 
 p,
