@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>My Blog</title>
+    <title>Fashion Blog</title>
     <link
       href="//fonts.googleapis.com/css?family=Roboto:400,500,300"
       rel="stylesheet"
@@ -14,9 +14,112 @@
     />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
   </head>
   <body>
     <!-- Add your HTML markup here -->
+    <header id="header">
+      <nav class="navbar">
+        <!--------------------Brand image-->
+       
+          <img class="navbrand" src="images\logo.png" />
+        </a>
+        <!--------------------Nav links-->
+
+        <ul class="navlinks">
+          <a href="#home" class="active"> Home </a>
+          <a href="#about-section"> About </a>
+          <a href="#blog"> Blog </a>
+          <a href="#contact"> Contact </a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!--Hero section-->
+      <section class="jumbotron" id="home">
+        <div class="container">
+          <img src="images\hero.jpg" />
+          <div class="hero-text">
+            <h1>Summer Fashion!</h1>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <button>Sign up for the Newsletter</button>
+          </div>
+        </div>
+      </section>
+      <!--About Section-->
+      <section class="about" id="about-section">
+        <div class="container">
+          <h2 class="header-style">About</h2>
+          <div class="card">
+            <img src="images\about.jpg" />
+            <h4>Fashion Blog</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+              expedita nam nisi qui esse, dolor exercitationem optio veritatis
+              alias accusantium aut beatae modi nulla inventore officiis, hic
+              praesentium minima eum Lorem ipsum dolor, sit amet consectetur
+              adipisicing elit. Tempore quod amet, iusto cum, minima reiciendis
+              ut deserunt sint laudantium illo assumenda soluta possimus fugit?
+              Recusandae dolorem reprehenderit possimus consectetur nihil?
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!---Blog Section-->
+    <section class="blog" id="blog">
+      <div class="container">
+        <h2 class="header-style">Blog Articles</h2>
+        <div class="blog-card">
+          <article class="blog-section">
+            <h4>Flowery, Flowy Dresses</h4>
+            <img src="images\dresses.jpg" />
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p> 
+            <p>Odit estnatus libero impedit sunt alias rem iusto asperiores expedita
+              dicta aspernatur, doloribus sequi eligendi earum, soluta inventore
+              error? Itaque, quod.</p>
+            <button>Read More</button>
+          </article>
+          <article class="blog-section">
+            <h4>Statement Glasses</h4>
+            <img src="images\glasses.jpg" />
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p> 
+            <p>Odit estnatus libero impedit sunt alias rem iusto asperiores expedita
+              dicta aspernatur, doloribus sequi eligendi earum, soluta inventore
+              error? Itaque, quod.</p>
+            <button>Read More</button>
+          </article>
+          <article class="blog-section">
+            <h4>10 ways to rock hats!</h4>
+            <img src="images\hat.jpg" />
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p> 
+            <p>Odit estnatus libero impedit sunt alias rem iusto asperiores expedita
+              dicta aspernatur, doloribus sequi eligendi earum, soluta inventore
+              error? Itaque, quod.</p>
+            <button>Read More</button>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!--Footer section-->
+    <footer id= "contact">
+      <div class="container">
+        <a href="#"><i class="fa fa-instagram"></i> Instagram</a>
+
+        <a href="#"><i class="fa fa-facebook-square"></i> Facebook</a>
+
+        <a href="#"><i class="fa fa-twitter-square"></i> Twitter</a>
+      </div>
+      <div class="container">
+        <p>Ⓒ Copyright FashionBlog by Selina Hussain</p>
+      </div>
+    </footer>
     <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
   </body>
 </html>

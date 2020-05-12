@@ -6,3 +6,206 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  font-family: "Roboto";
+  box-sizing: border-box;
+}
+
+/*basic sitewide styles*/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.header-style {
+  color: #c44c4c;
+  float: right;
+  font-size: 3rem;
+}
+
+button {
+  font-size: 1rem;
+  margin: 1rem 0 1rem 0;
+  padding: 0.5rem;
+  background-color: #7b3030;
+  color: #feebe7;
+  border-radius: 0.5rem;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #cc8d7c;
+  color: white;
+}
+
+/*---------------------Navbar styles*/
+#header {
+  background-color: #fdd7cf;
+  width: 100%;
+  position: fixed;
+  padding: 10px 0;
+  z-index: 400;
+}
+
+.navlinks {
+  float: right;
+  list-style-type: none;
+  margin-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  margin: 0.8rem;
+  color: #c44c4c;
+  line-height: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 50px;
+}
+
+.navbrand {
+  height: 100px;
+  float: left;
+  margin-left: 50px;
+}
+
+a:hover {
+  border-radius: 0.5rem;
+  background-color: rgb(255, 255, 255, 0.6);
+}
+
+/*--------------------Jumbotron section*/
+.jumbotron {
+  display: flex;
+}
+
+.jumbotron img {
+  max-width: 100%;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  right: 30%;
+ 
+}
+
+.hero-text h1 {
+  margin: 5%;
+  color: #c44c4c;
+  font-weight: bold;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.hero-text p {
+  margin: 5%;
+  color: #c44c4c;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/*--------------------About section*/
+
+.about {
+  margin-top: 30px;
+}
+
+.card {
+  column-count: 2;
+  column-width: 100%;
+  margin-top: 30px;
+}
+
+.about h4 {
+  font-size: 2rem;
+  margin: 2rem 2rem 0 0;
+}
+
+.about p {
+  font-size: 1rem;
+  line-height: 1.8rem;
+  margin: 2rem 2rem 0 0;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*--------------------Blog section*/
+.blog {
+  margin-top: 30px;
+}
+.blog-card {
+  column-count: 3;
+  column-width: 100%;
+  margin-top: 30px;
+}
+
+.blog-section img {
+  max-width: 100%;
+  transition: transform .2s;
+}
+
+.blog-section img:hover {
+  transform: scale(1.5);
+}
+
+.blog-card h4 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.blog-card p {
+  text-align: justify;
+  line-height: 1.5rem;
+}
+
+.blog-section p:first-of-type {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.blog-section:first-child{
+  border-style: double;
+  border-color: #c44c4c;
+}
+
+/*--------------------Footer section*/
+footer {
+  display: block;
+  background-color: #7b3030;
+}
+
+footer a {
+  font-size: 20px;
+  font-family: Roboto;
+  color: #feebe7;
+}
+
+footer p {
+  color: #feebe7;
+  padding: 1rem;
+}
