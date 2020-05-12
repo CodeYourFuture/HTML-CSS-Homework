@@ -1,37 +1,48 @@
-.container {
-  background-color: #636162;
-  width: 100%;
-  height: 100%;
-  margin-top= 0px;
-  }
-
-  .head {
-  font-size: 2em;   
+.head {
+  font-size: 2em;
   text-align: center;
-  color: blue;
-  }
+  color: #d4b16a;
+}
 
 .nav {
   color: white;
-  background-color: #d89898;
+  background-color: rgb(197, 145, 40);
   margin-bottom: 0px;
-  }
+}
 
-  #navigation {
+#navigation {
   text-align: center;
   position: flexible;
   top: 0;
   font-size: 20px;
-  padding: 30px;
-  }
+  padding: 40px;
+  margin-bottom: 0px;
+}
 
-  .link {
+.link {
   color: darkblue;
   text-align: center;
   margin: 75px;
-  }
+}
 
-  p, li {
+.container {
+  background-color: #aa8d39;
+  width: 100%;
+  height: 100%;
+  margin-top: 0px;
+  padding: 5px 0px 5px;
+}
+
+.main {
+  margin-top: 0px;
+}
+
+#intro {
+  margin-top: 0px;
+}
+
+p,
+li {
   margin-top: 10px;
   margin-bottom: 10px;
   margin-right: 200px;
@@ -39,37 +50,54 @@
   text-align: justify;
   color: white;
   font-size: 18px;
-  }
+}
 
-  h1, h2{
+h1,
+h2 {
   text-align: center;
   color: rgb(123, 230, 116);
-  }
+}
 
-  .container p:first-child {
+p:first-child {
   text-decoration: khaki;
-  } 
+}
 
-  h3 {
+h3 {
   text-align: center;
-  color: rgb(16, 23, 48)
-  }
-  
+  color: rgb(16, 23, 48);
+}
 
 ul {
   margin: 10px 10px 20px 20px;
-  text-align: justify;
+  text-align: left;
 }
 
-  li:nth-child(3n) {
-    text-shadow: 2px 1px rgb(119, 112, 70);
-  }
+ul li:nth-child(3n) {
+  text-shadow: 2px 1px rgb(119, 112, 70);
+}
 
-.dropin {
-width: 400px;
-height: 300px;
-border-shadow: 1px 1px 5px black;
-display: flex;
+.drop-in, .main {
+  background-color: #ffe9aa;
+  box-sizing: border-box;
+  width: 500px;
+  height: 300px;
+  box-shadow: 5px 10px 5px black;
+  border-radius: 10px;
+  text-align: center;
+  margin: 50px 0px 0px 190px;
+  padding: 30px;
+}
+
+.coursestart, .full {
+  background-color: #ffe9aa;
+  box-sizing: border-box;
+  width: 500px;
+  height: 300px;
+  box-shadow: 5px 10px 5px black;
+  border-radius: 10px;
+  text-align: center;
+  margin: 50px 0px 0px 190px;
+  padding: 30px;
 }
 
 a:hover {
