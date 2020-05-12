@@ -16,6 +16,17 @@ body {
  * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
  */
 
+
+ /* HTML styling */
+html{
+    margin: 0;
+    padding: 0;
+    border:0;
+    font-size: 100%;
+    
+}
+ /* HTML styling end*/
+
  /* Top-navigation styling */
 
 .top-navigation{
