@@ -16,6 +16,31 @@ body {
  * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
  */
 
- 
+ /* Top-navigation styling */
 
+.top-navigation{
+    height: 4.375rem;
+}
+ /* Top-navigation styling end */
+
+
+  /* .content styling */
+    .content{
+        padding:0.938rem;
+        margin:0 auto;
+        min-width: 37.5rem;
+        border:0;
+        font-size: 100%;
+        font:inherit;
+        vertical-align:baseline;
+        box-sizing: border-box; 
+    }
+
+ /* .content styling end */
+
+
+  /* Top-navigation styling */
+
+
+ /* Top-navigation styling end */
 
