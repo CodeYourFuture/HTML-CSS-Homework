@@ -2,12 +2,15 @@
 body{
   background-color: white;
   font-size: large;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Times New Roman';
 }
+p{
+  font-size: 30px;
+} 
 /* This is main styling end */
 
 /*Add-head-logo styling*/
-.add-head-logo{
+.nav-bar-top{
   border-style:none;
   border-radius: 5px;
   border-color: #bab5d4;
@@ -39,6 +42,7 @@ ul {
   border-radius: 5px;
   border-style:hidden;
   box-shadow: 15px 15px 15px #888888;
+  text-decoration: none;
   
 }
 
@@ -68,7 +72,7 @@ li a:hover:not(.active) {
 .blog-main{
   border-style:hidden;
   border-radius: 8px;
-  border-width: 1px;
+  border-width: 3px;
   border-color:#101111;
   padding: 20px;
   margin: 5px;
@@ -82,10 +86,6 @@ h1{
   margin: 5px;    
   text-align: center;
 }
-p{
-  font-size: 30px;
-}
-
 /* Blog-main styling finished*/
 
 /* Reference P styling*/
@@ -103,7 +103,7 @@ section{
   display: flex;
   justify-content: center;
 }
-.articles{
+article{
   width:400px;
   border-style:hidden;
   border-width: 5px;
@@ -113,27 +113,28 @@ section{
   margin: 5px;
   background-color: #fde1fd;
   box-shadow: 5px 15px 15px #464545;
-  justify-content: center;
   
 }
 article p:last-of-type{
   width:400px;
   font-size: 20px;
+  font-family: serif;
   border-style:hidden;
   border-width: 5px;
   border-radius: 8px;
-  padding: 0px;
   margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
   border-color:#101111;
   background-color: #f5eff5;
   box-shadow: 5px 15px 15px #464545;
+  text-align: center;
 }
-
-
-/* Articles-section styling end*/s
+/* Articles-section styling end*/
 
 /* Footer styling*/
-.index-footer{
+footer{
   border-style:hidden;
   border-width: 3px;
   border-radius: 8px;
@@ -142,25 +143,26 @@ article p:last-of-type{
   margin: 5px;
   background-color: #a2a4ac;
   box-shadow: 5px 10px 8px #888888;
+  font-family: 'Lucida Sans';
 }
 
 footer p:last-of-type{
   text-align: center;
   font-size: 30px;
   font-weight: bolder;
+  font-style: italic;
 }
-.footer-info{
-
+table{
   font-size: 30px;
   text-decoration: underline;
   border-spacing: 2git0px;
   justify-content: space-around;
   width: 100%;
 }
-.footer-info a{
+table a{
   color:black;
 }
-.footer-info a:hover{
+table a:hover{
   color:blue;
 }
 /* Footer styling*/
