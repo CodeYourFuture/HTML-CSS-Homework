@@ -100,11 +100,12 @@ h1{
 
 /* Articles-section styling*/
 section{
-  display: flex;
+  display: block;
   justify-content: center;
-}
+} 
+
 article{
-  width:400px;
+  
   border-style:hidden;
   border-width: 5px;
   border-radius: 8px;
@@ -116,7 +117,7 @@ article{
   
 }
 article p:last-of-type{
-  width:400px;
+
   font-size: 20px;
   font-family: serif;
   border-style:hidden;
