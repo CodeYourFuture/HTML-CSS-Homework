@@ -23,6 +23,10 @@ html{
     padding: 0;
     border:0;
     font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    display: block;
     
 }
  /* HTML styling end*/
@@ -45,6 +49,7 @@ html{
         font:inherit;
         vertical-align:baseline;
         box-sizing: border-box; 
+        display: block;
     }
 
  /* .content styling end */
