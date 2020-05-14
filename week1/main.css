@@ -106,6 +106,7 @@ section{
 
 article{
   border-style:hidden;
+  font-family: 'Times New Roman';
   border-width: 5px;
   border-radius: 8px;
   border-color:#101111;
@@ -113,11 +114,11 @@ article{
   margin: 5px;
   background-color: #fde1fd;
   box-shadow: 5px 15px 15px #464545;
-  
 }
+
 article p:last-of-type{
   font-size: 20px;
-  font-family: serif;
+  font-family:'Times New Roman';
   border-style:hidden;
   border-width: 5px;
   border-radius: 8px;
@@ -154,7 +155,7 @@ footer p:last-of-type{
 table{
   font-size: 30px;
   text-decoration: underline;
-  border-spacing: 2git0px;
+  border-spacing: 20px;
   justify-content: space-around;
   width: 100%;
 }
