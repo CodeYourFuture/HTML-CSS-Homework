@@ -1,7 +1,11 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 .container {
   background-color: #aa8d39;
   width: 100%;
-  height: 1900px;
+  height: 2100px;
   margin: 50px 50px 0px, 150px;
   padding: 5px 0px 5px;
   border-color: magenta;
@@ -32,7 +36,7 @@
 .link {
   color: rgb(77, 13, 52);
   text-align: center;
-  margin: 75px;
+  margin: 60px;
 }
 
 .pre > h2 {
@@ -40,14 +44,25 @@
   margin: 60px;
 }
 
-img {
-  float:left;
+.solo, .codepen {
+  float:right;
   width: 150px;
   height: 150px;
   border-radius: 10px;
   border: 5px solid rgb(133, 79, 79);
-  margin: 30px;
+  margin-bottom: 60px;
+  margin-right: 60px;
   max-width: 100%;
+  height:auto;
+ }
+
+ .profile-image {
+  width: 150px;
+  height: 150px;
+  float:left;
+  border-radius: 10px;
+  border: 5px solid rgb(133, 79, 79);
+  margin: 30px;
   height:auto;
  }
 
@@ -78,11 +93,11 @@ img {
   background-color: #ffe9aa;
   box-sizing: border-box;
   width: 1000px;
-  height: 300px;
+  height: 350px;
   box-shadow: 5px 10px 5px black;
   border-radius: 10px;
   text-align: center;
-  padding: 30px;
+  padding: 10px;
   margin: 10px 30px 20px 280px;
 }
 
@@ -100,25 +115,41 @@ a[href*="Intro"] {
   font-size: 20px;
 }
 
+.link-image{
+  vertical-align: right;
+}
+
+
 h1,
 h2 {
   text-align: center;
-  color: rgb(123, 230, 116);
+  color: rgb(47, 233, 34);
 }
 
 h3 {
   text-align: center;
   color: rgb(16, 23, 48);
+  font-weight: 1200;
 }
 
 ul {
   margin: 0px;
   text-align: left;
-  font-size: 20px;
+  font-size: 22px;
+  list-style: none;
 }
 
 ol {
-  font-style: italic;
+  list-style: none;
+  font-size: 20px;
+}
+
+.weblink{
+  text-align: justify;
+}
+
+.fulldev li:nth-child(2) {
+  color: rgb(212, 151, 27);
 }
 
 a:hover {
