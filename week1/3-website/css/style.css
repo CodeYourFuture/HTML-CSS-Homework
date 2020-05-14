@@ -1,3 +1,12 @@
+.container {
+  background-color: #aa8d39;
+  width: 100%;
+  height: 1900px;
+  margin: 50px 50px 0px, 150px;
+  padding: 5px 0px 5px;
+  border-color: magenta;
+}
+
 .topic {
   font-size: 2em;
   text-align: center;
@@ -21,18 +30,9 @@
   }
 
 .link {
-  color: darkblue;
+  color: rgb(77, 13, 52);
   text-align: center;
   margin: 75px;
-}
-
-.container {
-  background-color: #aa8d39;
-  width: 100%;
-  height: 1900px;
-  margin: 50px 50px 0px, 150px;
-  padding: 5px 0px 5px;
-  border-color: magenta;
 }
 
 .pre > h2 {
@@ -46,15 +46,38 @@ img {
   height: 150px;
   border-radius: 10px;
   border: 5px solid rgb(133, 79, 79);
-  margin: 10px;
+  margin: 30px;
   max-width: 100%;
   height:auto;
  }
 
+.social {
+  padding: 0px;
+  margin-right: 0px;
+  position: absolute;
+  top: 25%;
+}
+
+.social li {
+  list-style-type: none;
+  padding: 20px;
+  transition: .6s;
+  color: white;
+  position: relative;
+}
+
+.social li i {
+  font-size: 40px;
+}
+
+.social li:hover {
+  padding: 20px 40px;
+}
+
 .prelim, .coursestart, .drop-in, .full{ 
   background-color: #ffe9aa;
   box-sizing: border-box;
-  width: 900px;
+  width: 1000px;
   height: 300px;
   box-shadow: 5px 10px 5px black;
   border-radius: 10px;
@@ -63,16 +86,11 @@ img {
   margin: 10px 30px 20px 280px;
 }
 
-#intro {
-  margin-top: 0px;
+a[href*="Intro"] {
+  background-color: rgb(189, 238, 144);
 }
 
-#text{
-  color: white;
-  float: right;
-}
-
-.pre > p, .drop> p {
+.pre > p {
   margin-top: 60px;
   margin-bottom: 10px;
   margin-right: 200px;
@@ -82,34 +100,11 @@ img {
   font-size: 20px;
 }
 
-.drop > p {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  color: burlywood;
-}
-
-a[href*="Intro"] {
-  background-color: rgb(189, 238, 144);
-}
-
-h2 ~ ul {
-font-size: 20px;
-}
-
-h3 ~ ol {
-  text-align: right;
-}
-
-.drop-in ul:nth-child(2){
-font-style: italic;
-}
-
 h1,
 h2 {
   text-align: center;
   color: rgb(123, 230, 116);
 }
-
 
 h3 {
   text-align: center;
@@ -117,12 +112,13 @@ h3 {
 }
 
 ul {
-  margin: 10px 10px 20px 20px;
+  margin: 0px;
   text-align: left;
+  font-size: 20px;
 }
 
-ul li:nth-child(3n) {
-  text-shadow: 2px 1px rgb(119, 112, 70);
+ol {
+  font-style: italic;
 }
 
 a:hover {
