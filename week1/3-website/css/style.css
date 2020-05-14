@@ -47,6 +47,8 @@ img {
   border-radius: 10px;
   border: 5px solid rgb(133, 79, 79);
   margin: 10px;
+  max-width: 100%;
+  height:auto;
  }
 
 .prelim, .coursestart, .drop-in, .full{ 
