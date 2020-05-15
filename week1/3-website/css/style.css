@@ -1,7 +1,7 @@
 body{
     background-color: #00ffee;
   }
-  .header{
+  header{
     display: flex;
     background-color: #ff0015;
     
@@ -32,29 +32,34 @@ body{
     width: 90px;
     margin-left: 0px;
   }
-  .column {
-    float: left;
-    width: 25%;
-    padding: 2px;
-    margin-left: 70px;
-    padding-top: 40px;
+ .img-tab{
+      margin-top: 60px;
+      width: 400px;
+      height: 500px; 
+      margin-left: 1em;
+    
   }
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
+  figcaption{
+      color: #040272e5;
+      text-align-last: center;
+      margin-bottom: 5em;
   }
-  .article:first-child{
+  marquee{
+      color: darkblue;
+      margin-top: 30px;
+      font-size: 25px;
+  }
+  article:first-child{
     background-color: #b34ab1;
-    marging-top: 20px;
+    margin-top: 20px;
     color: #ffffff;
     padding: 30px;
   }
-  .article:nth-child(2){
+  article:nth-child(2){
     background-color: #18fc1c;
     padding: 30px;
   }
-  .article:last-child{
+  article:last-child{
     background-color: #f0a421;
     padding: 30px;
   }
