@@ -44,8 +44,17 @@ body {
   margin: 60px;
 }
 
-.solo, .codepen, .codeorg {
-  float:right;
+.profile-image {
+  width: 150px;
+  height: 150px;
+  float:left;
+  border-radius: 10px;
+  border: 5px solid rgb(133, 79, 79);
+  margin: 30px;
+  height:auto;
+ }
+
+ .solo, .codepen, .codeorg,  .capgemini {
   width: 150px;
   height: 150px;
   border-radius: 10px;
@@ -55,17 +64,21 @@ body {
   margin-top: 0px;
   max-width: 100%;
   height:auto;
+  float:right;
  }
 
- .profile-image {
-  width: 150px;
-  height: 150px;
-  float:left;
-  border-radius: 10px;
-  border: 5px solid rgb(133, 79, 79);
-  margin: 30px;
+ .cyf_logo {
+  width: 100px;
+  height:75px;
+  border-radius: 5px;
+  border: 5px rgb(34, 24, 24);
+  margin-bottom: 30px;
+  margin-right: 110px;
+  margin-top: 5px;
+  max-width: 100%;
   height:auto;
- }
+  float: right;
+}
 
 .social {
   padding: 0px;
