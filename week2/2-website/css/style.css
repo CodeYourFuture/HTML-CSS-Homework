@@ -17,3 +17,41 @@ body {
  */
 
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 150vh;
+}
+header{
+    height: 5rem;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+   
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+   
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+a:hover{
+    color: black;
+}
+#hero{
+    width: fit-content;
+}
