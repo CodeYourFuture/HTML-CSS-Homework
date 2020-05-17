@@ -1,8 +1,72 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+body{
+    background-color: #00ffee;
+  }
+  header{
+    display: flex;
+    background-color: #ff0015;
+    
+  }
+  h1{
+    flex: 1;
+    
+    text-align: center;
+    margin-left: 350px;
+  }
+  h1:hover{
+    color: blue;
+  }
+  h4{
+    padding: 20px;
+  }
+  #nav-bar{
+    flex: 1;
+    
+    text-align: right;
+    margin-top: 30px;
+    margin-right: 20px;
+    font-size: 18px;
+    letter-spacing: 5px;
+  }
+  #logo{
+    float: left;
+    width: 90px;
+    margin-left: 0px;
+  }
+ .img-tab{
+      margin-top: 60px;
+      width: 400px;
+      height: 500px; 
+      margin-left: 1em;
+    
+  }
+  figcaption{
+      color: #040272e5;
+      text-align-last: center;
+      margin-bottom: 5em;
+  }
+  marquee{
+      color: darkblue;
+      margin-top: 30px;
+      font-size: 25px;
+  }
+  article:first-child{
+    background-color: #b34ab1;
+    margin-top: 20px;
+    color: #ffffff;
+    padding: 30px;
+  }
+  article:nth-child(2){
+    background-color: #18fc1c;
+    padding: 30px;
+  }
+  article:last-child{
+    background-color: #f0a421;
+    padding: 30px;
+  }
+  footer{
+    background-color: black;
+    color: #ffffff;
+    text-align: right;
+    margin-right: 20px;
+    padding: 20px;
+  }
