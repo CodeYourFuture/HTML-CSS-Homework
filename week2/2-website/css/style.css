@@ -111,18 +111,6 @@ head{
     margin-top: 1.563rem;
 }
 button {
-    width: 9.688rem;
-    background-color: #f15a29;
-    border-color: #f15a29;
-    text-shadow: none;
-    border-style: none;
-    border-radius: 4px;
-    padding: 1rem 1.5rem;
-    color: white;
-    font-size: 1.125rem;
-}
-
-button {
     -webkit-appearance: button;
     -webkit-writing-mode: horizontal-tb !important;
     text-rendering: auto;
@@ -139,7 +127,18 @@ button {
     font: 400 11px system-ui;
     border-width: 1px;
     border-image: initial;
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
 }
+
+
 .cases {
     background-color: #fff;
     overflow: hidden;
@@ -148,9 +147,22 @@ button {
 
 .cases .content {
     margin-top: 7.875rem;
-    padding: none;
     color: #1d1e21;
     text-align: center;
+}
+
+.cases h2 {
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+}
+
+h2 {
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; 
 }
 
 ol, ul {
@@ -165,6 +177,12 @@ ul {
     margin-inline-end: 0px;
     padding-inline-start: 40px;
 }
+
+.cases .devices > li {
+    width: 33.3333333%;
+    float: left;
+}
+
 li {
     display: list-item;
     text-align: -webkit-match-parent;
@@ -174,17 +192,98 @@ img {
     width: 127px;
     height: 127px;
 }
-
-.cases .devices > li {
-    width: 33.3333333%;
-    float: left;
+.caption{
+    display: block;
+}
+.cases .devices h3 {
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
 }
 
+h3 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/*Footer styling */
 .social {
     background-color: #fff;
     overflow: auto;
     padding-bottom: 9.375rem;
     text-align: center;
+}
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+}
+h5 {
+    display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.social .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+}
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+.social .twitter {
+    color: #55acee;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.fa-twitter:before {
+    content: "\f099";
+}
+.social .facebook {
+    color: #4c66a4;
+}
+.fa-facebook:before {
+    content: "\f09a";
+}
+.social .instagram {
+    color: #3f729b;
+}
+.fa-instagram:before {
+    content: "\f16d";
+}
+
+.social .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
 }
 
  @media (min-width: 48rem){
