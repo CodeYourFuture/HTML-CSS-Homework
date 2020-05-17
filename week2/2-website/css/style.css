@@ -34,20 +34,19 @@ head{
 }
 
 /*Navigation styles*/
- .top-navigation {
+.top-navigation {
     background-color: #fff;
     position: fixed;
     width: 100%;
     border-bottom: 1px solid #DDD;
     z-index: 9999;
-    display: block;
 }
 
 .top-navigation > .content {
     height: 4.375rem;
 }
 
-.content{
+.content {
     padding: 0 0.938rem;
     margin: 0 auto;
     min-width: 37.5rem;
@@ -72,9 +71,10 @@ head{
 
 .top-navigation .logo {
     height: 4.375rem;
+    width: 26px;
 }
 
-/* Section styles */
+/* Section introduction styles */
 .introduction {
     background-image: url(../img/first-background.jpg);
     background-position: center bottom;
@@ -93,16 +93,14 @@ head{
     margin-top: 17.5rem;
     font-size: 3.125rem;
 }
-
-.introduction h3 {
-    margin-top: 1.25rem;
-    font-size: 1.563rem;
-}
-
 .introduction h1, .introduction h3 {
     color: white;
     text-align: center;
     font-weight: 300;
+}
+.introduction h3 {
+    margin-top: 1.25rem;
+    font-size: 1.563rem;
 }
 
 .introduction .buttons {
@@ -138,7 +136,7 @@ button {
     font-size: 1.125rem;
 }
 
-
+/*Section cases styling*/
 .cases {
     background-color: #fff;
     overflow: hidden;
@@ -147,6 +145,7 @@ button {
 
 .cases .content {
     margin-top: 7.875rem;
+    padding: none;
     color: #1d1e21;
     text-align: center;
 }
@@ -155,9 +154,6 @@ button {
     font-size: 2.75rem;
     margin: 1.625rem 0 3.125rem;
     font-weight: 300;
-}
-
-h2 {
     display: block;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
@@ -169,7 +165,7 @@ ol, ul {
     list-style: none;
 }
 
-ul {
+.devices ul {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -183,25 +179,20 @@ ul {
     float: left;
 }
 
-li {
+.cases .devices > li {
     display: list-item;
     text-align: -webkit-match-parent;
 }
 
-img {
+.devices img {
     width: 127px;
     height: 127px;
 }
-.caption{
-    display: block;
-}
+
 .cases .devices h3 {
     font-weight: 400;
     font-size: 1.563rem;
     margin: 2.5rem 0px 1.875rem;
-}
-
-h3 {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -244,6 +235,9 @@ h5 {
     font-weight: 300;
     color: #838994;
 }
+.social .icons > li:hover {
+    cursor: pointer;
+}
 .social .icons > li {
     border-radius: 1.25rem;
     width: 2.5rem;
@@ -254,6 +248,8 @@ h5 {
     padding: 0.625rem 0;
     text-align: center;
 }
+
+
 .social .twitter {
     color: #55acee;
 }
