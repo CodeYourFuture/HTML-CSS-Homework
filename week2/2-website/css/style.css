@@ -30,19 +30,25 @@ header {
 
 .logo {
     width: 1.7rem;
+    margin-left: 8.5rem;
 }
 
 li {
     display: inline;
 }
 
-li a {
+.nav-links {
+    margin-right: 7rem;
+}
+
+.nav-link a {
     text-decoration: none;
     color: rgb(165, 165, 165);
     font-weight: 550;
+    margin-right: 1.5rem;
 }
 
-.active {
+.nav-link .active {
     color: rgb(112, 112, 112);
     font-weight: 550;
 }
@@ -93,13 +99,16 @@ main a:hover {
 h2 {
     font-size: 2.75rem;
     font-weight: 350;
+    text-align: center; /*BUG*/
 }
 
 .box-container {
     padding: 6rem 0;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
+    width: 60%;
+    margin: 0 auto;
     border-bottom: .5px solid rgba(165, 165, 165, 0.5);
     text-align: center;
 }
@@ -127,37 +136,53 @@ footer {
     padding-bottom: 8rem;
 }
 
+/* 
 .social-icons img {
     width: 1rem;
     border: .5px solid rgba(165, 165, 165, 0.5);
     border-radius: 50%;
     padding: .7rem;
     margin: .3rem;
+} */
+
+.social-icons {
+    display: flex;
+}
+
+.social-icon {
+    border: .5px solid rgba(165, 165, 165, 0.5);
+    border-radius: 50%;
+    padding: .7rem;
+    margin: 0 .3rem;
+}
+
+.social-icon img {
+    width: 1rem;
 }
 
 .copyright {
     color: rgb(165, 165, 165);
     font-size: .9rem;
 }
-
+/*
 @media(max-width: 1350px) { /*words in the boxes start to move*/
-    body {
+   /*body {
         background: pink;
     }
-}
+}*/
 
-@media(max-width: 1200px) { /*icons and words are not squashed*/
-    body {
-        background: rgb(255, 128, 149);
-    }
+/*@media(max-width: 1200px) { /*icons and words are not squashed*/
+    /*body {
+        background: rgb(236, 255, 128);
+    }*/
 
-@media(max-width: 990px) { /*icons and words are squashed*/
+@media(max-width: 960px) { /*icons and words are squashed*/
     body {
-        background: rgb(255, 91, 118);
-    }
-
-@media(max-width: 615px) { /*scroll bar appears on background img*/
-    body {
-        background: rgb(255, 70, 101);
+        width: 960px;
     }
 }
+/*@media(max-width: 615px) { /*scroll bar appears on background img*/
+    /*body {
+        background: rgb(70, 233, 255);
+    }
+}*/
