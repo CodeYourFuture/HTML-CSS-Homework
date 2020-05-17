@@ -67,9 +67,10 @@ h1 {
     font-size: 3.125rem;
     font-weight: 200;
     position: absolute;
-    top: 37%;
+    top: 40%;
     left: 50%;
     transform: translateX(-50%);
+   
     
 }
 p{
@@ -96,6 +97,7 @@ button{
     top: 53.5%;
     left: 50%;
     transform: translateX(-50%);
+  
 }
 button:hover{
     background-color: #b33e18;
@@ -188,4 +190,13 @@ h6{
  }
  #meet:hover{
      color: gray;
+ }
+ nav{
+     position: fixed;
+     width: 100%;
+     top: 0;
+     background-color: white;
+     z-index: 1;
+    
+
  }
