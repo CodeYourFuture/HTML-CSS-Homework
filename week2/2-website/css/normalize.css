@@ -19,6 +19,7 @@ html {
     font-family: sans-serif; /* 1 */
     -ms-text-size-adjust: 100%; /* 2 */
     -webkit-text-size-adjust: 100%; /* 2 */
+    font-size: 62.5%;  /* 10/16*100 = 62.5  =>  1rem = 10px*/
 }
 
 /**

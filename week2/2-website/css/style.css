@@ -4,6 +4,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
+    
 }
 
 /**
@@ -15,5 +16,100 @@ body {
  * 
  * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
  */
+
+
+/* ---------------------------------------*/
+/* --------------HEADER-------------------*/
+/* ---------------------------------------*/
+
+.nav-bar{
+    height: 7rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    display: flex;
+}
+
+.nav-bar-content{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo{
+    height: 100%;
+    width: 2.6rem;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+
+.nav-item{
+    list-style-type: none;
+    font-size: 1.66rem;
+    color: #838994;
+    
+}
+
+.nav-link .active{
+    color: #4c5058;
+    font-weight: 500;
+}
+
+.nav-link{
+    text-decoration: none;
+    margin-left: 2.5rem;
+}
+
+.nav-item:hover{
+    color: #333333;
+}
+
+
+.jumbotron{
+    height: 74rem;
+    background-image: url('../img/first-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.jumbotron-heading{
+    font-size: 5rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.jumbotron-description{
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.jumbotron-btn{
+    padding: 1.6rem 2.4rem;
+    background-color: #f15a29;
+    font-size: 1.8rem;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+.jumbotron-btn:hover{
+    background-color: #d9400e;
+}
+
+
+
+
 
 
