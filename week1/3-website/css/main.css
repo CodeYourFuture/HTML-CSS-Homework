@@ -1,3 +1,13 @@
+@font-face{
+	font-family: PermanentMarker-Regular;
+	src: url(../fonts/Permanent_Marker/PermanentMarker-Regular.ttf); 
+}
+
+@font-face{
+	font-family: Righteous-Regular;
+	src: url(../fonts/Righteous/Righteous-Regular.ttf); 
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -22,57 +32,68 @@ body{
 
 .main-title{
     display: inline-block;
-    margin-left: 20px;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 0 10px;
-    border-top: 5px solid #333;
-    border-right: 5px solid #333;
-    border-bottom: 0;
-    border-left: 5px solid #333;
+    color: antiquewhite;
+    margin-left: 45px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 5px;
+    border: 5px solid #333;
     border-radius: 10px;
-    background-color: #111;
-    color: beige;
-    font-size: 40px;
+    background-color: black;
+    font-family: Righteous-Regular;
+    font-size: 35px;
 }
 
 .header-img{
-   display: flex;
+   display: block;
    width: 250px;
    height: 100px;
-
 }
 
 .header-nav{
-    display: inline-flex;
-    justify-content: space-around;
-    align-items: center;
-    float: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 100px;
 }
 
 .nav-link{
-    display: flex;
-    justify-content: space-between;
+    display: inline-flex;
+    justify-content: space-evenly;
     align-items: center;
-    width: 100%;
-    list-style: none;
-    margin-right: 60px;
+    margin-right: 50px;
 }
 
 .nav-link a{
-    display: flex;
-    
+    padding: 5px;
+    border: 5px solid #333;
+    border-radius: 10px;
+    background-color: black;
+    color: antiquewhite;
+    text-decoration: none;
+    font-family: Righteous-Regular;
+    font-size: 20px;
 }
 
 .article{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    font-family: PermanentMarker-Regular;
+    font-size: 20px;
+    text-decoration: underline;
 }
 
-.title-extension{
-    display: inline-block;
+.article-img{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.article-img img{
+    width: 400px;
+    height: 400px
 }
