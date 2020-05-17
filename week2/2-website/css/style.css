@@ -61,6 +61,7 @@ a:hover{
     background-position: center;
     background-size: cover;
     height: 41.5625rem;
+   
 }
 h1 {
     color: white;
@@ -164,6 +165,8 @@ footer{
 #socialicons{
     width: 2.5rem;
     height: 2.5rem;
+    
+    
 }
 h5{
     text-align: center;
@@ -182,6 +185,8 @@ h6{
     width: 10rem;
     margin: auto;
     padding-bottom: 10px;
+  
+   
 
 }
  #meet{
@@ -199,4 +204,8 @@ h6{
      z-index: 1;
     
 
+ }
+ .fa{ 
+     color: #19557a;
+     border-radius: 10px;
  }
