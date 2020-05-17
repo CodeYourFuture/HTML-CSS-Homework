@@ -1,9 +1,21 @@
-
+html{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    display:block;
+}
+ 
  /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
 
 body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
+    line-height: 1;
+    display: block;
 }
 
 /**
@@ -17,46 +29,167 @@ body {
  */
 
 
- /* HTML styling */
-html{
-    margin: 0;
-    padding: 0;
-    border:0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    box-sizing: border-box;
-    display: block;
-    
+head{
+    display: none;
 }
- /* HTML styling end*/
 
- /* Top-navigation styling */
+/*Navigation styles*/
+ .top-navigation {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+    z-index: 9999;
+    display: block;
+}
 
-.top-navigation{
+.top-navigation > .content {
     height: 4.375rem;
 }
- /* Top-navigation styling end */
 
+.content{
+    padding: 0 0.938rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
+}
 
-  /* .content styling */
-    .content{
-        padding:0.938rem;
-        margin:0 auto;
-        min-width: 37.5rem;
-        border:0;
-        font-size: 100%;
-        font:inherit;
-        vertical-align:baseline;
-        box-sizing: border-box; 
-        display: block;
+.top-navigation .links {
+    float: right;
+    color: #838994;
+    font-size: 1.04rem;
+    margin-top: 1.7rem;
+}
+
+.top-navigation .links li.active {
+    color: #4c5058;
+    font-weight: 500;
+}
+
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 1.563rem;
+}
+
+.top-navigation .logo {
+    height: 4.375rem;
+}
+
+/* Section styles */
+.introduction {
+    background-image: url(../img/first-background.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+}
+.content {
+    padding: 0 0.938rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
+}
+
+.introduction h1 {
+    margin-top: 17.5rem;
+    font-size: 3.125rem;
+}
+
+.introduction h3 {
+    margin-top: 1.25rem;
+    font-size: 1.563rem;
+}
+
+.introduction h1, .introduction h3 {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+
+.introduction .buttons {
+    color: white;
+    text-align: center;
+    margin-top: 1.563rem;
+}
+button {
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+}
+
+button {
+    -webkit-appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 11px system-ui;
+    border-width: 1px;
+    border-image: initial;
+}
+.cases {
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 5rem;
+}
+
+.cases .content {
+    margin-top: 7.875rem;
+    padding: none;
+    color: #1d1e21;
+    text-align: center;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+img {
+    width: 127px;
+    height: 127px;
+}
+
+.cases .devices > li {
+    width: 33.3333333%;
+    float: left;
+}
+
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
+
+ @media (min-width: 48rem){
+    .content {
+        width: 46rem;
     }
-
- /* .content styling end */
-
-
-  /* Top-navigation styling */
-
-
- /* Top-navigation styling end */
-
+ }
+        
