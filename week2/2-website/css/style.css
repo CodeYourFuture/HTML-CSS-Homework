@@ -110,6 +110,47 @@ body {
 
 
 
+/* ---------------------------------------*/
+/* --------------FEATURES-------------------*/
+/* ---------------------------------------*/
 
+
+.features{
+    margin-top: 12.6rem;
+}
+
+.section-title{
+    font-size: 4.4rem;
+    font-weight: 300;
+    color: #1d1e21;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.features-content{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature-img{
+    width: 127px;
+    height: 127px;
+
+}
+
+.feature-description{
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 4rem;
+}
 
 
