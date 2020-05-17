@@ -1,5 +1,4 @@
-
- /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
+/* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -16,4 +15,44 @@ body {
  * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
  */
 
+nav {
+    display: flex;
+    color: gray;
+}
 
+nav ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+}
+
+nav ul li:first-child {
+
+    font-weight: bold;
+}
+
+.navigation-img {
+    display: block;
+}
+
+.navigation-container {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+
+#karma-logo {
+    margin-left: 50px;
+    float: left;
+    height: auto;
+    width: auto;
+    max-height: 50px;
+    max-width: 50px;
+}
