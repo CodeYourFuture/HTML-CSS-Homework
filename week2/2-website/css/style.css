@@ -24,27 +24,29 @@ body {
 }
 body{
     width: 100%;
-    height: 150vh;
+    height: 100vh;
 }
 header{
-    height: 5rem;
+    height: 4.4375rem;
 }
 
 
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 100%;
-   
+.logo{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 62.399rem;
+   height: 4.375rem;
+   margin: auto;
 }
 ul{
     list-style: none;
     display: flex;
-    justify-content: space-between;
-    width: 30%;
-   
+    width: 31.67rem;
+    justify-content: space-around;
 }
+
+
 a{
     text-decoration: none;
     color: gray;
@@ -52,6 +54,138 @@ a{
 a:hover{
     color: black;
 }
-#hero{
-    width: fit-content;
+.firstsection{
+  
+    background-image: url(/2-website/img/first-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 41.5625rem;
 }
+h1 {
+    color: white;
+    font-size: 3.125rem;
+    font-weight: 200;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+p{
+    color: white;
+    position: absolute;
+    font-size: 1.5625rem;
+    font-weight: 200;
+    margin-top: 1.25rem;
+    top: 46%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+button{
+    width: 9.688rem;
+    height: 3.4375rem;
+    background-color:#f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 1.125rem;
+    position: absolute;
+    top: 53.5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+button:hover{
+    background-color: #b33e18;
+}
+.secondsection{
+  
+    height: 32.8125rem;
+}
+.content{
+    text-align: center;
+    height: 32.8125rem;
+}
+#contentlist{
+    
+    width: 60%;
+    height: 18.75rem;
+    margin: auto;
+    align-items: flex-start;
+    justify-content: space-evenly;
+   
+    padding-bottom: 80px;
+    
+}
+#lists{
+    
+    height: 225px;
+    width: 322px;
+    
+    
+    
+    
+}
+#images{
+    width: 127px;
+    height: 127px;
+}
+h3{
+    font-size: 1.563rem;
+    font-weight: 400;
+}
+h2{
+    font-size: 2.75rem;
+    font-weight: 200;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+.caption{
+    
+    margin: 40px 0px 30px;
+    
+}
+footer{
+   
+    width: 62.4rem;
+    margin: auto;
+    height: 18.06rem;
+}
+.footercontent{
+   
+    margin: auto;
+    width: 62.4rem;
+    height: 8.375rem;
+}
+#socialicons{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+h5{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 15px 0px 10px 0px;
+   
+}
+h6{
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 100;
+}
+#socialul{
+   
+    width: 10rem;
+    margin: auto;
+    padding-bottom: 10px;
+
+}
+ #meet{
+     color: #424141;
+     font-weight: 450;
+ }
+ #meet:hover{
+     color: gray;
+ }
