@@ -16,6 +16,7 @@ body {
     -webkit-font-smoothing: antialiased;
     line-height: 1;
     display: block;
+    margin:0;
 }
 
 /**
