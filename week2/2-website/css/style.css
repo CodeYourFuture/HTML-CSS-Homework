@@ -42,13 +42,20 @@ a {
 }
 #imgcont {
     margin-top: 0px;
-    height: 30%;
     background-image: url("/img/first-background.jpg");
-    background-size: 100%;
+
+    background-size: cover;
     color: ghostwhite;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;  
+    /*height: 100vh;*/
 }
 h1 {
-    padding-top: 300px;
+    /*padding-top: 300px;*/
     color: ghostwhite;
 }
 p {
@@ -58,11 +65,33 @@ p {
     text-align: center;
     background-color: orange;
     color: white;
-    margin-bottom: 300px;
+    /*margin-bottom: 300px;*/
     width: 100px;
     /*height: 50px;*/
     border-radius: 5px;
     padding: 20px;
+}
+#button:hover {
+    background-color: tomato;
+}
+#imgbuy {
+    width: 100%;
+
+}
+#icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ico {
+    border: tomato;
+    background-color: turquoise;
+    min-height: 300px;
+    width: 10%;
+    height: 10%;
+}
+p {
+        text-align: center;
 }
 /**
  * Add your custom styles below
