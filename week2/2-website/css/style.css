@@ -93,8 +93,53 @@ body {
 =            MAIN            =
 =============================================*/
 
-main {
-    margin-top: var(--header-height);
+.hero__container {
+    background-image: url('../img/first-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 735px;
+    display: flex;
+    overflow: auto;
+}
+
+.hero {
+    min-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+
+.hero__heading {
+    color: #fff;
+    font-size: 3.125rem;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.hero__subheading {
+    color: #fff;
+    font-size: 1.563rem;
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
+.hero__button {
+    color: white;
+    font-family: Arial;
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+    border-radius: 3px;
+    border: none;
+    text-transform: capitalize;
+    background-color: #f15a29;
+}
+
+.hero__button:hover {
+    background-color: #d9400e;
 }
 
 /*=====  End of MAIN  ======*/
