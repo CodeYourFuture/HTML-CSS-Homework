@@ -213,7 +213,7 @@ ol, ul {
     margin: 1.313rem 0;
 }
 
-hr {
+.social hr {
     display: block;
     unicode-bidi: isolate;
     margin-block-start: 0.5em;
@@ -222,7 +222,7 @@ hr {
     margin-inline-end: auto;
     overflow: hidden;
 }
-h5 {
+.social h5 {
     display: block;
     margin-block-start: 1.67em;
     margin-block-end: 1.67em;
