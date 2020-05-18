@@ -2,8 +2,10 @@
  /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
 
 body {
+    background-color: blueviolet;
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
+  
 }
 
 /**
@@ -16,4 +18,45 @@ body {
  * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
  */
 
+header{
+    background-color: yellowgreen;
+   
+}
+nav{
+    display: flex;
+    background-color: aqua;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: brown;
+    width: 60%;
+    height: auto;
+    margin: auto;
+    
+   
+}
+img{
+  width: 5%;
+  height: 5%;
+align-self: center;
+
+}
+ul{
+    display: flex;
+    background-color: coral;
+    justify-content:space-between;
+     list-style-type: none;
+     align-items: center;
+    width: inherit;
+   
+ 
+}
+li{
+    color: chartreuse;
+    justify-self: center;
+  
+   
+}
 
