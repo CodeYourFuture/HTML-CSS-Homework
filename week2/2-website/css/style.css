@@ -8,6 +8,7 @@
     --text-link-color-hover: #333333;
     --text-link-color-active: #4c5058;
     --text-link-size: 1.04rem;
+    --text-color: #1d1e21;
 
     box-sizing: border-box;
 }
@@ -93,6 +94,15 @@ body {
 =            MAIN            =
 =============================================*/
 
+
+/**
+ *
+ * Hero
+ *
+ */
+
+
+
 .hero__container {
     background-image: url('../img/first-background.jpg');
     background-repeat: no-repeat;
@@ -142,6 +152,55 @@ body {
     background-color: #d9400e;
 }
 
+
+/**
+ *
+ * Features
+ *
+ */
+
+.features {
+    min-width: 600px;
+    padding: 0 .938rem;
+    margin-bottom: 6.4rem;
+}
+
+.features__heading {
+    color: var(--text-color);
+    font-weight: 300;
+    font-size: 2.75rem;
+    text-align: center;
+    line-height: 2.8rem;
+    margin-top: 8rem;
+    margin-bottom: 3.2rem;
+}
+
+.features__list {
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 700px;
+}
+
+.features__list>li {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.features__image {
+    width: 127px;
+    height: 127px;
+}
+
+.features__description {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    text-align: center;
+    margin-top: 2.3rem;
+}
+
 /*=====  End of MAIN  ======*/
 
 
@@ -175,6 +234,18 @@ body {
         max-width: 960px;
     }
 
+
+    /**
+     *
+     * MAIN
+     *
+     */
+
+    .features__list {
+        max-width: 920px;
+    }
+
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -188,6 +259,20 @@ body {
     .header {
         max-width: 60%;
     }
+
+
+    /**
+     *
+     * MAIN
+     *
+     */
+
+
+    .features__list {
+        width: 60%;
+        max-width: none;
+    }
+
 
 }
 
