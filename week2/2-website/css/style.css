@@ -17,3 +17,90 @@ body {
  */
 
 
+
+ .top-container
+ {
+     display: flex;
+     justify-content: space-around;
+     width:80%;
+     margin: auto;
+ }
+ 
+ .logo
+{
+    width: 2vw;
+    height:auto;
+}
+
+
+ nav ul
+ {
+     display: flex;
+     justify-content: space-around;
+     width: 100%;
+ }
+
+ nav ul li
+ {
+     list-style-type: none;
+     font-size: 1rem;
+ }
+
+ .top-item
+ {
+     margin-top: 1%;
+ }
+
+ .second-item
+ {
+     width:50%;
+ }
+
+ .navbar a 
+{
+    text-decoration: none;
+    color: rgb(135, 145, 145);
+}
+
+
+
+
+
+
+/*
+
+ header{
+     width: 100%;
+ }
+
+.karma-pic
+{
+    width: 127px;
+    height:127px;
+
+}
+
+nav
+{
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+    width:80%;
+    margin:auto ;
+}
+
+nav ul li
+{
+    
+}
+
+nav ul
+{
+    
+    display:flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-around;
+}
+*/
