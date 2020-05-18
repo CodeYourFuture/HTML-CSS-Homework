@@ -116,7 +116,7 @@ body {
     background-image: url('../img/first-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center bottom;
     height: 735px;
     display: flex;
     overflow: auto;
