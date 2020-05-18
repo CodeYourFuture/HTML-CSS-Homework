@@ -284,7 +284,11 @@ h5 {
 
  @media (min-width: 48rem){
     .content {
-        width: 46rem;
+        width: 47rem;
     }
  }
-        
+ @media (min-width: 75rem){
+    .content {
+        width: 60%;
+ }
+}
