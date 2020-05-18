@@ -200,9 +200,10 @@ body {
 
 .features__description {
     font-size: 1.6rem;
+    line-height: 1.6rem;
     color: var(--text-color);
     text-align: center;
-    margin-top: 2.3rem;
+    margin-top: 2.5rem;
 }
 
 /*=====  End of MAIN  ======*/
@@ -302,7 +303,7 @@ body {
 
     .footer {
         max-width: 736px;
-}
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -336,7 +337,7 @@ body {
 
     .footer {
         max-width: 930px;
-}
+    }
 
 }
 
