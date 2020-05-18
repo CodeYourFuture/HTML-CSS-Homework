@@ -50,7 +50,7 @@ body {
      margin-top: 1%;
  }
 
- .second-item
+ .second-top-item
  {
      width:50%;
  }
@@ -61,49 +61,52 @@ body {
     color: rgb(135, 145, 145);
 }
 
+
 nav a:hover 
 {
-    color: rgb(21, 22, 22);
+    color: rgb(51, 48, 48);
+}
+
+#first-link
+{
+    color: rgb(43, 40, 40);
+    font-weight: 500;
 }
 
 
 
-
-
-/*
-
- header{
-     width: 100%;
- }
-
-.karma-pic
+.upper-main
 {
-    width: 127px;
-    height:127px;
-
-}
-
-nav
-{
+    background-image: url(../img/first-background.jpg);
+    height: 45.938rem;
     display: flex;
-
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width:80%;
-    margin:auto ;
 }
 
-nav ul li
+
+
+.upper-main p
 {
-    
+    color:white;
+    font-size: 2.875rem;
+    margin: 0.3em;
 }
 
-nav ul
+
+.upper-main p:nth-child(2)
 {
-    
-    display:flex;
-    list-style: none;
-    width: 40%;
-    justify-content: space-around;
+    font-size: 1.5rem;
 }
-*/
+
+.upper-main button
+{
+    margin-top: 0.3em;
+    color: white;
+    background-color: rgb(255, 93, 17);
+    height: 8%;
+    width: 12%;
+    border-radius: 4%;
+    border: none;
+}
