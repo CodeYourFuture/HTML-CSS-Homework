@@ -102,6 +102,7 @@ button{
 }
 button:hover{
     background-color: #b33e18;
+    border-color: #f15a29;
 }
 .secondsection{
   
@@ -207,5 +208,6 @@ h6{
  }
  .fa{ 
      color: #19557a;
-     border-radius: 10px;
+     
+     
  }
