@@ -1,19 +1,150 @@
+/*=============================================
+=            GLOBAL styles            =
+=============================================*/
 
- /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
+:root {
+    --header-height: 4.375rem;
+    --text-link-color: #838994;
+    --text-link-color-hover: #333333;
+    --text-link-color-active: #4c5058;
+    --text-link-size: 1.04rem;
+
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
- */
+
+/*=====  End of GLOBAL styles  ======*/
 
 
+
+/*=============================================
+=            HEADER            =
+=============================================*/
+
+.header__container {
+    height: var(--header-height);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+}
+
+.header {
+    height: 100%;
+    padding: 0 .938rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 1.625rem;
+}
+
+.menu {
+    padding: 0;
+    display: flex;
+    min-width: 506px;
+    margin-left: 60px;
+}
+
+.menu__item {
+    display: inline-block;
+    margin-right: 1.563rem;
+}
+
+.menu__item:last-of-type {
+    margin-right: 0;
+}
+
+.menu__item__link {
+    font-size: var(--text-link-size);
+    text-decoration: none;
+    color: var(--text-link-color);
+    font-weight: 400;
+}
+
+.menu__item__link:hover {
+    color: var(--text-link-color-hover);
+}
+
+.menu__item__link--active {
+    color: var(--text-link-color-active);
+    font-weight: 500;
+}
+
+/*=====  End of HEADER  ======*/
+
+
+/*=============================================
+=            MAIN            =
+=============================================*/
+
+main {
+    margin-top: var(--header-height);
+}
+
+/*=====  End of MAIN  ======*/
+
+
+/*=============================================
+=            MEDIA QUERIES            =
+=============================================*/
+
+@media screen and (min-width: 768px) {
+
+    /**
+     *
+     * HEADER
+     *
+     */
+
+    .header {
+        max-width: 736px;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    /**
+     *
+     * HEADER
+     *
+     */
+
+    .header {
+        max-width: 960px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    /**
+     *
+     * HEADER
+     *
+     */
+
+    .header {
+        max-width: 60%;
+    }
+
+}
+
+
+/*=====  End of MEDIA QUERIES  ======*/
