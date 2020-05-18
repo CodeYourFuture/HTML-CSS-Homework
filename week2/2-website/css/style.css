@@ -2,6 +2,7 @@
  /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
 
 body {
+    margin: 0;
     background-color: blueviolet;
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -18,45 +19,86 @@ body {
  * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
  */
 
+ nav,header{
+    display: block;
+ }
+
 header{
-    background-color: yellowgreen;
+    
    
 }
-nav{
-    display: flex;
-    background-color: aqua;
+.nav-bar{
+    position: fixed;
+     width: 100%; 
+    border-bottom: 1px solid rgb(221, 221, 221);
+     background-color:white;
+     z-index: 9999;    
 }
-.menu{
+.menu-container{
     display: flex;
+    justify-content: space-evenly;
+   
+    height: 4.375rem;
+
+    padding: 0 0.938rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
+
+    /* display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     background-color: brown;
     width: 60%;
     height: auto;
-    margin: auto;
+    margin: auto; */
     
    
 }
-img{
-  width: 5%;
-  height: 5%;
-align-self: center;
+:focus{
+    outline: none;
+}
+.logo{
+    width: 26px;
+    height: 70px;
+   height: 4.375rem;
+/* align-self: center; */
 
 }
-ul{
-    display: flex;
+.nav-bar .menu{
+    float: right;
+    color: #838994; 
+    font-size: 1.04rem;
+    margin-top: 1.7rem;
+    
+
+
+    /* display: flex;
     background-color: coral;
     justify-content:space-between;
      list-style-type: none;
      align-items: center;
     width: inherit;
-   
+    */
  
 }
-li{
-    color: chartreuse;
-    justify-self: center;
-  
+
+
+.menu-container .menu li{
    
+     display: inline-block;
+    margin-left: 1.563rem;
+    /* color: chartreuse;
+    justify-self: center; */
 }
+
+.nav-bar .menu .karma-link{
+    background-color: black;
+    color: #68e222;
+    font-weight: 500;
+}
+.menu li:hover{
+    cursor: pointer;
+    color: #333333;
+}
+
 
