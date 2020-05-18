@@ -32,7 +32,6 @@ body {
     height:auto;
 }
 
-
  nav ul
  {
      display: flex;
@@ -56,12 +55,16 @@ body {
      width:50%;
  }
 
- .navbar a 
+ nav a 
 {
     text-decoration: none;
     color: rgb(135, 145, 145);
 }
 
+nav a:hover 
+{
+    color: rgb(21, 22, 22);
+}
 
 
 
