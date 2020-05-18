@@ -2,8 +2,8 @@
  /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
 
 body {
-    font-family: 'Roboto', sans-serif;
-   /* font-family: 'Montserrat', sans-serif;*/
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
     -webkit-font-smoothing: antialiased;
     /*background-color: darksalmon;*/
 }
@@ -79,16 +79,15 @@ p {
 #button:hover {
     background-color: tomato;
 }
-#imgbuy {
-    width: 100%;
 
-}
 #secondSection {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 #secondSection h1 {
+    margin-top: 100px;
+    margin-bottom: 50px;
     color: black;
 }
 #icons {
@@ -102,10 +101,10 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-   /* border: 5px solid tomato;
+   /*border: 5px solid tomato;
     background-color: turquoise;*/
     min-height: 300px;
-    width: 25%;
+    width: 30%;
     height: auto;
 }
 .ico img {
@@ -121,26 +120,37 @@ h2 {
     /*background-color: violet;*/
         text-align: center;
 }
+hr {
+    width: 70%;
+    opacity: 40%;
+}
 footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-footer ul {
+/*ooter ul {
     display: flex;
     justify-content: space-around;
     background-color: crimson;
+}*/
+#uList {
+    display: flex;
+    justify-content: space-around;
+    
 }
 .smallIco {
-    display: inline-flex;
-    justify-content: center;
+   /* display: inline-flex;
+    justify-content: center;*/
+    
     list-style-type: none;
     border: 0.5px solid skyblue;
     border-radius: 50%;
     padding: 10px;
+    margin: 5px;
     /*color: blue;*/
-    background-color: darkgray;
+    /*background-color: darkgray;*/
 
 }
 .fa-twitter {
@@ -154,6 +164,10 @@ footer ul {
 .fa-instagram {
     padding: 5px 7px 5px 7px;
     color: rgb(13, 13, 73);
+}
+footer p:last-of-type {
+    opacity: 60% ;
+    margin-bottom: 150px;
 }
 
 /**
