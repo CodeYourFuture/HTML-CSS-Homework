@@ -208,11 +208,6 @@ ol, ul {
     padding-bottom: 9.375rem;
     text-align: center;
 }
-.social hr {
-    border: 0;
-    border-top: 1px solid #eaebec;
-    margin: 1.313rem 0;
-}
 
 .social hr {
     display: block;
@@ -223,12 +218,20 @@ ol, ul {
     margin-inline-end: auto;
     overflow: hidden;
 }
+
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+}
+
 .social h5 {
     display: block;
     margin-block-start: 1.67em;
     margin-block-end: 1.67em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    justify-content: center;
 }
 
 .social .copy {
