@@ -69,11 +69,12 @@ body {
     display: flex;
     min-width: 506px;
     margin-left: 60px;
+    justify-content: flex-end;
 }
 
 .menu__item {
     display: inline-block;
-    margin-right: 1.563rem;
+    margin-right: 1.82rem;
 }
 
 .menu__item:last-of-type {
@@ -120,10 +121,10 @@ body {
     height: 735px;
     display: flex;
     overflow: auto;
+    min-width: 600px;
 }
 
 .hero {
-    min-width: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
