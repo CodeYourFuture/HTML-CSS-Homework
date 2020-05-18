@@ -149,12 +149,7 @@ h2{
 .caption{
     
     margin: 40px 0px 30px;
-    
-}
-footer{
-   
-    width: 62.4rem;
-    margin: auto;
+    <i class="fa fa-twitter" aria-hidden="true">n: auto;
     height: 18.06rem;
 }
 .footercontent{
@@ -207,7 +202,21 @@ h6{
 
  }
  .fa{ 
-     color: #19557a;
-     
+     color: #19557a; 
+     display: flex;
+     align-items: center; 
+    
      
  }
+ .fa fa-twitter{ 
+    color: #19557a;  
+    display: flex;
+    align-items: center;
+   
+}
+.iconcontainer{
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid black;
+    border-radius: 50%;
+}
