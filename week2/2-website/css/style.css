@@ -15,5 +15,63 @@ body {
  * 
  * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
  */
+/* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
+
+body {
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	// background: blue;
+	//background: url(img/first-background.jpg);
+}
+
+ul > li{
+	list-style:none;
+  }
+  
+  #header{
+	position:fixed;
+	margin-right: 40px;
+    display:flex;
+	align-items : center;
+	justify-content: space-around;
+	min-height: 95px;
+	padding: 0px 10px;
+	background-color: #eee;
+	width: 80%;
+	
+	
+  }
+  .logo {
+	width: 3%;
+	height: 3%;
+  }
+  .logo > img {
+	width: 100%;
+	height: 100%;
+	max-width: 50px;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+    text-align: center;
+	margin-left: 20px;
+  }
+  nav > ul {
+	width: 35vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+  }
+  a{
+	text-decoration: none ;
+  }
+  
+  
+  
+ 
+  
+  
+  
+  
+  
 
 
