@@ -39,11 +39,16 @@ header{
    height: 4.375rem;
    margin: auto;
 }
+
 ul{
     list-style: none;
     display: flex;
     width: 31.67rem;
     justify-content: space-around;
+}
+nav{
+    width: 60%;
+    margin: auto;
 }
 
 
@@ -149,7 +154,6 @@ h2{
 .caption{
     
     margin: 40px 0px 30px;
-    <i class="fa fa-twitter" aria-hidden="true">n: auto;
     height: 18.06rem;
 }
 .footercontent{
@@ -168,6 +172,7 @@ h5{
     text-align: center;
     font-size: 1rem;
     font-weight: 500;
+    color: #1b1a1a;
     padding: 15px 0px 10px 0px;
    
 }
@@ -175,6 +180,7 @@ h6{
     text-align: center;
     font-size: 0.9rem;
     font-weight: 100;
+    color:#ada9a9;
 }
 #socialul{
    
@@ -204,19 +210,32 @@ h6{
  .fa{ 
      color: #19557a; 
      display: flex;
-     align-items: center; 
+     position: absolute;
+     top: 35%;
+     left: 50%;
+     transform: translateX(-50%);
     
      
  }
- .fa fa-twitter{ 
-    color: #19557a;  
-    display: flex;
-    align-items: center;
-   
-}
+ .fa-twitter{
+     color: #55ACEE;
+ }
+ .fa-facebook{
+     color: #4c66a4;
+ }
+ .fa-instagram{
+     color: #3F729B;
+ }
+
 .iconcontainer{
+    position: relative;
     width: 3rem;
     height: 3rem;
-    border: 1px solid black;
+    border: 1px solid #f0ecec;
     border-radius: 50%;
+}
+footer{
+    width: 60%;
+    margin: auto;
+    
 }
