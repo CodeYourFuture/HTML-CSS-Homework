@@ -34,7 +34,7 @@ html {
 }
 .logo {
   padding: 0.5rem;
-  height: 2rem;
+  height: 2.2rem;
 }
 .nav-title {
 }
@@ -51,6 +51,11 @@ html {
   text-decoration: none;
   color: #979191;
 }
+.nav-list:first-child {
+  font-size: 1.2rem;
+  font-weight: 300;
+  border: 1px solid brown;
+}
 /*===HEREO===*/
 .hero {
   background-image: url(../img/first-background.jpg);
@@ -58,7 +63,7 @@ html {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  overflow: hidden;
+  /* overflow: hidden; */
   color: white;
   display: flex;
   flex-direction: column;
@@ -66,11 +71,20 @@ html {
   align-items: center;
 }
 .hero-title {
+  font-size: 3rem;
+  font-weight: 350;
+  margin-bottom: 0.75rem;
 }
 .hero-text {
+  font-size: 1.5em;
 }
 .hero-button {
-  display: inline-block;
+  /* display: inline-block; */
+  background-color: rgb(233, 92, 41);
+  border: none;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  border-radius: 0.25rem;
 }
 @media screen and (min-width: 700px) {
   html {
