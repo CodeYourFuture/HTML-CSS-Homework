@@ -2,18 +2,93 @@
  /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
 
 body {
+    background-color: white;
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
+nav.nav-links{
+    position:fixed;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
- */
+  }
+  nav li {
+    display: inline;
+    padding-right: 30px;
+  }
+ .img1 {
+     width: auto;
+     height: 40px;
+     padding-right: 10rem;
+     padding-left: 7rem;
+     transform: translate(y);   
+ }
+ .image-container {
+     width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+ }
+ .top-image {
+     background-image: url('../img/first-background.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     height: 700px;
+ }
+ 
+ .container {
+     padding-left: 5rem;
+ }
+.intext {
+   display: column;
+   position: absolute;
+   top: 350px;
+   align-items: center;
+   color: white;
+   text-align: center;
+   padding-left: 35rem;
 
+}
+  #button {
+    height: 60px;
+    width: 50px;
+    min-width: 150px;
+    border: 3px solid black;
+    background-color:orangered;
+    align-self: auto;
+  }
+ 
+ .link, .links {
+     list-style-type: none;
+     padding-top: 20px;
+     
+ }
+ a {
+     text-decoration: none;    
+ }
+  
+.content{
+    width: 100px;
+}
+h2 {
+    text-align: center;
+    padding-top: 30px;
+}
+.content_image {
+    display: flex;
+    justify-content: space-around;
+}
+.content {
 
+}
+ 
+ .content {
+     display: inline-block;
+     direction: row;
+     align-items: center;
+ } 
