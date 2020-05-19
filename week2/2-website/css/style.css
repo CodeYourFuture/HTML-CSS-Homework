@@ -65,8 +65,8 @@ li{
 
 .first-content{
     position: relative;
-    /* background-image: url("img/first-background.jpg");
-     background-color: darkorange;   */
+    background-image: url("img/first-background.jpg");
+     background-color: darkorange;  
 text-align: center;
 color: olivedrab;
 }
