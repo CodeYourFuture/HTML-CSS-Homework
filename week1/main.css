@@ -17,7 +17,9 @@ p{
   border-width: thick;
   background-color: #a2a4ac;
   box-shadow: 15px 15px 15px #888888;
+  text-decoration: none;
 }
+
 /*Add-head-logo styling end*/
 
 /* Brand-logo styling*/
@@ -65,6 +67,9 @@ li a:hover:not(.active) {
 
 .active {
   background-color: #925129;
+}
+a:link, a:visited{
+  text-decoration:none;
 }
 /*Navigation bar end*/
 
@@ -130,6 +135,11 @@ article p:last-of-type{
   background-color: #f5eff5;
   box-shadow: 5px 15px 15px #464545;
   text-align: center;
+}
+article p:first-of-type{
+  font-size: 30px;
+  font-family:'Times New Roman';
+  font-style: italic;
 }
 /* Articles-section styling end*/
 
