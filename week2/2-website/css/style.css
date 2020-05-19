@@ -43,7 +43,7 @@ nav{
     margin: auto;
     height: 4.375rem;
     align-items: center;
-    position: fixed;    
+    position: fixed;  
 }
 
 .logo{
@@ -82,3 +82,48 @@ a.active {
 }
 
 /*------ Intro styling */
+
+.intro{
+    border: 1px solid yellow;
+    background-image: url('../img/first-background.jpg');
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45.938rem;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.intro h1, .intro h3 {
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.intro h1 {
+    font-size: 3.125rem;
+}
+
+.intro h3 {
+    margin-top: 1.25rem;
+    font-size: 1.563rem;
+}
+
+button {
+    background-color: #f15a29;
+    color: #ffffff;
+    border-style: none;
+    width: 9.688rem;
+    border-radius: 4px;
+    font-size: 1.125rem;
+    padding: 1rem 1.5rem;
+
+}
+
+button:hover {
+    background-color: #d9400e;
+    cursor: pointer;
+}
+
