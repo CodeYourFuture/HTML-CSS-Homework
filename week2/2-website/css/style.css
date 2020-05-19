@@ -1,15 +1,36 @@
 
  /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
 
- /*declared the default or root font-size*/
+ /*declared the default or root font-size in percentage: [1rem = 10px]*/
+
 html {
     font-size: 62.5%;
+    margin:0;
+    padding: 0;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
+
+.nav-link {
+    font-size: 1.3rem;
+}
+
+.logo {
+    height: 1.1rem;
+    margin-left: 2rem;
+}
+
+/*declared the default or root font-size in percentage: [1rem = 16px]*/
+html {
+    font-size: 100%;
+
+}
+
+
+
 
 
 
