@@ -24,6 +24,9 @@ body {
      justify-content: space-around;
      width:80%;
      margin: auto;
+     position: fixed;
+     background-color: white;
+     width: 100%;
  }
  
  .logo
@@ -35,7 +38,7 @@ body {
  nav ul
  {
      display: flex;
-     justify-content: space-around;
+     justify-content: center;
      width: 100%;
  }
 
@@ -43,16 +46,20 @@ body {
  {
      list-style-type: none;
      font-size: 1rem;
+     margin: auto;
+     border: solid;
  }
 
  .top-item
  {
-     margin-top: 1%;
+     margin-top: 1.2%;
+     margin-bottom: 0.2%;
  }
 
  .second-top-item
  {
-     width:50%;
+     
+     border: solid;
  }
 
  nav a 
@@ -118,6 +125,8 @@ nav a:hover
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
 }
 
 .lower-main p
@@ -125,7 +134,6 @@ nav a:hover
     font-size: 3rem;
     font-weight: 100;
     color: rgb(54, 56, 55);
-    margin-top: 9%;
 }
 
 .article-container
@@ -138,7 +146,7 @@ nav a:hover
 
 .article-container img
 {
-    width:9.5vw;
+    width:9.5rem;
     height: auto;
     display:table;
     margin: auto;
@@ -150,3 +158,57 @@ nav a:hover
     color: rgb(66, 65, 64);
 }
 
+
+hr{ 
+    height: 1px;
+    background-color: rgb(223, 192, 192);
+    border: none;
+    width: 50%;
+  }
+.footer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 9vw;
+}
+
+.footer p
+{
+    font-weight: 400;
+}
+
+.footer :last-child
+{
+    color: rgb(175, 169, 180);
+}
+
+.icons 
+{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    color: rgb(34, 196, 224);
+}
+
+.icons i
+{
+    height: 1.5rem;
+    width: 1.5rem;
+    border: 1px solid;
+    border-color: rgb(218, 212, 208);
+    border-radius: 60%;
+    text-align: center;
+    padding: 1rem ;
+}
+
+
+.fa-facebook
+{
+    color: rgb(41, 80, 209);
+}
+.fa-instagram
+{
+    color: rgb(40, 156, 137);
+}
