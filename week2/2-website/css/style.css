@@ -15,6 +15,19 @@ body {
  * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
  */
 
+/* General Styles */
+
+h1 {
+    font-size: 3em;
+    font-weight: lighter;
+}
+
+h2 {
+    font-weight: lighter;
+}
+
+/* Nav Bar */
+
 nav {
     display: flex;
     color: gray;
@@ -41,10 +54,6 @@ nav ul li:hover {
     color: black;
 }
 
-.navigation-img {
-    display: block;
-}
-
 .navigation-container {
     background-color: white;
     width: 100%;
@@ -52,6 +61,17 @@ nav ul li:hover {
     border-bottom: 1px solid black;
     position: fixed;
 }
+
+#karma-logo {
+    margin-left: 50px;
+    float: left;
+    height: auto;
+    width: auto;
+    max-height: 50px;
+    max-width: 50px;
+}
+
+/* Section 1 Style */
 
 #first-background {
     width: 100%;
@@ -70,14 +90,7 @@ nav ul li:hover {
     font-family: 'Roboto', sans-serif;
 }
 
-h1 {
-    font-size: 3em;
-    font-weight: lighter;
-}
-
-h2 {
-    font-weight: lighter;
-}
+/* Section 2 Style */
 
 #learnMore {
     background-color: rgb(255, 81, 0);
@@ -92,17 +105,8 @@ h2 {
     background-color: orangered;
 }
 
-#karma-logo {
-    margin-left: 50px;
-    float: left;
-    height: auto;
-    width: auto;
-    max-height: 50px;
-    max-width: 50px;
-}
-
 #everyoneNeedsKarma {
-    margin-left: 380px;
+    margin-left: 30%;
     display: flex;
     width: 650px;
     flex-direction: row;
@@ -110,6 +114,8 @@ h2 {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+/* Footer Style */
 
 #iconContainer {
     display: flex;
