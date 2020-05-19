@@ -61,7 +61,7 @@ nav ul li a:hover {
 #introducingKarma {
     background-image: url("/2-website/img/first-background.jpg");
     max-width: 100%;
-    height: 780px;
+    height: auto;
     background-repeat: no-repeat;
     color: white;
     padding-top: 50px;
@@ -99,4 +99,14 @@ h2 {
     width: auto;
     max-height: 50px;
     max-width: 50px;
+}
+
+#everyoneNeedsKarma {
+    margin-left: 420px;
+    display: flex;
+    width: 650px;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
