@@ -36,7 +36,7 @@ nav ul li:first-child {
     font-weight: bold;
 }
 
-nav ul li a:hover {
+nav ul li:hover {
 
     color: black;
 }
@@ -102,11 +102,38 @@ h2 {
 }
 
 #everyoneNeedsKarma {
-    margin-left: 420px;
+    margin-left: 380px;
     display: flex;
     width: 650px;
     flex-direction: row;
     align-items: stretch;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+#iconContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#iconContainer i {
+    margin: 5px;
+    padding-top: 5px;
+}
+
+.iconBorder {
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px solid lightgrey;
+}
+
+footer {
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
