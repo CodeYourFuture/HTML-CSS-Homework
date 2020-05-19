@@ -22,41 +22,44 @@ header{
     background-color: yellowgreen;
    
 }
-nav{
+.nav-bar{
     display: flex;
-    background-color: aqua;
+    background-color:white;
+    height: 70px;
 }
-.menu{
+.menu-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    background-color: brown;
+    justify-content: space-between;
+    background-color:white;
     width: 60%;
     height: auto;
     margin: auto;
     
    
 }
-img{
-  width: 5%;
-  height: 5%;
+.logo{
+  width: 3.4%;
+  height: 100%;
 align-self: center;
 
 }
-ul{
+.menu{
     display: flex;
-    background-color: coral;
-    justify-content:space-between;
+    background-color:white;
+    justify-content:space-around; 
      list-style-type: none;
      align-items: center;
-    width: inherit;
-   
+    width: inherit;  
  
 }
 li{
-    color: chartreuse;
+    color: lightslategrey;
     justify-self: center;
   
    
+}
+.menu .meet-karma{
+    color:black
 }
 
