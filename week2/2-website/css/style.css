@@ -1,10 +1,11 @@
 
  /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
-
 body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
+    line-height: 1;
 }
+
 
 /**
  * Add your custom styles below
@@ -17,3 +18,67 @@ body {
  */
 
 
+/*-----General styling */
+.container {
+    padding: 0 0.938rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
+}
+    
+}
+
+ /*------- Navigation */
+
+ header {
+    display: flex;
+    height: 4.375rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    border: 1px solid green;
+    width: 100%;
+    margin: auto;
+    height: 4.375rem;
+    align-items: center;
+    position: fixed;    
+}
+
+.logo{
+    border: 1px solid red;
+    align-items: center;
+    margin-left: 6.5rem;
+    
+}
+
+ul{
+    border: 1px solid blue;
+    display: inline-flex;
+    list-style: none;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1.7rem;
+    margin-bottom: 1.7rem;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #838994;
+    font-size: 1.04rem;
+    
+}
+
+a:hover {
+    color: black;
+}
+
+a.active {
+    font-weight: 500;
+    color:#4c5058;
+}
+
+/*------ Intro styling */
