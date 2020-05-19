@@ -1,20 +1,3 @@
-
- /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
-
-body {
-    font-family: 'Roboto', sans-serif;
-    -webkit-font-smoothing: antialiased;
-}
-
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
- */
 /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
 
 body {
@@ -24,54 +7,145 @@ body {
 	//background: url(img/first-background.jpg);
 }
 
-ul > li{
-	list-style:none;
-  }
-  
-  #header{
-	position:fixed;
+li {
+	list-style: none;
+}
+
+#header {
+	position: fixed;
 	margin-right: 40px;
-    display:flex;
-	align-items : center;
+	display: flex;
+	align-items: center;
 	justify-content: space-around;
 	min-height: 95px;
 	padding: 0px 10px;
-	background-color: #eee;
+	//background-color: #eee;
 	width: 80%;
-	
-	
-  }
-  .logo {
+}
+
+.logo {
 	width: 3%;
 	height: 3%;
-  }
-  .logo > img {
+}
+
+.logo>img {
 	width: 100%;
 	height: 100%;
 	max-width: 50px;
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 	align-items: center;
-    text-align: center;
+	text-align: center;
 	margin-left: 20px;
-  }
-  nav > ul {
+}
+
+nav>ul {
 	width: 35vw;
+	//color:black;
+	font-weight: lighter;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-  }
-  a{
-	text-decoration: none ;
-  }
-  
-  
-  
- 
-  
-  
-  
-  
-  
+}
+
+a {
+	//text-decoration: none;
+}
+
+li {
+	//	font-weight:bolder;
+	//	color: green;
+}
+
+nav a {
+	text-decoration: none;
+	color: rgb(121, 116, 116);
+	//font-weight: bold;
+}
+
+.nav-link1 {
+	color: black;
+	font-weight: bold;
+}
+
+nav a:hover {
+	font-weight: bold;
+	color: black;
+}
 
 
+/* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
+
+body {
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+ul>li {
+	list-style: none;
+	padding: 1px;
+}
+
+#header {
+	position: fixed;
+	margin-right: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	min-height: 95px;
+	padding: 0px 10px;
+	background-color: white;
+	width: 100%;
+}
+
+.logo {
+	width: 3%;
+	height: 3%;
+}
+
+.logo>img {
+	width: 100%;
+	height: 100%;
+	max-width: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-left: 20px;
+}
+
+nav>ul {
+	width: 35vw;
+	//color:black;
+	font-weight: lighter;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+a {
+	text-decoration: none;
+}
+
+.hero {
+	display: flex;
+	flex-direction: column;
+}
+
+.hero-content {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 200px;
+	background: url(../img/first-background.jpg)no-repeat center;
+	padding: 200px 100px;
+	margin: 100px;
+}
+
+button {
+	background: rgb(236, 93, 93);
+	border-radius: 25px;
+}
