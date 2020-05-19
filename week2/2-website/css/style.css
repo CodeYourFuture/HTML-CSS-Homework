@@ -60,7 +60,7 @@ a:hover{
   
     background-image: url(/2-website/img/first-background.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center bottom;
     background-size: cover;
     height: 41.5625rem;
    
@@ -70,7 +70,7 @@ h1 {
     font-size: 3.125rem;
     font-weight: 200;
     position: absolute;
-    top: 40%;
+    top: 29%;
     left: 50%;
     transform: translateX(-50%);
    
@@ -82,7 +82,7 @@ p{
     font-size: 1.5625rem;
     font-weight: 200;
     margin-top: 1.25rem;
-    top: 46%;
+    top: 34%;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -97,7 +97,7 @@ button{
     color: white;
     font-size: 1.125rem;
     position: absolute;
-    top: 53.5%;
+    top: 42%;
     left: 50%;
     transform: translateX(-50%);
   
