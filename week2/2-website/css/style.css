@@ -36,6 +36,11 @@ nav ul li:first-child {
     font-weight: bold;
 }
 
+nav ul li a:hover {
+
+    color: black;
+}
+
 .navigation-img {
     display: block;
 }
@@ -75,12 +80,16 @@ h2 {
 }
 
 #learnMore {
-    background-color: orangered;
+    background-color: rgb(255, 81, 0);
     color: white;
     box-shadow: none;
     border: 0px;
     padding: 10px 20px 10px 20px;
     border-radius: 5px;
+}
+
+#learnMore:hover {
+    background-color: orangered;
 }
 
 #karma-logo {
