@@ -63,3 +63,17 @@ li{
     color:black
 }
 
+.first-content{
+    position: relative;
+    /* background-image: url("img/first-background.jpg");
+     background-color: darkorange;   */
+text-align: center;
+color: olivedrab;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
