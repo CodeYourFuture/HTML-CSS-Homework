@@ -110,3 +110,43 @@ nav a:hover
     border-radius: 4%;
     border: none;
 }
+
+
+.lower-main
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower-main p
+{
+    font-size: 3rem;
+    font-weight: 100;
+    color: rgb(54, 56, 55);
+    margin-top: 9%;
+}
+
+.article-container
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.article-container img
+{
+    width:9.5vw;
+    height: auto;
+    display:table;
+    margin: auto;
+}
+
+.article-container figcaption
+{
+    font-size: 1.5rem;
+    color: rgb(66, 65, 64);
+}
+
