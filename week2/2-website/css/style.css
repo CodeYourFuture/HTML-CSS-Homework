@@ -14,11 +14,14 @@ body {
  * 
  * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
  */
-
+* {
+  margin: 0;
+  padding: 0;
+}
 /*====HEADER====
   ==NAVBAR==*/
 html {
-  font-size: 16px;
+  font-size: 13px;
 }
 #header {
 }
@@ -27,11 +30,11 @@ html {
   display: flex;
   justify-content: space-evenly;
   height: 4rem;
-  background-color: #f1f1f1;
+  /* background-color: #f1f1f1; */
 }
 .logo {
   padding: 0.5rem;
-  height: 2.5rem;
+  height: 2rem;
 }
 .nav-title {
 }
@@ -42,12 +45,35 @@ html {
 }
 .nav-list {
   list-style-type: none;
-  padding-right: 2rem;
+  padding-right: 1.5rem;
 }
 .nav-link {
   text-decoration: none;
-  color: #aca7a7;
+  color: #979191;
 }
-.nav-list:first-child {
-  color: #aca7a7;
+/*===HEREO===*/
+.hero {
+  background-image: url(../img/first-background.jpg);
+  height: 40rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-title {
+}
+.hero-text {
+}
+.hero-button {
+  display: inline-block;
+}
+@media screen and (min-width: 700px) {
+  html {
+    font-size: 16px;
+  }
 }
