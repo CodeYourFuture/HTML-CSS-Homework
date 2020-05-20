@@ -75,6 +75,10 @@ body{
     font-size: 20px;
 }
 
+/* --------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------Header------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------- */
+
 .article{
     display: flex;
     flex-direction: column;
@@ -97,3 +101,128 @@ body{
     width: 400px;
     height: 400px
 }
+
+/* --------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------Home------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------- */
+
+.about-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    font-family: PermanentMarker-Regular;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.about-paragraph{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    font-family: Righteous-Regular;
+}
+
+.more-about-paragraph{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-family: Righteous-Regular;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------About Us------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------- */
+
+.vlog-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    font-family: PermanentMarker-Regular;
+    font-size: 40px;
+    text-decoration: underline;  
+}
+
+.vlog-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-family: Righteous-Regular;
+    font-size: 20px;
+}
+
+.video-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------Vlogs------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------- */
+
+.footer{
+    background-image: url(../images/carbon-texture.jpg);
+    width: 100%;
+    border-top: 4px solid #333;
+    border-bottom: 4px solid #333;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#footer-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.nav-link-footer{
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 50px; 
+}
+
+.nav-link-footer a{
+    padding: 5px;
+    border: 5px solid #333;
+    border-radius: 10px;
+    background-color: black;
+    color: antiquewhite;
+    text-decoration: none;
+    font-family: Righteous-Regular;
+    font-size: 20px; 
+}
+
+.footer-info{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    border: 5px solid #333;
+    border-radius: 10px;
+    background-color: black;  
+}
+
+.footer-paragraph{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Righteous-Regular;
+    font-size: 20px;
+    color: antiquewhite;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------Footer------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------- */
