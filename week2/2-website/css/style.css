@@ -15,19 +15,30 @@ body {
 }
 
 nav {
+    display: flex;
     width: 100%;
 }
 
 .nav-link ul{
+    display: flex;
     font-size: 1.3rem;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
 }
 
+.nav-link ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
 .logo {
     height: 3.0rem;
     margin-left: 2rem;
+}
+
+.background-image {img(..)
+
 }
 
 .karma_needs img {
