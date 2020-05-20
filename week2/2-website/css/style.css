@@ -1,6 +1,13 @@
 
  /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
+ *{
+    margin: 0px;
+    padding: 0px;
 
+}
+html{
+    font-size: 16px;
+}
 body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -17,14 +24,7 @@ body {
  */
 
 
-*{
-    margin: 0px;
-    padding: 0px;
 
-}
-html{
-    font-size: 16px;
-}
 /******header***************************************************************/
 .header-wrap{/*******nwarapping around header**********************/
     height: 4.375rem; 
@@ -35,6 +35,7 @@ html{
     position: fixed;
     z-index:999;
     border-bottom: 1px solid #DDD;
+    background-color:white;
 
 }
 
@@ -44,6 +45,7 @@ html{
     display:flex;
     justify-content:space-around;
     align-items: center;
+  
 }
 .logo{/*******logo image**********************/
     width: 1.625rem;
@@ -66,47 +68,44 @@ html{
     
 }
 .active{/*******first active li item*********************/
-    color: #4c5058;
+    
     font-weight: 500;
 }
 
 /******main**************************************************************/
-.introduction{
-    background-image: url(../img/first-background.jpg);
-    background-position: center bottom;
+.introduction{/*******fintroduction section*********************/
+    background-image: url(../img/zz.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 45.938rem;
-    overflow: auto;
-    z-index: -999;
+    background-position:center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(170, 165, 165);
 }
-.intro-content{
-  
-    padding: 0 0.938rem;
-    margin: 0 auto;
+.intro-content{/*******h1+h3+button********************/
+    
+    color: white;
     min-width: 37.5rem;
+    text-align: center;
 }
-
-.introduction h1{
-    margin-top: 17.5rem;
+.intro-content h1{
+    margin: 0;
     font-size: 3.125rem;
-
+    font-weight: 300;
+    
 }
-.introduction h3{
-    margin-top: 1.25rem;
+.intro-content h3{
+    margin: 0;
     font-size: 1.563rem;
+    font-weight: 300;
+    margin-top: 1.25rem;
 }
-.introduction h1,.introduction h3{
-    color: white;
-    text-align: center;
-    font-weight: 300
-}
-.introduction .buttons {
-    color: white;
-    text-align: center;
+.buttons{/*******div contain buttons read more*******************/
     margin-top: 1.563rem;
 }
-button {
+button{
     width: 9.688rem;
     background-color: #f15a29;
     border-color: #f15a29;
@@ -117,4 +116,3 @@ button {
     color: white;
     font-size: 1.125rem;
 }
-
