@@ -17,3 +17,51 @@ body {
  */
 
 
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+html{
+    font-size: 16px;
+}
+/******header***************************************************************/
+.header{
+    width:100%;
+    height: 4.375rem;
+    //position: fixed;
+    border-bottom: 1px solid #DDD;
+
+}
+
+.navigation{/*******nav bar**********************/
+    
+    height: 4.375rem;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.logo{/*******logo image**********************/
+    width: 1.625rem;
+    height: 4.375;
+    
+}
+.content{/*******ul**********************/ 
+    color: #838994;
+    font-size: 1.04rem;
+    margin-top: 1.7rem
+}
+
+
+.item{/*******li**********************/
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 1.563rem;
+    color: #838994;
+    font-size: 1.04rem;
+    
+}
+.active{/*******first active li item*********************/
+    color: #4c5058;
+    font-weight: 500;
+}
