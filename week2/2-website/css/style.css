@@ -28,11 +28,13 @@ nav {
 }
 
 .nav-link ul li {
+    display: flex;
     text-decoration: none;
     list-style: none;
 }
 
 .nav-link ul a {
+
     text-decoration: none;
 }
 
@@ -41,29 +43,71 @@ nav {
     margin-left: 2rem;
 }
 
-.background-image {img(..)
-
-}
-
 .karma_needs img {
+    display: flex;
     width: 15.0rem;
     justify-items: center;
 }
 
+h5 {
+    display: flex;
+    font-size: 2.0rem;
+}
 
 
+.footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.span {
+    align-items: center;
+}
+
+.social-media li {
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+  transition: .6s;
+  position: relative;
+}
+
+footer li i {
+  display: flex;
+  flex-direction: row;
+  font-size: 40px;
+}
+
+.social-media li:hover {
+    display: flex;
+  padding: 20px 40px;
+}
+
+.icons li{
+    display: flex;
+     font-size: 2.5rem;
+     font-weight: 0.2rem;
+     font-family: Arial, Helvetica, sans-serif;
+     justify-content: center;
+     flex-direction: row;
+}
 
 
-
+.copyright {
+    display: flex;
+    font-size: 1.6rem;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 /**
  * Add your custom styles below
  * 
  * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
+ * - Be organized, use comments and separate your styles into meaningful chunks
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
- * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
+ * - When using Flex-box, remember the items you want to move around need to be inside a parent container set to 'display: flex'
  */
 
 
