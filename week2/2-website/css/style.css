@@ -1,74 +1,83 @@
 
  /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
 
+
 body {
     background-color: white;
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 
-.nav-bar {
-    top: 0;
+.container{
+    background-color: #fff;
+    position: fixed;
     width: 100%;
-    height:auto;
- } 
-
- .container {
+    border-bottom: 1px solid #DDD;
+    z-index: 9999;}
+.img1 {
+    width:30px;
+    height: auto;
+    margin-left: 10%;
+}
+.nav-bar{ 
+    position: sticky;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 2px;
-    margin-bottom: 0;
-    padding-left: 10rem;
-  }
-  nav li {
-    display: inline;
-    padding-right: 30px;
-    top: 20px;
-  }
-  .links a:nth-child(1) {
-      color: black !important
-  }
-  
- .img1 {
-     width: auto;
-     height: 40px;
-     padding-right: 10rem;
-     padding-left: 7rem;
-     transform: translate(y);   
- } 
-  
+    justify-content: space-around;
+    align-items: center;
     
- .top-image {
-     background-image: url('../img/first-background.jpg');
-      background-repeat: no-repeat;
-     background-size: cover;
-     background-position: center;
-     height: 700px;
+}
+.nav-link {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-right: 20%;
+    list-style-type: none;  
+    padding-top: 10px;  
+}
+a {
+    text-decoration: none;
+    color: grey;
+}
+.links a:nth-child(1) {
+    color: black !important
+}
+a:hover {
+    color: black;
+}
+.top-image {
+    background-image: url('../img/first-background.jpg');
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+.intext {
+    display: column;
+    position: absolute;
+    top: 200px;
+    left: 23rem;
+    color: white;
+    text-align: center;
  }
-
-  .intext {
-   display: column;
-   position: absolute;
-   top: 200px;
-   left: 23rem;
-   color: white;
-   text-align: center;
-} 
-
-h1:first-child {
+ h1:first-child {
     font-weight: lighter;
     font-size: 3rem;
     color: ivory;
    margin-top: 40px; 
  }
-.intext >:nth-child(2) {
+ div>h2:first-child {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 45px;
+    font-weight: lighter;
+}
+ .intext >:nth-child(2) {
     font-weight: lighter;
     font-size: 1.6rem;
     color: ivory;
     
 }
-  #button {
+ #button {
     height: 55px;
     width: 50px;
     min-width: 150px;
@@ -76,31 +85,8 @@ h1:first-child {
     background-color:orangered; 
     padding: 1px;
     border-radius: 6px;
-  }
- 
- .link, .links {
-     list-style-type: none;
-     padding-top: 20px;    
- }
- a {
-     text-decoration: none; 
-     color: grey;   
- }
- a:hover {
-     color: black;
- }
-  
-.content{
-    width: 130px;
-}
-div>h2:first-child {
-    text-align: center;
-    padding-top: 30px;
-    font-size: 45px;
-    font-weight: lighter;
-}
-
-.items{
+  } 
+  .items{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -112,8 +98,8 @@ div.item {
     width: 250px;
 }
 img {
-    width: 180px;
-    height: 150px;
+    width: 150px;
+    height: 130px;
 }
 .caption {
     display: flex;
@@ -134,4 +120,36 @@ img {
 span {
     padding-top: 20px;
     padding-left: 10px;
+}
+
+.footer{
+    text-align: center;
+}
+#icon1 {
+background-color: whitesmoke;
+ border-radius: 50%;
+ border: 1x solid grey;
+ padding:15px;
+}
+#icon1 {
+    background-color: whitesmoke;
+     border-radius: 50%;
+     border: 1x solid grey;
+     padding:15px;
+    }
+#icon2 {
+        background-color: whitesmoke;
+         border-radius: 50%;
+         border: 1x solid grey;
+         padding:15px;
+        }
+#icon3 {
+        background-color: whitesmoke;
+        border: slategrey;
+        border-radius: 50%;
+        border: 1x solid grey;
+         padding:15px;
+            }
+.footer-social-icons {
+    color: skyblue;
 }
