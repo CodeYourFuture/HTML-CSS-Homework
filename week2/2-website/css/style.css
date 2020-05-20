@@ -14,19 +14,25 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-.nav-link {
+nav {
+    width: 100%;
+}
+
+.nav-link ul{
     font-size: 1.3rem;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
 }
 
 .logo {
-    height: 1.1rem;
+    height: 3.0rem;
     margin-left: 2rem;
 }
 
-/*declared the default or root font-size in percentage: [1rem = 16px]*/
-html {
-    font-size: 100%;
-
+.karma_needs img {
+    width: 15.0rem;
+    justify-items: center;
 }
 
 
