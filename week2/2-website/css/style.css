@@ -53,7 +53,7 @@ nav{
     
 }
 
-ul{
+.navlinks{
     border: 1px solid blue;
     display: inline-flex;
     list-style: none;
@@ -127,3 +127,44 @@ button:hover {
     cursor: pointer;
 }
 
+/*--------Works styling */
+
+.works {
+    background-color: #ffffff;
+    padding-bottom: 5rem;
+}
+
+.works .container {
+    padding: none;
+    text-align: center;
+    color: #1d1e21;
+    margin-top: 7.875rem;
+    text-align: center;
+}
+
+.works h2 {
+    font-weight: 300;
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+}
+
+.works .how {
+    border: 1px solid purple;
+    display: inline-flex;
+    list-style: none;
+    align-items: center;
+    width: 62%;
+}
+
+.works .how > li{
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.works h3 {
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+    font-weight: 400;
+}
