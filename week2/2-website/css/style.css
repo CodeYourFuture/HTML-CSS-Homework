@@ -22,6 +22,7 @@ body {
     background-color: blueviolet;
     height:720px;
     width: 100%;
+    margin-bottom: 10rem;
 
 
 }
@@ -63,13 +64,20 @@ align-self: center;
  
 }
 li{
-    color: lightslategrey;
+    color: #7777;
     justify-self: center;
   
    
 }
+li:hover{
+color: #151618;
+cursor: pointer;
+}
 .menu .meet-karma{
-    color:black
+    color:rgb(87, 81, 81)
+}
+.menu .meet-karma:hover{
+color: #151618;
 }
 
 .first-content{
@@ -108,7 +116,7 @@ li{
     text-align: center;
     /* font-size: 1rem; */
     /* font-weight: lighter; */
-   
+  
    
   
 }
@@ -133,8 +141,37 @@ li{
 }
 
 .section2{
+    display: flex;
+ justify-content: space-between;
     margin:auto;
-    height: 600px;
+    height: 400px;
     width: auto;
-    background-color: aqua;
+    background-color:white;
+}
+.section2-list{
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    margin-top: 10rem; 
+   
+}
+.section2-list li{
+    text-align: center;
+    list-style: none;
+}
+.section2-list li img{
+    width: 127px;
+    height: 127px;
+}
+.section2 h2{
+    width:100%;
+    text-align: center;
+   
+}
+
+
+footer hr{
+    width: 50%;
+   
 }
