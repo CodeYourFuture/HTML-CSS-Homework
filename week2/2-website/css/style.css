@@ -32,6 +32,10 @@ nav {
     list-style: none;
 }
 
+.nav-link ul a {
+    text-decoration: none;
+}
+
 .logo {
     height: 3.0rem;
     margin-left: 2rem;
