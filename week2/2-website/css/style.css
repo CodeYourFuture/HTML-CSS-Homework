@@ -87,6 +87,7 @@ html {
   border-radius: 0.25rem;
 }
 .products {
+  
 }
 .intro {
   font-size: 2rem;
@@ -94,26 +95,15 @@ html {
   margin: 100px 0 40px 0;
   font-weight: lighter;
 }
-
-.prod_feature {
-  /* overflow: hidden; */
-  width: 70%;
-  margin: auto;
+.prod-section-container {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  
+  
 }
 .prod-img {
   width: 100px;
   height: 100px;
   margin-bottom: 30px;
-}
-.prod-description {
-  width: 120px;
-  font-size: 1.2rem;
-  font-weight: normal;
-  /* text-align: center; */
-}
 
 @media screen and (min-width: 700px) {
   html {
