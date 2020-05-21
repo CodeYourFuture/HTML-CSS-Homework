@@ -1,12 +1,11 @@
-
- /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
+/* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
 
 body {
-    background-color:white;
-    font-family: 'Roboto', sans-serif;
-    -webkit-font-smoothing: antialiased;
-  
-}
+  background-color: white;
+ font-family: roboto,sans-serif;
+ font-weight: 500;
+ line-height: 1.1rem;
+   }
 
 /**
  * Add your custom styles below
@@ -18,160 +17,179 @@ body {
  * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
  */
 
- .section1{
-    background-color: blueviolet;
-    height:720px;
-    width: 100%;
-    margin-bottom: 10rem;
-
-
+.section1 {
+  background-color: blueviolet;
+  height: 500px;
+  width: 100%;
+  margin-bottom: 10rem;
 }
-header{
-    background-color: yellowgreen;
-   
+header {
+  background-color: yellowgreen;
 }
 
-.nav-bar{
-    display: flex;
-    background-color:white;
-    height: 70px;
-  font-family:roboto,sans-serif;
+.nav-bar {
+  display: flex;
+  background-color: white;
+  height: 70px;
 }
-.menu-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color:white;
-    width: 60%;
-    height: auto;
-    margin: auto;
-    
-   
+.menu-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  width: 60%;
+  height: auto;
+  margin: auto;
 }
-.logo{
+.logo {
   width: 3.4%;
   height: 100%;
-align-self: center;
-
+  align-self: center;
 }
-.menu{
-    display: flex;
-    background-color:white;
-    justify-content:space-around; 
-     list-style-type: none;
-     align-items: center;
-    width: inherit;  
- 
-}
-li{
-    color: #7777;
-    justify-self: center;
+.menu {
+  display: flex;
+  background-color: white;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: center;
+  width: inherit;
   
-   
 }
-li:hover{
-color: #151618;
-cursor: pointer;
-}
-.menu .meet-karma{
-    color:rgb(87, 81, 81)
-}
-.menu .meet-karma:hover{
-color: #151618;
-}
-
-.first-content{
-    margin-bottom:1px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    font-family: roboto,sans-serif;
+li {
     font-size: 1rem;
-    font-style: normal;
-    font-weight: 150px;
-  
-  
-   /* margin: auto; */
-   /* padding:10%; */
-   /* padding:20px;
+  color: #7777;
+  justify-self: center;
+}
+li:hover {
+  color: #151618;
+  cursor: pointer;
+}
+.menu .meet-karma {
+  color: rgb(87, 81, 81);
+}
+.menu .meet-karma:hover {
+  color: #151618;
+}
+
+.first-content {
+  margin-bottom: 1px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  /* font-family: roboto, sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 150px; */
+
+  /* margin: auto; */
+  /* padding:10%; */
+  /* padding:20px;
    margin:100px auto;
    box-shadow: 0px 0px 10px 2px grey;
    border: 10px solid red; */
 
-   /* height: 25rem; */
- 
-   height:100%;
+  /* height: 25rem; */
 
-    background-image: url("../img/first-background.jpg");
-    background-size: cover;
-    /* height:  45.938rem; */
-    width: auto;
+  height: 100%;
 
-    background-position-x:50%;
-    background-position-y: 100%;
-    background-position: center;
+  background-image: url("../img/first-background.jpg");
+  background-size: cover;
+  /* height:  45.938rem; */
+  width: auto;
 
-    color: white;
-    text-align: center;
-    /* font-size: 1rem; */
-    /* font-weight: lighter; */
-  
-   
-  
+  background-position-x: 50%;
+  background-position-y: 100%;
+  background-position: center;
+
+  color: white;
+  text-align: center;
+  /* font-size: 1rem; */
+  /* font-weight: lighter; */
 }
-.first-content button{
-    /* color:black; */
-    font-family: Arial, Helvetica, sans-serif;
-    background: none;
-    border: none;
-    border-radius: 0.3rem;
-    background-color:#f15a29;
-    height: 50px;
-    width: 50%;
+.first-content button {
+  /* color:black; */
+  font-family: Arial, Helvetica, sans-serif;
+  background: none;
+  padding: 1px #f15a29;
+  padding: 1px ;
+  border: none;
+  border-radius: 0.3rem;
+  background-color: #f15a29;
+  height: 50px;
+  width: 35%;
+
 }
-.first-content button:hover{
-    background-color:#d9400e;
+.first-content button:hover {
+  background-color: #d9400e;
+  border:1px #d9400e;
 }
-   
-    
 .text{
-    
-    
+    line-height: 1.1rem;
 }
 
-.section2{
+.text h1{
+    font-size: 3.125rem;
+    font-weight: 300;
+}
+.text h3{
+    font-weight: 300;
+    font-size:1.56rem ;
+}
+
+.section2 {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between; */
+  /* margin: auto;
+  height: 400px;
+  width: auto;
+  background-color: white; */
+}
+.section2-list {
     display: flex;
- justify-content: space-between;
-    margin:auto;
-    height: 400px;
     width: auto;
-    background-color:white;
+    flex-direction: row;
+ justify-content:center;
+ /* align-self: center;  */
+    /* background-color: aqua; */
+    
+    
+  /* width: 100%; */
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; */
+  margin-top: 2rem;
 }
-.section2-list{
-    width: 100%;
+.section2-list li {
     display: flex;
-    flex-direction:row;
-    justify-content: space-evenly;
-    margin-top: 10rem; 
-   
+   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  color: #151618;
+  pointer-events: none;
 }
-.section2-list li{
-    text-align: center;
-    list-style: none;
+.section2-list li h2{
+    font-weight: 400;
+    font-size: 1.56rem;
 }
-.section2-list li img{
-    width: 127px;
-    height: 127px;
+.section2-list li img {
+  width: 127px;
+  height: 127px;
 }
-.section2 h2{
-    width:100%;
-    text-align: center;
-   
+.section2 .sec2-h2 {
+    font-weight: 300;
+    font-size: 2.75rem;
+  text-align: center;
+
+}
+.section2 .section2-list h2{
+   width: 15rem;
+  
 }
 
-
-footer hr{
-    width: 50%;
-   
+footer hr {
+  width: 50%;
 }
