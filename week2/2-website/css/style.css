@@ -7,6 +7,7 @@
 }
 html{
     font-size: 16px;
+    width: 100%;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -52,7 +53,7 @@ body {
 .content{/*******ul**********************/ 
     color: #838994;
     font-size: 1.04rem;
-    margin-top: 1.7rem
+    margin-top: 1.7rem;
 }
 
 
@@ -119,7 +120,6 @@ button{
     display:flex;
     justify-content: center;
     align-items: center;
-    //margin: 10.625rem;
 }
 .case-content{/*******h2+3 devices*********************/
     text-align: center;
@@ -131,13 +131,11 @@ button{
 .case-content h2{
     margin: 0;
     font-size: 2.75rem;
-  
     font-weight: 300;
     margin-bottom: 1.5rem;
 
 }
 .devices{
-   
     display:flex;
     justify-content: center;
     margin-top: 0rem;
@@ -152,7 +150,9 @@ button{
     margin-top: 2.5rem;
 }
 /*******footer************************************************/
-.footer{}
+.footer{
+    margin-bottom: 10rem;
+}
 .footer hr{
     border: 0;
     width: 45rem;
@@ -169,9 +169,7 @@ button{
     justify-content: center;
     align-items: center;
 }
-.foot-content{
-   
-}
+
 .foot-content h5{
     margin: 0;
     padding: 0;
@@ -202,10 +200,13 @@ button{
     color: rgba(28, 8, 119, 0.904);
 }
 .copy{
-    ont-size: 0.9rem;
+    font-size: 0.9rem;
     font-weight: 300;
     color: #838994;
 }
-.twitter{}
-.facebook{}
-.instagram{}
+@media only screen and (max-width: 600px) {
+    html{
+        font-size: 10px;
+    }
+    
+  }
