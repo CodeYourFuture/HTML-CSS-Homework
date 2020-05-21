@@ -1,1 +1,22 @@
 /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
+html {
+  font-size: 62.25%;
+  box-sizing: border-box;
+}
+body {
+  /* -webkit-font-smoothing: antialiased; */
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+  color: #333;
+  font-size: 2rem;
+}
+ul,
+li {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
