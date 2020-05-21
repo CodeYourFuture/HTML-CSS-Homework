@@ -38,8 +38,11 @@ a {
     text-decoration: none;
     color: grey;
 }
-.links a:nth-child(1) {
-    color: black !important
+.links a:active {
+    color: black;
+}
+/* .links a:nth-child(1) {
+    color: black !important */
 }
 a:hover {
     color: black;
@@ -152,4 +155,9 @@ background-color: whitesmoke;
             }
 .footer-social-icons {
     color: skyblue;
+}
+@media only screen and (max-width:600px) {
+    body {
+        width: 70%;
+    }
 }
