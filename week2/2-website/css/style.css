@@ -30,31 +30,27 @@ body {
 
 .content-nav {
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	border: 2px;
 	padding: 0.50rem;
 	margin: 0.50rem;
 	height: 3rem;
-	justify-content: center;
-	align-content: center;
 }
 
 .links {
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-end;
 	list-style-type: none;
 	font-size: 1.1rem;
-	padding: 0.50rem;
-	margin: 0.50rem;
-	align-content: center;
+	padding: 0rem;
+	margin: 0rem;
 }
 .links li {
 	padding: 0.50rem;
-	margin: 1rem 1rem 1rem 1rem;
-	align-content: flex-start;
+	margin: 1rem;
 	cursor: pointer;
-}
-.links li {
 	color: rgb(189, 184, 184);
 }
 
@@ -68,7 +64,7 @@ body {
 .logo {
 	height: 2.75rem;
 	width: 2.75rem;
-	margin-right: 5rem;
+	margin-right: 10rem;
 }
 
 /* Section-1 Introduction styling   */
@@ -159,6 +155,7 @@ button:hover {
 li img {
 	width: 50%;
 	height: 50%;
+	/* align-self: center; */
 }
 
 li h3 {
@@ -167,6 +164,7 @@ li h3 {
 	text-align: center;
 	margin: 4rem;
 	padding: 4rem;
+	/* align-self: center; */
 }
 
 /* Footer styling   */
