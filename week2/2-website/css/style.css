@@ -33,15 +33,15 @@ body {
 	justify-content: center;
 	align-items: center;
 	border: 2px;
-	padding: 0.50rem;
-	margin: 0.50rem;
+	padding: 0rem;
+	margin: 0.5rem;
 	height: 3rem;
 }
 
 .links {
 	display: flex;
 	justify-content: center;
-	align-items: flex-end;
+	align-items: center;
 	list-style-type: none;
 	font-size: 1.1rem;
 	padding: 0rem;
@@ -64,7 +64,6 @@ body {
 .logo {
 	height: 2.75rem;
 	width: 2.75rem;
-	margin-right: 10rem;
 }
 
 /* Section-1 Introduction styling   */
@@ -264,4 +263,19 @@ hr {
 	text-align: center;
 }
 
+/*	Media quaries styling  */
+
+@media only screen and (max-width: 600px) {
+	.links {
+		justify-content: flex-start;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.devices li {
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+}
 /*	End of styling  */
