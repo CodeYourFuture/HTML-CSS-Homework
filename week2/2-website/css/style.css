@@ -87,24 +87,35 @@ html {
   border-radius: 0.25rem;
 }
 .products {
-  
 }
 .intro {
-  font-size: 2rem;
+  font-size: 1.8rem;
   text-align: center;
   margin: 100px 0 40px 0;
   font-weight: lighter;
 }
 .prod-section-container {
+  width: 60%;
+  margin: 30px auto;
   display: flex;
-  
-  
+  justify-content: space-evenly;
+}
+.prod_feature {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .prod-img {
   width: 100px;
   height: 100px;
   margin-bottom: 30px;
-
+}
+.prod-description {
+  font-size: 1.2rem;
+  font-weight: normal;
+  text-align: center;
+}
 @media screen and (min-width: 700px) {
   html {
     font-size: 16px;
