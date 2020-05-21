@@ -26,12 +26,8 @@ body {
 
 
 /******header***************************************************************/
-.header-wrap{/*******nwarapping around header**********************/
-    height: 4.375rem; 
-}
 .header{
     width:100%;
-    height: 4.375rem;
     position: fixed;
     z-index:999;
     border-bottom: 1px solid #DDD;
@@ -45,6 +41,7 @@ body {
     display:flex;
     justify-content:space-around;
     align-items: center;
+    margin: 0;
   
 }
 .logo{/*******logo image**********************/
@@ -73,8 +70,9 @@ body {
 }
 
 /******main**************************************************************/
-.introduction{/*******fintroduction section*********************/
-    background-image: url(../img/zz.jpg);
+/*******section introduction(class=introduction)*********************************/
+.introduction{/*******fintroduction(class=intro-content)*********************/
+    background-image: url(../img/first-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 45.938rem;
@@ -84,7 +82,7 @@ body {
     align-items: center;
     color: rgb(170, 165, 165);
 }
-.intro-content{/*******h1+h3+button********************/
+.intro-content{/*******h1+h3+class=buttons********************/
     
     color: white;
     min-width: 37.5rem;
@@ -100,10 +98,10 @@ body {
     margin: 0;
     font-size: 1.563rem;
     font-weight: 300;
-    margin-top: 1.25rem;
+    margin-top: 1rem;
 }
-.buttons{/*******div contain buttons read more*******************/
-    margin-top: 1.563rem;
+.buttons{/*******buttons(button)*******************/
+    margin-top: 1.0rem;
 }
 button{
     width: 9.688rem;
@@ -115,4 +113,41 @@ button{
     padding: 1rem 1.5rem;
     color: white;
     font-size: 1.125rem;
+}
+/*******section cases(class=cases)*********************************/
+.cases{/*******cases()*********************/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    //margin: 10.625rem;
+}
+.case-content{/*******h2+3 devices*********************/
+    text-align: center;
+    padding-top: 0.938rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
+    margin-top: 5rem;
+}
+.case-content h2{
+    margin: 0;
+    font-size: 2.75rem;
+  
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+
+}
+.devices{
+   
+    display:flex;
+    justify-content: center;
+    margin-top: 0rem;
+}
+.devices img{
+    width: 7.9375rem;
+    height: 7.9375rem;
+}
+.devices h3{
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin-top: 2.5rem;
 }
