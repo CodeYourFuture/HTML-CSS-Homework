@@ -1,10 +1,203 @@
 
  /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
 
-body {
+body html {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
    
+   
+}
+.main-nav{
+    border-bottom: 1px solid #DDD;
+   width: 100%;
+   position: fixed;
+   top: 0;
+   background-color: #fff;
+}
+/* nav styling  */
+.nav-list li{
+    
+    display: inline-block;
+    list-style: none;
+    margin-left: 1.563rem;
+    font-size: 1.04rem;  
+}
+
+
+.nav-list{
+    float: right;
+    color: #838994;
+    font-size: 1.04rem;
+    margin-top: 1.7rem;
+    
+}
+.logo{
+    float: left;
+    height: 4.375rem;
+}
+.content-style{
+    padding: 0 0.938rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
+    
+    
+}
+.nav-items{
+    background-color: lightpink;
+    width: 62%;
+    align-items: center;
+   
+   
+}
+.nav-list li:first-child  {
+    color: #4c5058;
+    font-weight: 500;
+
+}
+.main-nav .nav-list li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+/* fisrt section */
+
+.first-section {
+    background-image: url('../img/first-background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+}
+h1,h3{
+   
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    
+
+}
+.first-section-items{
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+    align-items: center;
+
+
+   
+
+}
+
+
+.first-section h1 {
+    font-size: 3.125rem;
+    margin-top: 2.3rem;
+    margin-bottom: 0;
+    
+}
+.first-section h3 {
+    font-size: 1.563rem;
+    margin-top: 12px;
+}
+
+/* button */
+.learn-more-button {
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+   
+}
+.learn-more-button:hover {
+    background-color: #d9400e;
+    border-color: #cf3d0e;
+    cursor: pointer;
+}
+
+/* Second Section */
+.icon{
+    width: 127px;
+    height: 127px;
+}
+.second-section h2{
+text-align: center;
+font-size: 2.75rem;
+    margin: 7.5rem 0 3.125rem;
+    font-weight: 300;
+    color: #484848;
+}
+.options-list{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    width: 95%;
+    
+    
+}
+.options-list li{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.icon-description{
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+    color: black;
+    
+}
+
+
+
+
+/*
+
+
+.main-nav {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+    z-index: 9999;
+}
+.main-nav > .content-style  {
+    height: 4.375rem;
+}
+.main-nav .logo {
+    height: 4.375rem;
+}
+.main-nav .nav-list {
+    float: right;
+    color: #838994;
+    font-size: 1.04rem;
+    margin-top: 1.7rem;
+}
+.main-nav .nav-list li {
+    display: inline-block;
+    margin-left: 1.563rem;
+}
+.main-nav .nav-list li.active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.main-nav .nav-list li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+.content-style{
+    padding: 0 0.938rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
+    
 }
 
 /**
