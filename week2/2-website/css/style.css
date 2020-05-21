@@ -90,8 +90,6 @@ nav ul li:hover {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Section 2 Style */
-
 #learnMore {
     background-color: rgb(255, 81, 0);
     color: white;
@@ -104,6 +102,8 @@ nav ul li:hover {
 #learnMore:hover {
     background-color: orangered;
 }
+
+/* Section 2 Style */
 
 #everyoneNeedsKarma {
     margin-left: 30%;
