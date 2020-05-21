@@ -1,0 +1,119 @@
+/**
+ * Add your custom styles below
+ * 
+ * Remember: 
+ * - Be organised, use comments and separate your styles into meaningful chunks
+ *    for example: General styles, Navigation styles, Hero styles, Footer etc.
+ * 
+ */
+ header {
+    background-color: #a8bddb;
+        padding: 50px;
+        text-align: center;
+       
+    }
+    
+    .about-title {
+     font-size: 35px;
+    }
+    
+    .section-about{
+        margin: 100px;
+        
+    }
+    .section-title{
+        font-size: 15px;
+        text-align: right;
+        background-color: rgb(35, 201, 146);
+    }
+    .about-content{
+        padding: 50px;
+        background-color: #9badbd;
+    }
+    .about-text{
+        width: 100%;
+        text-align: center;
+    }
+    .about-image{
+       background-size: cover;
+       background-position: center;
+       padding: 10px;
+       height: 600px;
+       display: block;
+      margin-left: auto;
+      margin-right: auto;
+       
+         
+    }
+    .about-title{
+        margin-bottom: 50px;
+    }
+    .about-description{
+        background-color: gold;
+    }
+    .section-articles{
+      margin: 80px;  
+     }
+    .article-box{
+        display: flex;
+        justify-content: space-between;
+    }
+    .article{
+        width: 30%;
+        background-color: #f3f3f3;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .article:nth-child(){
+        align-self: flex-end;
+    }
+    .article-image{
+        width: auto;
+        height:200px;
+              
+    }
+    .article-info{
+        padding: 20px;
+    }
+    .article-title{
+        font-size: 25px;
+    }
+    .article-description{
+        font-size: 14px;
+        color: black;
+    }
+    .article-button{
+        padding: 10px;
+        border: 1px solid black;
+        cursor: pointer;
+        background-color: white;
+    }
+    .article-button:hover{
+        background-color: black;
+        color: white;
+    }
+    
+    .footer{
+        background-color: #a8bddb;
+        padding: 30px;
+        text-align: center;
+    }
+    .footer-logo{
+        text-align: left;
+        font-size: 30px;
+        color: black;
+    }
+    .footer-social-icons{
+        margin-bottom: 40px;
+        font-size: 30px;
+    }
+    .footer-social-icons a{
+        margin-left: 20px;
+        color: black;
+        text-decoration: none;
+    }
+    .footer-social-icons a:hover{
+        color: #f3f3f3;
+    }
