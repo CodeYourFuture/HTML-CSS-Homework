@@ -4,10 +4,8 @@
 
 html {
   font-size: 62.5%;
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
-  /*font-size: 15px;*/
+    /*font-size: 15px;*/
 }
 
 body {
@@ -16,14 +14,28 @@ body {
   font-size: 1.5rem;
 }
 
-nav {
+.logo-nav {
+  position: fixed;
+  width: 100%;
+  border-bottom: 0.01rem solid black;
+  display: flex;
+  background-color: #ffffff;
+  
+}
+
+.nav-link {
   display: flex;
   width: 100%;
-}
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: #ffffff;
+  }
 
 .nav-link ul {
   display: flex;
-  font-size: 1.3rem;
+ 
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
@@ -32,31 +44,42 @@ nav {
 }
 
 .nav-link ul li {
-    display: flex;
+  display: flex;
   text-decoration: none;
   list-style: none;
-  justify-content: row;
+  justify-content: center;
+  padding: 1.0rem;
+  margin: 0.6rem;
 }
 
 .nav-link ul a {
-  flex-direction: right;
+  flex-direction: row;
   text-decoration: none;
-  font-size: 2.0rem;
+  font-size: 1.70rem;
   color: rgb(92, 91, 91);
 }
 
 .logo {
-  height: 5.0rem;
-  margin: 1.2rem 0 1.2rem 35rem;
+  height: 4.0rem;
+  margin: 1.4rem 0 1.26rem 31.4rem;
   }
 
 .intro {
   padding: 0;
   margin: 0;  
   background: url(../img/first-background.jpg);
-  /*background-size: cover;*/
+  background-size: cover;
   width: 100%;
-  height: 101.0vh;
+  height: 95.0vh;
+}
+.intro {
+  padding: 0;
+  margin: 0;  
+  background: url(../img/first-background.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  width: 100%;
+  height: 80.0vh;
 }
 
 .learn {
