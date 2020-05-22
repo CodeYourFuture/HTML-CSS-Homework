@@ -1,14 +1,11 @@
 
- /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
-
 body html {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
     margin: 0;
     padding: 0;
-   
-   
 }
+/* nav styling  */
 .main-nav{
     border-bottom: 1px solid #DDD;
    width: 100%;
@@ -16,7 +13,6 @@ body html {
    top: 0;
    background-color: #fff;
 }
-/* nav styling  */
 .nav-list li{
     
     display: inline-block;
@@ -40,17 +36,14 @@ body html {
 .content-style{
     padding: 0 0.938rem;
     margin: 0 auto;
-    min-width: 37.5rem;
-    
-    
+    min-width: 37.5rem;  
 }
+
 .nav-items{
-    background-color: lightpink;
     width: 62%;
     align-items: center;
-   
-   
 }
+
 .nav-list li:first-child  {
     color: #4c5058;
     font-weight: 500;
@@ -71,13 +64,11 @@ body html {
     height: 45.938rem;
     overflow: auto;
 }
-h1,h3{
+.first-section-items h1,h3{
    
     color: white;
     text-align: center;
     font-weight: 300;
-    
-
 }
 .first-section-items{
     margin-top: 15rem;
@@ -85,9 +76,6 @@ h1,h3{
     flex-direction: column;
     align-content:center;
     align-items: center;
-
-
-   
 
 }
 
@@ -156,58 +144,37 @@ font-size: 2.75rem;
     
 }
 
+/* footer */
+.main-footer{
+    
+    margin-top: 8rem;
+    text-align: center;
+}
 
-
-
-/*
-
-
-.main-nav {
-    background-color: #fff;
-    position: fixed;
-    width: 100%;
-    border-bottom: 1px solid #DDD;
-    z-index: 9999;
-}
-.main-nav > .content-style  {
-    height: 4.375rem;
-}
-.main-nav .logo {
-    height: 4.375rem;
-}
-.main-nav .nav-list {
-    float: right;
-    color: #838994;
-    font-size: 1.04rem;
-    margin-top: 1.7rem;
-}
-.main-nav .nav-list li {
-    display: inline-block;
-    margin-left: 1.563rem;
-}
-.main-nav .nav-list li.active {
-    color: #4c5058;
-    font-weight: 500;
-}
-.main-nav .nav-list li:hover {
+.soical-icon{
     cursor: pointer;
-    color: #333333;
 }
-.content-style{
-    padding: 0 0.938rem;
-    margin: 0 auto;
-    min-width: 37.5rem;
+
+.twitter {
+    color: #55acee;
     
 }
-
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
- */
-
-
+.facebook {
+    color: #4c66a4;
+    margin-left: 2.2rem;
+}
+ .instagram {
+    color: #3f729b;
+    margin-left: 2.2rem;
+}
+.main-footer h5{
+    font-weight: 500;
+    font-size: inherit;
+}
+.copyright{
+    margin-top: 1.8rem;
+    margin-bottom: 9rem;
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+}
