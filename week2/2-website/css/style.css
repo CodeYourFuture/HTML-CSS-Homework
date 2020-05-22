@@ -4,6 +4,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
+
 }
 
 /**
@@ -16,38 +17,50 @@ body {
  * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
  */
 
-
+header
+{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    height: 4.375Rem;
+    border-bottom:solid;
+    border-width: 0.5px;
+    border-color: rgb(232, 236, 236);
+}
 
  .top-container
  {
      display: flex;
-     justify-content: space-around;
-     width:80%;
-     margin: auto;
-     position: fixed;
-     background-color: white;
-     width: 100%;
+     justify-content: space-between; 
+     width:60%;
+     margin: 0 auto;
+     
+     /* position: fixed; */
+     /* background-color: white; */
+     /* border: solid;   */
+     /* height: 4.375rem; */
  }
  
  .logo
 {
-    width: 2vw;
-    height:auto;
+    width: 1.7rem;
+    height:1,7rem;
+    margin-left:1rem
 }
 
  nav ul
  {
      display: flex;
-     justify-content: center;
      width: 100%;
+     margin-top: 1rem;
  }
 
  nav ul li
  {
      list-style-type: none;
      font-size: 1rem;
-     margin: auto;
-     border: solid;
+     margin-left:1.563rem;
+     /* border: solid; */
  }
 
  .top-item
@@ -56,11 +69,11 @@ body {
      margin-bottom: 0.2%;
  }
 
- .second-top-item
+ /* .second-top-item
  {
-     
-     border: solid;
- }
+     width:60%;
+     border: solid; 
+ } */
 
  nav a 
 {
@@ -85,13 +98,18 @@ nav a:hover
 .upper-main
 {
     background-image: url(../img/first-background.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    overflow: auto;
     height: 45.938rem;
+    width:100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* border: solid; */
 }
-
 
 
 .upper-main p
@@ -99,6 +117,7 @@ nav a:hover
     color:white;
     font-size: 2.875rem;
     margin: 0.3em;
+    font-weight: 200;
 }
 
 
@@ -112,12 +131,16 @@ nav a:hover
     margin-top: 0.3em;
     color: white;
     background-color: rgb(255, 93, 17);
-    height: 8%;
-    width: 12%;
+    height: 3.5rem;
+    width: 10rem;
     border-radius: 4%;
     border: none;
 }
 
+.upper-main button:hover
+{
+    background-color: rgb(196, 53, 17);
+}
 
 .lower-main
 {
@@ -127,6 +150,7 @@ nav a:hover
     align-items: center;
     margin-top: 6%;
     margin-bottom: 6%;
+    /* border: solid; */
 }
 
 .lower-main p
@@ -134,6 +158,7 @@ nav a:hover
     font-size: 3rem;
     font-weight: 100;
     color: rgb(54, 56, 55);
+    text-align: center;
 }
 
 .article-container
@@ -146,7 +171,7 @@ nav a:hover
 
 .article-container img
 {
-    width:9.5rem;
+    width:9.5em;
     height: auto;
     display:table;
     margin: auto;
@@ -155,15 +180,15 @@ nav a:hover
 .article-container figcaption
 {
     font-size: 1.5rem;
-    color: rgb(66, 65, 64);
+    color: rgb(46, 44, 43);
 }
 
 
 hr{ 
     height: 1px;
-    background-color: rgb(223, 192, 192);
+    background-color: rgb(224, 214, 214);
     border: none;
-    width: 50%;
+    width: 60%;
   }
 .footer
 {
@@ -179,7 +204,7 @@ hr{
     font-weight: 400;
 }
 
-.footer :last-child
+.footer p:last-child
 {
     color: rgb(175, 169, 180);
 }
@@ -187,28 +212,72 @@ hr{
 .icons 
 {
     display: flex;
-    justify-content: space-evenly;
-    font-size: 1.5rem;
-    color: rgb(34, 196, 224);
+    justify-content: space-between;
+    font-size: 1rem;
+    /* border:solid; */
 }
 
-.icons i
+.icons a
 {
+    text-decoration: none;
     height: 1.5rem;
     width: 1.5rem;
-    border: 1px solid;
-    border-color: rgb(218, 212, 208);
-    border-radius: 60%;
-    text-align: center;
-    padding: 1rem ;
+    border: 1px solid rgb(218, 212, 208);
+    border-radius: 50%;
+    padding: 0.4rem ;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
+.fa-twitter
+{
+    color: rgb(34, 196, 224);
+}
 .fa-facebook
 {
     color: rgb(41, 80, 209);
 }
 .fa-instagram
 {
-    color: rgb(40, 156, 137);
+    color: #3f729b;
+}
+
+
+
+@media screen and  (max-width:950px)
+{
+    .top-container, .lower-main, .footer
+    {
+        width:80%;
+        margin: auto;
+    }
+}
+
+
+@media screen and  (max-width:730px)
+{
+    .top-container, .lower-main, .footer
+    {
+        width:90%;
+        margin: auto;
+    }
+}
+/* @media (max-width:700px) */
+
+
+@media (max-width:680px)
+{
+    body{
+
+        width:680px;
+    }
+
+    .top-container
+    {
+        width: 680px;
+    }
 }
