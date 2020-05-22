@@ -18,27 +18,34 @@ body {
  
 /* Logo and Navigation */
 header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     padding: .75rem;
     border-bottom: .5px solid rgba(165, 165, 165, 0.5);
     position: fixed;
-    width: 100%;
     background: white;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
 }
 
 .logo {
     width: 1.7rem;
-    margin-left: 8.5rem;
-}
-
-li {
-    display: inline;
+    padding-left: 1rem;
+    /* margin-left: 8.5rem; */
 }
 
 .nav-links {
-    margin-right: 7rem;
+    /*margin-right: 7rem;*/
+}
+
+.nav-link {
+    display: inline;
 }
 
 .nav-link a {
@@ -63,6 +70,7 @@ main {
     background-size: cover;
     background-position: center;
     color: white;
+    width: 100%;
     height: 45rem;
     display: flex;
     flex-direction: column;
@@ -99,14 +107,13 @@ main a:hover {
 h2 {
     font-size: 2.75rem;
     font-weight: 350;
-    text-align: center; /*BUG*/
 }
 
 .box-container {
     padding: 6rem 0;
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    align-items: center; */
+    align-items: center;
     width: 60%;
     margin: 0 auto;
     border-bottom: .5px solid rgba(165, 165, 165, 0.5);
@@ -116,7 +123,7 @@ h2 {
 .boxes {
     display: flex;
     justify-content: space-around;
-    width: 50rem;
+    /* width: 50rem; */
 }
 
 .box {
@@ -126,6 +133,11 @@ h2 {
 
 .box img {
     width: 7.8rem;
+}
+
+.box p {
+    font-size: 1.6rem;
+    text-align: center;
 }
 
 /* Social Media Links */
@@ -164,6 +176,67 @@ footer {
     color: rgb(165, 165, 165);
     font-size: .9rem;
 }
+
+@media screen and  (max-width:1017px) {
+    nav, .box-container, footer
+    {
+        width:80%;
+        margin: auto;
+    }
+}
+
+@media screen and  (max-width:800px) {
+    nav, .box-container, footer {
+        width:90%;
+        margin: auto;
+    }
+}
+
+@media screen and  (max-width:700px) {
+    nav, .box-container, footer {
+        width:700px;
+        margin: auto;
+    }
+}
+
+/* @media(max-width: 1000px) {
+    nav {
+        width: 90%;
+    }
+    .boxes {
+        width: 90%;
+    }
+} */
+
+/* @media screen and (max-width: 683px) {
+    nav, body {
+        width: 683px;
+    }
+} */
+
+/* @media(max-width: 900px) {
+    body {
+        width: 900px;
+    }
+}
+
+@media(max-width: 800px) {
+    body {
+        width: 800px;
+    }
+
+} */
+
+/*@media(max-width: 900px) { /*BUG
+    body {
+        background: rgb(233, 96, 233);
+    }
+    .logo {
+        width: 50px;
+        justify-content: left;
+    }
+}*/
+
 /*
 @media(max-width: 1350px) { /*words in the boxes start to move*/
    /*body {
@@ -176,11 +249,11 @@ footer {
         background: rgb(236, 255, 128);
     }*/
 
-@media(max-width: 960px) { /*icons and words are squashed*/
-    body {
-        width: 960px;
+/*@media(max-width: 960px) { /*icons and words are squashed*/
+    /*body {
+        width: 100vmax;
     }
-}
+}*/
 /*@media(max-width: 615px) { /*scroll bar appears on background img*/
     /*body {
         background: rgb(70, 233, 255);
