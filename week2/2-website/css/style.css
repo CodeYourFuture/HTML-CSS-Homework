@@ -133,14 +133,35 @@ button {
 }
 
 .karma_needs {
-  text-align: center;
-  font-size: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-h5 {
-  display: flex;
-  font-size: 2rem;
+.karma_needs > p {
+font-size: 4rem;
+font-weight: lighter;
+text-align: center;
 }
+
+.icons-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.icon-items li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 2rem;
+
+}
+
 
 .social-media {
   display: flex;
@@ -184,6 +205,12 @@ h5 {
   text-align: center;
 }
 
+h5 {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 12rem;
+  font-weight: lighter;
+}
 /**
  * Add your custom styles below
  * 
