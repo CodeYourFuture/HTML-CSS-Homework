@@ -183,6 +183,7 @@ footer {
     background-color: #ffffff;
     margin: 0 auto;
     text-align: center;
+    padding-bottom: 9.375rem;
 }
 
 footer h5 {
@@ -206,7 +207,7 @@ footer li {
     align-items: center;
     width: 2.5rem;
     height: 2.5rem;
-    border: 0.1rem solid black;
+    border: 0.1rem solid #e9e9e9;
     border-radius: 2.5rem;
     margin-right: 1rem;
     margin-left: 1rem;
@@ -223,6 +224,10 @@ footer li:nth-child(2) {
 footer li:last-of-type {
     color: #3f729b;
     margin-right: 0;
+}
+
+footer li:hover {
+    cursor: pointer;
 }
 
 footer p {
