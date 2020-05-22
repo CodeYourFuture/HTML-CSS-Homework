@@ -17,3 +17,102 @@ body {
  */
 
 
+/*navbar CSS - mostly completed
+TODO: add boldness to first link, change the spacing a little */
+.navbar
+{
+    position: fixed;
+    top: 0px;
+    background-color: #fff;
+    height: 4.375rem;
+    width: 100%;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar.logo
+{
+    height: 70px;
+}
+
+.navbar > ul
+{
+    display: flex;
+    align-items: center;
+    list-style: none; 
+}
+
+.navbar > ul > li
+{
+    margin-left: 1.563rem;
+}
+
+.navbar > ul > li > a
+{
+    color: #000000;
+    text-decoration: none;
+}
+
+
+/* Header CSS */
+header
+{
+    height: 46rem;
+    background-image: url("../img/first-background.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > div.content
+{
+    color: #fff;
+    text-align: center;
+}
+
+#header-button
+{
+    background-color: #f15a29;
+}
+
+#header-button:hover
+{
+    background-color: #d9400e;
+}
+
+/* Karma features section CSS */
+#section-1
+{
+    display:flex;
+    justify-content: center;
+}
+#section-1 > .content
+{
+    text-align: center;
+    width: 60%;
+}
+
+.features
+{
+    display: flex;
+    justify-content: center;
+}
+
+.features > figure
+{
+    width: 33.33%;
+    font-size: 1.5rem;
+    font-weight: 400;
+}  
+
+.feature-img
+{
+    width: 127px;
+    height: 127px;
+    margin-bottom: 2.5rem;
+}
