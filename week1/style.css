@@ -1,0 +1,295 @@
+img {
+  max-width: 200%;
+  height: auto;
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+/* UTILITIES */
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+
+
+.avatar {
+  height: 200px;
+  width: 200px;
+  margin: 0 auto 2em;
+}
+
+.avatar-img {
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.drawer-text {
+  padding: 1em;
+  text-align: center;
+}
+
+
+/* HERO SECTION */
+
+.hero-section {
+  height: 100vh;
+  /* IE11 doesn't like min-height */
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(63, 81, 181, 0.6);
+  background-image: linear-gradient(rgba(63, 81, 181, 0.3), rgba(63, 81, 181, 0.3)), url(https://miro.medium.com/max/600/0*Shjk1YB9oePtU9V0.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.hero-text {
+  color: black;
+  margin: auto;
+}
+
+@media screen and (max-width: 580px) {
+  .hero-text p {
+    white-space: pre-line;
+  }
+}
+
+.kitty-hero__text-button {
+  position: absolute;
+  bottom: -28px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+/* ABOUT  INTRO + CARDS */
+
+.intro-section,
+.cards-section {
+  max-width: 960px;
+}
+
+
+/* ABOUT  INTRO */
+
+.intro-section {
+  padding: 5em 2em 5em;
+}
+
+.about-kitty p {
+  max-width: 640px;
+  margin: auto;
+}
+
+.circle-container {
+  width: 100%;
+  min-height: 100px;
+  padding: 2em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.circle-container .circle {
+  height: 16px;
+  width: 16px;
+  background-color: #c51162;
+  border-radius: 50%;
+  margin: 0 3px 9px;
+}
+
+.topics-container {
+  padding: 2em 0;
+}
+
+.topics-container .topic {
+  font-size: 20px;
+  margin: 0 2px 5px;
+}
+
+@media screen and (max-width: 480px) {
+  .topics-container .topic {
+    margin-bottom: 0.5em;
+  }
+}
+
+.embedded-img {
+  max-width: 150px;
+  max-height: 150px;
+  margin: 0.5em;
+  border-radius: 50%;
+}
+
+
+/* CARDS SECTION */
+
+.cards-section {
+  padding: 5em 0;
+}
+
+.mdl-card__title {
+  min-height: 300px;
+  color: white;
+}
+
+.home-bringing-card .mdl-card__title {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url('https://www.bfi.org.uk/sites/bfi.org.uk/files/styles/full/public/image/man-with-a-movie-camera-1929-002-kino-eye.jpg?itok=jkdhA_hl') center / cover;
+}
+
+.play-card .mdl-card__title {
+  background: url('https://edc20.education.ed.ac.uk/mwolfindale/wp-content/uploads/sites/14/2020/01/Screenshot-2020-01-26-at-09.47.13.png') center / cover;
+}
+
+.image-card {
+  background: url('https://base.imgix.net/files/base/ebm/ehstoday/image/2019/03/ehstoday_3565_socialmedia2.png?auto=format&fit=crop&h=432&w=768') center / cover;
+}
+
+.image-card > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.image-card__title {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.litter-card .mdl-card__title {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url('https://cdn.shutterhub.org.uk/ways_seeing__thumb.jpg') center / cover;
+}
+
+.diet-card .mdl-card__title {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQrHjUBEs5Y4bNHT1ZcRfLOmKaMvemhDKNj9Ef3nT5aUiF1w3cN&usqp=CAU') center / cover;
+}
+
+.card-small {
+  min-height: auto;
+}
+
+.card-small > .mdl-card__title {
+  color: rgba(0, 0, 0, 0.87);
+  height: auto;
+  min-height: auto;
+}
+
+.card-small .mdl-card__title-text {
+  font-size: 16px;
+}
+
+.card-small .mdl-card__title-text:before {
+  content: "";
+  display: inline-block;
+  margin-right: 0.5em;
+  width: 18px;
+  height: 18px;
+  background-color: #c51162;
+  border-radius: 50%;
+}
+
+
+/* FULLWIDTH BACKGROUND SECTION */
+
+.fullwidth-panel {
+  color: white;
+  background-color: rgba(156, 39, 176, 0.6);
+}
+
+.fullwidth-panel p {
+  max-width: 640px;
+  margin: auto;
+}
+
+.quote-panel {
+  background-image: linear-gradient(rgba(63, 81, 181, 0.5), rgba(63, 81, 181, 0.5)), url('https://www.theolivepress.es/wp-content/uploads/2017/04/Guernica-1.jpg');
+  background-position: center 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4em 2em 2em;
+  display: flex;
+  align-content: flex-start;
+}
+
+@media screen and (min-width: 800px) {
+  .quote-panel {
+    background-position: center 0;
+    padding: 6em 2em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .quote-panel {
+    background-position: center 8%;
+    padding: 10em 2em 8em;
+  }
+}
+
+.contact-intro {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.contact-panel {
+  padding: 6em 4em;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.mdl-textfield {
+  display: block;
+  width: 100%;
+  padding: 20px 0;
+}
+
+@media screen and (min-width: 800px) {
+  .subscribe-button {
+    float: right;
+  }
+}
+
+.address-panel {
+  background-color: #dbdef1;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.address-panel .material-icons {
+  position: relative;
+  top: 0.2em;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  background-color: #ff4081;
+  padding: 0.5em;
+  border-radius: 50%;
+}
+
+.mdl-mini-footer,
+.mdl-mini-footer .mdl-logo,
+.mdl-mini-footer--link-list a,
+.mdl-mini-footer__link-list a {
+  color: rgba(0, 0, 0, 0.54);
+}
