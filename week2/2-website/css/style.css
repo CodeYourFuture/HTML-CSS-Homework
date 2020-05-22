@@ -119,3 +119,22 @@ header {
   background: linear-gradient(to right, rgb(255, 123, 0), rgb(233, 112, 31));
   cursor: pointer;
 }
+
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+.social ul {
+  list-style: none;
+  display: flex;
+}
+footer {
+  font-size: 2rems;
+  color: #fff;
+  padding: 2rem 0;
+}
+footer p {
+  text-align: center;
+}
