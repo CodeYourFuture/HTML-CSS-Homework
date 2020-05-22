@@ -3,10 +3,12 @@ html{
   font-size: 62.5%;
 }
 body {
+  margin: 0 0 0 0;
   background-color: white;
  font-family: roboto,sans-serif;
  font-weight: 400;
- line-height: 1.3rem;
+ line-height: 1.7rem;
+ min-height: 100vh;
    }
 
 /**
@@ -21,10 +23,10 @@ body {
 
 .section1 {
   background-color: blueviolet;
-  height:73.5rem;
-  width: 100%;
+  height: 735px;
+  widows: 100%;; 
   margin-bottom: 10rem;
-}
+  }
 header {
   background-color: yellowgreen;
 }
@@ -34,7 +36,7 @@ header {
   display: flex;
   background-color:white;
   width: 100%;
-  height: 71px;
+  min-height: 71px;
 }
 .menu-container {
   display: flex;
@@ -60,19 +62,19 @@ header {
   
 }
 li {
-    font-size: 1.7rem;
+    font-size: 1.3vw;
   color: #7777;
   justify-self: center;
 }
 li:hover {
-  color: #151618;
+  color: #333333;
   cursor: pointer;
 }
 .menu .meet-karma {
   color: rgb(87, 81, 81);
 }
 .menu .meet-karma:hover {
-  color: #151618;
+  color: #333333;
 }
 
 .first-content {
@@ -95,12 +97,14 @@ li:hover {
 
   /* height: 25rem; */
 
-  height: 100%;
-
+  /* height: 100%; */
+  widows: 100%;
+  height: 735px; 
   background-image: url("../img/first-background.jpg");
-  background-size: cover;
+  background-size:100% 100%;
   /* height:  45.938rem; */
-  width: auto;
+  
+  
 
   background-position-x: 50%;
   background-position-y: 100%;
@@ -115,7 +119,7 @@ li:hover {
   /* color:black; */
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
-  font-size: 1.8rem;
+  font-size: 1.386vw;
   background: none;
   padding: 1px #f15a29;
   padding: 1px ;
@@ -136,13 +140,13 @@ li:hover {
 
 .text h1{
   color: white;
-    font-size: 5rem;
+    font-size: 3.85vw;
     font-weight: 300;
     line-height: 5rem;
 }
 .text h3{
     font-weight: 300;
-    font-size:2.5rem ;
+    font-size:1.925vw ;
     line-height: 2.5rem;
 }
 
@@ -172,9 +176,10 @@ li:hover {
   margin-bottom: 8rem;
 }
 .section2-list li {
-    display: flex;
+  width: 250px;
+      display: flex;
    flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   list-style: none;
   text-align: center;
@@ -185,18 +190,18 @@ li:hover {
 color: #1d1e21;
   font-family:roboto,sans-serif;
     font-weight:400;
-    font-size: 2.5rem;
+    font-size: 1.925vw;
     line-height: 2.5rem;
     width: 16.1rem;
 }
 .section2-list li img {
-  width: 127px;
-  height: 127px;
+  width: 50.4%;
+  height: 100%;
 }
 .section2 .sec2-h2 {
   color: #1d1e21;
     font-weight: 300;
-    font-size: 5rem;
+    font-size: 3.85vw;
     line-height: 4.4rem;
   text-align: center;
 
@@ -218,14 +223,14 @@ display: inline-block;
 .footer-section h5{
   font-family: roboto,sans-serif;
   color: black;
-  font-size: 1.6rem;
+  font-size: 1.232vw;
   line-height: 1.6rem;
   font-weight: 400;
 }
 .footer-section .copy-right{
   font-family: roboto,sans-serif;
   font-weight: 300;
-  font-size: 1.4rem;
+  font-size: 1.232vw;
   line-height: 1.4rem;
   color: #838994;
 }
@@ -246,7 +251,7 @@ footer hr {
 }
 
 .social-media li img{
-  widows: 20px;;
+  widows: 20px;
   height: 20px;
   border-radius: 1.25rem;
   border: 1px solid #eaebec;
