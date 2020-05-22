@@ -3,12 +3,17 @@ html{
   font-size: 62.5%;
 }
 body {
-  margin: 0 0 0 0;
+  margin:0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: white;
  font-family: roboto,sans-serif;
  font-weight: 400;
  line-height: 1.7rem;
  min-height: 100vh;
+ width: 100%;
    }
 
 /**
@@ -22,9 +27,11 @@ body {
  */
 
 .section1 {
+  margin: 0;
+  padding: 0;
   background-color: blueviolet;
   height: 735px;
-  widows: 100%;; 
+  width: 100%;
   margin-bottom: 10rem;
   }
 header {
@@ -78,6 +85,8 @@ li:hover {
 }
 
 .first-content {
+  margin: 0;
+  padding:0;
   margin-bottom: 1px;
   display: flex;
   align-items: center;
@@ -98,10 +107,10 @@ li:hover {
   /* height: 25rem; */
 
   /* height: 100%; */
-  widows: 100%;
+  width:inherit;
   height: 735px; 
   background-image: url("../img/first-background.jpg");
-  background-size:100% 100%;
+  background-size:cover;
   /* height:  45.938rem; */
   
   
@@ -260,4 +269,9 @@ footer hr {
  .social-media li{
     list-style: none;
 
+}
+@media only screen and (max-width: 320px) {
+  body {
+    background-color: red;
+  }
 }
