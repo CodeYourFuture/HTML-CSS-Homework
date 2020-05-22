@@ -17,3 +17,223 @@ body {
  */
 
 
+
+ /* logo start */
+
+ body{
+     margin: 0;
+ }
+
+/*  Header Section */
+
+.header{
+    margin: 0;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    display:block; 
+}
+.logo{
+    float: left;
+    height: 4.375rem;
+    width: 26px;  
+    
+}
+
+/*  Navigation Section */
+.navigation{
+    width:60%;
+    display: inline-block;
+    padding: 0 1%;
+    margin: 0 20%;
+    min-width: 600px;
+    
+}
+.navLinks{
+    float : right;
+    color: #838994;
+    font-size: 1.04rem;
+    margin-top: 1.7rem;
+    display: flex;
+    flex-direction: row;  
+   
+}
+a{
+    text-decoration: none;
+    color : inherit;
+    font-weight: 400;
+}
+a:hover{
+    color:black;
+}
+.black{
+   color: black;
+  
+   font-weight: 500;
+}
+li{
+    margin-left:1.563rem;
+    font-size: inherit;
+}
+
+ol,ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/* Intro Section */
+.introKarma{
+    background-image: url(../img/first-background.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 45.938rem;
+    overflow: auto;
+    margin:0;
+    padding: 0;
+
+}
+.intro, .button {
+   width: 60%;
+   padding:0 1%;
+   margin:0 20%;
+   min-width:600px;
+   text-align: center;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 17.5rem;
+    font: inherit;
+    font-size: 3.125rem;
+    font-weight: 300;
+}
+h3{
+    color: white;
+    text-align: center;
+    margin-top: 1.25rem;
+    font:inherit;
+    font-size: 1.563rem;
+    font-weight: 300;
+}
+
+button{
+  width:9.688rem;
+  background-color: #f15a29;
+  border-radius: 4px;
+  padding: 1rem 1.5rem;
+  color: white;
+  font-size: 1.125rem;
+  border-style: none;
+  border-color: #f15a29; 
+
+}
+button:hover{
+    cursor: pointer;
+    background-color : #a1310b;
+    border-style: none;
+    border-color: #a1310b; 
+    
+
+}
+
+/* General Section */
+
+.general{
+    background-color: white;
+    overflow: hidden;
+    padding-bottom: 5rem;
+
+}
+.heading2{
+    margin-top: 7.875rem;
+    color:#1d1e21;
+    text-align: center;
+    width: 60%;
+    padding:0 1%;
+    margin:0 20%;
+    min-width:600px;
+    text-align: center;
+}
+
+h2{
+    font:inherit;
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+}
+
+.general{
+    background-color: white;
+    overflow: hidden;
+    padding-bottom: 5rem;
+}
+.subSection h3{
+  
+   font-size: 1.563rem;
+   color: black ;
+   
+   
+   font-weight: 400;
+   margin: 2.5rem 0px 1.875rem;
+}
+.subSection li {
+    width:33.33%;
+    float: left;
+}
+
+
+
+
+/* Footer */
+.footer{
+    background-color: white;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
+
+h5 {
+    font :inherit;
+    font-weight: 400;
+}
+h6{
+    font:inherit;
+    font-size: 0.9rem;
+    font-weight: 300;
+    color:#838994;
+}
+
+.socialIcons li{
+    border: 1px solid #eaebec;
+    border-radius: 100%; 
+    padding: 10px;
+    margin : 10px;
+}
+.socialIcons li:hover{
+    cursor: pointer;
+}
+.twitter{
+    color: #55acee; 
+
+}
+.facebook{
+    color:#4c66a4;
+}
+.instagram{
+    color: #3f729b;
+}
+
+.socialIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 50px; 
+}
+/* horzontal line in footer */
+hr {
+    border :0;
+    width: 60%;
+    border-top: 1px solid #eaebec ;  
+}
