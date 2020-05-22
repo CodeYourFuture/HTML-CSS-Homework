@@ -41,7 +41,6 @@ nav{
     display: flex;
     justify-content: space-around;
     background-color: #ffffff;
-    border: 1px solid green;
     width: 100%;
     margin: auto;
     height: 4.375rem;
@@ -50,14 +49,12 @@ nav{
 }
 
 .logo{
-    border: 1px solid red;
     align-items: center;
     margin-left: 6.5rem;
     
 }
 
 .navlinks{
-    border: 1px solid blue;
     display: inline-flex;
     list-style: none;
     width: 30%;
@@ -87,7 +84,6 @@ a.active {
 /*------ Intro styling */
 
 .intro{
-    border: 1px solid yellow;
     background-image: url('../img/first-background.jpg');
     background-position: center bottom;
     background-size: cover;
@@ -152,11 +148,10 @@ button:hover {
 }
 
 .works .how {
-    border: 1px solid purple;
     display: inline-flex;
     list-style: none;
     align-items: center;
-    width: 62%;
+    width: 60%;
 }
 
 .works .how > li {
@@ -235,3 +230,4 @@ footer p {
     font-weight: 300;
     font-size: 0.9rem;
 }
+
