@@ -19,8 +19,11 @@ body {
 
 
 /*-----General styling */
+*{
+    box-sizing: border-box;
+}
+
 .container {
-    padding: 0 0.938rem;
     margin: 0 auto;
     min-width: 37.5rem;
 }
@@ -107,7 +110,7 @@ a.active {
 }
 
 .intro h3 {
-    margin-top: 1.25rem;
+    margin-top: 1rem;
     font-size: 1.563rem;
 }
 
@@ -156,7 +159,7 @@ button:hover {
     width: 62%;
 }
 
-.works .how > li{
+.works .how > li {
     width: 33.33%;
     display: flex;
     flex-direction: column;
@@ -167,4 +170,63 @@ button:hover {
     font-size: 1.563rem;
     margin: 2.5rem 0px 1.875rem;
     font-weight: 400;
+}
+
+/*----Footer */
+
+.fcontainer {
+    min-width: 37.5rem;
+    padding: 0.938rem 8.5rem 0.938rem;
+}
+
+footer {
+    background-color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer h5 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1.3rem;
+    margin-bottom: 1.25rem;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 1.3rem;
+}
+
+footer li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 0.1rem solid black;
+    border-radius: 2.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+footer li:first-of-type {
+    color: #55acee;
+}
+
+footer li:nth-child(2) {
+    color: #4c66a4;
+}
+
+footer li:last-of-type {
+    color: #3f729b;
+    margin-right: 0;
+}
+
+footer p {
+    color: #838994;
+    font-weight: 300;
+    font-size: 0.9rem;
 }
