@@ -34,11 +34,6 @@ header
      justify-content: space-between; 
      width:60%;
      margin: 0 auto;
-     
-     /* position: fixed; */
-     /* background-color: white; */
-     /* border: solid;   */
-     /* height: 4.375rem; */
  }
  
  .logo
@@ -60,7 +55,6 @@ header
      list-style-type: none;
      font-size: 1rem;
      margin-left:1.563rem;
-     /* border: solid; */
  }
 
  .top-item
@@ -68,12 +62,6 @@ header
      margin-top: 1.2%;
      margin-bottom: 0.2%;
  }
-
- /* .second-top-item
- {
-     width:60%;
-     border: solid; 
- } */
 
  nav a 
 {
@@ -108,7 +96,6 @@ nav a:hover
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border: solid; */
 }
 
 
@@ -150,7 +137,6 @@ nav a:hover
     align-items: center;
     margin-top: 6%;
     margin-bottom: 6%;
-    /* border: solid; */
 }
 
 .lower-main p
@@ -214,9 +200,9 @@ hr{
     display: flex;
     justify-content: space-between;
     font-size: 1rem;
-    /* border:solid; */
 }
 
+/* This styling is for social media Icons  */
 .icons a
 {
     text-decoration: none;
@@ -246,8 +232,6 @@ hr{
     color: #3f729b;
 }
 
-
-
 @media screen and  (max-width:950px)
 {
     .top-container, .lower-main, .footer
@@ -266,8 +250,6 @@ hr{
         margin: auto;
     }
 }
-/* @media (max-width:700px) */
-
 
 @media (max-width:680px)
 {
