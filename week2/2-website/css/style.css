@@ -30,7 +30,10 @@ html {
   display: flex;
   justify-content: space-evenly;
   height: 4rem;
-  /* background-color: #f1f1f1; */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fcf7f7;
 }
 .logo {
   padding: 0.5rem;
@@ -51,10 +54,10 @@ html {
   text-decoration: none;
   color: #979191;
 }
-.nav-list:first-child {
+.active {
+  color: rgb(88, 86, 86);
   font-size: 1.2rem;
-  font-weight: 300;
-  border: 1px solid brown;
+  font-weight: 500;
 }
 /*===HEREO===*/
 .hero {
@@ -87,6 +90,7 @@ html {
   border-radius: 0.25rem;
 }
 .products {
+  margin-bottom: 100px;
 }
 .intro {
   font-size: 1.8rem;
@@ -115,6 +119,16 @@ html {
   font-size: 1.2rem;
   font-weight: normal;
   text-align: center;
+}
+#footer {
+  margin: 100px;
+}
+.footer-line {
+  /* color: rgb(228, 226, 226); */
+  width: 60%;
+  border: 0;
+  border-top: 0.1px solid rgb(206, 201, 201);
+  /* margin: auto; */
 }
 @media screen and (min-width: 700px) {
   html {
