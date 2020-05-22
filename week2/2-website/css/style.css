@@ -19,8 +19,7 @@ body {
 
 /*navbar CSS - mostly completed
 TODO: add boldness to first link, change the spacing a little */
-.navbar
-{
+.navbar {
     position: fixed;
     top: 0px;
     background-color: #fff;
@@ -32,33 +31,27 @@ TODO: add boldness to first link, change the spacing a little */
     align-items: center;
 }
 
-.navbar.logo
-{
+.navbar.logo {
     height: 70px;
 }
 
-.navbar > ul
-{
+.navbar > ul {
     display: flex;
     align-items: center;
     list-style: none; 
 }
 
-.navbar > ul > li
-{
+.navbar > ul > li {
     margin-left: 1.563rem;
 }
 
-.navbar > ul > li > a
-{
-    color: #000000;
+.navbar > ul > li > a {
+    color: #000;
     text-decoration: none;
 }
 
-
 /* Header CSS */
-header
-{
+header {
     height: 46rem;
     background-image: url("../img/first-background.jpg");
     background-position: center bottom;
@@ -69,49 +62,63 @@ header
     align-items: center;
 }
 
-header > div.content
-{
+header > .content {
     color: #fff;
     text-align: center;
+    
 }
 
-#header-button
-{
+h1 {
+    font-weight: 300;
+    font-size: 3.125rem;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+#header-button {
     background-color: #f15a29;
+    font-size: 1.125rem;
+    padding: 1rem 1.5rem;
+    border-style: none;
+    border-radius: 4px;
 }
 
-#header-button:hover
-{
+#header-button:hover {
     background-color: #d9400e;
 }
 
-/* Karma features section CSS */
-#section-1
-{
+/* Features section CSS */
+#section-1 {
     display:flex;
     justify-content: center;
+    padding-top: 5rem;
 }
-#section-1 > .content
-{
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+#section-1 > .content {
     text-align: center;
     width: 60%;
 }
 
-.features
-{
+.features {
     display: flex;
     justify-content: center;
 }
 
-.features > figure
-{
+.features > figure {
     width: 33.33%;
     font-size: 1.5rem;
     font-weight: 400;
 }  
 
-.feature-img
-{
+.feature-img {
     width: 127px;
     height: 127px;
     margin-bottom: 2.5rem;
