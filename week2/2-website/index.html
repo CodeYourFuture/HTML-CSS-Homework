@@ -8,7 +8,6 @@
         <link href='//fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/normalize.css">
-        <!-- Add a link to your CSS file here (use the line above to guide you) -->
         <link rel="stylesheet" href="css/style.css">
         <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
     </head>
@@ -20,15 +19,17 @@
         <!-- All the images you need are in the 'img' folder -->
 
         <nav class="navbar">
-            <img class="logo" src="img/karma-logo.svg" alt="karma logo" width="26"/> <!--TODO: move width to CSS-->
-            <ul>
-                <li><a href=#>Meet Karma</a></li>
-                <li><a href=#>How it Works</a></li>
-                <li><a href=#>Store</a></li>
-                <li><a href=#>Blog</a></li>
-                <li><a href=#>Help</a></li>
-                <li><a href=#>Login</a></li>
-            </ul>
+            <div class="content">
+                <img class="logo" src="img/karma-logo.svg" alt="karma logo" width="26"/> <!--TODO: move width to CSS-->
+                <ul>
+                    <li class="active"><a href=#>Meet Karma</a></li>
+                    <li><a href=#>How it Works</a></li>
+                    <li><a href=#>Store</a></li>
+                    <li><a href=#>Blog</a></li>
+                    <li><a href=#>Help</a></li>
+                    <li><a href=#>Login</a></li>
+                </ul>
+            </div>
         </nav>
 
         <header>
@@ -60,17 +61,14 @@
             </div>
         </section>
 
-        <!--Another section might be added here later-->
-
-        <!--TODO: Find social media icons-->
-        <hr>
-        <footer>
+        <footer> 
             <div class="content">
+                <hr>
                 <h4>Join us on</h4>
                 <div class="social">
-                    <a class="twitter"><img href=# alt="twitter"></a>
-                    <a class="facebook"><img href=# alt="facebook"></a>
-                    <a class="instagram"><img href=# alt="instagram"></a> 
+                    <a class="twitter"><img class="social-logo" src="img/iconfinder_1_Twitter_colored_svg_5296514.svg" alt="twitter"></a>
+                    <a class="facebook"><img class="social-logo" src="img/iconfinder_1_Facebook2_colored_svg_5296500.svg" alt="facebook"></a>
+                    <a class="instagram"><img class="social-logo" src="img/iconfinder_1_Instagram_colored_svg_1_5296765.svg" alt="instagram"></a> 
                 </div>
                 <p class="copyright">© Karma Mobility, Inc.</p>
             </div>

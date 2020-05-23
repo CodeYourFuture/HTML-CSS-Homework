@@ -17,35 +17,45 @@ body {
  */
 
 
-/*navbar CSS - mostly completed
-TODO: add boldness to first link, change the spacing a little */
+/*navbar CSS */
 .navbar {
     position: fixed;
     top: 0px;
     background-color: #fff;
     height: 4.375rem;
     width: 100%;
-    border: 1px solid #000;
+    border-bottom: 1px solid #ddd;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+nav > .content {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
-
-.navbar.logo {
-    height: 70px;
+.logo {
+    width: 26px;
 }
 
-.navbar > ul {
+.navbar ul {
     display: flex;
     align-items: center;
     list-style: none; 
 }
 
-.navbar > ul > li {
+.navbar ul li {
     margin-left: 1.563rem;
 }
+ /*TODO: MAKE THE ACTIVE LINK WORK */
+.active {
+    color: #4c5058;
+    font-weight: 500;
+}
 
-.navbar > ul > li > a {
+.navbar ul li a {
     color: #000;
     text-decoration: none;
 }
@@ -64,8 +74,7 @@ header {
 
 header > .content {
     color: #fff;
-    text-align: center;
-    
+    text-align: center;   
 }
 
 h1 {
@@ -95,6 +104,7 @@ h3 {
     display:flex;
     justify-content: center;
     padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 h2 {
@@ -129,19 +139,41 @@ footer > .content {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 9.375rem;
+}
+
+footer > .content > hr {
+    border-top: 1px solid #000;
+    margin: 1.313rem 0;
 
 }
 
-.social
-{
-    list-style: none;
+h4 {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.social {
+    display: flex;
 }
 
 .social > a {
-    
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 2.5rem;
     height: 2.5rem;
-    border: 1px solid black;
+    border: 1px solid #eaebec;
     border-radius: 1.25rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    }
+
+.social > a > img {
+    width: 16px;
+    height: 16px;
+}
+
+.copyright {
+    color: #a9adb5;
 }
