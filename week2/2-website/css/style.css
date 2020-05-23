@@ -205,24 +205,22 @@ margin-bottom: 2rem;
 .media {
   display: flex;
   text-decoration: none;
+  margin-left: 8rem;
+  margin-bottom: 5rem;
 }
 
 .media li {
-  list-style-type: none;
-  font-size: 2.5rem;
-  font-weight: 0rem;
-}
-
-.copyright {
-  display: flex;
-  font-size: 1.8rem;
-  text-align: center;
+list-style-type: none;
+font-size: 2.5rem;
+font-weight: 0rem;
+margin-right: 1.75rem;
+margin-left: 1.75rem;
 }
 
 hr {
   border-top: 0.1rem solid #eee;
     margin: 1.313rem 0;
-    width: 70.15rem;
+    width: 85.15rem;
 }
 
 h5 {
@@ -232,7 +230,16 @@ h5 {
   font-weight: 400;
   box-sizing: border-box;
 justify-content: center;
+margin-left: 12rem;
 } 
+
+.copyright {
+  display: flex;
+  font-size: 1.8rem;
+  text-align: center;
+  margin-left: 12rem;
+}
+
 
 /*h5 {
     margin: 0;
