@@ -1,7 +1,7 @@
 # Karma-clone
 
-The aim of this exercise is to create a page that looks just like this one: http://thinkful-ed.github.io/karma-clone/
-
+The aim of this exercise is to create a page that looks just like this one: 
+http://thinkful-ed.github.io/karma-clone/
 ## Tasks
 
 - Fork and clone this repo.

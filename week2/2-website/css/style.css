@@ -15,19 +15,41 @@ body {
     background-color: #fff;
     position: fixed;
     width: 100%;
+
+    height: 4.375rem;
     border-bottom: 1px solid #DDD;
     z-index: 9999;
+
 }
-ul {
-    display: flex;
-    justify-content: space-around;
+
+.img1 {
+    display: inline-block;
+    width: 1.5rem;
+    line-height: .5rem;
 }
-li {
-    list-style-type: none;
+
+    li {
+        margin-left: 2rem;
+       display: inline-block;
+        align-items: center;
+
 }
-li a {
+.nav-link {
+    align-items: center;
+    padding: 1rem 0.938rem;
+    margin: 0 auto;
+    max-width: 35.5rem
+
+}
+
+.active a{
+    color: black;
+}
+
+ a {
 
     text-decoration: none;
+    color: grey;
 }
 
 a:hover {
@@ -85,13 +107,14 @@ a:hover {
     
 }
  #button {
-    height: 55px;
-    width: 50px;
-    min-width: 150px;
+    height: 3.4375rem;
+    width: 3rem;
+    min-width: 9rem;
     border: black;
-    background-color:#F15A29; 
-    padding: 10px;
-    border-radius: 5px;
+    background-color:#F15A29;
+    margin-top: 0.625rem; 
+    padding: 0.625rem;
+    border-radius: 0.3125rem;
   } 
   .items{
     display: flex;
@@ -104,25 +127,26 @@ div.item {
     vertical-align: top;
     display: inline-block;
     text-align: center;
-    width: 15.625rem;
+    width: 11rem;
     padding-right: 1.5rem;
 }
+
 .caption {
     display: flex;
-    font-size: 1.4rem;
-    padding-left: 1rem;
+    font-size: 1rem;
+    /* padding-left: 1rem; */
 }
 .caption1 {
     display: flex;
-    font-size: 1.4rem;
-    padding-left: .7rem;
+    font-size: 1rem;
+    /* padding-left: .7rem; */
     padding-right: .5rem;
 }
 .caption2 {
     display: flex;
-    padding-left: 1rem;
+    
     padding-right: 1rem;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 span {
     padding-top: 1.25rem;
@@ -147,14 +171,14 @@ hr {
 }
 .fa-twitter {
     margin-left: 0.625rem;
-    background-color:white;
+    background-color:whitesmoke;
     padding: 0.625rem;
     border-radius: 50%;
 }
 
 .fa-facebook {
     margin-right: 0.125rem;
-    background-color:white;
+    background-color:whitesmoke;
     padding: 0.625rem;
     border-radius: 50%;
 
@@ -162,8 +186,8 @@ hr {
 
 .fa-instagram {
     margin-right: 0.625rem;
-    background-color: white;
-    padding: 0.625rem;
+    background-color:whitesmoke;
+    padding: 1rem;
     border: grey;
     border-radius: 50%;
 }
@@ -184,6 +208,9 @@ hr {
 .intext h1{
     width:100%;
 }
+.nav-bar{
+    width: 100%;
+}
 
 }
 
@@ -198,9 +225,11 @@ hr {
   }
   .items{
       width: 100%;
+      padding-left: 2rem;
   }
 .intext h1{
     width:100%;
 }
+
 
 }
