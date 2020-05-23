@@ -5,7 +5,7 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
-  /*font-size: 15px;*/
+  /*font-size: 10px;*/
 }
 
 body {
@@ -14,27 +14,27 @@ body {
   font-size: 1.5rem;
 }
 
-.logo-nav {
+.nav-bar {
+  background-color: white;
   position: fixed;
   width: 100%;
-  border-bottom: 0.01rem solid black;
+  top: 0;
+  border-bottom: 0.01rem solid #eee;
+  height: 7rem;
   display: flex;
-  background-color: #ffffff;
+  align-items: center;
 }
 
-.nav-link {
+.logo-nav {
+  width: 60%;
+  margin: 0 auto;
   display: flex;
-  width: 100%;
-  justify-content: center;
-  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  padding: 0.5rem;
-  background-color: #ffffff;
 }
 
 .nav-link ul {
   display: flex;
-
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
@@ -44,7 +44,6 @@ body {
 
 .nav-link ul li {
   display: flex;
-  text-decoration: none;
   list-style: none;
   justify-content: center;
   padding: 1rem;
@@ -52,7 +51,6 @@ body {
 }
 
 .nav-link ul a {
-  flex-direction: row;
   text-decoration: none;
   font-size: 1.7rem;
   color: rgb(92, 91, 91);
@@ -60,7 +58,6 @@ body {
 
 .logo {
   height: 4rem;
-  margin: 1.4rem 0 1.26rem 31.4rem;
 }
 
 .intro {
@@ -72,25 +69,8 @@ body {
   flex-direction: column;
   align-items: center;
   overflow: hidden;
-  height: 93vh;
+  height: 73.5rem;
 }
-
-/*.intro {
-  padding: 0;
-  margin: 0;  
-  background: url(../img/first-background.jpg);
-  background-size: cover;
-  width: 100%;
-  height: 95.0vh;
-}*/
-
-/*button {
-text-align: center;
-font-size: 2.0rem;
-border: none;
-background-color: rgb(240, 166, 30);
-border-radius: 0.20rem;
-}*/
 
 .intro h2 {
   color: #ffffff;
@@ -114,13 +94,17 @@ h3 {
 }
 
 button {
-  background-color: #f0581e;
-  padding: 1.2rem;
-  width: 14rem;
+  background-color: #f15b29;
+  padding: 1.2rem 1.6rem;
   color: white;
-  border-radius: 0.01rem;
+  border-radius: 5px;
   font-size: 1.8rem;
   border: none;
+  outline: none;
+}
+
+button:hover {
+  background-color: #e74c0f;
 }
 
 .karma_needs img {
@@ -194,10 +178,9 @@ h4 {
   position: relative;
 } */
 
-.social-media li:hover {
+/*.social-media li:hover {
   display: flex;
-  padding: 20px 40px;
-}
+  padding: 20px 40px;*/
 
 .media {
   display: flex;
@@ -231,40 +214,31 @@ h5 {
   margin-left: 12rem;
 }
 
-#twitter {
-  color: #4ea3b8;
-  font-size: 2.0rem;
-  width: 3.0rem;
-  height: 3.0rem;
+#twitter,
+#facebook,
+#instagram {
+  font-size: 2rem;
+  width: 3rem;
+  height: 3rem;
   border: 0.1rem solid #c3e5c5;
   border-radius: 2.8rem;
-  text-align: center;
   box-sizing: border-box;
-  padding: 0.5rem;
+  padding: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#twitter {
+  color: #4ea3b8;
 }
 
 #facebook {
   color: #2653b8;
-  font-size: 2.0rem;
-  width: 3.0rem;
-  height: 3.0rem;
-  border: 0.1rem solid #c3e5c5;
-  border-radius: 2.8rem;
-  text-align: center;
-  box-sizing: border-box;
-  padding: 0.5rem;
 }
 
 #instagram {
-  color: #3e79aa;;
-  font-size: 2.0rem;
-  width: 3.0rem;
-  height: 3.0rem;
-  border: 0.1rem solid #c3e5c5;
-  border-radius: 2.8rem;
-  text-align: center;
-  box-sizing: border-box;
-  padding: 0.5rem;
+  color: #3e79aa;
 }
 
 .copyright {
@@ -273,6 +247,24 @@ h5 {
   text-align: center;
   margin-left: 12rem;
   font-weight: 30;
+}
+
+@media (max-width: 800px) {
+  body {
+    width: 800px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .logo-nav {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    width: 400px;
+  }
 }
 
 /**
