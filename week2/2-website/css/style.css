@@ -14,6 +14,7 @@ body {
   font-size: 1.5rem;
 }
 
+/*contains the logo and navigation links*/
 .nav-bar {
   background-color: white;
   position: fixed;
@@ -33,6 +34,10 @@ body {
   align-items: center;
 }
 
+.logo {
+  height: 4rem;
+}
+
 .nav-link ul {
   display: flex;
   text-decoration: none;
@@ -50,16 +55,19 @@ body {
   margin: 0.6rem;
 }
 
+/*makes the first menu stand out*/
+#active {
+  color: #000;
+  font-weight: 599;
+}
+
 .nav-link ul a {
   text-decoration: none;
   font-size: 1.7rem;
   color: rgb(92, 91, 91);
 }
 
-.logo {
-  height: 4rem;
-}
-
+/*background image and introduction section*/
 .intro {
   background-image: url(../img/first-background.jpg);
   background-size: cover;
@@ -93,6 +101,7 @@ h3 {
   font-weight: 300;
 }
 
+/*button normal state*/
 button {
   background-color: #f15b29;
   padding: 1.2rem 1.6rem;
@@ -103,23 +112,12 @@ button {
   outline: none;
 }
 
+/*color slightly darker on hover*/
 button:hover {
   background-color: #e74c0f;
 }
 
-.karma_needs img {
-  display: flex;
-  width: 13rem;
-  justify-items: center;
-}
-
-h4 {
-  text-align: center;
-  font-size: 2.5rem;
-  margin-top: 4rem;
-  font-weight: 400;
-}
-
+/*contains icons and description*/
 .karma_needs {
   display: flex;
   flex-direction: column;
@@ -128,6 +126,7 @@ h4 {
   margin-bottom: 8rem;
 }
 
+/*targets only the paragraph*/
 .karma_needs > p {
   font-size: 4.5rem;
   font-weight: lighter;
@@ -135,12 +134,28 @@ h4 {
   margin-bottom: 2rem;
 }
 
+/*aligns the icons and descriptions in a row*/
 .icon-items {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   list-style-type: none;
+}
+
+/*selects all icon images*/
+.karma_needs img {
+  display: flex;
+  width: 13rem;
+  justify-items: center;
+}
+
+/*targets all the icon descriptions*/
+h4 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 4rem;
+  font-weight: 400;
 }
 
 .icon-items li {
@@ -170,13 +185,6 @@ h4 {
   flex-direction: column;
   align-items: center;
 }
-
-/* .social-media li {
-  list-style-type: none;
-  padding: 0px;
-  transition: .6s;
-  position: relative;
-} */
 
 /*.social-media li:hover {
   display: flex;
