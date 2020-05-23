@@ -132,7 +132,15 @@ button {
   justify-items: center;
 }
 
+h4 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 4rem;
+  font-weight: 400;
+}
+
 .karma_needs {
+ 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -175,7 +183,7 @@ margin-bottom: 2rem;
   justify-content: center;
 }
 
-.media {
+.social {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -194,12 +202,12 @@ margin-bottom: 2rem;
   padding: 20px 40px;
 }
 
-.icons {
+.media {
   display: flex;
   text-decoration: none;
 }
 
-.icons li {
+.media li {
   list-style-type: none;
   font-size: 2.5rem;
   font-weight: 0rem;
@@ -213,7 +221,7 @@ margin-bottom: 2rem;
 
 h5 {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   margin-top: 4rem;
   font-weight: 400;
 }
