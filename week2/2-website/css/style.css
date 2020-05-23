@@ -1,16 +1,29 @@
 /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
+/* If 1rem=16px => 10px =  */
 html {
-  font-size: 62.25%;
+  font-size: 62.5%;
   box-sizing: border-box;
 }
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.3;
+}
 body {
-  /* -webkit-font-smoothing: antialiased; */
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
   line-height: 1.6;
   color: #333;
   font-size: 2rem;
+}
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.3;
 }
 ul,
 li {
@@ -18,7 +31,7 @@ li {
 }
 a {
   text-decoration: none;
-  color: #333;
+  color: #838994;
 }
 /**
  * Add your custom styles below
@@ -35,32 +48,44 @@ img {
 header {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 .logo {
-  width: 2rem;
-  margin-left: 5rem;
+  width: 2.5rem;
+  margin-left: 10rem;
 }
 
 .navbar {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 1rem;
+  justify-content: space-around;
+  /* margin-bottom: 1rem; */
   padding-right: 5rem;
 }
 .navbar ul {
   display: flex;
   list-style: none;
 }
+/* .navbar a:first-child {
+  color: #4c5058;
+    font-weight: 500;
+} */
 .navbar li {
   padding: 1rem;
-  color: #444;
-  font-size: 1.5rem;
-  font-weight: 400;
+  color: #838994
+  font-size: 1.7rem;
   letter-spacing: 0.1rem;
   text-decoration: none;
 }
+.navbar li:hover {
+  color: #333333;
+}
+li a.active {
+    color: #4c5058;
+    font-weight: 500;
+}
 .card img {
-  width: 15rem;
+  width: 12.7rem;
   margin-bottom: 2.5rem;
   margin: 2.5rem;
   padding: 2.5rem;
@@ -77,13 +102,16 @@ header {
   align-items: center;
 }
 .about h2 {
-  font-size: 3rem;
+  margin-top: 7rem;
+  font-size: 5rem;
+  font-weight: 300;
 }
 .card {
   font-size: 2.5rem;
 }
 .card h3 {
   font-size: 2.5rem;
+  font-weight: 300;
   text-align: center;
 }
 .hero {
@@ -99,25 +127,40 @@ header {
   justify-content: center;
 }
 .hero-heading {
-  font-size: 7rem;
-  font-weight: 400;
+  font-size: 5rem;
+  font-weight: 300;
   margin-bottom: 0;
 }
 .hero-paragraph {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: 300;
+  letter-spacing: 0.2rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
 }
 .hero-button {
-  width: 21rem;
+  width: 15rem;
   padding: 1.2rem 2rem;
-  font-size: 2rem;
-  color: #444;
   letter-spacing: 0.1rem;
   border: none;
-  border-radius: 10rem;
+  border-radius: 0.5rem;
   outline: none;
-  background: linear-gradient(to right, rgb(255, 123, 0), rgb(233, 112, 31));
   cursor: pointer;
+  background-color: #f15a29;
+  border-color: #f15a29;
+  text-shadow: none;
+  /* padding: 1rem 1.5rem; */
+  color: white;
+  font-size: 1.5rem;
+}
+.hero-button:hover {
+  background-color: #d9400e;
+  border-color: #cf3d0e;
+  cursor: pointer;
+}
+
+.social hr {
+  border: ;
 }
 
 .social {
@@ -125,10 +168,24 @@ header {
   flex-direction: column;
   align-items: center;
   justify-items: center;
+  text-align: center;
+}
+.social h3 {
+  font-size: 1.5rem;
 }
 .social ul {
   list-style: none;
   display: flex;
+}
+.social li {
+  border-radius: 5rem;
+  width: 4rem;
+  /* height: 2.5rem; */
+  display: inline-block;
+  margin: 1.25rem 5px;
+  border: 1px solid #eaebec;
+  padding: 0.625rem 0;
+  text-align: center;
 }
 footer {
   font-size: 2rems;
@@ -137,4 +194,176 @@ footer {
 }
 footer p {
   text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 1400px) {
+  .customers-card-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .customer-card:first-child {
+    margin-bottom: 3rem;
+  }
+
+  .main-part {
+    flex-direction: column;
+  }
+
+  .footer-list {
+    display: flex;
+  }
+
+  .footer-list-item {
+    margin-right: 3rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .about-us {
+    flex-direction: column;
+    padding-bottom: 20rem;
+  }
+
+  .about-us-content {
+    margin-bottom: 13rem;
+  }
+
+  .image {
+    width: 25rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .banner {
+    text-align: center;
+  }
+
+  .banner-heading {
+    font-size: 4.7rem;
+  }
+
+  .banner-paragraph {
+    font-size: 2.6rem;
+  }
+
+  .banner-button {
+    width: 16rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .customer-card {
+    flex-direction: column;
+    width: 20rem;
+  }
+
+  .customer-image {
+    margin-left: 0;
+  }
+
+  .footer-list {
+    display: block;
+  }
+
+  .creator-part {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .copyright-text {
+    order: 1;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    width: 28rem;
+  }
+/* 
+  .hero-heading {
+    /* font-size: 2rem; */
+    /* margin: auto 0; */
+  } */
+
+  .hero {
+    margin-top: -10rem;
+  }
+
+  .banner-heading {
+    font-size: 3rem;
+  }
+
+  .banner-paragraph {
+    font-size: 2rem;
+  }
+
+  .about-us {
+    padding-bottom: 15rem;
+  }
+
+  .about-us-heading {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .sub-heading {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .about-us-content {
+    padding: 5rem;
+  }
+
+  .image {
+    width: 13rem;
+  }
+
+  .common-heading {
+    font-size: 2rem;
+  }
+
+  .small-underline {
+    width: 5rem;
+  }
+
+  .big-underline {
+    width: 12rem;
+  }
+
+  .room-card-heading {
+    font-size: 1.5rem;
+  }
+
+  .room-price {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+
+  .room-card-btn {
+    width: 12rem;
+    padding: 1rem 0.5rem;
+    font-size: 1rem;
+  }
+
+  .customers-paragraph {
+    font-size: 1.4rem;
+    width: 80%;
+  }
+
+  .main-part {
+    padding: 2rem;
+  }
+
+  .footer-input {
+    width: 12rem;
+  }
+
+  .image-wrapper {
+    width: 9rem;
+  }
 }
