@@ -1,5 +1,5 @@
 /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
-/* If 1rem=16px => 10px =  */
+
 html {
   font-size: 62.5%;
   box-sizing: border-box;
@@ -50,39 +50,39 @@ header {
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
 }
 .logo {
   width: 2.5rem;
-  margin-left: 10rem;
+  margin-left: 15rem;
 }
 
 .navbar {
   display: flex;
   justify-content: space-around;
-  /* margin-bottom: 1rem; */
-  padding-right: 5rem;
+  margin-bottom: 0.5rem;
+  margin-right: 5rem;
 }
+
 .navbar ul {
   display: flex;
   list-style: none;
 }
-/* .navbar a:first-child {
-  color: #4c5058;
-    font-weight: 500;
-} */
+
 .navbar li {
   padding: 1rem;
-  color: #838994
+  color: #838994;
   font-size: 1.7rem;
   letter-spacing: 0.1rem;
   text-decoration: none;
 }
-.navbar li:hover {
-  color: #333333;
+.menu li a:hover {
+ color: #333333;
 }
 li a.active {
-    color: #4c5058;
-    font-weight: 500;
+  color: #4c5058;
+  font-weight: 500;
 }
 .card img {
   width: 12.7rem;
@@ -100,6 +100,7 @@ li a.active {
   display: flex;
   align-content: space-around;
   align-items: center;
+  margin-bottom: 10rem;
 }
 .about h2 {
   margin-top: 7rem;
@@ -149,7 +150,6 @@ li a.active {
   background-color: #f15a29;
   border-color: #f15a29;
   text-shadow: none;
-  /* padding: 1rem 1.5rem; */
   color: white;
   font-size: 1.5rem;
 }
@@ -159,211 +159,82 @@ li a.active {
   cursor: pointer;
 }
 
-.social hr {
-  border: ;
+hr {
+  border: 0;
+  border-top: 1px solid #eaebec;
+  max-width: 65%;
+  margin: auto;
 }
 
 .social {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-items: center;
+  justify-content: center;
   text-align: center;
 }
 .social h3 {
   font-size: 1.5rem;
+  font-weight: 300;
+  text-align: center;
 }
 .social ul {
   list-style: none;
   display: flex;
+  text-align: center;
 }
 .social li {
-  border-radius: 5rem;
   width: 4rem;
-  /* height: 2.5rem; */
   display: inline-block;
-  margin: 1.25rem 5px;
-  border: 1px solid #eaebec;
-  padding: 0.625rem 0;
+  margin: 1.25rem;
+  padding: 1.5rem 0;
   text-align: center;
 }
-footer {
-  font-size: 2rems;
-  color: #fff;
+i.fa {
+  display: inline-block;
+  border-radius: 6rem;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+}
+.footer {
+  margin-top: 0;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #333;
   padding: 2rem 0;
+  margin-bottom: 10rem;
 }
-footer p {
+.footer p {
+  margin-top: 0;
   text-align: center;
 }
 
-/* Media Queries */
-@media (max-width: 1400px) {
-  .customers-card-wrapper {
-    flex-direction: column;
-    align-items: center;
+@media(max-width: 500px) {
+    .header {
+        width: 50rem;
+        font-size:.5rem ;
+    }
+   .about .container {
+     flex-direction: column;
+   }
+   .about h2 {
+     font-size: 3rem;
+   }
+   .about h3 {
+     font-size: 2rem;
+   }
+  .navbar li {
+    font-size: 1.2rem;
   }
-
-  .customer-card:first-child {
-    margin-bottom: 3rem;
-  }
-
-  .main-part {
-    flex-direction: column;
-  }
-
-  .footer-list {
-    display: flex;
-  }
-
-  .footer-list-item {
-    margin-right: 3rem;
-  }
-}
-
-@media (max-width: 1200px) {
-  .about-us {
-    flex-direction: column;
-    padding-bottom: 20rem;
-  }
-
-  .about-us-content {
-    margin-bottom: 13rem;
-  }
-
-  .image {
-    width: 25rem;
-  }
-}
-
-@media (max-width: 900px) {
-  .banner {
-    text-align: center;
-  }
-
-  .banner-heading {
-    font-size: 4.7rem;
-  }
-
-  .banner-paragraph {
-    font-size: 2.6rem;
-  }
-
-  .banner-button {
-    width: 16rem;
-    font-size: 1.5rem;
-  }
-}
-
-@media (max-width: 750px) {
-  .customer-card {
-    flex-direction: column;
-    width: 20rem;
-  }
-
-  .customer-image {
-    margin-left: 0;
-  }
-
-  .footer-list {
-    display: block;
-  }
-
-  .creator-part {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .copyright-text {
-    order: 1;
-  }
-}
-
-@media (max-width: 500px) {
-  .navbar {
-    width: 28rem;
-  }
-/* 
-  .hero-heading {
-    /* font-size: 2rem; */
-    /* margin: auto 0; */
-  } */
-
-  .hero {
-    margin-top: -10rem;
-  }
-
-  .banner-heading {
-    font-size: 3rem;
-  }
-
-  .banner-paragraph {
-    font-size: 2rem;
-  }
-
-  .about-us {
-    padding-bottom: 15rem;
-  }
-
-  .about-us-heading {
-    font-size: 2.5rem;
-    text-align: center;
-  }
-
-  .sub-heading {
-    font-size: 2rem;
-    text-align: center;
-  }
-
-  .about-us-content {
-    padding: 5rem;
-  }
-
-  .image {
-    width: 13rem;
-  }
-
-  .common-heading {
-    font-size: 2rem;
-  }
-
-  .small-underline {
-    width: 5rem;
-  }
-
-  .big-underline {
-    width: 12rem;
-  }
-
-  .room-card-heading {
-    font-size: 1.5rem;
-  }
-
-  .room-price {
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
-    text-align: left;
-  }
-
-  .room-card-btn {
-    width: 12rem;
-    padding: 1rem 0.5rem;
-    font-size: 1rem;
-  }
-
-  .customers-paragraph {
-    font-size: 1.4rem;
-    width: 80%;
-  }
-
-  .main-part {
-    padding: 2rem;
-  }
-
-  .footer-input {
-    width: 12rem;
-  }
-
-  .image-wrapper {
-    width: 9rem;
-  }
-}
+ .navbar {
+   margin-right: 2rem;
+ }
+ .logo {
+   margin-left: 3rem;
+ }
+ .hero-heading {
+   font-size: 4rem;
+ }
+ .hero-paragraph {
+   font-size:2rem ;
+ }
