@@ -261,16 +261,22 @@ footer hr {
     margin-right: 5px;
     font-weight: 500;
     font-size: 1.2rem;
-    color: #d9400e;
+    color: white;
     justify-self: left;
+    background-color: #d9400e;
   }
   .menu {
     width: 250px;
     justify-content: space-evenly;
     list-style-type: none;
+    background-color: #d9400e;
   }
   .menu-container {
     justify-content: left;
     width: auto;
+    background-color: #d9400e;
+  }
+  .nav-bar{
+    background-color: #d9400e;
   }
 }
