@@ -1,6 +1,9 @@
 
  /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
-
+*{
+    padding: 0rem;
+    margin: 0rem;
+}
 
 body {
     background-color: white;
@@ -8,70 +11,71 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-.container{
+.nav-bar{
     background-color: #fff;
     position: fixed;
     width: 100%;
     border-bottom: 1px solid #DDD;
-    z-index: 9999;}
-.img1 {
-    width:30px;
-    height: auto;
-    margin-left: 10%;
+    z-index: 9999;
 }
-.nav-bar{ 
-    position: sticky;
+ul {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    
 }
-.nav-link {
-    display: flex;
-    justify-content: space-between;
-    width: 40%;
-    margin-right: 20%;
-    list-style-type: none;  
-    padding-top: 10px;  
+li {
+    list-style-type: none;
 }
-a {
+li a {
+
     text-decoration: none;
-    color: grey;
 }
-.links a:active {
-    color: black;
-}
-/* .links a:nth-child(1) {
-    color: black !important */
-}
+
 a:hover {
     color: black;
+}
+.top-image h1 {
+    margin-top: 17.5rem;
+    font-size: 3.125rem;
+}
+.top-image h1, h3 {
+    color: white;
+    text-align: center;
+    font-weight: 300;
 }
 .top-image {
     background-image: url('../img/first-background.jpg');
      background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    height: 600px;
+    background-position: center bottom;
+    height: 45.938rem;
+    overflow: hidden;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
 }
 .intext {
-    display: column;
-    position: absolute;
-    top: 200px;
-    left: 23rem;
-    color: white;
-    text-align: center;
+    padding: 15rem .938rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
+ }
+ 
+ .feeder h2 {
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
  }
  h1:first-child {
     font-weight: lighter;
     font-size: 3rem;
     color: ivory;
-   margin-top: 40px; 
+   margin-top: 2.5rem; 
  }
  div>h2:first-child {
     text-align: center;
-    padding-top: 30px;
-    font-size: 45px;
+    padding-top: 1.875rem;
+    font-size: 2.81rem;
     font-weight: lighter;
 }
  .intext >:nth-child(2) {
@@ -84,25 +88,24 @@ a:hover {
     height: 55px;
     width: 50px;
     min-width: 150px;
-    border: solid black;
-    background-color:orangered; 
-    padding: 1px;
-    border-radius: 6px;
+    border: black;
+    background-color:#F15A29; 
+    padding: 10px;
+    border-radius: 5px;
   } 
   .items{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-bottom: 0.9375rem;
+    
 }
 div.item {
     vertical-align: top;
     display: inline-block;
     text-align: center;
-    width: 250px;
-}
-img {
-    width: 150px;
-    height: 130px;
+    width: 15.625rem;
+    padding-right: 1.5rem;
 }
 .caption {
     display: flex;
@@ -118,46 +121,86 @@ img {
 .caption2 {
     display: flex;
     padding-left: 1rem;
+    padding-right: 1rem;
     font-size: 1.3rem;
 }
 span {
-    padding-top: 20px;
-    padding-left: 10px;
+    padding-top: 1.25rem;
+    padding-left: 0.625rem;
 }
 
 .footer{
+    margin-top: 1.875rem;
     text-align: center;
 }
-#icon1 {
-background-color: whitesmoke;
- border-radius: 50%;
- border: 1x solid grey;
- padding:15px;
+hr {
+    margin-top: 1.25rem;
 }
-#icon1 {
-    background-color: whitesmoke;
-     border-radius: 50%;
-     border: 1x solid grey;
-     padding:15px;
-    }
-#icon2 {
-        background-color: whitesmoke;
-         border-radius: 50%;
-         border: 1x solid grey;
-         padding:15px;
-        }
-#icon3 {
-        background-color: whitesmoke;
-        border: slategrey;
-        border-radius: 50%;
-        border: 1x solid grey;
-         padding:15px;
-            }
+.footer-logo {
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
 .footer-social-icons {
-    color: skyblue;
+    padding-bottom: 0.625rem;
+    color: #4c66a4;
 }
-@media only screen and (max-width:600px) {
-    body {
-        width: 70%;
+.fa-twitter {
+    margin-left: 0.625rem;
+    background-color:white;
+    padding: 0.625rem;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    margin-right: 0.125rem;
+    background-color:white;
+    padding: 0.625rem;
+    border-radius: 50%;
+
+}
+
+.fa-instagram {
+    margin-right: 0.625rem;
+    background-color: white;
+    padding: 0.625rem;
+    border: grey;
+    border-radius: 50%;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    html{
+        font-size: 0.625rem;
     }
+
+    .top-image {
+        width: 100%;
+        background-image: cover;
+  }
+  .items{
+      width: 100%;
+  }
+.intext h1{
+    width:100%;
+}
+
+}
+
+@media only screen and (min-width: 1200px) {
+    html{
+        font-size: 1rem;
+    }
+
+    .top-image {
+        width: 100%;
+        background-image: cover;
+  }
+  .items{
+      width: 100%;
+  }
+.intext h1{
+    width:100%;
+}
+
 }
