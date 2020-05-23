@@ -1,21 +1,78 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Karma</title>
-    <link href='//fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <!-- Add a link to your CSS file here (use the line above to guide you) -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Karma</title>
+        <link href='//fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+    </head>
 
-    <!-- Add your HTML markup here -->
-    <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
-    <!-- All the images you need are in the 'img' folder -->
+    <body>
 
-</body>
+        <!-- Add your HTML markup here -->
+        <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
+        <!-- All the images you need are in the 'img' folder -->
+
+        <nav class="navbar">
+            <div class="content">
+                <img class="logo" src="img/karma-logo.svg" alt="karma logo" width="26"/> <!--TODO: move width to CSS-->
+                <ul>
+                    <li id="active"><a href=#>Meet Karma</a></li>
+                    <li><a href=#>How it Works</a></li>
+                    <li><a href=#>Store</a></li>
+                    <li><a href=#>Blog</a></li>
+                    <li><a href=#>Help</a></li>
+                    <li><a href=#>Login</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <header>
+            <div class="content">
+                <h1>Introducing Karma</h1>
+                <h3>Bring WiFi with you, everywhere you go.</h3>  
+                <button id="header-button">Learn More</button>  
+            </div>
+            
+        </header>
+
+        <section id="section-1">
+            <div class="content">
+                <h2>Everyone needs a little Karma.</h2>
+                <div class="features">
+                    <figure>
+                        <img class="feature-img" src="img/icon-devices.svg" alt="Internet for all devices image">
+                        <figcaption>Internet for all devices</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="feature-img" src="img/icon-coffee.svg" alt="Boost your productivity image">
+                        <figcaption>Boost your productivity</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="feature-img" src="img/icon-refill.svg" alt="Pay as You Go image">
+                        <figcaption>Pay as You Go</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <footer> 
+            <hr id="horizontal">
+            <div class="content">
+                <h4>Join us on</h4>
+                <div class="social">
+                    <a class="twitter"><img class="social-logo" src="img/iconfinder_1_Twitter_colored_svg_5296514.svg" alt="twitter"></a>
+                    <a class="facebook"><img class="social-logo" src="img/iconfinder_1_Facebook2_colored_svg_5296500.svg" alt="facebook"></a>
+                    <a class="instagram"><img class="social-logo" src="img/iconfinder_1_Instagram_colored_svg_1_5296765.svg" alt="instagram"></a> 
+                </div>
+                <p class="copyright">© Karma Mobility, Inc.</p>
+            </div>
+        </footer>
+
+    </body>
 </html>

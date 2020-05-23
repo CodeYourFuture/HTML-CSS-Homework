@@ -17,3 +17,174 @@ body {
  */
 
 
+/*navbar CSS */
+.navbar {
+    position: fixed;
+    top: 0px;
+    background-color: #fff;
+    height: 4.375rem;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+}
+
+nav > .content {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 26px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none; 
+}
+
+.navbar ul li {
+    margin-left: 1.563rem;
+}
+
+.navbar ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+ /*TODO: MAKE THE ACTIVE LINK WORK */
+ #active a {
+    color: #4c5058;
+    font-weight: bold;
+}
+
+/* Header CSS */
+header {
+    height: 46rem;
+    background-image: url("../img/first-background.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > .content {
+    color: #fff;
+    text-align: center;   
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 1.375rem;
+}
+
+#header-button {
+    background-color: #f15a29;
+    font-size: 1.125rem;
+    padding: 1rem 1.5rem;
+    border-style: none;
+    border-radius: 4px;
+}
+
+#header-button:hover {
+    background-color: #d9400e;
+}
+
+/* Features section CSS */
+#section-1 {
+    display:flex;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+#section-1 > .content {
+    text-align: center;
+    width: 60%;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+}
+
+.features > figure {
+    width: 33.33%;
+    font-size: 1.375rem;
+    font-weight: 400;
+}  
+
+.feature-img {
+    width: 127px;
+    height: 127px;
+    margin-bottom: 2.5rem;
+}
+
+/* footer CSS */
+footer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer > .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 9.25rem;
+}
+
+#horizontal {
+    width: 60%;
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+
+}
+
+h4 {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.social {
+    display: flex;
+}
+
+.social > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid #eaebec;
+    border-radius: 1.25rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    }
+
+.social > a > img {
+    width: 16px;
+    height: 16px;
+}
+
+.copyright {
+    font-size: 0.875rem;
+    color: #a9adb5;
+}
