@@ -70,10 +70,9 @@ body {
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
   overflow: hidden;
   height: 93vh;
-
 }
 
 /*.intro {
@@ -92,8 +91,6 @@ border: none;
 background-color: rgb(240, 166, 30);
 border-radius: 0.20rem;
 }*/
-
-
 
 .intro h2 {
   color: #ffffff;
@@ -115,15 +112,15 @@ h3 {
   font-size: 2.563rem;
   font-weight: 300;
 }
-  
+
 button {
-    background-color: #f0581e;
-    padding: 1.2rem;
-    width: 14rem;
-    color: white;
-    border-radius: 0.01rem;
-    font-size: 1.8rem;
-    border: none;
+  background-color: #f0581e;
+  padding: 1.2rem;
+  width: 14rem;
+  color: white;
+  border-radius: 0.01rem;
+  font-size: 1.8rem;
+  border: none;
 }
 
 .karma_needs img {
@@ -140,18 +137,18 @@ h4 {
 }
 
 .karma_needs {
- 
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-top: 5.5rem;
+  margin-bottom: 8rem;
 }
 
 .karma_needs > p {
-font-size: 4.5rem;
-font-weight: lighter;
-text-align: center;
-margin-bottom: 2rem;
+  font-size: 4.5rem;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .icon-items {
@@ -176,11 +173,11 @@ margin-bottom: 2rem;
   list-style-type: none;
 }
 
-
 .social-media {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 15rem;
 }
 
 .social {
@@ -206,50 +203,78 @@ margin-bottom: 2rem;
   display: flex;
   text-decoration: none;
   margin-left: 8rem;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 .media li {
-list-style-type: none;
-font-size: 2.5rem;
-font-weight: 0rem;
-margin-right: 1.75rem;
-margin-left: 1.75rem;
+  list-style-type: none;
+  font-size: 2.5rem;
+  font-weight: 0rem;
+  font-weight: 0rem;
+  margin-right: 1.05rem;
+  margin-left: 1.05rem;
 }
 
 hr {
   border-top: 0.1rem solid #eee;
-    margin: 1.313rem 0;
-    width: 85.15rem;
+  margin: 1.313rem 0;
+  width: 85.15rem;
 }
 
 h5 {
- text-align: center;
+  text-align: center;
   font-size: 1.75rem;
-  margin-top: 4rem;
+  margin-top: 1rem;
   font-weight: 400;
   box-sizing: border-box;
-justify-content: center;
-margin-left: 12rem;
-} 
-
-.copyright {
-  display: flex;
-  font-size: 1.8rem;
-  text-align: center;
+  justify-content: center;
   margin-left: 12rem;
 }
 
+#twitter {
+  color: #4ea3b8;
+  font-size: 2.0rem;
+  width: 3.0rem;
+  height: 3.0rem;
+  border: 0.1rem solid #c3e5c5;
+  border-radius: 2.8rem;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0.5rem;
+}
 
-/*h5 {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    box-sizing: border-box;
-}*/
+#facebook {
+  color: #2653b8;
+  font-size: 2.0rem;
+  width: 3.0rem;
+  height: 3.0rem;
+  border: 0.1rem solid #c3e5c5;
+  border-radius: 2.8rem;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0.5rem;
+}
+
+#instagram {
+  color: #3e79aa;;
+  font-size: 2.0rem;
+  width: 3.0rem;
+  height: 3.0rem;
+  border: 0.1rem solid #c3e5c5;
+  border-radius: 2.8rem;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0.5rem;
+}
+
+.copyright {
+  display: flex;
+  font-size: 1.4rem;
+  text-align: center;
+  margin-left: 12rem;
+  font-weight: 30;
+}
+
 /**
  * Add your custom styles below
  * 
