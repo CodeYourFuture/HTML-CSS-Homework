@@ -114,7 +114,7 @@ h2 {
 
 .features > figure {
     width: 33.33%;
-    font-size: 1.5rem;
+    font-size: 1.375rem;
     font-weight: 400;
 }  
 
@@ -122,4 +122,26 @@ h2 {
     width: 127px;
     height: 127px;
     margin-bottom: 2.5rem;
+}
+
+/* footer CSS */
+footer > .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.social
+{
+    list-style: none;
+}
+
+.social > a {
+    
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid black;
+    border-radius: 1.25rem;
 }
