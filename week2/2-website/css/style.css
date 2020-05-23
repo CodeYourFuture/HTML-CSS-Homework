@@ -222,6 +222,7 @@ h5 {
   margin-left: 12rem;
 }
 
+/*grouped the social media as having common attributes*/
 #twitter,
 #facebook,
 #instagram {
@@ -257,6 +258,7 @@ h5 {
   font-weight: 30;
 }
 
+/*applied some media query to add to web responsiveness*/
 @media (max-width: 800px) {
   body {
     width: 800px;
