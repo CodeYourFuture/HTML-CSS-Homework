@@ -15,7 +15,7 @@ body {
 }
 #header {
   background-color: #f7cd95;
-  background-image: url("/images/sunset.jpg");
+  background-image: url("../images/sunset.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
