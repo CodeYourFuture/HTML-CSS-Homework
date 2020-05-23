@@ -1,26 +1,22 @@
 /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
 
-body {
+body,
+html {
 	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
-	// background: blue;
-	//background: url(img/first-background.jpg);
-}
-
-li {
-	list-style: none;
+	height: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 #header {
 	position: fixed;
-	margin-right: 40px;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 	min-height: 95px;
-	padding: 0px 10px;
-	//background-color: #eee;
-	width: 80%;
+	width: 100%;
+	border: 10px rgb(119, 115, 115);
 }
 
 .logo {
@@ -29,38 +25,31 @@ li {
 }
 
 .logo>img {
-	width: 100%;
-	height: 100%;
-	max-width: 50px;
+	width: 200px;
+	height: 200px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	margin-left: 20px;
+}
+
+#nav-bar>li {
+	list-style: none;
+	padding: 5 rem;
+	border: 5 rem;
 }
 
 nav>ul {
 	width: 35vw;
-	//color:black;
 	font-weight: lighter;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
 
-a {
-	//text-decoration: none;
-}
-
-li {
-	//	font-weight:bolder;
-	//	color: green;
-}
-
 nav a {
 	text-decoration: none;
 	color: rgb(121, 116, 116);
-	//font-weight: bold;
 }
 
 .nav-link1 {
@@ -75,11 +64,6 @@ nav a:hover {
 
 
 /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
-
-body {
-	font-family: 'Roboto', sans-serif;
-	-webkit-font-smoothing: antialiased;
-}
 
 ul>li {
 	list-style: none;
@@ -99,24 +83,22 @@ ul>li {
 }
 
 .logo {
-	width: 3%;
-	height: 3%;
+	width: 2%;
+	height: 2%;
 }
 
 .logo>img {
 	width: 100%;
 	height: 100%;
-	max-width: 50px;
+	min-height: 90%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	margin-left: 20px;
 }
 
 nav>ul {
 	width: 35vw;
-	//color:black;
 	font-weight: lighter;
 	display: flex;
 	flex-direction: row;
@@ -130,22 +112,122 @@ a {
 .hero {
 	display: flex;
 	flex-direction: column;
+	width: 100%;
 }
 
 .hero-content {
+	background: url(../img/first-background.jpg)no-repeat center;
+	padding: 25%;
 	color: white;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	height: 200px;
-	background: url(../img/first-background.jpg)no-repeat center;
-	padding: 200px 100px;
-	margin: 100px;
+	background-size: cover;
+}
+
+.hero-content>h1,
+h3,
+button {
+	font-weight: lighter;
+	font-size: 300%;
+	padding: 0;
+	line-height: 50%;
+}
+
+.hero-content>h3 {
+	font-size: 150%;
 }
 
 button {
-	background: rgb(236, 93, 93);
-	border-radius: 25px;
+	background: rgb(238, 88, 34);
+	border-radius: 5px;
+	border: none;
+	font-size: 20px;
+	height: 55px;
+	width: 140px;
+}
+
+button:hover {
+	background: rgb(247, 68, 3);
+	border: none;
+}
+
+.iconSection {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#sectionHeader {
+	text-align: center;
+	font-weight: lighter;
+	width: 100%;
+}
+
+#sectionHeader>h2 {
+	font-weight: lighter;
+	font-size: 250%;
+}
+
+.listicons {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.listicons>li {
+	width: 25%;
+	height: 25%;
+}
+
+#iconImage {
+	width: 9rem;
+	height: 9rem;
+	border-left: 10px;
+}
+
+.cap {
+	width: 22rem;
+	height: 6rem;
+	padding: 1 0 1 0;
+}
+
+.cap>h3 {
+	text-align: center;
+	font-weight: lighter;
+	font-size: 190%;
+	text-align: left;
+	float: left;
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer>.icons {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer>.icons>li>a {
+	padding-left: 5rem;
+}
+
+hr {
+	width: 70%;
+	font-weight: lighter;
+	color: gray;
+}
+
+h5 {
+	font-size: 150%;
+	font-weight: lighter;
 }
