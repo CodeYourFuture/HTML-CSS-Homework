@@ -219,12 +219,30 @@ margin-bottom: 2rem;
   text-align: center;
 }
 
+hr {
+  border-top: 0.1rem solid #eee;
+    margin: 1.313rem 0;
+    width: 70.15rem;
+}
+
 h5 {
-  text-align: center;
-  font-size: 1.8rem;
+ text-align: center;
+  font-size: 1.75rem;
   margin-top: 4rem;
   font-weight: 400;
-}
+  box-sizing: border-box;
+justify-content: center;
+} 
+
+/*h5 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}*/
 /**
  * Add your custom styles below
  * 
