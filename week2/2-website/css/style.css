@@ -136,12 +136,14 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 5.5rem;
 }
 
 .karma_needs > p {
-font-size: 4rem;
+font-size: 4.5rem;
 font-weight: lighter;
 text-align: center;
+margin-bottom: 2rem;
 }
 
 .icons-items {
@@ -157,9 +159,10 @@ text-align: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   padding: 1rem;
   margin: 2rem;
-
+  box-sizing: border-box;
 }
 
 
