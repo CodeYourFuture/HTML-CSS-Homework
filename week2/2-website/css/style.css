@@ -1,19 +1,360 @@
 
  /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
-
-body {
-    font-family: 'Roboto', sans-serif;
-    -webkit-font-smoothing: antialiased;
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
 }
 
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
- */
+
+head {
+    display: none;
+    font-size: 100%;
+    font: inherit;
+}
 
 
+body {
+    font-family: 'Roboto' , sans-serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    display: block;
+    }
+
+
+    .top-navigation {
+        background-color: #fff;
+        position: fixed;
+        width: 100%;
+        border-bottom: 1px solid #DDD;
+        z-index:  9999;
+        display: block;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+        box-sizing: border-box;
+    }
+
+
+    .top-navigation > .content {
+        height: 4.375rem;
+    }
+
+
+    .content {
+        padding: 0 0.938rem;
+        margin: 0 auto;
+        min-width: 37.5rem;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+        box-sizing: border-box;
+    }
+
+    .top-navigation .links {
+        float: right;
+        color: #838994;
+        font-size: 1.04rem;
+        margin-top: 1.7rem;
+        width: 507.016px;
+        height: 16px;
+
+    }
+    ol ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+        box-sizing: border-box;
+    }
+    ul {
+        display: block;
+        margin-inline-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+        padding-inline-start: 40px;
+        -webkit-font-smoothing: antialiased;
+    }
+    .top-navigation .links li.active {
+        color: #4c5058;
+        font-weight: 500;
+    }
+    .top-navigation .links li {
+        display: inline-block;
+        margin-left: 1.563rem;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+        box-sizing: border-box;
+    }
+    li {
+        text-align: -webkit-match-parent;
+    }
+
+    .top-navigation .logo {
+        height: 4.375rem;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        box-sizing: border-box;
+        width: 26px;
+        height: 70px;
+    }
+
+    .introduction {
+        background-image: url(img/first-background.jpg);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 45.938rem;
+        overflow: auto;
+        /*display: block;*/
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+        box-sizing: border-box;
+    }
+
+    @media (min-width: 48rem) {
+      .content {
+        width: 46rem;
+     }
+    }
+
+        .content {
+            width: 46rem;
+            padding: 0 0.938rem;
+            min-width: 37.5rem;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+            box-sizing: border-box;
+        }
+
+
+    h1 {
+        margin-top: 17.5rem;
+        font-size: 3.125rem;
+        color: #fff;
+        text-align: center;
+        font-weight: 300;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+        box-sizing: border-box;
+    }
+
+
+
+    h3 {
+        display: block;
+        color: #ddd;
+    }
+
+    .introduction .buttons {
+        color: #fff;
+        text-align: center;
+        margin-top: 1.563rem;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+        box-sizing: border-box;
+    }
+    button {
+        width: 9.688rem;
+        color: #f15a29;
+        background-color: #f15a29;
+        text-shadow: none;
+        border-style: none;
+        border-radius: 4px;
+        padding: 1erm 1.5rem;
+        color: #fff;
+        font-size: 1.125rem;
+    }
+    .cases {
+        background-color: #fff;
+        overflow: hidden;
+        padding-bottom: 5rem;
+        /*display: block;*/
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        box-sizing: border-box;
+    }
+    .cases .content {
+        margin-top: 7.875rem;
+        color: #1d1e21;
+        text-align: center;
+    }
+    .cases h2 {
+        font-size: 2.75rem;
+        margin: 1.625rem 0 3.125rem;
+        font-size: 300;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+        box-sizing: border-box;
+    }
+    h2 {
+        display: block;
+        margin-inline-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    .cases .content {
+        color: #1d1e21;
+        text-align: center;
+    }
+    ol ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+        box-sizing: border-box;
+    }
+    ul {
+        display: block;
+       margin-block-start: 1em;
+       margin-block-end: 1em;
+       margin-inline-start: 40px;
+       margin-inline-end: 0px;
+    }
+    .cases .devices > li {
+        width: 33.3333333%;
+        float: left;
+    }
+    li {
+        display: list-item;
+        text-align: -webkit-match-parent;
+    }
+    ol ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+        box-sizing: border-box;
+    }
+    ul {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-end: 0px;
+        margin-inline-start: 0px;
+    }
+
+.cases .content {
+    color: #1d1e21;
+    text-align: center;
+}
+img {
+    width: 127px;
+    height: 127px;
+}
+.caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+   /* display: block;*/
+}
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+    display: block;
+}
+h5 {
+    display: block;
+    margin-block-start: 1.67em ;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    text-align: center;
+}
+.fa {
+    display: inline-block;
+    font: normal;
+    font-size: inherit;
+    text-rendering: auto;
+    text-align: center;
+}
+.social .twitter {
+    color: #55acee;
+}
+.fa-twitter:before {
+    content: "\f099";
+}
+.social .facebook {
+    color: #4c66a4;
+}
+.fa-facebook:before {
+    content: "\f09a";
+}
+.social .instagram {
+    color: #3f729b;
+}
+.fa-instagram:before {
+    content: "\f16d";
+}
+.social .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+}
+
+
+    
