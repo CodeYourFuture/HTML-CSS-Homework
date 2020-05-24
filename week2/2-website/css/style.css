@@ -10,9 +10,9 @@ body {
     -webkit-font-smoothing: antialiased;
     margin: 0;
     padding: 0;
-
-    
+ 
 }
+/* flexbox*/
 .parent {
     background-color: #ffffff;
     margin: 0;
@@ -230,6 +230,20 @@ li{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+/****Media Queries****/
+
+
+
+@media only screen and (min-width:400){
+    .nav .nav-menu {
+        height: 200px;
+        flex-direction: column;
+    }
+    .header .logo{
+        margin: 0;
+    }
+}
+
 /**
  * Add your custom styles below
  * 
