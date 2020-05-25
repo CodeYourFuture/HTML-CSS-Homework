@@ -1,19 +1,211 @@
 
- /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
+ 
 
 body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
+nav .logo  {
+    margin:0;
+    background-color:white;
+    height: 3.375rem;
+    
+  }
+ 
 
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
- */
+
+.nav-bar{
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    position: fixed;
+    width:100%;
+    height: 3.375rem;
+    border-bottom: 1px solid #ddd;
+    
+   
+  }
+  nav ul{
+    display:flex;
+    justify-content:space-around;
+    flex-direction:raw;
+    margin-left: 1.563rem;
+    font-size:1.04rem;
+    list-style-type:none;
+    }
+  
+  nav a {
+    display: flex;
+    color: #838994;
+    font-size: 1.04rem;
+    text-decoration: none;
+    margin-top: rem;
+    
+  }
+  
+  
+  
+   li a.active {
+      color:#4c5058;
+      font-weight:600;
+  }
+  
+  li a:hover{
+    cursor: pointer;
+    color:#333333;
+  }
+  
+  
+  
+  
+  .backimg{
+      background-image: url('https://raw.githubusercontent.com/CodeYourFuture/HTML-CSS-Homework/master/week2/2-website/img/first-background.jpg');
+      background-position: center bottom;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 45.938rem;
+      overflow: auto;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  h1 {
+     color: white;
+      text-align: center;
+      font-weight: 300;
+      margin-top: 17.5rem;
+      font-size: 3.125rem;
+  }
+    
+  
+  p{
+    color:white;
+    font-weight:300;
+    margin-top: 1.25rem;
+    font-size: 1.563rem;
+   
+  }
+  
+  button {
+      
+      width: 9.688rem;
+      background-color: #f15a29;
+      border-color: #f15a29;
+      text-shadow: none;
+      border-style: none;
+      border-radius: 4px;
+      padding: 1rem 1.5rem;
+      color: white;
+      font-size: 1.125rem;
+  }
+  button:hover{
+    background-color: #d9400e;
+      border-color: #cf3d0e;
+      cursor: pointer;
+  } 
+  
+
+
+
+
+  .cases {
+    display:flex;
+    background-color: #fff;
+    padding-bottom: 5rem;
+    justify-content: center;
+    flex-flow: row;
+    
+  }
+  
+
+  .cases .one > li {
+      width: 33.3333333%;
+      flex-direction: row;
+      flex-flow: row;
+
+      list-style-type: none;
+
+ }
+
+
+
+  /*footer */
+  footer {
+      background-color: #fff;
+      overflow: auto;
+      padding-bottom: 9.375rem;
+      text-align: center;
+  }
+  hr {
+     border: 0;
+      border-top: 1px solid #eaebec;
+      margin: 1.313rem 0;
+   
+  }
+  .icons > li {
+      border-radius: 1.25rem;
+      width: 2.5rem;
+      height: rem;
+      display: inline-block;
+      margin: 1.25rem 5px;
+      border: 1px solid #eaebec;
+      padding: 0.625rem 0;
+      text-align: center;
+  }
+  ul   li:hover {
+      cursor: pointer;
+  }
+  
+  .twitter{
+      color: #55acee;
+  }
+   .facebook{
+      color: #4c66a4;
+  }
+    .insta{
+      color: #3f729b;
+  }
+  span {
+      font-size: 0.9rem;
+      font-weight: 300;
+      color: #838994;
+  }
+  
+  
+  
+  /**
+   * Responsive Design
+   
+  @media (min-width: 48rem) {
+      .content {
+          width: 46rem;
+      }
+  }
+  @media (min-width: 62rem) {
+      .content {
+          width: 60rem;
+      }
+  }
+  @media (min-width: 75rem) {
+      .content {
+          width: 60%;
+      }
+  }*/
+  
+  /* Chrome, Safari, Opera 
+  @-webkit-keyframes bounce {
+      0%, 100% {margin-top: 0px;}
+      50% {margin-top: 2rem;}
+  }*/
+  /* Standard syntax 
+  @keyframes bounce {
+      0%, 100% {margin-top: 0px;}
+      50% {margin-top: 2rem;}
+  }
+  */
+  
+  
 
 
