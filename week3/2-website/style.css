@@ -50,11 +50,14 @@ nav{
 .navlinks li a:hover{
     color: hotpink;
 }
+.navlinks li{
+    opacity: 0;
+}
 .burger{
     display: block;
     cursor: pointer;
 }
-@keyframes navlinksfade{
+@keyframes navLinkFade{
     from{
         opacity: 0;
         transform: translateX(50px);
