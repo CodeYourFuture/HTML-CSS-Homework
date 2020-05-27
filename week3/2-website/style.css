@@ -7,6 +7,7 @@
 body{
     height: 105vh;
     background: linear-gradient(#FBFBFB, #4F5455);
+    overflow: hidden;
 }
 nav{
     display: flex;
@@ -16,14 +17,52 @@ nav{
     background-color: #4d2929;
    
 }
+
 .logoandtitle{
     display: flex;
     align-items: center;
     color: #FBFBFB;
    
 }
+.navlinks{
+    position: absolute;
+    top: 10%;
+    right: 0%;
+    background-color: #4d2929;
+    height: 95vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transform: translateX(100%);
+    transition: transform 1s ease-in;
+    opacity: 0.95;
+
+   
+}
+.nav-active{
+    transform: translateX(0%);
+}
+.navlinks li a{
+   color: whitesmoke;
+   font-size: 1.2rem;  
+}
+.navlinks li a:hover{
+    color: hotpink;
+}
 .burger{
+    display: block;
     cursor: pointer;
+}
+@keyframes navlinksfade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
 }
 
 .line1, .line2, .line3{
