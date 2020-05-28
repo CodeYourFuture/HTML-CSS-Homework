@@ -74,6 +74,15 @@ nav{
     background-color: #FBFBFB;
     margin: 5px;
 }
+.tog .line1{
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+.tog .line2{
+    opacity: 0;
+}
+.tog .line3{
+    transform: rotate(45deg) translate(-5px, -6px);
+}
 .section2{
    
     padding: 20px 10px;

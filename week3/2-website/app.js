@@ -19,4 +19,9 @@ burger.addEventListener('click' , () => {
                 link.style.animation = `navLinkFade 0.9s ease forwards ${index / 7 + 1}s`
             }
     });
+
+    //burger toggle
+    burger.classList.toggle('tog');
+
+
 });
