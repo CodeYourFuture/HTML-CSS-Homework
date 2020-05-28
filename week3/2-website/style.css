@@ -146,37 +146,7 @@ footer{
     width: 2rem;
     height: 2rem;
 }
-/*
-#footerul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    width: 35%;
-    padding: 5px 0px 5px 0px;
-}
-.fa-twitter{
-    color: hsl(219, 57%, 34%);
-    position: absolute;
-    top: 30%;
-    transform: translateX(-50%);
-    left: 14%
-}
-.fa-facebook{
-    color: #1e1158;
-    position: absolute;
-    top: 30%;
-    transform: translateX(-50%);
-    left: 46%
-}
-.fa-instagram{
-    color: rgb(122, 25, 49);
-    position: absolute;
-    top: 30%;
-    transform: translateX(-50%);
-    left: 80%
-}
-*/
+
 #ellipse2{
     position: absolute;
     bottom: -5%;
@@ -197,4 +167,159 @@ footer{
     position: absolute;
     bottom: 5%;
     left: 10%;
+}
+
+/*
+@media screen and (min-width: 1600px){
+    body{
+        height: 150vh;
+    }
+   .hero{
+       background-image: url(/2-website/images/cake-hero.jpg);
+       background-repeat: no-repeat;
+       background-position:  bottom;
+       background-size: cover;
+       height: 50vh;
+ 
+   }
+   .burger{
+       display: none;
+   }
+   .navlinks li{
+       opacity: 1;
+       display: flex;
+       flex-direction: row;
+   }
+   .navlinks{
+       
+       
+       height: 7.5vh;
+       position: absolute;
+       top: 0%;
+       right: 40%;
+       border: 1px solid red;
+
+   }
+   #heropic{
+       display: none;
+   }
+   
+}
+*/
+@media screen and (min-width: 320px){
+    body{
+        height: 115vh;
+    }
+}
+
+
+@media screen and (min-width: 360px){
+    body{
+        height: 100vh;
+    }
+    .nav-active, .navlinks{
+       position: absolute;
+       top: 9%;
+    }
+}
+@media screen and (min-width: 375px){
+    .nav-active, .navlinks{
+       position: absolute;
+       top: 6%;
+    }
+    #heropic{
+        width: 375px;
+    }
+    .section2{
+        padding-bottom:  60px;
+        padding-top: 40px;
+    }
+    footer{
+        padding-top: 100px;
+    }
+}
+
+
+@media screen and (min-width: 414px){
+   footer{
+       padding-top: 100px;
+   }
+   .section2{
+       padding-bottom:  60px;
+       padding-top: 40px;
+   }
+   #heropic{
+       width: 411px;
+   }
+   .nav-active, .navlinks{
+    position: absolute;
+    top: 6%;
+ }
+}
+@media screen and (min-width: 768px){
+    body{
+        height: 150vh;
+    }
+    .nav-active, .navlinks{
+       position: absolute;
+       top: 5%;
+    }
+    .navlinks li a{
+        font-size: 28px;
+    }
+    h1{
+        font-size: 50px;
+        letter-spacing: 2px;
+        padding-bottom: 12px;
+    }
+    #logo{
+        width: 70px;
+        height: 80px;
+    }
+    #heropic{
+        width: 768px;
+    }
+    .welcome{
+        font-size: 30px;
+    }
+    p{
+        font-size: 25px;
+    }
+    #lipics{
+        width: 160px;
+        height: 150px;
+        
+    }
+    .pics3 li{
+       
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pics3 li a{
+        font-size: 25px;
+        margin-top: 10px;
+    
+    }
+    .section2{
+        padding-bottom:  60px;
+        padding-top: 40px;
+    }
+    footer{
+        padding-top: 100px;
+    }
+    .join{
+        font-size: 28px;
+    }
+    #socialicons{
+        width: 60px;
+        height: 60px;
+    }
+    h5{
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 1024px){
+    
 }
