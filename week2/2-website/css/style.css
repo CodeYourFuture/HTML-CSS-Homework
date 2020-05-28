@@ -1,17 +1,62 @@
 
  /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
+*{
 
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
 body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
+    height: 100vh;
 }
 
+
+.devices{
+    
+    display:flex;
+    width: 60%;
+    margin:auto;
+    justify-content: space-around;
+
+}
+.devices li{
+
+    text-align: center;
+}
+header {
+width: 100%;
+background-color: white;
+height: 6vh;
+}
+.content-nav {
+    align-items: center;
+    height: 100%;
+
+}
+.links {
+ width: 80% ;
+ justify-content: flex-end;
+ height: 100%;
+ align-items: center;
+}
+.rapper {
+    border:1px solid green;
+    display: flex;
+    width: 70%;
+    margin:auto;
+    justify-content: space-between;
+    align-items: center;
+}
 nav{
     position: fixed;
     width: 100%;
     border-bottom: 0.001rem solid black;
     display: flex;
     text-decoration: none;
+    border: 1px solid red;
+    justify-content: space-around;
     }
     nav-content {
     display: flex;
@@ -142,7 +187,7 @@ nav{
     }
     footer {
     display: flex;
-    flex-directiuon: column;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     }
