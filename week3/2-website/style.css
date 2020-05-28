@@ -240,8 +240,11 @@ footer{
 }
 
 
-@media screen and (min-width: 414px){
-   footer{
+@media screen and (min-width: 411px){
+   body{
+       height: 110vh;
+   }
+    footer{
        padding-top: 100px;
    }
    .section2{
@@ -249,7 +252,7 @@ footer{
        padding-top: 40px;
    }
    #heropic{
-       width: 411px;
+       width: 420px;
    }
    .nav-active, .navlinks{
     position: absolute;
