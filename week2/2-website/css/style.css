@@ -2,7 +2,7 @@
 
 body,
 html {
-	font-family: 'Roboto', sans-serif;
+	font-family: "Roboto", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	height: 100%;
 	margin: 0;
@@ -35,8 +35,6 @@ html {
 
 #nav-bar>li {
 	list-style: none;
-	padding: 5 rem;
-	border: 5 rem;
 }
 
 nav>ul {
@@ -112,11 +110,12 @@ a {
 .hero {
 	display: flex;
 	flex-direction: column;
+	background-color: greenyellow;
 	width: 100%;
 }
 
 .hero-content {
-	background: url(../img/first-background.jpg)no-repeat center;
+	background: url(../img/first-background.jpg) no-repeat center;
 	padding: 25%;
 	color: white;
 	display: flex;
@@ -177,11 +176,13 @@ button:hover {
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
+	padding-left: 5rem;
 }
 
 .listicons>li {
 	width: 25%;
 	height: 25%;
+	padding-left: 10px;
 }
 
 #iconImage {
@@ -193,41 +194,48 @@ button:hover {
 .cap {
 	width: 22rem;
 	height: 6rem;
-	padding: 1 0 1 0;
 }
 
 .cap>h3 {
-	text-align: center;
 	font-weight: lighter;
 	font-size: 190%;
-	text-align: left;
-	float: left;
+	/*white-space: nowrap;*/
 }
 
 .footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-}
-
-.footer>.icons {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-between;
-}
-
-.footer>.icons>li>a {
-	padding-left: 5rem;
+	padding-bottom: 10rem;
 }
 
 hr {
 	width: 70%;
-	font-weight: lighter;
-	color: gray;
+}
+
+.footer ul {
+	display: flex;
+	flex-direction: row;
+	padding-right: 2.5rem;
+}
+
+.footer a {
+	font-size: 1.2rem;
+	padding: 0.5rem;
+	border: 0.1em solid rgb(218, 218, 243);
+	border-radius: 3rem;
+}
+
+#twitter {
+	color: rgb(175, 175, 240);
 }
 
 h5 {
-	font-size: 150%;
 	font-weight: lighter;
+	font-size: 120%;
+	border: 5 solid black;
+}
+
+span {
+	color: #6d6b6b;
 }
