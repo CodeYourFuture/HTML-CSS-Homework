@@ -1,0 +1,73 @@
+* {
+    font-family: "Pacifico", cursive;
+    background-color: rgb(188, 243, 226);
+  }
+  .container{
+      width: 100%;
+      background-color: aqua;
+      display: flex;
+      flex-direction: column;
+      
+  }
+  .container .header{
+      width: 100%;
+      margin: 10px;
+      background-color: beige;
+  }
+  header.header{
+      margin: 10px;
+  }
+  .header .top-header{
+      width: 100%;
+      background-color: blueviolet;
+      margin: 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  .top-header .logo{
+      width: 100px;
+      height: 100px;
+      background-color: cyan;
+      padding: 10px;
+    }
+    .top-header .contact-button{
+        color: rgb(200, 144, 233);
+        font-size: 25px;
+        border-color: rgb(252, 251, 253);
+        border-radius: 10px;
+        border-width: medium;
+        width: 125px;
+        height: 50px;
+        margin-top: 50px;
+        margin-right: 20px;
+    }
+  .header .nav{
+      background-color: greenyellow;
+      
+
+  }
+  .header .nav-bar{
+
+  }
+  .nav-bar .nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-list li{
+    margin: 5px;
+    padding: 5px;
+    background-color: coral
+}
+  
+  .container .main{
+      background-color: darkgoldenrod;
+      height: 200px;
+      margin: 20px;
+  }
+  .container .footer{
+      background-color: darkgreen;
+      height: 200px;
+      margin: 20px;
+  }
