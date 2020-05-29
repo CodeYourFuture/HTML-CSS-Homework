@@ -28,9 +28,7 @@
  }
  
  /*********************************  HEAD  ************************************/
- /* header {
-     position: fixed;
- } */
+
  
  .container {
      display: flex;
@@ -51,7 +49,8 @@
      text-decoration: none;
      padding: 0 1rem;
      font-weight: 400;
-     color: rgb(65, 58, 58);
+     color: rgb(65, 58, 58);    
+
  }
  .nav-left {
      width: "34px";
