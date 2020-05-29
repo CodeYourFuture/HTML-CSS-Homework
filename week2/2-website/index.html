@@ -2,20 +2,88 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Karma</title>
-    <link href='//fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <!-- Add a link to your CSS file here (use the line above to guide you) -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="images/karma-logo.svg"> <!--favicon-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
-    <!-- Add your HTML markup here -->
-    <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
-    <!-- All the images you need are in the 'img' folder -->
+    <!--  ******************************** HEADER ***********************************  -->
+    <header>
+        <nav class="container">   
+            <div class="nav-left">
+                <img src="images/karma-logo.svg" alt=""  class="logo"> 
+            </div>
+             <div class="nav-right">
+                <a href="#">Meet Karma</a>
+                <a href="#">How it Works</a>
+                <a href="#">Store</a>
+                <a href="#">Blog</a>
+                <a href="#">Help</a>
+                <a href="#">Login</a> 
+             </div>
+            
+        </nav>
+        
 
+    </header>
+
+    <!--  ******************************** MAIN SECTION *******************************  -->
+    <main>
+
+        <section class="first-section">
+            <div class="center-section">
+                <h2>Introducing Karma</h2>
+                <p>Bring WiFi with you, everywhere you go.</p>
+                <button>Learn More</button>
+            </div>
+            
+            
+        </section>
+
+        <section class="second-section">
+            .
+            <h2>Everyone needs a little Karma.</h2>
+            <div class="icons">
+                <figure class="icons-second-section">
+                    <img src="images/icon-devices.svg" alt="" width="140px">
+                    <figcaption>
+                        Internet for all devices
+                    </figcaption>
+                </figure>
+                <figure class="icons-second-section">
+                    <img src="images/icon-coffee.svg" alt="" width="140px">
+                    <figcaption>
+                        Boost your productivity
+                    </figcaption>
+                </figure>
+                <figure class="icons-second-section">
+                    <img src="images/icon-refill.svg" alt="" width="140px">
+                    <figcaption>
+                        Pay as You Go
+                    </figcaption>
+                </figure>
+            </div>
+            
+        </section>
+
+    </main>
+    <hr>
+    <!--   ****************************** FOOTER *******************************  -->
+
+    <footer>
+        <p>Join us on</p>
+        <div class="social-media">
+            <i class="fa fa-twitter fa-3x"></i>
+            <i class="fa fa-facebook fa-3x"></i>
+            <i class="fa fa-instagram fa-3x"></i>
+        </div>
+        
+        <p id="last-p">© Karma Mobility, Inc.</p>
+    </footer>
+    
 </body>
 </html>
