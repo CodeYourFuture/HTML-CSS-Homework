@@ -1,6 +1,4 @@
-
- /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
-html {
+* {
     margin: 0;
     padding: 0;
     border: 0;
@@ -10,29 +8,6 @@ html {
     box-sizing: border-box;
 }
 
-
-head {
-    display: none;
-    font-size: 100%;
-    font: inherit;
-}
-
-
-body {
-    font-family: 'Roboto' , sans-serif;
-    -webkit-font-smoothing: antialiased;
-    line-height: 1;
-    margin: 0;
-    padding: 0;
-    bottom: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    box-sizing: border-box;
-    display: block;
-    }
-
-
     .top-navigation {
         background-color: #fff;
         position: fixed;
@@ -40,13 +15,6 @@ body {
         border-bottom: 1px solid #DDD;
         z-index:  9999;
         display: block;
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font-size: 100%;
-        font: inherit;
-        vertical-align: baseline;
-        box-sizing: border-box;
     }
 
 
@@ -59,11 +27,6 @@ body {
         padding: 0 0.938rem;
         margin: 0 auto;
         min-width: 37.5rem;
-        border: 0;
-        font-size: 100%;
-        font: inherit;
-        vertical-align: baseline;
-        box-sizing: border-box;
     }
 
     .top-navigation .links {
@@ -73,6 +36,7 @@ body {
         margin-top: 1.7rem;
         width: 507.016px;
         height: 16px;
+        align-content: space-between;
 
     }
     ol ul {
@@ -85,7 +49,7 @@ body {
         box-sizing: border-box;
     }
     ul {
-        display: block;
+        display: flex;
         margin-inline-start: 1em;
         margin-block-end: 1em;
         margin-inline-start: 0;
@@ -100,28 +64,17 @@ body {
     .top-navigation .links li {
         display: inline-block;
         margin-left: 1.563rem;
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font-size: 100%;
-        font: inherit;
-        vertical-align: baseline;
-        box-sizing: border-box;
+
     }
     li {
         text-align: -webkit-match-parent;
+        list-style: none;
+        text-align: center;
     }
 
     .top-navigation .logo {
         height: 4.375rem;
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font-size: 100%;
-        vertical-align: baseline;
-        box-sizing: border-box;
-        width: 26px;
-        height: 70px;
+
     }
 
     .introduction {
@@ -131,14 +84,24 @@ body {
         background-size: cover;
         height: 45.938rem;
         overflow: auto;
-        /*display: block;*/
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font-size: 100%;
-        font: inherit;
-        vertical-align: baseline;
-        box-sizing: border-box;
+    }
+    .introduction h1 {
+        margin-top: 17.5rem;
+        font-size: 3.12rem;
+    }
+    .introduction h1, .introduction h3 {
+        color: #fff;
+        text-align: center;
+        font-weight: 300;
+    }
+    .introduction h3 {
+        margin-top: 1.25rem;
+        font-size: 1.56rem;
+    }
+    .introduction .buttons {
+        color: #fff;
+        text-align: center;
+        margin-top: 1.56rem;
     }
 
     @media (min-width: 48rem) {
@@ -151,11 +114,6 @@ body {
             width: 46rem;
             padding: 0 0.938rem;
             min-width: 37.5rem;
-            border: 0;
-            font-size: 100%;
-            font: inherit;
-            vertical-align: baseline;
-            box-sizing: border-box;
         }
 
 
@@ -180,18 +138,7 @@ body {
         color: #ddd;
     }
 
-    .introduction .buttons {
-        color: #fff;
-        text-align: center;
-        margin-top: 1.563rem;
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font-size: 100%;
-        font: inherit;
-        vertical-align: baseline;
-        box-sizing: border-box;
-    }
+
     button {
         width: 9.688rem;
         color: #f15a29;
@@ -207,13 +154,7 @@ body {
         background-color: #fff;
         overflow: hidden;
         padding-bottom: 5rem;
-        /*display: block;*/
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font-size: 100%;
-        vertical-align: baseline;
-        box-sizing: border-box;
+
     }
     .cases .content {
         margin-top: 7.875rem;
@@ -224,70 +165,15 @@ body {
         font-size: 2.75rem;
         margin: 1.625rem 0 3.125rem;
         font-size: 300;
-        padding: 0;
-        border: 0;
-        font: inherit;
-        vertical-align: baseline;
-        box-sizing: border-box;
     }
-    h2 {
-        display: block;
-        margin-inline-start: 0.83em;
-        margin-block-end: 0.83em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-    }
-    .cases .content {
-        color: #1d1e21;
-        text-align: center;
-    }
-    ol ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font-size: 100%;
-        font: inherit;
-        vertical-align: baseline;
-        box-sizing: border-box;
-    }
-    ul {
-        display: block;
-       margin-block-start: 1em;
-       margin-block-end: 1em;
-       margin-inline-start: 40px;
-       margin-inline-end: 0px;
-    }
+
     .cases .devices > li {
         width: 33.3333333%;
         float: left;
-    }
-    li {
-        display: list-item;
-        text-align: -webkit-match-parent;
-    }
-    ol ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font-size: 100%;
-        font: inherit;
-        vertical-align: baseline;
-        box-sizing: border-box;
-    }
-    ul {
-        display: block;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-end: 0px;
-        margin-inline-start: 0px;
+        text-align: center;
+
     }
 
-.cases .content {
-    color: #1d1e21;
-    text-align: center;
-}
 img {
     width: 127px;
     height: 127px;
@@ -302,6 +188,11 @@ img {
     box-sizing: border-box;
    /* display: block;*/
 }
+.cases .devices h3 {
+    font-weight: 400;
+    font-size: 1.156rem;
+    margin: 2.5rem 0px 1.875rem;
+}
 .social {
     background-color: #fff;
     overflow: auto;
@@ -309,12 +200,18 @@ img {
     text-align: center;
     display: block;
 }
+
+.icons {
+    list-style: none;
+    text-align: center;
+}
+
 h5 {
-    display: block;
-    margin-block-start: 1.67em ;
-    margin-block-end: 1.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    color: black;
+    text-align: center;
+}
+.icons > li:hover {
+    cursor: pointer;
 }
 .social .icons > li {
     border-radius: 1.25rem;
@@ -325,6 +222,9 @@ h5 {
     border: 1px solid #eaebec;
     text-align: center;
 }
+.twitter {
+    color: #55acee;
+}
 .fa {
     display: inline-block;
     font: normal;
@@ -332,18 +232,18 @@ h5 {
     text-rendering: auto;
     text-align: center;
 }
-.social .twitter {
-    color: #55acee;
-}
-.fa-twitter:before {
+
+.fa-twitter {
     content: "\f099";
 }
+
 .social .facebook {
     color: #4c66a4;
 }
-.fa-facebook:before {
+.fa-facebook {
     content: "\f09a";
 }
+
 .social .instagram {
     color: #3f729b;
 }
@@ -355,6 +255,3 @@ h5 {
     font-weight: 300;
     color: #838994;
 }
-
-
-    
