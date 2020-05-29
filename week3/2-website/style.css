@@ -5,7 +5,7 @@
 }
 
 body{
-    height: 105vh;
+    height: 115vh;
     background: linear-gradient(#FBFBFB, #4F5455);
     overflow: hidden;
 }
@@ -215,7 +215,7 @@ footer{
 
 @media screen and (min-width: 360px){
     body{
-        height: 100vh;
+        height: 110vh;
     }
     .nav-active, .navlinks{
        position: absolute;
@@ -322,7 +322,227 @@ footer{
     h5{
         font-size: 18px;
     }
+
+    #ellipse2{
+        position: absolute;
+        bottom: -5%;
+        right: 0%;
+        width: 202px;
+        height: 220px;
+    }
+    #ellipse3{
+        position: absolute;
+        bottom: 8%;
+        right: 40%;
+        z-index: -1;
+        width: 150px;
+        height: 150px;
+       
+
+    }
+    #ellipse1{
+        position: absolute;
+        top: 50%;
+        z-index: -1;
+        width: 290px;
+        height: 280px;
+    }
+    #ellipse4{
+        position: absolute;
+        bottom: 5%;
+        left: 10%;
+        width: 100px;
+        height: 100px;
+    }
+
 }
 @media screen and (min-width: 1024px){
+    #heropic{
+        width: 1024px;
+    }
+    .welcome{
+        font-size: 40px;
+    }
+    p{
+        font-size: 30px;
+    }
+    h1{
+        font-size: 60px;
+        letter-spacing: 2px;
+    }
+    .threeimages{
+        height: 20vh;
+    }
+    .pics3 li{
+       
+        height: 270px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #lipics{
+        width: 270px;
+        height: 240px;
+        
+    }
+
+    .pics3 li a{
+        font-size: 25px;
+        margin-top: 10px;
     
+    }
+    .section2{
+        padding-bottom:  60px;
+        padding-top: 40px;
+    }
+    footer{
+        padding-top: 100px;
+    }
+    .join{
+        font-size: 28px;
+    }
+    #socialicons{
+        width: 60px;
+        height: 60px;
+    }
+    h5{
+        font-size: 18px;
+    }
+
+    #ellipse2{
+        position: absolute;
+        bottom: -5%;
+        right: 0%;
+        width: 202px;
+        height: 220px;
+    }
+    #ellipse3{
+        position: absolute;
+        bottom: 8%;
+        right: 40%;
+        z-index: -1;
+        width: 150px;
+        height: 150px;
+       
+
+    }
+    #ellipse1{
+        position: absolute;
+        top: 50%;
+        z-index: -1;
+        width: 290px;
+        height: 280px;
+    }
+    #ellipse4{
+        position: absolute;
+        bottom: 5%;
+        left: 10%;
+        width: 100px;
+        height: 100px;
+    }
+
+}
+
+@media screen and (min-width: 1280px){
+    body{
+        height: 150vh;
+        overflow-y: visible;
+    }
+    
+    #heropic{
+        width: 1300px;
+        height: 50vh;
+        background-position: center bottom;
+    }
+   
+
+}
+
+@media screen and (min-width: 1300px){
+    body{
+        height: 200vh;
+       
+       
+    }
+    h1{
+        font-size: 50px;
+    }
+    .hero{
+        height: 80vh;
+    }
+    .mainsection{
+        height: 80vh;
+        background-image: url(/2-website/images/cake-image.png);
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: cover;
+    }
+    
+    #heropic{
+        display: none;
+        width: 1550px;
+        height: 50vh;
+       
+    }
+    .threeimages{
+        height: 300px;
+    }
+    .welcome{
+        font-size: 25px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .join{
+        padding-top: 120px;
+        font-weight: 200;
+        font-size: 25px;
+    }
+   
+    #footerul{
+        
+        width: 15%;
+
+    }
+    h5{
+        font-size: 15px;
+    }
+    .pics3{
+        
+        padding-top: 150px;
+    }
+    #ellipse2{
+        position: absolute;
+        bottom: -100%;
+        right: 0%;
+        width: 402px;
+        height: 420px;
+    }
+    #ellipse3{
+        position: absolute;
+        bottom: -86%;
+        right: 40%;
+        z-index: -1;
+        width: 150px;
+        height: 150px;
+       
+
+    }
+    #ellipse1{
+        position: absolute;
+        top: 96%;
+        z-index: -1;
+        width: 490px;
+        height: 480px;
+    }
+    #ellipse4{
+        position: absolute;
+        bottom: -85%;
+        left: 10%;
+        width: 100px;
+        height: 100px;
+    }
+
+   
+
 }
