@@ -4,7 +4,7 @@
   }
   .container{
       width: 100%;
-      background-color: aqua;
+      /*background-color: aqua;*/
       display: flex;
       flex-direction: column;
       
@@ -18,7 +18,7 @@
       margin: 10px;
   }
   .header .top-header{
-      width: 100%;
+      
       background-color: blueviolet;
       margin: 10px;
       display: flex;
@@ -42,12 +42,9 @@
         margin-top: 50px;
         margin-right: 20px;
     }
-  .header .nav{
+  .header .nav .nav-bar{
       background-color: greenyellow;
       
-
-  }
-  .header .nav-bar{
 
   }
   .nav-bar .nav-list{
@@ -59,13 +56,92 @@
     margin: 5px;
     padding: 5px;
     background-color: coral
-}
-  
-  .container .main{
-      background-color: darkgoldenrod;
+}  
+  .container .main-container{
+      /*background-color: darkgoldenrod;*/
       height: 200px;
       margin: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      
   }
+  .main-container .info-section{
+      background-color: cornflowerblue;
+      margin-right: 20px;
+      width: 33%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+  }
+  .main-container .image-section{
+      background-color: darkolivegreen;
+      width: 67%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+  .image-section .image-carousel{
+      background-color: darksalmon;
+      
+         
+      height:100%;
+      margin: 5px;
+      
+    
+
+  }
+  .image-section .image-list{
+      background-color: dodgerblue;
+      
+
+  }
+  .image-list ul{
+      margin: 0px;
+      padding: 0px;
+      padding: 10px;
+      display: flex;
+      justify-content: space-around;
+  }
+  .image-list ul li{
+      background-color: orchid;
+      list-style: none;
+      
+      width: 50px;
+      height: 50px;
+      
+
+  }
+  .container .section{
+      /*background-color: violet;*/
+      margin: 10px;
+      /*padding: 10px;*/
+      /*width: 100%;*/
+      /*height: 100%;*/
+  
+      
+  }
+  .section .cake-images{
+
+    height: 100%;
+    width: 100%;
+   
+  }
+  .cake-images .cake-portrait {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+  .cake-portrait .cakes{
+      background-color: orange;
+    list-style: none;
+    margin: 20px;
+    padding: 10px;
+}
+  }
+
   .container .footer{
       background-color: darkgreen;
       height: 200px;
