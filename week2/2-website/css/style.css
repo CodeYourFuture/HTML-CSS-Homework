@@ -1,53 +1,50 @@
-
+html {
+    font-family: sans-serif; 
+    -ms-text-size-adjust: 100%; 
+    -webkit-text-size-adjust: 100%; 
+}
  
-
 body {
+       line-height:1;
+       margin:0;
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
+  
 }
-nav .logo  {
-    margin:0;
-    background-color:white;
-    height: 3.375rem;
-    
-  }
- 
 
-
-.nav-bar{
-    margin: 0;
-    padding: 0;
+  .nav-bar ul {
+    display:block;
+    font-size:1.04rem;
+    margin:0 ;
+    padding:0 ;
     background-color:white;
     position: fixed;
     width:100%;
-    height: 3.375rem;
+    height: 4.375rem;
     border-bottom: 1px solid #ddd;
-    
-   
-  }
-  nav ul{
-    display:flex;
-    justify-content:space-around;
-    flex-direction:raw;
-    margin-left: 1.563rem;
-    font-size:1.04rem;
-    list-style-type:none;
-    }
+   }
+
   
+.nav-bar li {
+
+  display:inline-block;
+  margin-left:1.563rem;
+  margin-top:1.7rem;
+  list-style-type:none;
+  
+  
+}
   nav a {
-    display: flex;
     color: #838994;
     font-size: 1.04rem;
     text-decoration: none;
-    margin-top: rem;
-    
-  }
+    }
   
   
   
-   li a.active {
+   li .active {
       color:#4c5058;
-      font-weight:600;
+      font-weight:500;
   }
   
   li a:hover{
@@ -55,7 +52,12 @@ nav .logo  {
     color:#333333;
   }
   
-  
+  ul .logo  {
+   width:20%;
+   height: 2.375rem;
+   margin-top: 0.7rem; 
+    
+}
   
   
   .backimg{
@@ -72,28 +74,26 @@ nav .logo  {
   }
   
   h1 {
+    display :block;
      color: white;
       text-align: center;
-      font-weight: 300;
+      font-weight:300 ;
       margin-top: 17.5rem;
-      font-size: 3.125rem;
-  }
+      font-size: 3.125rem;    
+ }
     
   
-  p{
+ .content > h3{
     color:white;
     font-weight:300;
     margin-top: 1.25rem;
-    font-size: 1.563rem;
-   
+    font-size: 1.563rem;   
   }
   
   button {
       
       width: 9.688rem;
       background-color: #f15a29;
-      border-color: #f15a29;
-      text-shadow: none;
       border-style: none;
       border-radius: 4px;
       padding: 1rem 1.5rem;
@@ -108,28 +108,39 @@ nav .logo  {
   
 
 
-
+.cases h2{
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+    text-align:center;
+}
 
   .cases {
-    display:flex;
+    display:block;
+    margin-top: 7.875rem;
     background-color: #fff;
     padding-bottom: 5rem;
-    justify-content: center;
-    flex-flow: row;
-    
-  }
-  
+     }
+
+.cases ul {
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+}
 
   .cases .one > li {
-      width: 33.3333333%;
-      flex-direction: row;
-      flex-flow: row;
-
-      list-style-type: none;
+     width: 20%;
+     list-style-type: none;
 
  }
 
-
+.cases div > h3{
+  
+  font-weight: 400;
+  font-size: 1.563rem;
+  margin: 2.5rem 0px 1.875rem;
+}
+   
 
   /*footer */
   footer {
@@ -138,12 +149,22 @@ nav .logo  {
       padding-bottom: 9.375rem;
       text-align: center;
   }
-  hr {
+
+ 
+  .content  hr {
      border: 0;
-      border-top: 1px solid #eaebec;
-      margin: 1.313rem 0;
-   
-  }
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+}
+     
+
+      
+h5{
+    font-size: 1em;
+    font-weight:400;
+  
+}       
+
   .icons > li {
       border-radius: 1.25rem;
       width: 2.5rem;
@@ -171,35 +192,36 @@ nav .logo  {
       font-size: 0.9rem;
       font-weight: 300;
       color: #838994;
+    
   }
   
   
   
-  /**
-   * Responsive Design
+  
+  /*  Responsive Design 
    
-  @media (min-width: 48rem) {
-      .content {
-          width: 46rem;
-      }
-  }
-  @media (min-width: 62rem) {
-      .content {
-          width: 60rem;
-      }
-  }
-  @media (min-width: 75rem) {
-      .content {
-          width: 60%;
-      }
-  }*/
+ @media (min-width: 48rem) {
+    .content {
+        width: 46rem;
+    }
+}
+@media (min-width: 62rem) {
+    .content {
+        width: 60rem;
+    }
+}
+@media (min-width: 75rem) {
+    .content {
+        width: 60%;
+    }
+}
   
-  /* Chrome, Safari, Opera 
+   Chrome, Safari, Opera 
   @-webkit-keyframes bounce {
       0%, 100% {margin-top: 0px;}
       50% {margin-top: 2rem;}
-  }*/
-  /* Standard syntax 
+  }
+  Standard syntax 
   @keyframes bounce {
       0%, 100% {margin-top: 0px;}
       50% {margin-top: 2rem;}
