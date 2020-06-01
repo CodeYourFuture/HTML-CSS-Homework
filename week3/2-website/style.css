@@ -210,6 +210,9 @@ footer{
     body{
         height: 80vh;
     }
+    .navlinks{
+        width: 33%;
+    }
     
     footer{
         padding-top: 50px;
@@ -490,6 +493,10 @@ footer{
     p{
         font-size: 25px;
     }
+
+    .navlinks{
+        width: 33%;
+    }
     h1{
         font-size: 60px;
         letter-spacing: 2px;
@@ -570,7 +577,7 @@ footer{
 
 @media screen and (min-width: 1280px){
     body{
-        height: 100vh;
+        height: 120vh;
         overflow-y: visible;
     }
     .mainsection{
@@ -587,6 +594,9 @@ footer{
        background-size: cover;
        
     } */
+    .navlinks{
+        width: 33%;
+    }
     .welcome{
         font-size: 25px;
     }
@@ -669,6 +679,7 @@ footer{
         height: 50vh;
        
     }
+   
     .threeimages{
         height: 300px;
     }
@@ -731,222 +742,4 @@ footer{
 
 
 
-
-/* @media screen and (min-width: 1024px){
-    
-    .mainsection{
-        height: 60vh;
-        background-image: url(./images/cakehero2.jpg);
-        background-repeat: no-repeat;
-        background-position: center bottom;
-        background-size: cover;
-    }
-    .welcome{
-        font-size: 20px;
-    }
-    p{
-        font-size: 16px;
-    }
-    h1{
-        font-size: 60px;
-        letter-spacing: 2px;
-    }
-    .threeimages{
-        width: 80%;
-        margin: auto;
-        height: 20vh;
-    }
-    .pics3 li{
-       
-        height: 270px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    #lipics{
-        width: 220px;
-        height: 190px;
-        
-    }
-
-    .pics3 li a{
-        font-size: 25px;
-        margin-top: 10px;
-    
-    }
-    .section2{
-        width: 70%;
-        padding-bottom:  60px;
-        padding-top: 40px;
-    }
-    footer{
-        padding-top: 100px;
-    }
-    .join{
-        font-size: 28px;
-    }
-    #socialicons{
-        width: 60px;
-        height: 60px;
-    }
-    h5{
-        font-size: 18px;
-    }
-
-    #ellipse2{
-        position: absolute;
-        bottom: -5%;
-        right: 0%;
-        width: 202px;
-        height: 220px;
-    }
-    #ellipse3{
-        position: absolute;
-        bottom: 8%;
-        right: 40%;
-        z-index: -1;
-        width: 150px;
-        height: 150px;
-       
-
-    }
-    #ellipse1{
-        position: absolute;
-        top: 50%;
-        z-index: -1;
-        width: 290px;
-        height: 280px;
-    }
-    #ellipse4{
-        position: absolute;
-        bottom: 5%;
-        left: 10%;
-        width: 100px;
-        height: 100px;
-    }
-
 }
-
-@media screen and (min-width: 1280px){
-    body{
-        height: 150vh;
-        overflow-y: visible;
-    }
-    
-    .mainsection{
-        height: 60vh;
-        background-image: url(./images/cakehero2.jpg);
-        background-repeat: no-repeat;
-        background-position: center bottom;
-        background-size: cover;
-    }
-   
-
-}
-
-@media screen and (min-width: 1300px){
-    body{
-        height: 200vh;
-       
-       
-    }
-    h1{
-        font-size: 50px;
-    }
-    .hero{
-        height: 80vh;
-    }
-    .mainsection{
-        height: 60vh;
-        background-image: url(./images/cakehero2.jpg);
-        background-repeat: no-repeat;
-        background-position: center bottom;
-        background-size: cover;
-    }
-    .section2{
-        width: 70%;
-    }
-    .welcome{
-        font-size: 20px;
-    }
-    .section2 p{
-        font-size: 16px;
-    }
-    .navlinks{
-        width: 33%;
-        
-    }
-    .navlinks li a{
-        font-size: 20px;
-    }
-    
-    #heropic{
-        display: none;
-        width: 1550px;
-        height: 50vh;
-       
-    }
-    .threeimages{
-        height: 300px;
-        width: 80%;
-        margin: auto;
-    }
-    .welcome{
-        font-size: 25px;
-    }
-    p{
-        font-size: 20px;
-    }
-    .join{
-        padding-top: 120px;
-        font-weight: 200;
-        font-size: 25px;
-    }
-   
-    #footerul{
-        
-        width: 15%;
-
-    }
-    h5{
-        font-size: 15px;
-    }
-    .pics3{
-        
-        padding-top: 150px;
-    }
-    #ellipse2{
-        position: absolute;
-        bottom: -100%;
-        right: 0%;
-        width: 402px;
-        height: 420px;
-    }
-    #ellipse3{
-        position: absolute;
-        bottom: -86%;
-        right: 40%;
-        z-index: -1;
-        width: 150px;
-        height: 150px;
-       
-
-    }
-    #ellipse1{
-        position: absolute;
-        top: 96%;
-        z-index: -1;
-        width: 490px;
-        height: 480px;
-    }
-    #ellipse4{
-        position: absolute;
-        bottom: -85%;
-        left: 10%;
-        width: 100px;
-        height: 100px;
-    }
-
-   
-
-} */
