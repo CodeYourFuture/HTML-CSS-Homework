@@ -208,21 +208,95 @@ footer{
 */
 @media screen and (min-width: 320px){
     body{
-        height: 115vh;
+        height: 80vh;
     }
+    
+    footer{
+        padding-top: 50px;
+    }
+    .threeimages{
+        padding-top: 100px;
+    }
+    #ellipse3{
+        position: absolute;
+        top: 100%;
+        right: 40%;
+        z-index: -1;
+    }
+    #ellipse2{
+        position: absolute;
+        width: 150px;
+        height: 130px;
+        bottom: -50%;
+        right: 0%;
+        z-index: -1;
+    }.mainsection{
+        height: 30vh;
+        background-image: url(./images/cake-image.png);
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: cover;
+    }
+    #ellipse4{
+        position: absolute;
+        bottom: -40%;
+        left: 10%;
+        z-index: -1;
+    }
+   
 }
 
 
 @media screen and (min-width: 360px){
     body{
-        height: 110vh;
+        height: 80vh;
+    }
+
+    .mainsection{
+        height: 30vh;
+        background-image: url(./images/cake-image.png);
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: cover;
     }
     .nav-active, .navlinks{
        position: absolute;
        top: 9%;
     }
+    .section2{
+        padding-bottom: 50px;
+    }
+    footer{
+        padding-top: 100px;
+       
+    }
+    .threeimages{
+        padding-top: 150px;
+    }
+    #ellipse3{
+        position: absolute;
+        top: 100%;
+        right: 40%;
+        z-index: -1;
+    }
+    #ellipse4{
+        position: absolute;
+        top: 130%;
+        left: 10%;
+        z-index: -1;
+    }
+    #ellipse2{
+        position: absolute;
+        top: 130%;
+        right: 0%;
+        z-index: -1;
+    }
 }
+
 @media screen and (min-width: 375px){
+    body{
+        height: 80vh;
+    }
     .nav-active, .navlinks{
        position: absolute;
        top: 6%;
@@ -231,37 +305,83 @@ footer{
         width: 375px;
     }
     .section2{
-        padding-bottom:  60px;
+        padding-bottom:  100px;
         padding-top: 40px;
     }
     footer{
         padding-top: 100px;
     }
+    #ellipse3{
+        position: absolute;
+        top: 115%;
+        right: 40%;
+        z-index: -1;
+    }
 }
 
 
 @media screen and (min-width: 411px){
-   body{
-       height: 110vh;
-   }
-    footer{
-       padding-top: 100px;
-   }
-   .section2{
-       padding-bottom:  60px;
-       padding-top: 40px;
-   }
-   #heropic{
-       width: 420px;
-   }
-   .nav-active, .navlinks{
-    position: absolute;
-    top: 6%;
+    body{
+        height: 80vh;
+    }
+     footer{
+        padding-top: 250px;
+    }
+    .section2{
+        width: 80%;
+        padding-bottom:  10px;
+        padding-top: 40px;
+    }
+   
+    .nav-active, .navlinks{
+     position: absolute;
+     top: 6%;
+     }
+     .threeimages{
+         padding-top: 50px;
+     }
+     #ellipse4{
+         position: absolute;
+         width: 70px;
+         height: 70px;
+         top: 130%;
+         left: 10%;
+         z-index: -1;
+     }
+     #ellipse2{
+         position: absolute;
+         width: 250px;
+         height: 230px;
+         bottom: 0%;
+         right: 0%;
+         z-index: -1;
+     }
+     #ellipse3{
+        position: absolute;
+        width: 150px;
+        height: 130px;
+        top:  90%;
+        right: 30%;
+        z-index: -1;
+    }
  }
-}
-@media screen and (min-width: 768px){
+ 
+ @media screen and (min-width: 768px){
     body{
         height: 150vh;
+    }
+    .mainsection{
+        height: 60vh;
+        background-image: url(./images/cakehero2.jpg);
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: cover;
+    }
+    .welcome{
+        font-size: 20px;
+    }
+    p{
+        font-size: 25px;
     }
     .nav-active, .navlinks{
        position: absolute;
@@ -279,9 +399,7 @@ footer{
         width: 70px;
         height: 80px;
     }
-    #heropic{
-        width: 768px;
-    }
+   
     .welcome{
         font-size: 30px;
     }
@@ -356,15 +474,21 @@ footer{
     }
 
 }
+
 @media screen and (min-width: 1024px){
-    #heropic{
-        width: 1024px;
+    
+    .mainsection{
+        height: 60vh;
+        background-image: url(./images/cakehero2.jpg);
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: cover;
     }
     .welcome{
-        font-size: 40px;
+        font-size: 20px;
     }
     p{
-        font-size: 30px;
+        font-size: 25px;
     }
     h1{
         font-size: 60px;
@@ -392,11 +516,11 @@ footer{
     
     }
     .section2{
-        padding-bottom:  60px;
-        padding-top: 40px;
+        padding-bottom:  140px;
+        padding-top: 100px;
     }
     footer{
-        padding-top: 100px;
+        padding-top: 350px;
     }
     .join{
         font-size: 28px;
@@ -413,8 +537,8 @@ footer{
         position: absolute;
         bottom: -5%;
         right: 0%;
-        width: 202px;
-        height: 220px;
+        width: 402px;
+        height: 420px;
     }
     #ellipse3{
         position: absolute;
@@ -428,7 +552,7 @@ footer{
     }
     #ellipse1{
         position: absolute;
-        top: 50%;
+        top: 70%;
         z-index: -1;
         width: 290px;
         height: 280px;
@@ -440,19 +564,77 @@ footer{
         width: 100px;
         height: 100px;
     }
+    
 
 }
 
 @media screen and (min-width: 1280px){
     body{
-        height: 150vh;
+        height: 100vh;
         overflow-y: visible;
     }
-    
-    #heropic{
-        width: 1300px;
-        height: 50vh;
+    .mainsection{
+        height: 60vh;
+        background-image: url(./images/cakehero2.jpg);
+        background-repeat: no-repeat;
         background-position: center bottom;
+        background-size: cover;
+    }
+    
+    /* .hero{
+       background-image: url(/2-website/images/cakehero2.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       
+    } */
+    .welcome{
+        font-size: 25px;
+    }
+    p{
+        font-size: 20px;
+    }
+   
+    .section2{
+        width: 60%;
+        padding-bottom: 20px;
+    }
+    ul.pics3{
+        width: 80%;
+        padding-top: 0px;
+    }
+    #ellipse2{
+        position: absolute;
+       top: 180%;
+        right: 0%;
+        width: 402px;
+        height: 420px;
+    }
+    #ellipse3{
+        position: absolute;
+        top: 170%;
+        right: 40%;
+        z-index: -1;
+        width: 150px;
+        height: 150px;
+       
+
+    }
+    #ellipse1{
+        position: absolute;
+        top: 96%;
+        z-index: -1;
+        width: 490px;
+        height: 480px;
+    }
+    #ellipse4{
+        position: absolute;
+        top: 180%;
+        left: 10%;
+        width: 100px;
+        height: 100px;
+    }
+    footer{
+        padding-top: 100px;
     }
    
 
@@ -464,19 +646,22 @@ footer{
        
        
     }
-    h1{
-        font-size: 50px;
+    .welcome{
+        font-size: 25px;
+    }
+    p{
+        font-size: 20px;
     }
     .hero{
         height: 80vh;
     }
-    .mainsection{
+    /* .mainsection{
         height: 80vh;
-        background-image: url(/2-website/images/cake-image.png);
+        background-image: url(./images/cake-image.png);
         background-repeat: no-repeat;
         background-position: center bottom;
         background-size: cover;
-    }
+    } */
     
     #heropic{
         display: none;
@@ -543,6 +728,225 @@ footer{
         height: 100px;
     }
 
+
+
+
+
+/* @media screen and (min-width: 1024px){
+    
+    .mainsection{
+        height: 60vh;
+        background-image: url(./images/cakehero2.jpg);
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: cover;
+    }
+    .welcome{
+        font-size: 20px;
+    }
+    p{
+        font-size: 16px;
+    }
+    h1{
+        font-size: 60px;
+        letter-spacing: 2px;
+    }
+    .threeimages{
+        width: 80%;
+        margin: auto;
+        height: 20vh;
+    }
+    .pics3 li{
+       
+        height: 270px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #lipics{
+        width: 220px;
+        height: 190px;
+        
+    }
+
+    .pics3 li a{
+        font-size: 25px;
+        margin-top: 10px;
+    
+    }
+    .section2{
+        width: 70%;
+        padding-bottom:  60px;
+        padding-top: 40px;
+    }
+    footer{
+        padding-top: 100px;
+    }
+    .join{
+        font-size: 28px;
+    }
+    #socialicons{
+        width: 60px;
+        height: 60px;
+    }
+    h5{
+        font-size: 18px;
+    }
+
+    #ellipse2{
+        position: absolute;
+        bottom: -5%;
+        right: 0%;
+        width: 202px;
+        height: 220px;
+    }
+    #ellipse3{
+        position: absolute;
+        bottom: 8%;
+        right: 40%;
+        z-index: -1;
+        width: 150px;
+        height: 150px;
+       
+
+    }
+    #ellipse1{
+        position: absolute;
+        top: 50%;
+        z-index: -1;
+        width: 290px;
+        height: 280px;
+    }
+    #ellipse4{
+        position: absolute;
+        bottom: 5%;
+        left: 10%;
+        width: 100px;
+        height: 100px;
+    }
+
+}
+
+@media screen and (min-width: 1280px){
+    body{
+        height: 150vh;
+        overflow-y: visible;
+    }
+    
+    .mainsection{
+        height: 60vh;
+        background-image: url(./images/cakehero2.jpg);
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: cover;
+    }
    
 
 }
+
+@media screen and (min-width: 1300px){
+    body{
+        height: 200vh;
+       
+       
+    }
+    h1{
+        font-size: 50px;
+    }
+    .hero{
+        height: 80vh;
+    }
+    .mainsection{
+        height: 60vh;
+        background-image: url(./images/cakehero2.jpg);
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: cover;
+    }
+    .section2{
+        width: 70%;
+    }
+    .welcome{
+        font-size: 20px;
+    }
+    .section2 p{
+        font-size: 16px;
+    }
+    .navlinks{
+        width: 33%;
+        
+    }
+    .navlinks li a{
+        font-size: 20px;
+    }
+    
+    #heropic{
+        display: none;
+        width: 1550px;
+        height: 50vh;
+       
+    }
+    .threeimages{
+        height: 300px;
+        width: 80%;
+        margin: auto;
+    }
+    .welcome{
+        font-size: 25px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .join{
+        padding-top: 120px;
+        font-weight: 200;
+        font-size: 25px;
+    }
+   
+    #footerul{
+        
+        width: 15%;
+
+    }
+    h5{
+        font-size: 15px;
+    }
+    .pics3{
+        
+        padding-top: 150px;
+    }
+    #ellipse2{
+        position: absolute;
+        bottom: -100%;
+        right: 0%;
+        width: 402px;
+        height: 420px;
+    }
+    #ellipse3{
+        position: absolute;
+        bottom: -86%;
+        right: 40%;
+        z-index: -1;
+        width: 150px;
+        height: 150px;
+       
+
+    }
+    #ellipse1{
+        position: absolute;
+        top: 96%;
+        z-index: -1;
+        width: 490px;
+        height: 480px;
+    }
+    #ellipse4{
+        position: absolute;
+        bottom: -85%;
+        left: 10%;
+        width: 100px;
+        height: 100px;
+    }
+
+   
+
+} */
