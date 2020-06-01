@@ -1,6 +1,6 @@
 * {
     font-family: "Pacifico", cursive;
-    background-color: rgb(188, 243, 226);
+    background-color: rgb(223, 197, 228);
   }
   .container{
       width: 100%;
@@ -12,24 +12,25 @@
   .container .header{
       width: 100%;
       margin: 10px;
-      background-color: beige;
+      /*background-color: beige;*/
   }
+  /*}
   header.header{
       margin: 10px;
+  }*/
+
+  .header .top-header {
+    /*  background-color: lavenderblush;*/
+    /* margin: 10px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
   }
-  .header .top-header{
-      
-      background-color: blueviolet;
-      margin: 10px;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-    }
   .top-header .logo{
-      width: 100px;
-      height: 100px;
-      background-color: cyan;
-      padding: 10px;
+      width: 200px;
+      height: 200px;
+      padding: 20px;
     }
     .top-header .contact-button{
         color: rgb(200, 144, 233);
@@ -39,8 +40,6 @@
         border-width: medium;
         width: 125px;
         height: 50px;
-        margin-top: 50px;
-        margin-right: 20px;
     }
   .header .nav .nav-bar{
       background-color: greenyellow;
@@ -50,48 +49,44 @@
   .nav-bar .nav-list{
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
 }
+/*
 .nav-list li{
     margin: 5px;
     padding: 5px;
-    background-color: coral
-}  
+    } */ 
   .container .main-container{
       /*background-color: darkgoldenrod;*/
       height: 200px;
-      margin: 20px;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
   }
   .main-container .info-section{
-      background-color: cornflowerblue;
-      margin-right: 20px;
-      width: 33%;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      align-items: center;
+   
+    background-color: cornflowerblue;
+    /* margin-right: 20px; */
+    width: 100%;
+    text-align: center;
   }
   .main-container .image-section{
-      background-color: darkolivegreen;
-      width: 67%;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-  }
-  .image-section .image-carousel{
-      background-color: darksalmon;
       
-         
-      height:100%;
-      margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+       }
+ /* .image-section {
+              
+    display: flex;
+    flex-direction: column;
+    align-items: center;
       
     
 
-  }
+  }/*
   .image-section .image-list{
       background-color: dodgerblue;
       
@@ -112,7 +107,7 @@
       height: 50px;
       
 
-  }
+  }*/
   .container .section{
       /*background-color: violet;*/
       margin: 10px;
@@ -130,8 +125,8 @@
   }
   .cake-images .cake-portrait {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
     
 }
   .cake-portrait .cakes{
@@ -143,7 +138,18 @@
   }
 
   .container .footer{
-      background-color: darkgreen;
+      background-color: rgb(128, 233, 128);
       height: 200px;
       margin: 20px;
+  }
+  .footer .footer-list{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin: 20px;
+  }
+  .footer-list li{
+      background-color: orchid;
+      list-style: none;
+      padding: 10px;
   }
