@@ -6,3 +6,138 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+* {
+  margin: 0;
+  padding: 0px;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#header {
+  background-color: #f7cd95;
+  background-image: url("../images/sunset.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 75vh;
+  position: relative;
+}
+.navigation li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 30px;
+}
+.navigation a {
+  text-decoration: none;
+}
+.navigation a:hover {
+  background-color: burlywood;
+  color: black;
+}
+.text {
+  color: wheat;
+  text-align: center;
+}
+.header-text {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title-desc {
+  margin-top: 20px;
+}
+#title {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 40px;
+
+  text-align: center;
+}
+#main {
+  background-color: #f0d8c1e3;
+}
+#about-section {
+  background-color: #f8ffe5;
+  margin-top: 50px;
+  padding: 50px 30px;
+}
+.about-imgbox {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 60%;
+}
+#about-text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+  width: 75%;
+  margin: auto;
+}
+.about-img {
+  padding-top: 30px;
+  width: 200px;
+  height: 150px;
+}
+#section-blog {
+  background-color: whitesmoke;
+  padding: 50px 30px;
+}
+.title {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  padding: 0px;
+}
+
+.article-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 60%;
+  margin: 20px auto;
+  background-color: wheat;
+}
+.article-box:first-child {
+  color: #bd710e;
+}
+.image {
+  width: 200px;
+  height: 200px;
+  padding-right: 50px;
+}
+.article-title {
+  font-size: 20px;
+  padding-bottom: 20px;
+  color: rgb(204, 137, 30);
+}
+.article-text {
+  text-align: justify;
+  line-height: 1.2em;
+  padding-bottom: 20px;
+}
+.article-button {
+  background-color: black;
+  border: none;
+  border-radius: 2px;
+  color: burlywood;
+  cursor: pointer;
+  padding: 10px;
+}
+.article-button:hover {
+  background-color: chocolate;
+  color: black;
+}
+#footer {
+  height: 80px;
+  background-color: #080501;
+  padding-left: 30px;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-title {
+  font-size: 14;
+  padding-top: 30px;
+  text-align: left;
+  vertical-align: center;
+}
