@@ -1,7 +1,12 @@
-body {
+html {
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .button-top {
 	border: 3px;
 	border-color: black;
 }
+
+/*
+.cake-cards img {
+	width: calc(100%-5px)/4);
+} */
