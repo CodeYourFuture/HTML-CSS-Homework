@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <title>Cakestore</title>
@@ -14,8 +15,8 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">
-        <img src="images/01_rainbowcake_brand_logo.jpg" width="30" height="30" class="d-inline-block align-top" alt=""
-          loading="lazy">
+        <img src="images/01_rainbowcake_brand_logo.jpg" width="30" height="30"
+          class="d-inline-block align-top font-weight-bold" alt="" loading="lazy">
         Cakestore
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -26,7 +27,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link font-weight-bold" href="#">Contact</a>
           </li>
 
         </ul>
@@ -41,19 +42,19 @@
   <section class="nav-top">
     <ul class="nav justify-content-center">
       <li class="nav-item">
-        <a class="nav-link active" href="#">Home</a>
+        <a class="nav-link active font-weight-bold" href="#">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Cakes</a>
+        <a class="nav-link font-weight-bold" href="#">Cakes</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Ordering</a>
+        <a class="nav-link font-weight-bold" href="#">Ordering</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Lessons</a>
+        <a class="nav-link font-weight-bold" href="#">Lessons</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link font-weight-bold" href="#">About</a>
       </li>
 
     </ul>
@@ -62,7 +63,7 @@
   <main>
     <section class="aside-left-with-carossel">
       <div class="row rounded  bg-light mx-3">
-        <div class="col mh-100 border border-secondary ">
+        <div class="col mh-100 border border-secondary rounded">
           <br>
           <h1 class="h1"> Hello, and welcome to the Cakestore.</h1>
           <br>
@@ -86,6 +87,7 @@
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -100,6 +102,10 @@
                 <img src="images/Cakes/wedding-cake.jpg" class="d-block w-100 img-fluid img-thumbnail"
                   alt="wedding-cake">
               </div>
+              <div class="carousel-item">
+                <img src="images/Cakes/emoji-cakes.jpg" class="d-block w-100 img-fluid img-thumbnail" alt="emoji-cakes">
+              </div>
+
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -123,7 +129,7 @@
     <section class="cake-cards">
 
       <div class="row">
-        <div class="card w-25 ">
+        <div class="card col-lg-3 col-md-3 col-sm-6">
           <img src="images/Cakes/cupcakes.jpg" class="card-img-top img-fluid img-thumbnail" alt="cupcakes">
           <div class="card-body">
             <h5 class="card-title">CYF Cakes</h5>
@@ -133,7 +139,7 @@
           </div>
         </div>
 
-        <div class="card w-25">
+        <div class="card col-lg-3 col-md-3 col-sm-6">
           <img src="images/Cakes/emoji-cakes.jpg" class="card-img-top img-fluid img-thumbnail"
             alt="not-technically-a-cake">
           <div class="card-body">
@@ -144,7 +150,7 @@
           </div>
         </div>
 
-        <div class="card w-25 ">
+        <div class="card col-lg-3 col-md-3 col-sm-6">
           <img src="images/Cakes/bunny-mini-cake.jpg" class="card-img-top img-fluid img-thumbnail"
             alt="bunny-mini-cake">
           <div class="card-body">
@@ -155,7 +161,7 @@
           </div>
         </div>
 
-        <div class="card w-25">
+        <div class="card col-lg-3 col-md-3 col-sm-6">
           <img src="images/Cakes/Vanilla-cake.jpg" class="card-img-top img-fluid img-thumbnail" alt="vanilla-cake">
           <div class="card-body">
             <h5 class="card-title">Vanilla cake</h5>
@@ -173,7 +179,7 @@
 
     <footer class="footer-navbar">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Vision</a>
+        <a class="navbar-brand font-weight-bold" href="#">Company</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -181,16 +187,16 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+              <a class="nav-link font-weight-bold" href="#">Contact <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Address</a>
+              <a class="nav-link font-weight-bold" href="#">Address</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Privacy Policy</a>
+              <a class="nav-link font-weight-bold" href="#">Privacy Policy</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              <a class="nav-link dropdown-toggle font-weight-bold" href="#" id="navbarDropdownMenuLink" role="button"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Sitemap
               </a>
@@ -203,8 +209,11 @@
           </ul>
         </div>
       </nav>
-
     </footer>
+    <br>
+    <br>
+    <br>
+
 
   </main>
 

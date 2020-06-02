@@ -1,17 +1,22 @@
 html {
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-family: font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”, “Roboto”, “Oxygen”,
+    “Ubuntu”, “Cantarell”, “Fira Sans”, “Droid Sans”, “Helvetica Neue”, sans-serif;
 }
 .button-top {
 	border: 3px;
 	border-color: black;
 }
 
-/*
 .cake-cards img {
-	width: calc(100%-5px)/4);
-} */
+	width: 100%;
+	height: 50%;
+}
+.cake-card col {
+	margin-left: 10px;
+	margin-right: 10px;
+}
 
-@media only screen (min-width: 550px) and (max-750px) {
+@media only screen (min-width: 550px) and (max-width: 750px) {
 	.aside-left-with-carossel p {
 		font-size: .5rem;
 	}
