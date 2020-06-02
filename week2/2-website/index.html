@@ -10,12 +10,78 @@
     <!-- Add a link to your CSS file here (use the line above to guide you) -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon"  href="img">
+    
 </head>
 <body>
-
-    <!-- Add your HTML markup here -->
-    <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
-    <!-- All the images you need are in the 'img' folder -->
-
+    <!-----header(nav bar+logo image)------------------------------------------------->
+    <div class="header-wrap">
+        <header class="header">
+            <nav class="navigation">
+                <img src="img/karma-logo.svg" class="logo">
+                <ul class="contents">
+                    <li class="item active">Meet Karma</li>
+                    <li class="item">How it Work</li>
+                    <li class="item">Store</li>
+                    <li class="item">Blog</li>
+                    <li class="item">help</li>
+                    <li class="item">Login</li>
+                </ul> 
+            </nav>
+        </header>
+    </div>
+    <main>
+        
+        <section class="introduction">
+            <div class="intro-content">
+                <h1>Introducing Karma</h1>
+                <h3>Bring WiFi with you, everywhere you go.</h3>
+                <div class="buttons">
+                    <button>Learn More</button>
+                </div>
+            </div>
+        </section>
+        <section class="cases">
+            <div class="case-content">
+                <h2>Everyone needs a little Karma.</h2>
+                <div class="devices">
+                    <figure>
+                        <img src="img/icon-devices.svg">
+                        <figcaption><h3>Internet for all devices</h3></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="img/icon-coffee.svg">
+                        <figcaption><h3>Boost your<br>productivity</h3></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="img/icon-refill.svg">
+                        <figcaption><h3>Pay as You Go</h3></figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </main>
+ <!-----footer(nav bar+logo image)------------------------------------------------->
+<footer class="footer">
+    <hr>
+    <div class="foot-content">
+        
+        <h5>Join us on</h5>
+        <ul class="icons">
+            <li class="twitter circle">
+                <i class="fa fa-twitter"></i>
+            </li>
+            <li class="facebook circle">
+                <i class="fa fa-facebook"></i>
+            </li>
+            <li class="instagram circle">
+                <i class="fa fa-instagram"></i>
+            </li>
+        </ul>
+        <span class="copy">
+            © Karma Mobility, Inc.
+        </span>
+    </div>
+</footer>
 </body>
 </html>

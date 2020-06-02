@@ -6,3 +6,239 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+
+/***used to set the common properties in all document**************************************************************/
+
+#header,
+#nav-bar ul li a,
+#main,
+#footer,
+#article {
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+}
+
+
+/******used to set the common properties in all document*********************************************************************/
+
+#nav-bar ul li a,
+#footer {
+    font-weight: bold;
+    font-color: red;
+    color: black;
+}
+
+#header,
+#footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/**used to set logo image***************************************8888888******************/
+
+#logo {
+    width: 20%;
+    height: 25%;
+}
+
+
+/***used to set th amin title**********************************************************/
+
+#title {
+    float: center;
+    display: inline-block;
+    font-size: 30px;
+    font-style: italic;
+}
+
+
+/**used to common properties in both buttonm **********************************************************************/
+
+#btn-login-donate {
+    margin-top: 10px;
+    dispaly: inline-block;
+    float: right;
+    width: 250px;
+    height: auto;
+}
+
+
+/*******commmon properties in button*****************************************************************/
+
+#btn-login,
+#btn-donate {
+    margin-left: 10px;
+    border-radius: 12px;
+    border: none;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    width: 80px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+
+/***nlogin butto*********************************************************************/
+
+#btn-login {
+    background-color: #008000;
+}
+
+
+/*donate button***********************************************************************/
+
+#btn-donate {
+    background-color: dodgerblue;
+}
+
+
+/*div that show moving bannet in header******************************/
+
+#banner {
+    -index: -999;
+    overflow: hidden;
+    max-width: 800px;
+    max-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    border: 2px solid red;
+    border-radius: 12px;
+}
+
+#banner div {
+    z-index: -999;
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    font-size: 0;
+    animation: 20s slider infinite;
+}
+
+#banner div img {
+    z-index: -999;
+    width: 20%;
+    float: left;
+    width: 800px;
+    height: 250px;
+}
+
+@keyframes slider {
+    0% {
+        left: 0%;
+    }
+    20% {
+        left: 0%;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    80% {
+        left: -300%;
+    }
+}
+
+
+/*******navigation bar*****************************************************/
+
+#nav-bar {
+    width: auoto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nav-bar ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#nav-bar ul li {
+    margin: 20px;
+    display: inline;
+}
+
+#nav-bar ul li a {
+    padding: 0px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#nav-bar ul li a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+/*****body of page************************************************/
+
+#main {
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+    float: left;
+}
+
+#contacts {
+    float: right;
+}
+
+
+/***********************articles images*********************************/
+
+h2 {
+    display: inline;
+}
+
+article img {
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+article:first-child {
+    background-color: #f0f8ff;
+    font-style: italic;
+}
+
+
+/****footer********************************************************************/
+
+#footer {
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+}
+
+
+/******foor image******************************************************************/
+
+#footer img {
+    width: 50px;
+    height: 25px;
+}

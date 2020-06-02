@@ -1,6 +1,14 @@
 
  /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
+ *{
+    margin: 0px;
+    padding: 0px;
 
+}
+html{
+    font-size: 16px;
+    width: 100%;
+}
 body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -17,3 +25,189 @@ body {
  */
 
 
+
+/******header***************************************************************/
+.header{
+    width:100%;
+    position: fixed;
+    z-index:999;
+    border-bottom: 1px solid #DDD;
+    background-color:white;
+
+}
+
+.navigation{/*******nav bar**********************/
+    
+    height: 4.375rem;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 0;
+  
+}
+.logo{/*******logo image**********************/
+    width: 1.625rem;
+    height: 4.375;
+    
+}
+.content{/*******ul**********************/ 
+    color: #838994;
+    font-size: 1.04rem;
+    margin-top: 1.7rem;
+}
+
+
+.item{/*******li**********************/
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 1.563rem;
+    color: #838994;
+    font-size: 1.04rem;
+    
+}
+.active{/*******first active li item*********************/
+    
+    font-weight: 500;
+}
+
+/******main**************************************************************/
+/*******section introduction(class=introduction)*********************************/
+.introduction{/*******fintroduction(class=intro-content)*********************/
+    background-image: url(../img/first-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    background-position:center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(170, 165, 165);
+}
+.intro-content{/*******h1+h3+class=buttons********************/
+    
+    color: white;
+    min-width: 37.5rem;
+    text-align: center;
+}
+.intro-content h1{
+    margin: 0;
+    font-size: 3.125rem;
+    font-weight: 300;
+    
+}
+.intro-content h3{
+    margin: 0;
+    font-size: 1.563rem;
+    font-weight: 300;
+    margin-top: 1rem;
+}
+.buttons{/*******buttons(button)*******************/
+    margin-top: 1.0rem;
+}
+button{
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+}
+/*******section cases(class=cases)*********************************/
+.cases{/*******cases()*********************/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.case-content{/*******h2+3 devices*********************/
+    text-align: center;
+    padding-top: 0.938rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
+    margin-top: 5rem;
+}
+.case-content h2{
+    margin: 0;
+    font-size: 2.75rem;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+
+}
+.devices{
+    display:flex;
+    justify-content: center;
+    margin-top: 0rem;
+}
+.devices img{
+    width: 7.9375rem;
+    height: 7.9375rem;
+}
+.devices h3{
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin-top: 2.5rem;
+}
+/*******footer************************************************/
+.footer{
+    margin-bottom: 10rem;
+}
+.footer hr{
+    border: 0;
+    width: 45rem;
+    border-top: 1px solid #eaebec;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8rem;
+    margin-bottom: 1rem;
+}
+.foot-content{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-content h5{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+
+}
+
+.icons{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.circle{
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 1.2rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+.fa-twitter{
+    color: rgb(124, 198, 216);
+}
+.fa-facebook,.fa-instagram{
+    color: rgba(28, 8, 119, 0.904);
+}
+.copy{
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+}
+@media only screen and (max-width: 600px) {
+    html{
+        font-size: 10px;
+    }
+    
+  }
+  
