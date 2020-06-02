@@ -1,9 +1,247 @@
 
  /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
-
+html{
+    height: 100%;
+    width: 100%;
+}
 body {
+    width: 100%;
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+ 
+}
+/* flexbox*/
+.parent {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 30px;
+    height:100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    
+}
+.header {
+   
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    border-bottom: 1px solid #DDD;
+        
+}
+.header .logo{
+margin-right: 150px;
+width: 40px;
+height: 40px;
+
+}
+.nav .nav-menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    text-decoration: none;
+    color: #838994
+      
+}
+.nav-menu li.active {
+    color: #2c2e31;
+    font-weight: 500;
+}
+
+.top_content {
+   /* background-color: #f800db;*/
+   background-image: url(../img/first-background.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;   
+    margin: inherit;
+    padding: inherit;
+    display: flex;
+    justify-content: center;
+    
+}
+.top_content_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   align-items: center;
+    
+}
+.top_content h1{
+  
+    color: white;
+    text-align: center;
+    font-family: inherit;
+  
+        
+    
+    
+}
+.top_content h3{
+   /*padding-left: 12.5rem;*/
+    color: white;
+    text-align: center;
+    font-weight: 300;
+   
+    
+   
+    
+}
+.top_content .btn{
+    /*padding-left: 12.5rem;*/  
+    color: white;
+    text-align: center;
+    margin-top: 1.563rem;
+}
+button{
+    
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+
+}
+.bottom_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    
+    
+}
+.bottom_content h2{
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 100;
+
+}
+.case{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    list-style: none;
+}
+.case_list{
+    padding: 40px;
+    margin: 40px;
+    
+}
+.caption{
+ 
+    text-align: center;
+    font-size: 1.563rem;
+}
+.caption h5{
+    text-align: center;
+    padding: 10px;
+}
+ul .case_list .caption {
+   /*background-color: lightcoral;*/
+   display: block;
+   
+    width: 100%;
+    
+    
+}
+hr{
+    width: 100%;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  
+}
+.footer h5{
+    text-align: center;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+     padding: 20px;   
+     margin: 20px;
+     border: 0;
+    
+}
+ul{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    
+}
+li{
+    list-style: none;
+    padding: 10px;
+    
+
+}
+.footer .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+.footer .twitter {
+    color: #55acee;
+}
+.footer .facebook {
+    color: #4c66a4;
+}
+.footer .instagram{
+    color: #3f729b;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/****Media Queries****/
+
+
+
+@media only screen and (min-width:400){
+    .nav .nav-menu {
+        height: 200px;
+        flex-direction: column;
+    }
+    .header .logo{
+        margin: 0;
+    }
 }
 
 /**
