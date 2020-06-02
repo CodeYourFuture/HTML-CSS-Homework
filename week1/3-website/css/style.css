@@ -6,3 +6,152 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+ body, html {
+     height: 125vh;
+     margin: 0;
+     font-size: 20px;
+     font-family: Arial Verdana, sans-serif;
+     margin-left: 40px;
+     margin-right: 40px;
+     margin-bottom: 40px;
+ }
+.nav-links {
+    display:flex;
+    justify-content: flex-end;
+    padding: 10px; 
+    background-color: #DC143C;
+    color: white;
+    text-decoration: none;
+
+       
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+ 
+li {
+    display: inline;
+    
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.title {
+    text-align: center;
+    display: block;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgb(13, 123, 192);
+    padding: 20px;
+    font-size: 50px;
+}
+
+.image-section {
+    height: 360px;
+	background-image: url('http://getwallpapers.com/wallpaper/full/0/7/0/1209195-firefly-serenity-wallpaper-1920x1080-for-tablet.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 100px 5%;
+
+}
+
+.kicker {
+    max-width: 500px;
+}
+.wrapper {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.one {
+    grid-column: 0/3;
+    grid-row: 1;
+    }
+
+.two {
+    grid-column: 2/3;
+    grid-row: 1;
+    }
+
+.three {
+    grid-column: 3/3;
+    grid-row: 1
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.more-events {
+    text-align: center;
+    background: orange;
+    padding: 0.6em 1em;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.newsletter {
+    text-align: center;
+    background: red;
+    padding: 0.6em 1em;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+.firefly {
+    text-align: center;
+    background: darkcyan;
+    padding: 0.6em 1em;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+
+
+.serenity {
+    text-align: center;
+    background: rgb(185, 74, 74);
+    padding: 0.6em 1em;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+.books {
+    text-align: center;
+    background: darkkhaki;
+    padding: 0.6em 1em;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+article:first-child {
+    font-style: italic;
+}
