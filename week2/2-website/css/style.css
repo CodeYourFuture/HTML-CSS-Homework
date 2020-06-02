@@ -1,58 +1,54 @@
 /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
-
+* {
+	padding: 0;
+	margin: 0;
+}
 body,
 html {
 	font-family: "Roboto", sans-serif;
 	-webkit-font-smoothing: antialiased;
-	height: 100%;
 	margin: 0;
 	padding: 0;
 }
-
-#header {
+/*  Style the header and the navigation bar*/
+.header {
 	position: fixed;
 	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	min-height: 95px;
 	width: 100%;
-	border: 10px rgb(119, 115, 115);
-}
-
-.logo {
-	width: 3%;
-	height: 3%;
-}
-
-.logo>img {
-	width: 200px;
-	height: 200px;
-	display: flex;
+	height: 10%;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	background-color: white;
 }
 
-#nav-bar>li {
-	list-style: none;
+.logo {
+	width: 40%;
+	height: 50%;
 }
 
-nav>ul {
-	width: 35vw;
+nav > ul {
 	font-weight: lighter;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
+	align-items: center;
+	padding: 50px;
+	border: 50px;
+	min-height: 20%;
+	flex-wrap: nowrap;
+	list-style: none;
 }
 
 nav a {
 	text-decoration: none;
 	color: rgb(121, 116, 116);
+	font-weight: 400;
+	font-size: 1.3rem;
 }
-
 .nav-link1 {
-	color: black;
-	font-weight: bold;
+	color: rgb(31, 30, 30);
+	font-weight: 600;
 }
 
 nav a:hover {
@@ -61,41 +57,7 @@ nav a:hover {
 }
 
 
-/* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
-
-ul>li {
-	list-style: none;
-	padding: 1px;
-}
-
-#header {
-	position: fixed;
-	margin-right: 40px;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	min-height: 95px;
-	padding: 0px 10px;
-	background-color: white;
-	width: 100%;
-}
-
-.logo {
-	width: 2%;
-	height: 2%;
-}
-
-.logo>img {
-	width: 100%;
-	height: 100%;
-	min-height: 90%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-}
-
-nav>ul {
+nav > ul {
 	width: 35vw;
 	font-weight: lighter;
 	display: flex;
@@ -107,16 +69,19 @@ a {
 	text-decoration: none;
 }
 
+/*  Style the hero page including the main photo */
+
 .hero {
 	display: flex;
 	flex-direction: column;
-	background-color: greenyellow;
-	width: 100%;
+
+	min-width: 100%;
+	min-height: 100%;
 }
 
 .hero-content {
-	background: url(../img/first-background.jpg) no-repeat center;
-	padding: 25%;
+	background: url(../img/first-background.jpg) no-repeat;
+	padding: 16%;
 	color: white;
 	display: flex;
 	flex-direction: column;
@@ -126,17 +91,20 @@ a {
 	background-size: cover;
 }
 
-.hero-content>h1,
-h3,
+h1 {
+	font-weight: 300;
+	font-size: 4rem;
+}
+.hero h2 {
+	font-weight: 200;
+	font-size: 2rem;
+	padding-bottom: 30px;
+	border-bottom: 20px;
+}
 button {
 	font-weight: lighter;
 	font-size: 300%;
-	padding: 0;
 	line-height: 50%;
-}
-
-.hero-content>h3 {
-	font-size: 150%;
 }
 
 button {
@@ -146,13 +114,17 @@ button {
 	font-size: 20px;
 	height: 55px;
 	width: 140px;
+	height: 54px;
 }
 
 button:hover {
 	background: rgb(247, 68, 3);
 	border: none;
 }
-
+/*  Style the icons section */
+.icons {
+	width: 100%;
+}
 .iconSection {
 	display: flex;
 	flex-direction: column;
@@ -166,29 +138,39 @@ button:hover {
 	width: 100%;
 }
 
-#sectionHeader>h2 {
+#sectionHeader h2 {
 	font-weight: lighter;
-	font-size: 250%;
+	font-size: 320%;
+	padding: 5%;
 }
 
+.icons {
+	margin-bottom: 8%;
+}
 .listicons {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	padding-left: 5rem;
 }
 
-.listicons>li {
+.listicons > li {
 	width: 25%;
 	height: 25%;
-	padding-left: 10px;
+	text-align: center;
+	list-style: none;
+}
+.listicons {
+	display: flex;
+	justify-content: space-around;
+	width: 58%;
+	margin: auto;
 }
 
 #iconImage {
 	width: 9rem;
 	height: 9rem;
-	border-left: 10px;
+	padding-left: 10%;
 }
 
 .cap {
@@ -196,46 +178,69 @@ button:hover {
 	height: 6rem;
 }
 
-.cap>h3 {
-	font-weight: lighter;
+.listicons h4 {
+	width: 120%;
+	font-weight: 400;
 	font-size: 190%;
-	/*white-space: nowrap;*/
+	text-align: center;
+	padding: 10% 0;
+
+	
 }
+/*  Style the footer*/
 
 .footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-bottom: 10rem;
 }
 
 hr {
+	font-weight: lighter;
 	width: 70%;
+	color: rgb(251, 251, 251);
 }
 
 .footer ul {
 	display: flex;
 	flex-direction: row;
-	padding-right: 2.5rem;
 }
 
 .footer a {
 	font-size: 1.2rem;
-	padding: 0.5rem;
-	border: 0.1em solid rgb(218, 218, 243);
-	border-radius: 3rem;
+	border: 0.1rem solid rgb(218, 218, 243);
+	border: 5 rem;
+	border-radius: 5em;
+	padding: 50%;
 }
 
 #twitter {
-	color: rgb(175, 175, 240);
+	color: rgb(110, 110, 253);
+}
+#facebook {
+	padding: 90%;
+	border-radius: 6em;
+	color: rgb(75, 75, 253);
+}
+#instagram {
+	padding: 60%;
+	color: rgb(75, 75, 253);
+}
+.footerIcons {
+	width: 10%;
+	height: 15%;
+	justify-content: space-around;
+	list-style: none;
 }
 
 h5 {
-	font-weight: lighter;
-	font-size: 120%;
-	border: 5 solid black;
+	font-size: 130%;
+	font-weight: 400;
+	padding: 2%;
 }
 
 span {
 	color: #6d6b6b;
+	padding: 2%;
+	font-size: 120%;
 }
