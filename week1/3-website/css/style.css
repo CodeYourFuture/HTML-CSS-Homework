@@ -1,8 +1,155 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+body {
+    background-color:rgb(147, 178, 214);
+
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 200px;
+    text-align: center;
+    /* text-shadow: 2px 2px 4px #000000; */
+    margin: 20px;
+   
+
+}
+.meesage {
+  margin-top: 4vw;
+}
+p {
+  font-family: Verdana,sans-serif;
+}
+
+article :first-child{
+    color:white;
+}
+#header-img {
+    display: block;
+    margin-top: 3vw;
+    margin-left:auto;
+    margin-right: auto;
+    border: black;
+    padding: 1.3em;
+    width:50%;
+
+}
+
+.article{
+    width: 1000px;
+    height: auto;
+    padding: 10px 10px 10px 10px;
+    margin: 15px 10px 15px 10px;
+    border:10px;
+   
+}
+.article:first-child{
+  background-color:rgb(44, 35, 167); 
+  color:white;
+}
+
+.article:nth-child(2){
+  background-color: blueviolet;
+}
+.article:last-child{
+  background-color: rgb(190, 60, 125);
+}
+.link{
+  background-color: white;
+  color:rgb(39, 9, 128);
+  padding: 1.5px;
+
+}
+
+#image1, #image2, #image3{
+    position: absolute;
+    right:20px;
+    width:200px;
+    height:270px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+#image2{
+  height: 200px;
+}
+#image3{
+  height:160px;
+}
+
+.nav-bar {
+    overflow:hidden;
+    position:flex;
+    background-color: blue;
+    width:100%;
+    top:47px;
+    margin-top: 3vw;
+}
+  #nav-link{
+      justify-content: space-between;
+    color:white;
+    text-decoration:none;
+    text-align:center;
+    font-size:16px;
+    padding:10px 5px;
+    float:left;
+    transition:background .3s ease;
+  }
+  #nav-link{
+    width:100%;
+    margin:auto;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(70, 59, 59);
+    display:flex;
+  }
+  
+  li {
+    float: right;
+    border-right: 1px solid #bbb;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  a:hover {
+    color: rgba(241, 7, 7, 0.856);
+  }
+  
+  .footer{
+    background-color: #787878;
+    padding: 8px;
+    text-align: right;
+}
+.footer-logo{
+  text-align: left;
+}
+.footer-social-icons{
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: right;
+}
+.footer-social-icons a{
+  margin-left: 10px;
+  color: black;
+  text-decoration: none;
+}
+.footer-social-icons a:hover{
+  color: #f3f3f3;
+}
+.footer h2, p  {
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+}
