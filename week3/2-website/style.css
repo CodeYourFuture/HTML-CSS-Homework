@@ -10,3 +10,9 @@ html {
 .cake-cards img {
 	width: calc(100%-5px)/4);
 } */
+
+@media only screen (min-width: 550px) and (max-750px) {
+	.aside-left-with-carossel p {
+		font-size: .5rem;
+	}
+}
