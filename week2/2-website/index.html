@@ -1,21 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <title>Karma</title>
-    <link href='//fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
+    <link
+      href="//fonts.googleapis.com/css?family=Roboto:400,500,300"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
     <!-- Add a link to your CSS file here (use the line above to guide you) -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
-</head>
-<body>
-
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  </head>
+  <body>
     <!-- Add your HTML markup here -->
     <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
     <!-- All the images you need are in the 'img' folder -->
-
-</body>
+    <header id="header">
+      <div class="header">
+        <img class="logo" src="img/karma-logo.svg" alt="company's logo" />
+        <nav class="navigation">
+          <ul class="nav-container">
+            <li class="nav-list">
+              <a href="#" class="nav-link active">Meet Karma</a>
+            </li>
+            <li class="nav-list">
+              <a href="#" class="nav-link">How it Works</a>
+            </li>
+            <li class="nav-list"><a href="#" class="nav-link">Store</a></li>
+            <li class="nav-list"><a href="#" class="nav-link">Blog</a></li>
+            <li class="nav-list"><a href="#" class="nav-link">Help</a></li>
+            <li class="nav-list"><a href="#" class="nav-link">Login</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="hero">
+        <h1 class="hero-title">Introducing Karma</h1>
+        <p class="hero-text">Bring WiFi with you, everywhere you go.</p>
+        <button class="hero-button">Learn More</button>
+      </div>
+    </header>
+    <main id="main">
+      <section class="products">
+        <h2 class="intro">Everyone needs a little Karma.</h2>
+        <div class="prod-section-container">
+          <div class="prod_feature">
+            <img
+              src="/img/icon-devices.svg"
+              alt="clip art of different devices"
+              class="prod-img"
+            />
+            <h3 class="prod-description">Internet for all devices</h3>
+          </div>
+          <div class="prod_feature">
+            <img
+              src="/img/icon-coffee.svg"
+              alt="a steaming cup of coffee"
+              class="prod-img"
+            />
+            <h3 class="prod-description">Boost your productivity</h3>
+          </div>
+          <div class="prod_feature">
+            <img
+              src="/img/icon-refill.svg"
+              alt="gas pump image"
+              class="prod-img"
+            />
+            <h3 class="prod-description">Pay as you go</h3>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <hr class="footer-line" />
+      <p class="footer-text">Join us on</p>
+      <ul class="soc-media-icons">
+        <li class="sm-link sm1"><i class="fa fa-twitter"></i></li>
+        <li class="sm-link sm2"><i class="fa fa-facebook"></i></li>
+        <li class="sm-link sm3"><i class="fa fa-instagram"></i></li>
+      </ul>
+      <p class="copyright">&copy; Karma Mobility. Inc.</p>
+    </footer>
+  </body>
 </html>
