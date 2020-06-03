@@ -12,6 +12,13 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+
+    <!-- Hover CDN-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+      type="text/css"
+    />
     <!-- Add a link to your css file here -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -21,59 +28,78 @@
     <header>
       <!-- Navigation Logo and Name-->
 
-      <nav
-        class="navbar nav navbar-expand-lg navbar-light mb-auto container fixed-top"
-      >
-        <nav class="navbar navbar-light">
-          <a class="navbar-brand" href="#">
-            <img
-              src="/images/logo.png"
-              width="60"
-              height="60"
-              class="d-inline-block"
-              alt=""
-              loading="lazy"
-            />
-            Cherry Cake
-          </a>
-        </nav>
-        <!-- Navigation Burger/toggle menu -->
+      <nav class="navbar nav navbar-expand-lg navbar-light mb-auto fixed-top">
+        <div class="container">
+          <nav class="navbar navbar-light">
+            <a class="navbar-brand" href="#">
+              <img
+                src="/images/logo.png"
+                width="60"
+                height="60"
+                class="d-inline-block"
+                alt=""
+                loading="lazy"
+              />
+              Cherry Cake
+            </a>
+          </nav>
+          <!-- Navigation Burger/toggle menu -->
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto ml-auto text-right">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Cakes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Lessons</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto text-right">
+              <li class="nav-item active">
+                <a class="nav-link hvr-underline-from-center" href="#"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-center" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-center" href="#">Cakes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-center" href="#"
+                  >Lessons</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-center" href="#"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </header>
+
+    <!-- Jumbotron Section -->
+    <section class="container">
+      <div class="jumbotron text-center">
+        <h1 class="display-6 font-weight-bold mt-5 pt-3">
+          Cherry Cake Traditional Baking
+        </h1>
+        <p class="lead d-none d-md-block mt-5">
+          Tempor occaecat incididunt laboris laboris mollit labore nostrud
+          incididunt. Occaecat exercitation laborum sint id aute reprehenderit
+          tempor aute consequat reprehenderit magna.
+        </p>
+        <a class="btn btns btn-lg mt-5" href="#" role="button">Contact Us</a>
+      </div>
+    </section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

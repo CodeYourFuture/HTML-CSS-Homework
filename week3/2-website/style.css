@@ -3,3 +3,37 @@
 .nav {
     background-color: #eac4c4;
 }
+
+/* Hover effects */
+.hvr-underline-from-center:before {
+    background: #d78c9c;
+  }
+  
+  .hvr-underline-from-center:after {
+    background: #d78c9c;
+  }
+
+/*  Jumbotron Styling */
+
+.jumbotron {
+    background-image: url(../images/cakebg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30rem;
+    overflow: auto;
+    width: 100%;
+    margin-top: 100px;
+    opacity: 0.8;
+    
+    
+}
+
+
+.btns {
+    background: #db96a0;
+}
+
+.btns:hover {
+    background:#eac4c4 ;
+}
