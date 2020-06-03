@@ -15,5 +15,247 @@ body {
  * 
  * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
  */
+ 
+/* Logo and Navigation */
+header {
+    padding: .75rem;
+    border-bottom: .5px solid rgba(165, 165, 165, 0.5);
+    position: fixed;
+    background: white;
+    width: 100%;
+    box-sizing: border-box;
+}
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+}
 
+.logo {
+    width: 1.7rem;
+    padding-left: 1rem;
+    /* margin-left: 8.5rem; */
+}
+
+.nav-links {
+    /*margin-right: 7rem;*/
+}
+
+.nav-link {
+    display: inline;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: rgb(165, 165, 165);
+    font-weight: 550;
+    margin-right: 1.5rem;
+}
+
+.nav-link .active {
+    color: rgb(112, 112, 112);
+    font-weight: 550;
+}
+
+.nav-link a:hover {
+    color: rgb(85, 85, 85);
+}
+
+/* Introduction and Cover */
+main {
+    background: url(/img/first-background.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    width: 100%;
+    height: 45rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main h1 {
+    font-size: 3.2rem;
+    font-weight: 350;
+    margin: 0;
+}
+
+main p {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
+main a {
+    background: rgb(243, 101, 49);
+    text-decoration: none;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: .25rem;
+    font-size: 1.1rem;
+}
+
+main a:hover {
+    background: rgb(218, 79, 28);
+}
+
+/* Benefits */
+h2 {
+    font-size: 2.75rem;
+    font-weight: 350;
+}
+
+.box-container {
+    padding: 6rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    border-bottom: .5px solid rgba(165, 165, 165, 0.5);
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    /* width: 50rem; */
+}
+
+.box {
+    padding: .5rem;
+    font-size: 1.6rem;
+}
+
+.box img {
+    width: 7.8rem;
+}
+
+.box p {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+/* Social Media Links */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 8rem;
+}
+
+/* 
+.social-icons img {
+    width: 1rem;
+    border: .5px solid rgba(165, 165, 165, 0.5);
+    border-radius: 50%;
+    padding: .7rem;
+    margin: .3rem;
+} */
+
+.social-icons {
+    display: flex;
+}
+
+.social-icon {
+    border: .5px solid rgba(165, 165, 165, 0.5);
+    border-radius: 50%;
+    padding: .7rem;
+    margin: 0 .3rem;
+}
+
+.social-icon img {
+    width: 1rem;
+}
+
+.copyright {
+    color: rgb(165, 165, 165);
+    font-size: .9rem;
+}
+
+@media screen and  (max-width:1017px) {
+    nav, .box-container, footer
+    {
+        width:80%;
+        margin: auto;
+    }
+}
+
+@media screen and  (max-width:800px) {
+    nav, .box-container, footer {
+        width:90%;
+        margin: auto;
+    }
+}
+
+@media screen and  (max-width:700px) {
+    nav, .box-container, footer {
+        width:700px;
+        margin: auto;
+    }
+}
+
+/* @media(max-width: 1000px) {
+    nav {
+        width: 90%;
+    }
+    .boxes {
+        width: 90%;
+    }
+} */
+
+/* @media screen and (max-width: 683px) {
+    nav, body {
+        width: 683px;
+    }
+} */
+
+/* @media(max-width: 900px) {
+    body {
+        width: 900px;
+    }
+}
+
+@media(max-width: 800px) {
+    body {
+        width: 800px;
+    }
+
+} */
+
+/*@media(max-width: 900px) { /*BUG
+    body {
+        background: rgb(233, 96, 233);
+    }
+    .logo {
+        width: 50px;
+        justify-content: left;
+    }
+}*/
+
+/*
+@media(max-width: 1350px) { /*words in the boxes start to move*/
+   /*body {
+        background: pink;
+    }
+}*/
+
+/*@media(max-width: 1200px) { /*icons and words are not squashed*/
+    /*body {
+        background: rgb(236, 255, 128);
+    }*/
+
+/*@media(max-width: 960px) { /*icons and words are squashed*/
+    /*body {
+        width: 100vmax;
+    }
+}*/
+/*@media(max-width: 615px) { /*scroll bar appears on background img*/
+    /*body {
+        background: rgb(70, 233, 255);
+    }
+}*/
