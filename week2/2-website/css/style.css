@@ -4,6 +4,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
+
 }
 
 /**
@@ -16,4 +17,249 @@ body {
  * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
  */
 
+header
+{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    height: 4.375Rem;
+    border-bottom:solid;
+    border-width: 0.5px;
+    border-color: rgb(232, 236, 236);
+}
 
+ .top-container
+ {
+     display: flex;
+     justify-content: space-between; 
+     width:60%;
+     margin: 0 auto;
+ }
+ 
+ .logo
+{
+    width: 1.7rem;
+    height:1,7rem;
+    margin-left:1rem
+}
+
+ nav ul
+ {
+     display: flex;
+     width: 100%;
+     margin-top: 1rem;
+ }
+
+ nav ul li
+ {
+     list-style-type: none;
+     font-size: 1rem;
+     margin-left:1.563rem;
+ }
+
+ .top-item
+ {
+     margin-top: 1.2%;
+     margin-bottom: 0.2%;
+ }
+
+ nav a 
+{
+    text-decoration: none;
+    color: rgb(135, 145, 145);
+}
+
+
+nav a:hover 
+{
+    color: rgb(51, 48, 48);
+}
+
+#first-link
+{
+    color: rgb(43, 40, 40);
+    font-weight: 500;
+}
+
+
+
+.upper-main
+{
+    background-image: url(../img/first-background.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    overflow: auto;
+    height: 45.938rem;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.upper-main p
+{
+    color:white;
+    font-size: 2.875rem;
+    margin: 0.3em;
+    font-weight: 200;
+}
+
+
+.upper-main p:nth-child(2)
+{
+    font-size: 1.5rem;
+}
+
+.upper-main button
+{
+    margin-top: 0.3em;
+    color: white;
+    background-color: rgb(255, 93, 17);
+    height: 3.5rem;
+    width: 10rem;
+    border-radius: 4%;
+    border: none;
+}
+
+.upper-main button:hover
+{
+    background-color: rgb(196, 53, 17);
+}
+
+.lower-main
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.lower-main p
+{
+    font-size: 3rem;
+    font-weight: 100;
+    color: rgb(54, 56, 55);
+    text-align: center;
+}
+
+.article-container
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.article-container img
+{
+    width:9.5em;
+    height: auto;
+    display:table;
+    margin: auto;
+}
+
+.article-container figcaption
+{
+    font-size: 1.5rem;
+    color: rgb(46, 44, 43);
+}
+
+
+hr{ 
+    height: 1px;
+    background-color: rgb(224, 214, 214);
+    border: none;
+    width: 60%;
+  }
+.footer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 9vw;
+}
+
+.footer p
+{
+    font-weight: 400;
+}
+
+.footer p:last-child
+{
+    color: rgb(175, 169, 180);
+}
+
+.icons 
+{
+    display: flex;
+
+    font-size: 1rem;
+}
+
+/* This styling is for social media Icons  */
+.icons a
+{
+    text-decoration: none;
+    height: 1.5rem;
+    width: 1.5rem;
+    border: 1px solid rgb(218, 212, 208);
+    border-radius: 50%;
+    padding: 0.4rem ;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fa-twitter
+{
+    color: rgb(34, 196, 224);
+}
+.fa-facebook
+{
+    color: rgb(41, 80, 209);
+}
+.fa-instagram
+{
+    color: #3f729b;
+}
+
+@media screen and  (max-width:950px)
+{
+    .top-container, .lower-main, .footer
+    {
+        width:80%;
+        margin: auto;
+    }
+}
+
+
+@media screen and  (max-width:730px)
+{
+    .top-container, .lower-main, .footer
+    {
+        width:90%;
+        margin: auto;
+    }
+}
+
+@media (max-width:680px)
+{
+    body{
+
+        width:680px;
+    }
+
+    .top-container
+    {
+        width: 680px;
+    }
+}
