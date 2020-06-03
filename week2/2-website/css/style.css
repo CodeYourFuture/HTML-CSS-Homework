@@ -2,8 +2,10 @@
  /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
 
 body {
+    margin: 0;
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
+    background-color: white;
 }
 
 /**
@@ -16,4 +18,532 @@ body {
  * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
  */
 
+ #container{
+     width: 100%;
+     height: auto;
+ }
 
+ .nav-div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    height: 4.5em;
+    background-color: white;
+}
+
+ .logo-image{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 0.5em;
+    margin-left: 2em;
+    padding: 0.5em;
+ }
+
+ .main-nav{
+     margin-bottom: 1.5em;
+ }
+
+.nav-links-active{
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: space-around;
+    margin-right: 1.5em;
+    font-weight: bolder;
+    color: #444;
+}
+
+.nav-links{
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: space-around;
+    margin-right: 1.5em;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #888;
+}
+
+.nav-links:hover{
+    cursor: pointer;
+    color: #444;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------Header---------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------- */
+
+#Home{
+    width: 100%;
+    height: 46em;
+}
+
+.introduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/first-background.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 100%;
+    height: 46em;
+}
+
+.introduction h1{
+    margin: 0 0 0.6em 0.25em;
+    padding: 0 1em 0 0;
+    color: white;
+    font-size: 3em;
+    font-weight: 100;
+}
+
+.introduction h2{
+    margin: 0;
+    padding: 0 1em 0 0;
+    color: white;
+    font-size: 1.55em;
+    font-weight: lighter;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+} 
+
+.learn-more{
+    margin: 2em 1em 1em 0;
+    padding: 0;
+    width: 8em;
+    height: 2.75em;
+    border: none;
+    border-radius: 3px;
+    background-color: #f15b2a;
+    color: white;
+    font-size: 1.25em;
+}
+
+.learn-more:hover{
+    background-color: #db5225;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------Home---------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------- */
+
+#About{
+    width: 100%;
+    height: 30em;
+}
+
+.about-us-header{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 2.5em 0 0 0;
+    padding: 0;
+    color: #000000;
+    font-size: 3em;
+    font-weight: 100;
+}
+
+.about-links-nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin: 3em 0 0 0;
+}
+
+.about-links{
+    list-style: none;
+}
+
+.about-links:first-child{
+    margin-left: 2em;
+    padding-left: 5em;
+}
+
+.about-links:last-child{
+    margin-right: 2em;
+    padding-right: 5em;
+}
+
+.about-links-image{
+    width: 8.5em;
+    height: 8.5em;
+}
+
+.caption-1{
+    display: inline-flex;
+    margin: 2em 0 0 26em;
+}
+
+.caption-1 h3{
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+.caption-2{
+    display: inline-flex;
+    margin: 2em 0 0 12em;
+}
+
+.caption-2 h3{
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+.caption-3{
+    display: inline-flex;
+    margin: 2em 0 0 14em;
+}
+
+.caption-3 h3{
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------About-us---------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------- */
+
+.style-line{
+    margin: 0 20em 0 20em;
+    background-color: #777;
+    opacity: 40%;
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 20em;
+
+}
+
+.footer-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 2em;
+    font-weight: lighter;
+}
+
+.footer-nav{
+    margin: 1em 0 0 0;
+    padding: 0;
+}
+
+.footer-links{
+    display: inline-flex;
+    padding: 0.5em;
+    list-style: none;
+    border: 0.1em solid #f2f2f2;
+    border-radius: 3em;
+}
+
+.footer-links-image{
+    display: inline-flex;
+    width: 1.3em;
+    height: 1.3em;
+    padding: 0.1em;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.3em;
+    color: #888;
+    font-size: 0.9em;
+    font-weight: lighter;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------Footer---------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  @media 375px   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+@media screen and (min-width: 360px) and (max-width: 375px) {
+    body {
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        background-color: white;
+    }
+    
+    #container{
+        width: 100%;
+        height: auto;
+    }
+   
+    .nav-div{
+       display: flex;
+       flex-direction: row-reverse;
+       justify-content: space-evenly;
+       align-items: flex-end;
+       position: fixed;
+       overflow: hidden;
+       width: 100%;
+       height: 4.5em;
+       background-color: white;
+   }
+   
+    .logo-image{
+       width: 40px;
+       height: 40px;
+       display: flex;
+       justify-content: space-between;
+       align-content: center;
+       margin-bottom: 0.5em;
+       margin-left: 2em;
+       padding: 0.5em;
+    }
+   
+    .main-nav{
+        margin-bottom: 1.5em;
+    }
+   
+   .nav-links-active{
+       cursor: pointer;
+       display: inline-flex;
+       justify-content: space-around;
+       margin-right: 1.5em;
+       font-weight: bolder;
+       color: #444;
+   }
+   
+   .nav-links{
+       cursor: pointer;
+       display: inline-flex;
+       justify-content: space-around;
+       margin-right: 1.5em;
+       list-style: none;
+       text-decoration: none;
+       font-weight: bolder;
+       color: #888;
+   }
+   
+   .nav-links:hover{
+       cursor: pointer;
+       color: #444;
+   }
+   
+   /* ------------------------------------------------------------------------------------------------------------------------------------
+   ------------------------------------------------------Header---------------------------------------------------------------------------
+   --------------------------------------------------------------------------------------------------------------------------------------- */
+   
+   #Home{
+       width: 100%;
+       height: 46em;
+   }
+   
+   .introduction{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       background-image: url(../img/first-background.jpg);
+       background-position: center bottom;
+       background-repeat: no-repeat;
+       background-size: cover; 
+       width: 100%;
+       height: 46em;
+   }
+   
+   .introduction h1{
+       margin: 0 0 0.6em 0.25em;
+       padding: 0 1em 0 0;
+       color: white;
+       font-size: 3em;
+       font-weight: 100;
+   }
+   
+   .introduction h2{
+       margin: 0;
+       padding: 0 1em 0 0;
+       color: white;
+       font-size: 1.55em;
+       font-weight: lighter;
+   }
+   
+   .button{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin: 0;
+       padding: 0;
+   } 
+   
+   .learn-more{
+       margin: 2em 1em 1em 0;
+       padding: 0;
+       width: 8em;
+       height: 2.75em;
+       border: none;
+       border-radius: 3px;
+       background-color: #f15b2a;
+       color: white;
+       font-size: 1.25em;
+   }
+   
+   .learn-more:hover{
+       background-color: #db5225;
+   }
+   
+   /* ------------------------------------------------------------------------------------------------------------------------------------
+   ------------------------------------------------------Home---------------------------------------------------------------------------
+   --------------------------------------------------------------------------------------------------------------------------------------- */
+   
+   #About{
+       width: 100%;
+       height: 30em;
+   }
+   
+   .about-us-header{
+       display: flex;
+       justify-content: center;
+       align-content: center;
+       margin: 2.5em 0 0 0;
+       padding: 0;
+       color: #000000;
+       font-size: 3em;
+       font-weight: 100;
+   }
+   
+   .about-links-nav{
+       display: flex;
+       justify-content: space-evenly;
+       align-content: center;
+       margin: 3em 0 0 0;
+   }
+   
+   .about-links{
+       list-style: none;
+   }
+   
+   .about-links:first-child{
+       margin-left: 2em;
+       padding-left: 5em;
+   }
+   
+   .about-links:last-child{
+       margin-right: 2em;
+       padding-right: 5em;
+   }
+   
+   .about-links-image{
+       width: 8.5em;
+       height: 8.5em;
+   }
+   
+   .caption-1{
+       display: inline-flex;
+       margin: 2em 0 0 26em;
+   }
+   
+   .caption-1 h3{
+       font-size: 1.5em;
+       font-weight: lighter;
+   }
+   
+   .caption-2{
+       display: inline-flex;
+       margin: 2em 0 0 12em;
+   }
+   
+   .caption-2 h3{
+       font-size: 1.5em;
+       font-weight: lighter;
+   }
+   
+   .caption-3{
+       display: inline-flex;
+       margin: 2em 0 0 14em;
+   }
+   
+   .caption-3 h3{
+       font-size: 1.5em;
+       font-weight: lighter;
+   }
+   
+   /* ------------------------------------------------------------------------------------------------------------------------------------
+   ------------------------------------------------------About-us---------------------------------------------------------------------------
+   --------------------------------------------------------------------------------------------------------------------------------------- */
+   
+   .style-line{
+       margin: 0 20em 0 20em;
+       background-color: #777;
+       opacity: 40%;
+   }
+   
+   .footer-section{
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-start;
+       align-items: center;
+       width: 100%;
+       height: 20em;
+   
+   }
+   
+   .footer-title{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin: 0;
+       padding: 0;
+       margin-top: 2em;
+       font-weight: lighter;
+   }
+   
+   .footer-nav{
+       margin: 1em 0 0 0;
+       padding: 0;
+   }
+   
+   .footer-links{
+       display: inline-flex;
+       padding: 0.5em;
+       list-style: none;
+       border: 0.1em solid #f2f2f2;
+       border-radius: 3em;
+   }
+   
+   .footer-links-image{
+       display: inline-flex;
+       width: 1.3em;
+       height: 1.3em;
+       padding: 0.1em;
+   }
+   
+   .footer-info{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       padding-top: 0.3em;
+       color: #888;
+       font-size: 0.9em;
+       font-weight: lighter;
+   }
+   
+   /* ------------------------------------------------------------------------------------------------------------------------------------
+   ------------------------------------------------------Footer---------------------------------------------------------------------------
+   --------------------------------------------------------------------------------------------------------------------------------------- */
+}
