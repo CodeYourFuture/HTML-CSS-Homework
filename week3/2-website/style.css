@@ -4,7 +4,7 @@
     background-color: #eac4c4;
 }
 
-/* Hover effects */
+/* Hover effects for nav links */
 .hvr-underline-from-center:before {
     background: #d78c9c;
   }
@@ -25,15 +25,26 @@
     width: 100%;
     margin-top: 100px;
     opacity: 0.8;
-    
-    
 }
-
 
 .btns {
     background: #db96a0;
 }
 
 .btns:hover {
-    background:#eac4c4 ;
+    background:#eac4c4;
+}
+
+/*  Card Styling */
+
+.card-bg {
+    background:	#e9c4c4;
+}
+
+.card-btn {
+    background: #d27c89;
+} 
+
+.card-btn:hover {
+    background: #db96a0;
 }
