@@ -1,11 +1,38 @@
+/* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
 
- /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
-
-body {
-    font-family: 'Roboto', sans-serif;
-    -webkit-font-smoothing: antialiased;
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
 }
-
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.3;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.6;
+  color: #333;
+  font-size: 2rem;
+}
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.3;
+}
+ul,
+li {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: #838994;
+}
 /**
  * Add your custom styles below
  * 
@@ -15,5 +42,199 @@ body {
  * 
  * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
  */
+img {
+  max-width: 100%;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+}
+.logo {
+  width: 2.5rem;
+  margin-left: 15rem;
+}
 
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0.5rem;
+  margin-right: 5rem;
+}
 
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar li {
+  padding: 1rem;
+  color: #838994;
+  font-size: 1.7rem;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+}
+.menu li a:hover {
+ color: #333333;
+}
+li a.active {
+  color: #4c5058;
+  font-weight: 500;
+}
+.card img {
+  width: 12.7rem;
+  margin-bottom: 2.5rem;
+  margin: 2.5rem;
+  padding: 2.5rem;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.about .container {
+  display: flex;
+  align-content: space-around;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+.about h2 {
+  margin-top: 7rem;
+  font-size: 5rem;
+  font-weight: 300;
+}
+.card {
+  font-size: 2.5rem;
+}
+.card h3 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  text-align: center;
+}
+.hero {
+  background-size: cover;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url(../img/first-background.jpg) center no-repeat;
+  margin-bottom: 3rem;
+  color: #ddd;
+  height: 65rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hero-heading {
+  font-size: 5rem;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+.hero-paragraph {
+  font-size: 2.5rem;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+.hero-button {
+  width: 15rem;
+  padding: 1.2rem 2rem;
+  letter-spacing: 0.1rem;
+  border: none;
+  border-radius: 0.5rem;
+  outline: none;
+  cursor: pointer;
+  background-color: #f15a29;
+  border-color: #f15a29;
+  text-shadow: none;
+  color: white;
+  font-size: 1.5rem;
+}
+.hero-button:hover {
+  background-color: #d9400e;
+  border-color: #cf3d0e;
+  cursor: pointer;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #eaebec;
+  max-width: 65%;
+  margin: auto;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.social h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: center;
+}
+.social ul {
+  list-style: none;
+  display: flex;
+  text-align: center;
+}
+.social li {
+  width: 4rem;
+  display: inline-block;
+  margin: 1.25rem;
+  padding: 1.5rem 0;
+  text-align: center;
+}
+i.fa {
+  display: inline-block;
+  border-radius: 6rem;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+}
+.footer {
+  margin-top: 0;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #333;
+  padding: 2rem 0;
+  margin-bottom: 10rem;
+}
+.footer p {
+  margin-top: 0;
+  text-align: center;
+}
+
+@media(max-width: 500px) {
+    .header {
+        width: 50rem;
+        font-size:.5rem ;
+    }
+   .about .container {
+     flex-direction: column;
+   }
+   .about h2 {
+     font-size: 3rem;
+   }
+   .about h3 {
+     font-size: 2rem;
+   }
+  .navbar li {
+    font-size: 1.2rem;
+  }
+ .navbar {
+   margin-right: 2rem;
+ }
+ .logo {
+   margin-left: 3rem;
+ }
+ .hero-heading {
+   font-size: 4rem;
+ }
+ .hero-paragraph {
+   font-size:2rem ;
+ }
