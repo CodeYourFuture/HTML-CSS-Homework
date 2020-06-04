@@ -1,19 +1,288 @@
+/* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
 
- /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
+/*declared the default or root font-size in percentage: [1rem = 10px]*/
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  /*font-size: 10px;*/
+}
 
 body {
-    font-family: 'Roboto', sans-serif;
-    -webkit-font-smoothing: antialiased;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.5rem;
+}
+
+/*contains the logo and navigation links*/
+.nav-bar {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  border-bottom: 0.01rem solid #eee;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+}
+
+.logo-nav {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 4rem;
+}
+
+.nav-link ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0;
+}
+
+.nav-link ul li {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding: 1rem;
+  margin: 0.6rem;
+}
+
+/*makes the first menu stand out*/
+#active {
+  color: #000;
+  font-weight: 599;
+}
+
+.nav-link ul a {
+  text-decoration: none;
+  font-size: 1.7rem;
+  color: rgb(92, 91, 91);
+}
+
+/*background image and introduction section*/
+.intro {
+  background-image: url(../img/first-background.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  height: 73.5rem;
+}
+
+.intro h2 {
+  color: #ffffff;
+  font-size: 4.8rem;
+  font-weight: 300;
+  text-align: center;
+  justify-items: center;
+  margin-top: 0rem;
+  margin-left: -2.8rem;
+  padding-top: 24.5rem;
+}
+
+h3 {
+  color: #ffffff;
+  text-align: center;
+  justify-items: center;
+  padding-top: 0rem;
+  margin-top: -2.75rem;
+  font-size: 2.563rem;
+  font-weight: 300;
+}
+
+/*button normal state*/
+button {
+  background-color: #f15b29;
+  padding: 1.2rem 1.6rem;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  border: none;
+  outline: none;
+}
+
+/*color slightly darker on hover*/
+button:hover {
+  background-color: #e74c0f;
+}
+
+/*contains icons and description*/
+.karma_needs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5.5rem;
+  margin-bottom: 8rem;
+}
+
+/*targets only the paragraph*/
+.karma_needs > p {
+  font-size: 4.5rem;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/*aligns the icons and descriptions in a row*/
+.icon-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+/*selects all icon images*/
+.karma_needs img {
+  display: flex;
+  width: 13rem;
+  justify-items: center;
+}
+
+/*targets all the icon descriptions*/
+h4 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 4rem;
+  font-weight: 400;
+}
+
+.icon-items li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 15rem;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*.social-media li:hover {
+  display: flex;
+  padding: 20px 40px;*/
+
+.media {
+  display: flex;
+  text-decoration: none;
+  margin-left: 8rem;
+  margin-bottom: 3rem;
+}
+
+.media li {
+  list-style-type: none;
+  font-size: 2.5rem;
+  font-weight: 0rem;
+  font-weight: 0rem;
+  margin-right: 1.05rem;
+  margin-left: 1.05rem;
+}
+
+hr {
+  border-top: 0.1rem solid #eee;
+  margin: 1.313rem 0;
+  width: 85.15rem;
+}
+
+h5 {
+  text-align: center;
+  font-size: 1.75rem;
+  margin-top: 1rem;
+  font-weight: 400;
+  box-sizing: border-box;
+  justify-content: center;
+  margin-left: 12rem;
+}
+
+/*grouped the social media as having common attributes*/
+#twitter,
+#facebook,
+#instagram {
+  font-size: 2rem;
+  width: 3rem;
+  height: 3rem;
+  border: 0.1rem solid #c3e5c5;
+  border-radius: 2.8rem;
+  box-sizing: border-box;
+  padding: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#twitter {
+  color: #4ea3b8;
+}
+
+#facebook {
+  color: #2653b8;
+}
+
+#instagram {
+  color: #3e79aa;
+}
+
+.copyright {
+  display: flex;
+  font-size: 1.4rem;
+  text-align: center;
+  margin-left: 12rem;
+  font-weight: 30;
+}
+
+/*applied some media query to add to web responsiveness*/
+@media (max-width: 800px) {
+  body {
+    width: 800px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .logo-nav {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    width: 400px;
+  }
 }
 
 /**
  * Add your custom styles below
  * 
  * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
+ * - Be organized, use comments and separate your styles into meaningful chunks
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
- * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
+ * - When using Flex-box, remember the items you want to move around need to be inside a parent container set to 'display: flex'
  */
-
-

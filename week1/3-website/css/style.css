@@ -1,8 +1,192 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background-color: #aa8d39;
+  width: 100%;
+  height: 2100px;
+  margin: 50px 50px 0px, 150px;
+  padding: 5px 0px 5px;
+  border-color: magenta;
+}
+
+.topic {
+  font-size: 2em;
+  text-align: center;
+  color:white;
+  background-color: #d4b16a;
+}
+
+/*the links for the menu*/
+.nav {
+  color: white;
+  background-color: rgb(197, 145, 40);
+  margin-bottom: 0px;
+}
+
+#navigation {
+  text-align: center;
+  position: flexible;
+  top: 0;
+  font-size: 25px;
+  padding: 0px;
+  margin-bottom: 0px;
+  }
+
+.link {
+  color: rgb(77, 13, 52);
+  text-align: center;
+  margin: 60px;
+}
+
+/*targets the heading child tag*/
+.pre > h2 {
+  text-decoration: underline;
+  margin: 60px;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  float:left;
+  border-radius: 10px;
+  border: 5px solid rgb(133, 79, 79);
+  margin: 30px;
+  height:auto;
+ }
+
+ /*group class code for logos*/
+ .solo, .codepen, .codeorg,  .capgemini {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  border: 5px solid rgb(133, 79, 79);
+  margin-bottom: 10px;
+  margin-right: 60px;
+  margin-top: 0px;
+  max-width: 100%;
+  height:auto;
+  float:right;
+ }
+
+ .cyf_logo {
+  width: 100px;
+  height:75px;
+  border-radius: 5px;
+  border: 5px rgb(34, 24, 24);
+  margin-bottom: 30px;
+  margin-right: 110px;
+  margin-top: 5px;
+  max-width: 100%;
+  height:auto;
+  float: right;
+}
+
+/*handles the social media links*/
+.social {
+  padding: 0px;
+  margin-right: 0px;
+  position: absolute;
+  top: 25%;
+}
+
+.social li {
+  list-style-type: none;
+  padding: 20px;
+  transition: .6s;
+  color: white;
+  position: relative;
+}
+
+.social li i {
+  font-size: 40px;
+}
+
+/*allows change of color on hover event*/
+.social li:hover {
+  padding: 20px 40px;
+}
+
+/*grouped code for all boxes*/
+.prelim, .coursestart, .drop-in, .full{ 
+  background-color: #ffe9aa;
+  box-sizing: border-box;
+  width: 1000px;
+  height: 350px;
+  box-shadow: 5px 10px 5px black;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 30px 20px 280px;
+}
+
+/*targets only the Pre-Bootcamp menu link*/
+a[href*="Intro"] {
+  background-color: rgb(189, 238, 144);
+}
+
+/*selects the paragraph only as direct child*/
+.pre > p {
+  margin-top: 60px;
+  margin-bottom: 10px;
+  margin-right: 200px;
+  margin-left: 300px;
+  text-align: justify;
+  color: white;
+  font-size: 20px;
+}
+
+/*.link-image{
+  vertical-align: right;
+}*/
+
+h1,
+h2 {
+  text-align: center;
+  color: rgb(47, 233, 34);
+}
+
+h3 {
+  text-align: center;
+  color: rgb(16, 23, 48);
+  font-weight: 1200;
+}
+
+ul {
+  margin: 0px;
+  text-align: left;
+  font-size: 22px;
+  list-style: none;
+}
+
+ol {
+  list-style: none;
+  font-size: 20px;
+}
+
+/*link to all the url on the boxes*/
+.weblink{
+  text-align: justify;
+}
+
+/*selects and styles the second on the list*/
+.fulldev li:nth-child(2) {
+  color: rgb(212, 151, 27);
+}
+
+/*for the href links*/
+a:hover {
+  color: green;
+}
+
+#footer {
+  background-color: lightpink;
+  box-sizing: border-box;
+  width: 700px;
+  height: 50px;
+  box-shadow: 5px 10px 5px black;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+}
