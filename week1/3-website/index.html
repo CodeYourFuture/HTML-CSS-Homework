@@ -1,22 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <title>My Blog</title>
-    <link
-      href="//fonts.googleapis.com/css?family=Roboto:400,500,300"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-  </head>
-  <body>
-    <!-- Add your HTML markup here -->
-    <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>My sample website about cats</title>
+  <meta name="description" content="A sample website about cats, using lorem imsum and semantic html tags">
+  <link href="//fonts.googleapis.com/css?family=Roboto:400,500,300" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+</head>
+
+<body>
+  <header id="home">
+    <!-- nav>ul>(li>a)*5 -->
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#a1">Article 1</a></li>
+        <li><a href="#a2">Article 2</a></li>
+        <li><a href="#a3">Article 3</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- section#articles>(article>h2{article $}+h3{about article $}+p>lorem20^a)*3 -->
+  <section id="articles">
+    <article id="a1">
+      <h2>article 1</h2>
+      <h3>about article 1</h3>
+      <figure>
+        <a href="https://www.pexels.com/photo/grey-and-white-short-fur-cat-104827/">
+          <img id="cat-1" src="cat-1.jpg" alt="sample cat photo">
+        </a>
+        <figcaption>a cat looking forward click image to see more</figcaption>
+      </figure>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore doloremque ab labore non optio voluptates
+        omnis repellendus laborum molestias debitis.</p>
+    </article>
+    <article id="a2">
+      <h2>article 2</h2>
+      <h3>about article 2</h3>
+      <figure>
+        <a href="https://www.pexels.com/photo/animal-pet-cute-kitten-45201/">
+          <img id="cat-2" src="cat-2.jpg" alt="sample cat photo">
+        </a>
+        <figcaption>a cat looking forward click image to see more</figcaption>
+      </figure>
+      <p>Voluptates corrupti ducimus optio vero tenetur quis porro architecto, tempore sequi necessitatibus dolores quas
+        accusantium odio expedita dolorem ullam iusto?</p>
+      <a href=""></a>
+    </article>
+    <article id="a3">
+      <h2>article 3</h2>
+      <h3>about article 3</h3>
+      <figure>
+        <a href="https://www.pexels.com/photo/adorable-animal-blur-cat-617278/">
+          <img id="cat-3" src="cat-3.jpg" alt="sample cat photo">
+        </a>
+        <figcaption>a cat looking forward click image to see more</figcaption>
+      </figure>
+      <p>Molestias dolor optio nostrum suscipit hic animi beatae quidem laboriosam ipsum laudantium. Tenetur vel alias
+        quod blanditiis error nostrum eveniet.</p>
+      <a href=""></a>
+    </article>
+  </section>
+  <!-- Add your HTML markup here -->
+  <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
+  <footer id="contact">
+    <p>Posted by: Daniel Carter</p>
+    <p>Contact information: <a href="mailto:carterdaniel@hotmail.com">
+        carterdaniel@hotmail.com</a>.</p>
+  </footer>
+</body>
+
 </html>
