@@ -6,3 +6,79 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+*{
+   background: lightblue;
+
+}
+h1  {
+  
+    text-align: center;
+    font-size: 50px;
+    font-family:  'Lucida Sans Unicode' ;
+    color:rgb(44, 3, 97);
+    font-style: italic;
+
+}
+#header > p{
+  
+    font-size: 20px;
+    text-align: center;
+    color:rgb(44, 3, 97);
+   
+  
+    
+   
+}
+footer{
+    background: rgb(128, 240, 234);
+   
+}
+
+
+
+nav > ul {
+   width: 100vw;
+    display: flex;
+    flex-direction:  row;
+    justify-content: space-around;
+    list-style:none;
+   
+  }
+  content{
+      background-color: lightgreen;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+  }
+  a{
+    text-decoration:none;
+    font-size: medium;
+    font-family: Verdana;
+    color:goldenrod;
+    font-style: italic;
+    font-weight: bold;
+
+  }
+  .article{
+    font-size: 20px;
+    text-align: center;
+    color:rgb(44, 3, 97);
+
+
+  }
+     article:first-child p{
+    color:rgb(44, 3, 97);
+      background-color: rgb(108, 205, 235);
+      border: 5px solid rgb(34, 7, 70);
+      border-radius : 15px;
+      padding:20 px ;
+      font-family:arial;
+      font-size:16px;
+      font-style: italic;
+    }
+    
