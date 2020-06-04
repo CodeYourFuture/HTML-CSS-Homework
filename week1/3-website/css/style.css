@@ -6,3 +6,13 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+ #header {
+     color: white;
+     background-color: brown;
+
+ }
+
+ #h1 {
+     color: blue;
+ }
