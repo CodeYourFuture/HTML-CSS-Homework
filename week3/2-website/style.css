@@ -49,3 +49,25 @@
     background: #db96a0;
 }
 
+.card-section {
+    padding-bottom: 3rem;
+}
+
+/*  Footer Styling */
+
+.footer-section {
+    background-color: #d27c89;
+    margin: 0 auto;
+    text-align: center;
+ 
+}
+
+footer a{
+    color: #000000;
+    font-size: 1.5rem;
+   
+}
+
+footer p{
+   font-size: 0.9rem;
+}
