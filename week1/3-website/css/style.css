@@ -6,3 +6,178 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+body {
+    margin: 20px;
+    line-height: 1.5; /* to create gaps between lines for easy reading*/
+}
+
+ header, footer {
+     color: rgb(17, 80, 17);
+ }
+ 
+ /*BUG: I tried header:not(ul) to select everything in header but not ul but it didn't work*/
+ h1, h2, footer {
+     text-align: center;
+ }
+
+ /*article subheadings*/
+ h3 {
+    color: rgb(30, 139, 30);
+    text-shadow: 4px 4px 6px rgb(80, 60, 17);
+ }
+
+ /*title cooked*/
+ .cooked {
+     text-decoration: line-through;
+     background: rgb(0, 0, 0);
+     color: rgb(255, 255, 255);
+     display: inline-block;
+     transform: rotate(-20deg); /*BUG not working - I want to rotate the text in the title*/
+ }
+
+/*BUG: linear-gradient not working*/
+ footer {
+    background: linear-gradient(rgba(0, 255, 0, 0.171), rgb(255, 255, 255));
+ }
+
+article:first-child {
+    /*background: rgba(0, 255, 0, 0.171);*/
+    background: linear-gradient(rgba(0, 255, 0, 0.171), rgb(255, 255, 255));
+}
+
+article {
+    padding: 1px 30px 1px 30px;
+}
+
+p:last-of-type {
+    color: rgb(80, 60, 17);
+}
+
+p:first-of-type:first-letter {
+    font-weight: bold;
+    font-size: 1.3em;
+    font-style: oblique;
+    color: rgb(80, 60, 17);
+}
+
+/*for accessibility*/
+a:focus {
+    background: rgba(255, 238, 0, 0.5);
+}
+
+a:visited {
+    color: rgb(126, 30, 139);
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+/*first 3 <a> tags*/
+li a:nth-child(-n+3) {
+    font-size: 20px;
+    color: rgb(30, 139, 30);
+    text-decoration: none;
+    background: rgb(80, 60, 17, .1);
+    border-radius: 50px;
+    padding: 2px;
+    font-variant: small-caps;
+}
+
+/*Back to top link*/
+br + a {
+    font-size: 15px;
+    color: rgb(30, 139, 30);
+    background: rgb(80, 60, 17, .1);
+    border-radius: 50px;
+    padding: 5px;
+    font-variant: small-caps;
+    text-decoration: none;
+    text-align: center;         /*BUG text-align doesn't work so I use display: table; and margin: auto;*/
+    display: table;
+    margin: auto;
+}
+
+br + a:visited {
+    color:rgb(30, 139, 30);
+}
+
+/*blockquote original state*/
+blockquote {
+    font-style: italic;
+    text-indent: 30px;
+    transition: 1s;
+}
+
+/*quote original state*/
+q {
+    transition: 1s;
+}
+
+/*blockquote and quote hover state*/
+blockquote:hover, q:hover {
+    background: rgb(255, 238, 0, 0.3);
+    border-radius: 50px;
+    padding: 15px;
+    transition: .5s;
+}
+
+.article figure:first-of-type {
+    float: right;
+}
+
+figcaption {
+    text-transform: uppercase;
+    font-size: .75em;
+}
+
+.article img:first-of-type {
+    border-radius: 300px;
+    border-style: dotted;
+    box-shadow: 5px 5px 6px rgb(80, 60, 17);
+    width: 170px;
+}
+
+.img2 {
+    width: 50vw;    /*vw allows for responsive web design*/
+    display: table;
+    margin: auto;
+    border-radius: 100px;
+    border-style: dotted;
+    box-shadow: 5px 5px 6px rgb(80, 60, 17);
+}
+
+.figure2 figcaption {
+    text-align: center;
+    margin-top:2em;
+}
+
+/*zoom hover img part 1*/
+img {
+    transition: transform .1s;
+}
+
+/*zoom hover img part 2*/
+img:hover {
+    transform: scale(1.1);
+}
+
+/*
+.img1 {
+    border-radius: 300px;
+    border-style: dotted;
+    box-shadow: 5px 5px 6px rgb(80, 60, 17);
+    width: 220px;
+} 
+
+.img2 {
+    border-radius: 100px;
+    border-style: dotted;
+    box-shadow: 5px 5px 6px rgb(80, 60, 17);
+    width: 50%;
+    display: block;
+    position: absolute;     BUG: when window size changes, .img2 moves to a different place which isn't desirable
+    top: 1500px;
+    left: 300px;
+}*/
