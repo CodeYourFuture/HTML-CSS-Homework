@@ -1,9 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
+html{
+    font-size: 62.5%;
+}
  /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
 
 body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
+    font-size: 1rem;
 }
 
 /**
@@ -16,4 +24,216 @@ body {
  * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
  */
 
+/*****************************************  H E A D E R      S E C T I O N ******************************************
+*  The header inclueds the log and navigation bar that is laid out using the flexbox layout
+*
+****************************************************************************************************************/
 
+/*  
+ *   Let's pin our header to the top of the page
+*/
+
+header{
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.content-container{
+    padding: 0 1.5008rem;
+    margin: 0 auto;
+    min-width: 60rem;
+}
+
+/*
+ * The layout container for the logo and navigation
+  */
+
+ .header-layout{
+     display: flex;
+     justify-content: space-between;  
+     align-items: center;
+     height: 7rem;
+ }
+
+ /*
+  * The header Content
+   */
+
+ img.logo {
+    height: 7rem;
+    width: 2.6rem;;
+}
+
+nav.menu  {
+    color: #838994;
+    font-size: 1.664rem;
+}
+
+nav.menu li {
+    display: inline-block;
+    margin-left: 2.5008rem;
+}
+
+nav.menu .selected{
+    color: #4c5058;
+    font-weight: 500;
+}
+
+
+/*
+ *   Container for background photo, title and tagline
+ */
+
+.tag-container{
+    background-image: url('../img/first-background.jpg'); 
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 73.5008rem;
+}
+
+/*
+* Lets layout out content using ye ole trust flexbox.....
+*/
+.tag-content{
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.tag-content h1{
+    margin: 0;
+    margin-top: 28rem;
+    font-size: 5rem;
+}
+
+.tag-content h3{
+    font-size: 2.5008rem;
+    margin-top: 2rem;
+}
+
+.tag-content h1, .tag-content h3 {
+    color: #fff;
+    font-weight: 300;
+}
+
+.tag-content button{
+    margin-top: 2.5008rem;
+    width: 15.5008rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 0.4rem;
+    padding: 1.6rem 0.9rem;
+    color: white;
+    font-size: 1.8rem;
+    box-sizing: border-box;
+}
+
+.benefits-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 8rem;
+}
+
+.benefit img{
+    width: 12.7rem;
+    height: 12.7rem;
+}
+
+#benefits{
+    margin-top: 12.6rem;
+
+}
+#benefits h2{
+    margin-top: 12.6rem;
+    font-size: 4.4rem;
+    font-weight: 300;
+    margin: 2.6rem 0 5rem;
+    text-align: center;
+}
+.benefit h3{
+    font-size: 2.5008rem;
+    font-weight: 400;
+    margin: 4rem 0 3rem;
+}
+section.benefit{
+    width: 33.3333333%;
+}
+
+footer{
+    padding-bottom: 15rem;
+}
+
+footer hr{ 
+    margin: 2.1008rem;
+    border-top: 1px solid #eaebec;
+}
+
+#social-media-container h5{
+    margin: 2.1008;
+}
+#social-media-container h5{
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: center;
+}
+.social-media-layout{
+    display: flex;
+    justify-content: center;
+}
+
+.social-media{
+    border-radius: 2rem;
+    width: 4rem;
+    height: 4rem;
+    margin: 2rem 5px;
+    border: 1px solid #eaebec;
+    padding: 1rem 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#social-media-container .twitter {
+    color: #55acee;
+}
+#social-media-container .facebook {
+    color: #4c66a4;
+}
+#social-media-container .instagram {
+    color: #3f729b;
+}
+
+
+#social-media-container .content-container .copyright{
+    text-align: center;
+    font-size: 1.44rem;
+    font-weight: 300;
+}
+
+
+
+@media (min-width: 76.8em) {
+    .content-container {
+        width: 73.6em;
+    }
+}
+
+@media (min-width: 99.2em) {
+    .content-container {
+        width: 96rem;
+    }
+}
+
+@media (min-width: 120rem) {
+    .content-container {
+        width: 60%;
+    }
+}
