@@ -4,9 +4,11 @@
 body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
+    
 }
 
-/**
+
+/** 
  * Add your custom styles below
  * 
  * Remember: 
@@ -15,5 +17,243 @@ body {
  * 
  * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
  */
+
+
+
+/* ---------------------------------------*/
+/* --------------GENERAL STYLES-------------------*/
+/* ---------------------------------------*/
+
+
+.nav-bar-content, .features-box, .footer-container{
+    width: 60%;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+
+/* ---------------------------------------*/
+/* --------------HEADER-------------------*/
+/* ---------------------------------------*/
+
+.nav-bar{
+    height: 7rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    display: flex;
+}
+
+.nav-bar-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo{  
+    height: 100%;
+    width: 2.6rem;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+
+.nav-item{
+    list-style-type: none;
+    font-size: 1.66rem;
+    color: #838994;
+    min-width: max-content;
+    
+}
+
+.nav-link .active{
+    color: #4c5058;
+    font-weight: 500;
+}
+
+.nav-link{
+    text-decoration: none;
+    margin-left: 2.5rem;
+}
+
+.nav-item:hover{
+    color: #333333;
+}
+
+
+.jumbotron{
+    height: 73.5rem;
+    background-image: url('../img/first-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.jumbotron-heading{
+    font-size: 5rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.jumbotron-description{
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin: 2rem 0 2.5rem 0;
+}
+
+.jumbotron-btn{
+    padding: 1.6rem 2.4rem;
+    background-color: #f15a29;
+    font-size: 1.8rem;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+.jumbotron-btn:hover{
+    background-color: #d9400e;
+}
+
+
+
+/* ---------------------------------------*/
+/* --------------FEATURES-------------------*/
+/* ---------------------------------------*/
+
+
+.features{
+    margin-top: 12.6rem;
+    overflow: hidden;
+}
+
+.section-title{
+    font-size: 4.4rem;
+    font-weight: 300;
+    color: #1d1e21;
+    text-align: center;
+    margin: 2.6rem 0 5rem 0;
+}
+
+.features-box{
+    max-width: 140rem;
+    padding-bottom: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+
+.feature-img{
+    width: 127px;
+    height: 127px;
+
+}
+
+.feature-description{
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 4rem 0;
+    text-align: center;
+}
+
+
+/* ---------------------------------------*/
+/* --------------FOOTER-------------------*/
+/* ---------------------------------------*/
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15rem;
+}
+
+
+.footer-heading{
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin: 0;
+
+}
+ hr{
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.6rem 0;
+    width: 100%;
+}
+.footer-social{
+    display: flex;
+}
+
+
+.footer-social div{
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid #eaebec;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 1rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+
+}
+
+.footer-social-twitter{
+    color: #55acee;
+}
+.footer-social-facebook{
+    color: #4c66a4;
+}
+.footer-social-instagram{
+    color: #3f729b;
+}
+
+.footer-copyright{
+    font-size: 1.44rem;
+    color:#838994;
+}
+
+
+
+/* ---------------------------------------*/
+/* --------------MEDIA QUERIES-------------------*/
+/* ---------------------------------------*/
+
+
+@media screen and (max-width: 1200px){
+    .nav-bar-content, .features-box, .footer-container{
+        width: 80%;
+    }
+}
+
+@media screen and(max-width: 900px){
+    
+    .nav-bar-content, .features-box, .footer-container{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 700px){
+    
+    body{
+        width: 700px;
+    }
+}
 
 

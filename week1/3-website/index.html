@@ -6,17 +6,124 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>My Blog</title>
+    <title>Lifestyle Blog</title>
     <link
       href="//fonts.googleapis.com/css?family=Roboto:400,500,300"
       rel="stylesheet"
       type="text/css"
     />
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet"> <!-- Google font - Comfortaa -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Font awesome -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
   </head>
   <body>
-    <!-- Add your HTML markup here -->
-    <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
+    <header>
+      <div class="navigation">
+        <nav class="nav-bar">
+
+          <a href="#" class="logo-link"><img src='./assets/logo.png' class="logo"></a>
+
+          <ul class="nav-list">
+            <li><a class="nav-item" href="#about">About</a></li>
+            <li><a class="nav-item" href="#blog">Blog</a></li>
+            <li><a class="nav-item" href="#contact">Contact</a> </li>
+          </ul>
+        </nav>
+    </div>
+
+      <div class="jumbotron" style="background-image: url('./assets/jumbo.jpg');">
+        <div class="jumbotron-box">
+          <h1 class="jumbotron-heading">This is your lifestyle blog!</h1>
+          <p class="jumbotron-subheading">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id='about' class="section-about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about-box">
+          <img class="about-img" src="./assets/about-img.jpg" alt="about image"> 
+           
+          <div class="about-info">
+            
+            <h3 class="about-title">Your lifestyle blog!</h3>
+            <p class="about-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          
+          </div>
+
+        </div>
+      </section>
+
+      <section id='blog' class="section-article">
+        <h2 class="section-title section-title-left">Articles</h2>
+
+
+        <div class="article-box"> 
+          <article class="article">
+            <img class="article-img" src="./assets/article-1.png" alt="">
+            
+            <div class="article-info">
+              <h3 class="article-title">First title</h3>
+              <p class="article-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem explicabo natus nobis id harum odio ad illo aperiam? Laborum aliquid in magni! Eveniet consequatur facere ducimus porro repellat cum sapiente!</p>
+              <button class="article-button">Continue reading &rarr;</button>
+            </div>
+
+            <div class="article-label">
+              <p>New</p>
+            </div>
+            
+          </article>
+          <article class="article">
+            <img class="article-img" src="./assets/article-2.png" alt="">
+            
+            <div class="article-info">
+              <h3 class="article-title">Second title</h3>
+              <p class="article-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem explicabo natus nobis id harum odio ad illo aperiam? Laborum aliquid in magni! Eveniet consequatur facere ducimus porro repellat cum sapiente!</p>
+              <button class="article-button">Continue reading &rarr;</button>
+            </div>
+            
+          </article>
+          <article class="article">
+            <img class="article-img" src="./assets/article-3.jpg" alt="">
+            
+            <div class="article-info">
+              <h3 class="article-title">Third title</h3>
+              <p class="article-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem explicabo natus nobis id harum odio ad illo aperiam? Laborum aliquid in magni! Eveniet consequatur facere ducimus porro repellat cum sapiente!</p>
+              <button class="article-button">Continue reading &rarr;</button>
+            </div>
+            
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer id='contact' class="footer">
+
+      <div class="footer-container">
+        <div class="footer-logo">
+          <h3>Lifestyle Blog</h3>
+          <p class="footer-copyright">&copy; 2020 Lifestyle Blog, ALL RIGHTS RESERVED, 2020</p>
+        </div>
+
+        <div class="footer-social">
+          <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+          <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+          <a href="https://www.linkedin.com" class="fa fa-linkedin"></a>
+        </div>
+
+        <div class="footer-contact">
+          <p><i class="fa fa-phone"></i> 077 444 444</p>
+          <p><i class="fa fa-at"></i>contact@lifestyleblog.co.uk</p>
+          <p><i class="fa fa-map-marker"></i> Queen Elizabeth St, Birmingham, UK</p>
+        </div>
+      </div>
+
+      
+      
+    </footer>
+
   </body>
 </html>
