@@ -35,11 +35,9 @@ body {
 
 header{
     position: fixed;
-   /*  stop: 0px;    */
     width: 100%;
     background-color: #fff;
     border-bottom: 1px solid #ddd;
-    /*  soverflow: hidden;  */
 }
 
 .content-container{
@@ -69,13 +67,8 @@ header{
 }
 
 nav.menu  {
-   /*  float: right; */
     color: #838994;
     font-size: 1.664rem;
-    /*
-    margin-top: 1.7rem;
-    margin-top: 2.752rem;
-    */
 }
 
 nav.menu li {
@@ -218,10 +211,6 @@ footer hr{
     color: #3f729b;
 }
 
-.fa{
-    font-family: FontAwesome;
-    font-size: 1.4rem;
-}
 
 #social-media-container .content-container .copyright{
     text-align: center;
@@ -234,20 +223,17 @@ footer hr{
 @media (min-width: 76.8em) {
     .content-container {
         width: 73.6em;
-        sbackground-color: red;
     }
 }
 
 @media (min-width: 99.2em) {
     .content-container {
         width: 96rem;
-        sbackground-color: blue;
     }
 }
 
 @media (min-width: 120rem) {
     .content-container {
         width: 60%;
-        sbackground-color: green;
     }
 }
