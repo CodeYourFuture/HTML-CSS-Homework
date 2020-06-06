@@ -5,21 +5,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: roboto, sans-serif;
-   min-height: 100vh;
-}
-label {
-  margin: 0 40px 0 0;
-  font-size: 26px;
-  line-height: 70px;
-  display: none;
-}
-#toggle {
-  display: none;
-}
-.all {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  min-height: 100vh;
 }
 .section1 {
   margin: 0;
@@ -257,7 +243,7 @@ footer hr {
     width: auto;
     background-color: #d9400e;
   }
-  .nav-bar{
+  .nav-bar {
     background-color: #d9400e;
   }
 }
