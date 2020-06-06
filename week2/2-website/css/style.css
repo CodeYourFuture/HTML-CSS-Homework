@@ -52,7 +52,7 @@ header {
 }
 /* ********************************   The links style **************************************/
 .menu li {
-  font-size: 1.3vw;
+  font-size: 1.3rem;
   color: #7777;
   justify-self: center;
 }
@@ -98,7 +98,7 @@ li:hover {
 .first-content button {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
-  font-size: 1.386vw;
+  font-size: 1.386rem;
   background: none;
   padding: 1px #f15a29;
   padding: 1px;
@@ -117,13 +117,13 @@ li:hover {
 /******************** The main heading and the sub-heading styles ************************/
 .text h1 {
   color: white;
-  font-size: 3.85vw;
+  font-size: 3.85rem;
   font-weight: 300;
   line-height: 5rem;
 }
 .text h3 {
   font-weight: 300;
-  font-size: 1.925vw;
+  font-size: 1.925rem;
   line-height: 2.5rem;
 }
 /***************************  The second section style *************************************/
@@ -151,7 +151,7 @@ li:hover {
   color: #1d1e21;
   font-family: roboto, sans-serif;
   font-weight: 400;
-  font-size: 1.925vw;
+  font-size: 1.925rem;
   line-height: 2.5rem;
   width: 16.1rem;
 }
@@ -162,7 +162,7 @@ li:hover {
 .section2 .sec2-h2 {
   color: #1d1e21;
   font-weight: 300;
-  font-size: 3.85vw;
+  font-size: 3.85rem;
   line-height: 4.4rem;
   text-align: center;
 }
@@ -182,14 +182,14 @@ footer .footer-section {
 .footer-section h5 {
   font-family: roboto, sans-serif;
   color: black;
-  font-size: 1.232vw;
+  font-size: 1.232rem;
   line-height: 1.6rem;
   font-weight: 400;
 }
 .footer-section .copy-right {
   font-family: roboto, sans-serif;
   font-weight: 300;
-  font-size: 1.232vw;
+  font-size: 1.232rem;
   line-height: 1.4rem;
   color: #838994;
 }
@@ -206,16 +206,16 @@ footer hr {
   margin-right: 2rem;
 }
 
-.social-media li img {
+.social-media li {
+  list-style: none;
+}
+i {
   width: 2rem;
   height: 2rem;
   margin: 1.25rem;
   padding: 0.825rem;
-  border-radius: 2.25rem;
+  border-radius: 1rem;
   border: 1px solid #eaebec;
-}
-.social-media li {
-  list-style: none;
 }
 /*******************************************  Media quiries *******************************/
 
