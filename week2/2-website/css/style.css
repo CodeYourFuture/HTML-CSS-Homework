@@ -1,19 +1,249 @@
-
- /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
-
+html {
+  font-size: 62.5%;
+}
 body {
-    font-family: 'Roboto', sans-serif;
-    -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+  font-family: roboto, sans-serif;
+  min-height: 100vh;
+}
+.section1 {
+  margin: 0;
+  padding: 0;
+  height: 735px;
+  width: 100%;
+  margin-bottom: 10rem;
+}
+header {
+  background-color: yellowgreen;
+}
+/**************************** The navigator bar style **********************************/
+.nav-bar {
+  position: fixed;
+  display: flex;
+  background-color: white;
+  width: 100%;
+  min-height: 71px;
+}
+/****************************** The container of the list syle************************* */
+.menu-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  width: 60%;
+  height: auto;
+  margin: auto;
+}
+/* ********************************  The logo style ***************************************/
+.logo {
+  width: 3.4%;
+  height: 100%;
+  align-self: center;
+}
+/*********************************** The list style ***************************************/
+.menu {
+  display: flex;
+  background-color: white;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: center;
+  width: inherit;
+}
+/* ********************************   The links style **************************************/
+.menu li {
+  font-size: 1.3rem;
+  color: #7777;
+  justify-self: center;
+}
+li:hover {
+  color: #333333;
+  cursor: pointer;
+}
+.menu .meet-karma {
+  color: rgb(87, 81, 81);
+}
+/*********************************  Meet Karma link style ***********************************/
+.menu .meet-karma:hover {
+  color: #333333;
 }
 
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
- */
+/* The main content including the header,subheader,background image and the button styles section */
 
+/********************************** General style of the main content ************************/
 
+.first-content {
+  /* display: block; */
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 735px;
+  background-image: url("../img/first-background.jpg");
+  background-size: 100% 100%;
+  background-position-x: 50%;
+  background-position-y: 100%;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+
+/************************** The main content button style ********************************/
+
+.first-content button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1.386rem;
+  background: none;
+  padding: 1px #f15a29;
+  padding: 1px;
+  border: none;
+  border-radius: 0.3rem;
+  background-color: #f15a29;
+  height: 50px;
+  width: 35%;
+}
+
+.first-content button:hover {
+  background-color: #d9400e;
+  border: 1px #d9400e;
+}
+
+/******************** The main heading and the sub-heading styles ************************/
+.text h1 {
+  color: white;
+  font-size: 3.85rem;
+  font-weight: 300;
+  line-height: 5rem;
+}
+.text h3 {
+  font-weight: 300;
+  font-size: 1.925rem;
+  line-height: 2.5rem;
+}
+/***************************  The second section style *************************************/
+/*********************** The images and the captions styles ******************************/
+.section2-list {
+  display: flex;
+  width: auto;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 8rem;
+}
+.section2-list li {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  color: #151618;
+  pointer-events: none;
+}
+.section2-list li h3 {
+  color: #1d1e21;
+  font-family: roboto, sans-serif;
+  font-weight: 400;
+  font-size: 1.925rem;
+  line-height: 2.5rem;
+  width: 16.1rem;
+}
+.section2-list li img {
+  width: 50.4%;
+  height: 100%;
+}
+.section2 .sec2-h2 {
+  color: #1d1e21;
+  font-weight: 300;
+  font-size: 3.85rem;
+  line-height: 4.4rem;
+  text-align: center;
+}
+/************************************* The footer style *************************************/
+footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 171px;
+}
+footer .footer-section {
+  display: inline-block;
+
+  text-align: center;
+  width: 46rem;
+  justify-content: center;
+}
+.footer-section h5 {
+  font-family: roboto, sans-serif;
+  color: black;
+  font-size: 1.232rem;
+  line-height: 1.6rem;
+  font-weight: 400;
+}
+.footer-section .copy-right {
+  font-family: roboto, sans-serif;
+  font-weight: 300;
+  font-size: 1.232rem;
+  line-height: 1.4rem;
+  color: #838994;
+}
+footer hr {
+  color: #eaebec;
+  border: none;
+  border-top: 1px solid #eaebec;
+  line-height: 0.1rem;
+}
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 2rem;
+}
+
+.social-media li {
+  list-style: none;
+}
+i {
+  width: 2rem;
+  height: 2rem;
+  margin: 1.25rem;
+  padding: 0.825rem;
+  border-radius: 1rem;
+  border: 1px solid #eaebec;
+}
+/*******************************************  Media quiries *******************************/
+
+@media only screen and (max-width: 750px) {
+  /* label{
+    display: block;
+    cursor: pointer;
+  } */
+  .menu li {
+    margin-right: 5px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: white;
+    justify-self: left;
+    background-color: #d9400e;
+  }
+  .menu {
+    width: 250px;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: #d9400e;
+  }
+  .menu-container {
+    justify-content: left;
+    width: auto;
+    background-color: #d9400e;
+  }
+  .nav-bar {
+    background-color: #d9400e;
+  }
+}
