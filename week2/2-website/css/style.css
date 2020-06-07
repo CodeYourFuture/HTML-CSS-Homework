@@ -1,19 +1,198 @@
-
- /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
-
 body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
- */
+h1 {
+    padding-bottom: 0;
+    color: ghostwhite;
+    font-size: 3.125rem;
+    font-weight: 300;
+    margin-bottom: 0;
+}
 
+h2 {
+    text-align: center;
+    font-weight: 400;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+
+#logo {
+    display: flex;
+    justify-content: center;
+ }
+#header-img {
+    width: 40px;
+    height: 40px;  
+}
+nav {
+    display: flex;
+    justify-content: flex-start;
+}
+nav ul li {
+    display: inline-block; 
+    padding: 10px 15px 10px 15px;
+    font-weight: 500;
+    
+}
+.active {
+    font-weight: bold;
+}
+.nav {
+    text-decoration: none;
+    color: #888e99;
+}
+#imgcont {
+    margin-top: 0px;
+    background-image: url("/img/first-background.jpg");
+
+    background-size: cover;
+    color: ghostwhite;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;  
+    }
+
+p {
+    margin: 10px;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+#button {
+    text-align: center;
+    background-color: rgb(241, 87, 41);
+    font-size: 1.125rem;
+    width: 100px;
+    border-radius: 5px;
+    padding: 15px 25px;
+}
+#button a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5;
+    font-weight: 400;
+}
+#button:hover {
+    background-color: rgb(218, 68, 23);
+}
+
+#iconSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#iconSection h1 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 2.75rem;
+    font-weight: 300;
+}
+#icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    border-bottom:rgb(189, 208, 226);
+    border-width: none;
+}
+.ico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 300px;
+    width: 30%;
+    height: auto;
+}
+.ico img {
+    width: 100%;
+    height: auto;
+    
+}
+.iconCont {
+    width: auto;
+}
+
+hr {
+    width: 70%;
+    opacity: 40%;
+    color: rgb(189, 208, 226);
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#uList {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.smallIco {
+  
+    border: 0.5px solid rgb(189, 208, 226);
+    border-radius: 50%;
+    padding: 10px;
+    margin: 5px;
+  
+}
+.fa-twitter {
+    color: skyblue;
+    padding: 5px 7px 5px 7px;
+}
+.fa-facebook {
+    padding: 5px 8px 5px 8px;
+    color: rgb(81, 81, 207);
+}
+.fa-instagram {
+    padding: 5px 7px 5px 7px;
+    color: rgb(13, 13, 73);
+}
+footer p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+footer p:last-of-type {
+    opacity: 60% ;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+#payment {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 400;
+   
+}
+#payList {
+
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+  
+}
+#payment .fa {
+    color: white;
+    margin-bottom: 20px;
+}
+#payment .fa:hover {
+    color: rgb(81, 81, 207);
+}
 
