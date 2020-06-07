@@ -1,61 +1,44 @@
 * {
     font-family: "Pacifico", cursive;
-    background-color: rgb(223, 197, 228);
+    background-color: rgb(251, 248, 252);
   }
+  /*---Main Container---*/
   .container{
       width: 100%;
-      /*background-color: aqua;*/
       display: flex;
       flex-direction: column;
       align-items: center;
   }
-  .container .header{
-      width: 100%;
-      
-      /*background-color: beige;*/
-  }
-  /*}
-  header.header{
-      margin: 10px;
-  }*/
-
+  /*---Navigation Bar and Header ---*/
   .header .top-header {
-   /* background-color: lavenderblush;
-     margin: 10px; */
+   background-color: lightgrey;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     align-items: center;
     margin-bottom: 10px;
     margin-top: 20px;
   }
   .top-header .logo{
-    background-color: lavenderblush;
+    background-color: darkgrey;
       width: 200px;
       height: 200px;
       padding: 20px;
     }
     .top-header .contact-button{
-      background-color: lavenderblush;
-        /*color: rgb(200, 144, 233);*/
+      background-color:darkgrey;
         font-size: 25px;
-        /*border-color: rgb(252, 251, 253);*/
         border-radius: 10px;
         border-width: medium;
         width: 125px;
         height: 50px;
         margin: 20px;
     }
-  .header .nav {
-      background-color: lavenderblush;
-      width: 100%;
-
-  }/*
-  .nav .nav-bar{
-    background-color: lavenderblush;
-  }*/
+    .nav-bar{
+      background-color: lightgrey;
+    }
+  
   .nav-bar .nav-list{
-    
+    background-color: lightgrey;
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -66,20 +49,18 @@
 .nav-list li{
     margin: 5px;
     padding: 5px;
-    /*background-color: lavenderblush; */ 
+    background-color: darkgrey; 
   } 
   .container .main-container{
-      /*background-color: darkgoldenrod;*/
+      
     margin: 20px;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
     align-items: center;
   }
   .main-container .info-section{
    
-    background-color: cornflowerblue;
-    /* margin-right: 20px; */
+    background-color: lightgrey;
     width: 100%;
     text-align: center;
   }
@@ -88,29 +69,40 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 300px;
-    height: 250px;
     padding: 20px;
     margin-top: 20px;
        }
   .image-carousel{
-    background-color: khaki;
+    background-color: lightgrey;
     width: 300px;
     height: 300px;
     padding: 20px;
   }  
-  .carousel-item{
+  .carousel-list{
+    background-color: lightgrey;
+    margin: 20px;
+    padding: 20px;
+  }
+  .carousel-list .carousel-item{
+    background-color: lightgrey;
     list-style: none;
     display: flex;
-    justify-content: space-around;
-    margin: 0px;
-    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+
+    
     
   }   
   .carousel-item li{
-    margin-top: 20px;
+    margin: 20px;
     padding: 20px;
-  }
+    background-color: darkgrey;
+    /* width: 100%; */
+    /* height: 100%; */
+    margin-right: 50px;
+}
+  
  /* .image-section {
               
     display: flex;
@@ -141,56 +133,70 @@
       
 
   }*/
-  .container .section{
+  /*.container .section{
       /*background-color: violet;*/
       /*margin-top: 100px;*/
       /*padding: 10px;*/
       /*width: 100%;*/
-      /*height: 100%;*/
+      /*height: 100%;
   
       
-  }
+  }*/
+  .section{
+    background-color: lightgrey;
+  }/*
   .section .cake-samples{
 
+    
+    /* margin-right: 20px; 
+    background-color: lightgrey;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 20px;
-    
    
-  }/*
-  .cake-samples .cake-portrait {
+  }*/
+  .cake-samples{
+   
     display: flex;
     flex-direction: column;
     align-items: center;
     
-}*/
+    padding: 50px;
+    background-color: lightgrey;
+
+}
+  .cake-portrait{
+    background-color: lightgrey;
+  }  
+
   .cake-portrait .cakes{
-    background-color: orange;
     list-style: none;
-    margin-top: 10px;
-    padding: 10px;
+    padding: 20px;
     width: 100px;
     height: 100px;
-}
+    background-color: darkgrey;
+    margin: 20px;
+  }
   
 
- /* .container .footer{
-      background-color: rgb(128, 233, 128);
-      height: 200px;
-      margin: 20px;
-  }*/
-  .footer .footer-list{
-      display: flex;
-      flex-direction: column;
+  .footer{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    margin-right: 20px;
+    padding: 50px;
+    background-color: lightgrey;
+  }
+  .footer .footer-list{
+    background-color: lightgrey;
       
   }
   .footer-list li{
-      background-color: orchid;
-      list-style: none;
-      padding: 20px;
-      margin: 10px;
+    list-style: none;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: darkgrey;
+    margin: 20px;
   }
   @media screen
