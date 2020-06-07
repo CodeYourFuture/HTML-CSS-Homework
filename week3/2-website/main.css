@@ -7,11 +7,11 @@
       /*background-color: aqua;*/
       display: flex;
       flex-direction: column;
-      
+      align-items: center;
   }
   .container .header{
       width: 100%;
-      margin: 10px;
+      
       /*background-color: beige;*/
   }
   /*}
@@ -20,45 +20,56 @@
   }*/
 
   .header .top-header {
-    /*  background-color: lavenderblush;*/
-    /* margin: 10px; */
+   /* background-color: lavenderblush;
+     margin: 10px; */
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
     align-items: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
   }
   .top-header .logo{
+    background-color: lavenderblush;
       width: 200px;
       height: 200px;
       padding: 20px;
     }
     .top-header .contact-button{
-        color: rgb(200, 144, 233);
+      background-color: lavenderblush;
+        /*color: rgb(200, 144, 233);*/
         font-size: 25px;
-        border-color: rgb(252, 251, 253);
+        /*border-color: rgb(252, 251, 253);*/
         border-radius: 10px;
         border-width: medium;
         width: 125px;
         height: 50px;
+        margin: 20px;
     }
-  .header .nav .nav-bar{
-      background-color: greenyellow;
-      
+  .header .nav {
+      background-color: lavenderblush;
+      width: 100%;
 
-  }
+  }/*
+  .nav .nav-bar{
+    background-color: lavenderblush;
+  }*/
   .nav-bar .nav-list{
+    
     list-style: none;
     display: flex;
     flex-direction: column;
-}
-/*
+    align-items: center;
+    margin-right: 30px
+    }
+
 .nav-list li{
     margin: 5px;
     padding: 5px;
-    } */ 
+    /*background-color: lavenderblush; */ 
+  } 
   .container .main-container{
       /*background-color: darkgoldenrod;*/
-      height: 200px;
     margin: 20px;
     display: flex;
     flex-direction: column;
@@ -77,7 +88,29 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    margin-top: 20px;
        }
+  .image-carousel{
+    background-color: khaki;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+  }  
+  .carousel-item{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0;
+    
+  }   
+  .carousel-item li{
+    margin-top: 20px;
+    padding: 20px;
+  }
  /* .image-section {
               
     display: flex;
@@ -110,46 +143,54 @@
   }*/
   .container .section{
       /*background-color: violet;*/
-      margin: 10px;
+      /*margin-top: 100px;*/
       /*padding: 10px;*/
       /*width: 100%;*/
       /*height: 100%;*/
   
       
   }
-  .section .cake-images{
+  .section .cake-samples{
 
-    height: 100%;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    
    
-  }
-  .cake-images .cake-portrait {
+  }/*
+  .cake-samples .cake-portrait {
     display: flex;
     flex-direction: column;
     align-items: center;
     
-}
+}*/
   .cake-portrait .cakes{
-      background-color: orange;
+    background-color: orange;
     list-style: none;
-    margin: 20px;
+    margin-top: 10px;
     padding: 10px;
+    width: 100px;
+    height: 100px;
 }
-  }
+  
 
-  .container .footer{
+ /* .container .footer{
       background-color: rgb(128, 233, 128);
       height: 200px;
       margin: 20px;
-  }
+  }*/
   .footer .footer-list{
       display: flex;
-      flex-direction: row;
-      justify-content: center;
-      margin: 20px;
+      flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+      
   }
   .footer-list li{
       background-color: orchid;
       list-style: none;
-      padding: 10px;
+      padding: 20px;
+      margin: 10px;
   }
+  @media screen
