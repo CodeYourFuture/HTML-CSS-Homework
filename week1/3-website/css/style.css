@@ -6,3 +6,279 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+/* Basic Reset */
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+img {
+  max-width: 100%;
+}
+
+.sidebar {
+  width: 8rem;
+  height: 100%;
+  background-color: #eee;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+.menu-icon {
+  margin-top: 3rem;
+  cursor: pointer;
+}
+.line {
+  height: 0.2rem;
+  width: 2.5rem;
+  background-color: #222;
+  margin-bottom: 0.6rem;
+}
+.line-1,
+.line-3 {
+  width: 1.8rem;
+  transition: all 0.4s;
+}
+.menu-icon:hover .line {
+  width: 2.5rem;
+}
+.social-icons-list {
+  list-style: none;
+  padding: 0;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.social-link {
+  font-size: 2rem;
+  color: #777;
+  transition: color 0.3s;
+}
+.social-link:hover {
+  color: #86debc;
+}
+.year {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #555;
+}
+/* end of sidebar */
+
+/* Navigation */
+.navigation-search {
+  position: relative;
+}
+.navigation {
+  position: fixed;
+  left: -32rem;
+  width: 40rem;
+  height: 100%;
+  background: linear-gradient(
+      to top,
+      rgba(34, 32, 41, 1),
+      rgba(34, 32, 41, 0.8)
+    ),
+    url(../nav-bg.jpg) center no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: left 0.8s cubic-bezier(1, 0, 0, 1);
+}
+.navigation-heading {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+  color: #86debc;
+  text-align: center;
+}
+.navigation-search-input {
+  width: 30rem;
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-family: "Josefin Sans";
+  font-size: 1.6rem;
+  color: #86debc;
+  letter-spacing: 0.4rem;
+  outline: none;
+  border: 0.1rem solid #555;
+  border-radius: 10rem;
+  transition: background-color 0.3s;
+}
+.navigation-search-input:focus {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.navigation-search-button {
+  border: none;
+  background-color: transparent;
+  color: #86debc;
+  font-size: 1.7rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}
+.navigation-search-button:focus {
+  outline: none;
+}
+.navigation-list {
+  list-style: none;
+  padding: 0;
+  height: 18rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation-item {
+  position: relative;
+}
+.navigation-link {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.navigation-link:hover {
+  color: #86debc;
+}
+
+/* .navigation-link:hover::before,
+.navigation-link:hover::after {
+  width: 3rem;
+} */
+.copyright {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+.checkbox:checked ~ .navigation {
+  left: 8rem;
+}
+
+/* header */
+.header {
+  margin-left: 8rem;
+  height: 100vh;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url(../banner1.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.brand {
+  display: flex;
+  cursor: pointer;
+}
+
+.blog-heading {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2.7rem;
+  font-weight: 400;
+  color: #86debc;
+  letter-spacing: 0.2rem;
+  margin-left: 2rem;
+}
+
+.banner {
+  color: #ddd;
+  height: 65rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-heading {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 7rem;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 20;
+}
+
+.banner-paragraph {
+  font-size: 3.5rem;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+.banner-button {
+  width: 21rem;
+  padding: 1.2rem 2rem;
+  font-size: 2rem;
+  color: #333;
+  letter-spacing: 0.1rem;
+  border: none;
+  border-radius: 10rem;
+  outline: none;
+  background: linear-gradient(
+    to right,
+    rgba(0, 247, 255, 0.658),
+    rgb(32, 206, 218)
+  );
+  cursor: pointer;
+  margin-bottom: 10rem;
+}
+
+.banner-button:hover {
+  background: linear-gradient(to left, rgb(0, 174, 255), rgb(32, 159, 218));
+}
+
+.banner-button:active {
+  transform: translateY(0.2rem);
+}
+
+section {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem;
+  margin-left: 10rem;
+}
+
+article:first-child {
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+article img {
+  margin-bottom: 2rem;
+}
+article h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2.7rem;
+  font-weight: 400;
+}
+h2 a {
+  text-decoration: none;
+}
+h2 a:visited {
+  color: #555;
+}
+footer {
+  padding: 2.5rem;
+  text-align: center;
+}
