@@ -1,10 +1,10 @@
 
  /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
-
 body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
+
 
 /**
  * Add your custom styles below
@@ -17,3 +17,221 @@ body {
  */
 
 
+/*-----General styling */
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    min-width: 37.5rem;
+}
+    
+}
+
+ /*------- Navigation */
+
+ header {
+    display: flex;
+    height: 4.375rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    width: 100%;
+    margin: auto;
+    height: 4.375rem;
+    align-items: center;
+    position: fixed;  
+}
+
+.logo{
+    align-items: center;
+    margin-left: 6.5rem;
+    
+}
+
+.navlinks{
+    display: inline-flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1.7rem;
+    margin-bottom: 1.7rem;    
+}
+
+.navlinks li{
+    margin-left: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: #838994;
+    font-size: 1.04rem;
+    
+}
+
+a:hover {
+    color: black;
+}
+
+a.active {
+    font-weight: 500;
+    color:#4c5058;
+}
+
+/*------ Intro styling */
+
+.intro{
+    background-image: url('../img/first-background.jpg');
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45.938rem;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.intro h1, .intro h3 {
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.intro h1 {
+    font-size: 3.125rem;
+}
+
+.intro h3 {
+    margin-top: 1rem;
+    font-size: 1.563rem;
+}
+
+button {
+    background-color: #f15a29;
+    color: #ffffff;
+    border-style: none;
+    width: 9.688rem;
+    border-radius: 4px;
+    font-size: 1.125rem;
+    padding: 1rem 1.5rem;
+
+}
+
+button:hover {
+    background-color: #d9400e;
+    cursor: pointer;
+}
+
+/*--------Works styling */
+
+.works {
+    background-color: #ffffff;
+    padding-bottom: 5rem;
+}
+
+.works .container {
+    padding: none;
+    text-align: center;
+    color: #1d1e21;
+    margin-top: 7.875rem;
+    text-align: center;
+}
+
+.works h2 {
+    font-weight: 300;
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+}
+
+.works .how {
+    display: inline-flex;
+    list-style: none;
+    align-items: center;
+}
+
+.works .how > li {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.works h3 {
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+    font-weight: 400;
+}
+
+/*----Footer */
+
+.fcontainer {
+    min-width: 37.5rem;
+    padding: 0.938rem 8.5rem 0.938rem;
+}
+
+footer {
+    background-color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 9.375rem;
+}
+
+footer h5 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1.3rem;
+    margin-bottom: 1.25rem;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 1.3rem;
+}
+
+footer li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 0.1rem solid #e9e9e9;
+    border-radius: 2.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+footer li:first-of-type {
+    color: #55acee;
+}
+
+footer li:nth-child(2) {
+    color: #4c66a4;
+}
+
+footer li:last-of-type {
+    color: #3f729b;
+    margin-right: 0;
+}
+
+footer li:hover {
+    cursor: pointer;
+}
+
+footer p {
+    color: #838994;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+hr{
+    margin: 1.3rem 0;
+    border-top: 1px solid #eaebec;
+}
