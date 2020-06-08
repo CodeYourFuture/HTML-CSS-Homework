@@ -71,3 +71,34 @@ footer a{
 footer p{
    font-size: 0.9rem;
 }
+
+/*  Media Queries */
+
+@media (min-width: 992px) { 
+    .nav {
+        font-size: 1.25rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .jumbo-text, .card-title {
+        font-size: 1.4rem;
+    }
+
+    .card-text {
+        font-size: 1.1rem;
+    }
+
+    form {
+        font-size: 1.25rem;
+    }
+
+ }
