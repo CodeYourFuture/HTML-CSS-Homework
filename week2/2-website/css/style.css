@@ -106,14 +106,27 @@ nav ul li:hover {
 /* Section 2 Style */
 
 #everyone-needs-karma {
-    margin-left: 30%;
     display: flex;
-    width: 650px;
-    flex-direction: row;
-    align-items: stretch;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
 }
+
+.karma-flexbox-1 {
+    width: 100%;
+    align-self: center;
+    justify-self: center;
+}
+
+.karma-flexbox-2 {
+    width: 20%;
+    align-self: center;
+    justify-self: center;
+    padding: 5%;
+}
+
 
 /* Footer Style */
 
