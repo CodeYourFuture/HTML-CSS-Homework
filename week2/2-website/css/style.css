@@ -3,7 +3,6 @@
 body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
-    line-height: 1;
 }
 
 
@@ -57,12 +56,14 @@ nav{
 .navlinks{
     display: inline-flex;
     list-style: none;
-    width: 30%;
     justify-content: space-around;
     align-items: center;
     margin-top: 1.7rem;
-    margin-bottom: 1.7rem;
-    
+    margin-bottom: 1.7rem;    
+}
+
+.navlinks li{
+    margin-left: 1.5rem;
 }
 
 a{
@@ -151,7 +152,6 @@ button:hover {
     display: inline-flex;
     list-style: none;
     align-items: center;
-    width: 60%;
 }
 
 .works .how > li {
@@ -231,3 +231,7 @@ footer p {
     font-size: 0.9rem;
 }
 
+hr{
+    margin: 1.3rem 0;
+    border-top: 1px solid #eaebec;
+}
