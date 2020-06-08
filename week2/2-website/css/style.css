@@ -79,7 +79,7 @@ nav ul li:hover {
 }
 
 #introducingKarma {
-    background-image: url("/2-website/img/first-background.jpg");
+    background-image: url("../img/first-background.jpg");
     max-width: 100%;
     height: auto;
     background-repeat: no-repeat;
