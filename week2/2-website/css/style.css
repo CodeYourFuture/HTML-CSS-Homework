@@ -36,6 +36,7 @@ nav {
 nav ul {
     text-decoration: none;
     list-style: none;
+
 }
 
 nav ul li {
@@ -58,16 +59,19 @@ nav ul li:hover {
     background-color: white;
     width: 100%;
     text-align: center;
+    align-items: center;
     border-bottom: 1px solid black;
     position: fixed;
+    padding-top: 15px;
 }
 
 #karma-logo {
-    margin-left: 50px;
+    margin-left: 20%;
     float: left;
     height: auto;
     width: auto;
-    max-height: 50px;
+    padding: 15px;
+    max-height: 40px;
     max-width: 50px;
 }
 
