@@ -78,7 +78,7 @@ nav ul li:hover {
     height: auto;
 }
 
-#introducingKarma {
+#introducing-karma {
     background-image: url("../img/first-background.jpg");
     max-width: 100%;
     height: auto;
@@ -90,7 +90,7 @@ nav ul li:hover {
     font-family: 'Roboto', sans-serif;
 }
 
-#learnMore {
+#learn-more {
     background-color: rgb(255, 81, 0);
     color: white;
     box-shadow: none;
@@ -99,13 +99,13 @@ nav ul li:hover {
     border-radius: 5px;
 }
 
-#learnMore:hover {
+#learn-more:hover {
     background-color: orangered;
 }
 
 /* Section 2 Style */
 
-#everyoneNeedsKarma {
+#everyone-needs-karma {
     margin-left: 30%;
     display: flex;
     width: 650px;
@@ -117,17 +117,17 @@ nav ul li:hover {
 
 /* Footer Style */
 
-#iconContainer {
+#icon-container {
     display: flex;
     justify-content: center;
 }
 
-#iconContainer i {
+#icon-container i {
     margin: 5px;
     padding-top: 5px;
 }
 
-.iconBorder {
+.icon-border {
     margin: 5px;
     align-items: center;
     justify-content: center;
