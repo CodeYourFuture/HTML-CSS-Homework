@@ -1,5 +1,4 @@
-
- /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
+/* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -16,4 +15,148 @@ body {
  * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
  */
 
+/* General Styles */
 
+h1 {
+    font-size: 3em;
+    font-weight: lighter;
+}
+
+h2 {
+    font-weight: lighter;
+}
+
+/* Nav Bar */
+
+nav {
+    display: flex;
+    color: gray;
+}
+
+nav ul {
+    text-decoration: none;
+    list-style: none;
+
+}
+
+nav ul li {
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+}
+
+nav ul li:first-child {
+
+    font-weight: bold;
+}
+
+nav ul li:hover {
+
+    color: black;
+}
+
+.navigation-container {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    position: fixed;
+    padding-top: 15px;
+}
+
+#karma-logo {
+    margin-left: 20%;
+    float: left;
+    height: auto;
+    width: auto;
+    padding: 15px;
+    max-height: 40px;
+    max-width: 50px;
+}
+
+/* Section 1 Style */
+
+#first-background {
+    width: 100%;
+    height: auto;
+}
+
+#introducing-karma {
+    background-image: url("../img/first-background.jpg");
+    max-width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+    padding: 270px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#learn-more {
+    background-color: rgb(255, 81, 0);
+    color: white;
+    box-shadow: none;
+    border: 0px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+
+#learn-more:hover {
+    background-color: orangered;
+}
+
+/* Section 2 Style */
+
+#everyone-needs-karma {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.karma-flexbox-1 {
+    width: 100%;
+    align-self: center;
+    justify-self: center;
+}
+
+.karma-flexbox-2 {
+    width: 20%;
+    align-self: center;
+    justify-self: center;
+    padding: 5%;
+}
+
+
+/* Footer Style */
+
+#icon-container {
+    display: flex;
+    justify-content: center;
+}
+
+#icon-container i {
+    margin: 5px;
+    padding-top: 5px;
+}
+
+.icon-border {
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px solid lightgrey;
+}
+
+footer {
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
