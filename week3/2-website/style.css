@@ -1,1 +1,104 @@
 /*  Add your styling here */
+
+.nav {
+    background-color: #eac4c4;
+}
+
+/* Hover effects for nav links */
+.hvr-underline-from-center:before {
+    background: #d78c9c;
+  }
+  
+  .hvr-underline-from-center:after {
+    background: #d78c9c;
+  }
+
+/*  Jumbotron Styling */
+
+.jumbotron {
+    background-image: url(../images/cakebg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30rem;
+    overflow: auto;
+    width: 100%;
+    margin-top: 100px;
+    opacity: 0.8;
+}
+
+.btns {
+    background: #db96a0;
+}
+
+.btns:hover {
+    background:#eac4c4;
+}
+
+/*  Card Styling */
+
+.card-bg {
+    background:	#e9c4c4;
+}
+
+.card-btn {
+    background: #d27c89;
+} 
+
+.card-btn:hover {
+    background: #db96a0;
+}
+
+.card-section {
+    padding-bottom: 3rem;
+}
+
+/*  Footer Styling */
+
+.footer-section {
+    background-color: #d27c89;
+    margin: 0 auto;
+    text-align: center;
+ 
+}
+
+footer a{
+    color: #000000;
+    font-size: 1.5rem;
+   
+}
+
+footer p{
+   font-size: 0.9rem;
+}
+
+/*  Media Queries */
+
+@media (min-width: 992px) { 
+    .nav {
+        font-size: 1.25rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .jumbo-text, .card-title {
+        font-size: 1.4rem;
+    }
+
+    .card-text {
+        font-size: 1.1rem;
+    }
+
+    form {
+        font-size: 1.25rem;
+    }
+
+ }

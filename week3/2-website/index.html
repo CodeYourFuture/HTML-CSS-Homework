@@ -1,16 +1,372 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Cherry Cake</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Responsive Cake webpage</title>
+    <!-- Hover CDN-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+      type="text/css"
+    />
     <!-- Add a link to your css file here -->
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <!-- Add your markup here -->
-</body>
+    <header>
+      <!-- Navigation Logo and Name-->
 
+      <nav class="navbar nav navbar-expand-lg navbar-light mb-auto fixed-top">
+        <div class="container">
+          <nav class="navbar navbar-light">
+            <a class="navbar-brand" href="#">
+              <img
+                src="/images/logo.png"
+                width="60"
+                height="60"
+                class="d-inline-block"
+                alt=""
+                loading="lazy"
+              />
+              Cherry Cake
+            </a>
+          </nav>
+          <!-- Navigation Burger/toggle menu -->
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto text-right">
+              <li class="nav-item active">
+                <a class="nav-link hvr-underline-from-center" href="#"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-center" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-center" href="#cakes">Cakes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-center" href="#contact"
+                  >Contact Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-center" href="#social"
+                  >Social</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Jumbotron Section -->
+    <section class="container" id="about">
+      <div class="jumbotron text-center">
+        <h1 class="display-6 font-weight-bold mt-5 pt-3">
+          Cherry Cake Traditional Baking
+        </h1>
+        <p class="lead d-none d-md-block mt-4 jumbo-text">
+          Tempor occaecat incididunt laboris laboris mollit labore nostrud
+          incididunt. Occaecat exercitation laborum sint id aute reprehenderit
+          tempor aute consequat reprehenderit magna.
+        </p>
+        <a class="btn btns btn-lg mt-5" href="#" role="button">Contact Us</a>
+      </div>
+    </section>
+
+    <!-- Card Section -->
+    <section class="container" id= "cakes">
+      <div class="row">
+        <div class="col">
+          <h2
+            class="display-12 font-weight-bold mt-5 pt-3 mb-5 pb-3 text-center"
+          >
+            Cakes
+          </h2>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card card-bg text-center">
+              <img
+                src="images\Cakes\cake-with-macarons.jpg"
+                class="card-img-top"
+                alt="cake with macarons"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Trendy Cakes</h5>
+                <p class="card-text">
+                  Officia proident in ipsum et. Do sunt dolor amet pariatur.
+                  Sunt culpa aliquip dolor duis elit est. Cillum voluptate amet
+                  reprehenderit ea.
+                </p>
+                <a href="#" class="btn card-btn">More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card card-bg text-center">
+              <img
+                src="images\Cakes\cake-with-strawberries.jpg"
+                class="card-img-top"
+                alt="cake with strawberries or fruit cakes"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Fruit Cakes</h5>
+                <p class="card-text">
+                  Officia proident in ipsum et. Do sunt dolor amet pariatur.
+                  Sunt culpa aliquip dolor duis elit est. Cillum voluptate amet
+                  reprehenderit ea.
+                </p>
+                <a href="#" class="btn card-btn">More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card card-bg text-center">
+              <img
+                src="images\Cakes\wedding-cake.jpg"
+                class="card-img-top"
+                alt="wedding cake"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Wedding Cakes</h5>
+                <p class="card-text">
+                  Officia proident in ipsum et. Do sunt dolor amet pariatur.
+                  Sunt culpa aliquip dolor duis elit est. Cillum voluptate amet
+                  reprehenderit ea.
+                </p>
+                <a href="#" class="btn card-btn">More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card card-bg text-center">
+              <img
+                src="images\Cakes\tart.jpg"
+                class="card-img-top"
+                alt="tarts"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Tart&Etc.</h5>
+                <p class="card-text">
+                  Officia proident in ipsum et. Do sunt dolor amet pariatur.
+                  Sunt culpa aliquip dolor duis elit est. Cillum voluptate amet
+                  reprehenderit ea.
+                </p>
+                <a href="#" class="btn card-btn">More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Form Section -->
+    <section class="container card-section" id="contact">
+      <div class="row">
+        <div class="col">
+          <h2
+            class="display-12 font-weight-bold mt-5 pt-3 mb-5 pb-3 text-center"
+          >
+            Contact Us
+          </h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col d-none d-md-block col-md-6 col-lg-6">
+          <img
+            src="images\Cakes\order-cakes.jpg"
+            class="img-thumbnail img-fluid"
+            alt="Several cakes for order"
+          />
+        </div>
+        <div class="col col-sm-12 col-md-6 col-lg-6 mt-2">
+          <form>
+            <div class="form-group row">
+              <label for="inputName1" class="col-sm-5 col-form-label"
+                >Your Name:</label
+              >
+              <div class="col-sm-7">
+                <input
+                  type="Text"
+                  class="form-control"
+                  id="inputName1"
+                  placeholder="e.g. John Banks"
+                />
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="inputEmail3" class="col-sm-5 col-form-label"
+                >Email:</label
+              >
+              <div class="col-sm-7">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="inputEmail3"
+                  placeholder="name@example.com"
+                />
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="exampleFormControlSelect1" class="col-sm-5"
+                >What Would You Like?</label
+              >
+              <select
+                class="form-control col-sm-7"
+                id="exampleFormControlSelect1"
+              >
+                <option>Menu 1</option>
+                <option>Menu 2</option>
+                <option>Menu 3</option>
+                <option>Menu 4</option>
+                <option>Menu 5</option>
+              </select>
+            </div>
+            <div class="form-group row">
+              <div class="col-sm-5">Dietary Requirements:</div>
+              <div class="col-sm-7">
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="gridCheck1"
+                  />
+                  <label class="form-check-label" for="gridCheck1">
+                    Option 1
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="gridCheck2"
+                  />
+                  <label class="form-check-label" for="gridCheck2">
+                    Option 2
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="gridCheck3"
+                  />
+                  <label class="form-check-label" for="gridCheck3">
+                    Option 3
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="gridCheck4"
+                  />
+                  <label class="form-check-label" for="gridCheck4">
+                    Option 4
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group row ml-auto">
+              <label for="exampleFormControlTextarea1">Comments?</label>
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+                placeholder="Any questions? Need a personalised message? Special requests? Any extras you would like to add?"
+              ></textarea>
+            </div>
+            <div class="form-group row text-center">
+              <div class="col-sm-10">
+                <button type="submit" class="btn btns">Send</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+     <!-- Card Section -->
+    <footer class="footer-section pt-5 pb-3" id="social">
+      <div class= "row text-center">
+        <div class="col sm-12">
+          <div class="col-sm-12">
+            <h5 class="text-uppercase font-weight-bold">
+              Follow Us
+            </h5>
+            
+            <a href="#" target="_blank"
+              ><i class="fa fa-facebook-square"></i
+            ></a>
+
+            <a href="#" target="_blank"
+              ><i class="fa fa-twitter"></i
+            ></a>
+
+            <a href="#" target="_blank"
+              ><i class="fa fa-instagram"></i
+            ></a>
+
+          </div>
+        </div>
+        <div class="col-sm-12">
+          <p class="text-monospace py-4">&copy; 2020 Copyright: Selina Hussain.</p>
+        </div>
+      </div>
+      
+    </footer>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
