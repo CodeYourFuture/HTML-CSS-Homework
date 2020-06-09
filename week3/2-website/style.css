@@ -1,4 +1,5 @@
 /*general style */
+
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 body {
@@ -19,12 +20,18 @@ a {
     color: inherit;
 }
 
-section, header, .header-top {
+.about, .products, .navigation, .header-top {
     margin-bottom: 64px;
+}
+
+section, header, footer {
+    max-width: 1700px;
+    margin: auto;
 }
 
 
 /* header style*/
+
 .header-top {
     background-color: #f4a261;
     display: flex;
@@ -35,6 +42,7 @@ section, header, .header-top {
 
 .logo {
     max-width: 50%;
+    max-height: 250px;
 }
 
 .contact-button {
@@ -76,6 +84,7 @@ section, header, .header-top {
 
 
 /* about section style */
+
 .about {
     display: flex;
     flex-direction: column;
@@ -126,6 +135,7 @@ section, header, .header-top {
 
 
 /* product section style */
+
 .products > ul {
     display: flex;
     flex-direction: column;
@@ -148,8 +158,19 @@ section, header, .header-top {
 
 
 /* footer style */
+
 #footer {
     padding: 16px 0;
+    margin-bottom: 0;
+}
+
+#footer > ul {
+    max-width: 1000px;
+    margin: auto;
+}
+
+#footer > ul > li {
+    padding: 0.5rem;
 }
 
 #footer > ul > li > a {
@@ -157,8 +178,9 @@ section, header, .header-top {
     padding: 0.5rem 0;
 }
 
-#footer > ul > li {
-    padding: 0.5rem;
+#footer > p {
+    text-align: left;
+    padding: 0 1rem;
 }
 
 
@@ -169,13 +191,22 @@ section, header, .header-top {
         flex-direction: row;
         justify-content: space-around;
     }
+
+    #footer > p {
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 600px) {
+    .navigation > ul {
+        align-items: center;
+    }
+
     .products > ul {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: stretch;
     }
 
     .products > ul > li {
@@ -185,8 +216,69 @@ section, header, .header-top {
 }
 
 @media screen and (min-width: 750px) {
+    .header-top {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding: 24px 32px;
+    }
+    
+    .contact-button {
+        font-size: 2rem;
+        padding: 2rem;
+    }
+
     .navigation > ul {
         flex-direction: row;
         justify-content: space-around;
+        padding: 6px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    
+    .about {
+        flex-direction: row;
+    }
+    
+    .description {
+        padding: 1rem;
+        margin-bottom: 0;
+        margin-right: 1rem;
+        width: 33%;
+    }
+
+    .image-carousel {
+        width: 66%;
+    }
+
+    .products > ul {   
+        flex-wrap: nowrap;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .description h1 {
+        font-size: 2.5rem;
+    }   
+
+    .description h3 {
+        font-size: 1.75rem;
+    }
+
+    .description p {
+        font-size: 1.25rem;
+    }
+
+    .products h2 {
+        font-size: 2rem;
+    }
+
+    .products p {
+        font-size: 1.5rem;
+    }
+
+    #footer p {
+        font-size: 1.25rem;
     }
 }
