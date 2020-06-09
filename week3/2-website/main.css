@@ -1,7 +1,4 @@
-* {
-    font-family: "Pacifico", cursive;
-    background-color: rgb(251, 248, 252);
-  }
+
   /*---Main Container---*/
   .container{
       width: 100%;
@@ -10,14 +7,7 @@
       align-items: center;
   }
   /*---Navigation Bar and Header ---*/
-  .header .top-header {
-   background-color: lightgrey;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 10px;
-    margin-top: 20px;
-  }
+   
   .top-header .logo{
     background-color: darkgrey;
       width: 200px;
@@ -37,63 +27,25 @@
       background-color: lightgrey;
     }
   
-  .nav-bar .nav-list{
-    background-color: lightgrey;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 30px
-    }
-
 .nav-list li{
     margin: 5px;
     padding: 5px;
     background-color: darkgrey; 
   } 
-  .container .main-container{
-      
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+  
   .main-container .info-section{
    
     background-color: lightgrey;
     width: 100%;
     text-align: center;
   }
-  .main-container .image-section{
-      
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    margin-top: 20px;
-       }
-  .image-carousel{
-    background-color: lightgrey;
-    width: 300px;
-    height: 300px;
-    padding: 20px;
-  }  
+  
   .carousel-list{
     background-color: lightgrey;
     margin: 20px;
     padding: 20px;
   }
-  .carousel-list .carousel-item{
-    background-color: lightgrey;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-
-    
-    
-  }   
+  
   .carousel-item li{
     margin: 20px;
     padding: 20px;
@@ -103,68 +55,10 @@
     margin-right: 50px;
 }
   
- /* .image-section {
-              
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-      
-    
-
-  }/*
-  .image-section .image-list{
-      background-color: dodgerblue;
-      
-
+ .section{
+    background-color: lightgrey;
   }
-  .image-list ul{
-      margin: 0px;
-      padding: 0px;
-      padding: 10px;
-      display: flex;
-      justify-content: space-around;
-  }
-  .image-list ul li{
-      background-color: orchid;
-      list-style: none;
-      
-      width: 50px;
-      height: 50px;
-      
-
-  }*/
-  /*.container .section{
-      /*background-color: violet;*/
-      /*margin-top: 100px;*/
-      /*padding: 10px;*/
-      /*width: 100%;*/
-      /*height: 100%;
   
-      
-  }*/
-  .section{
-    background-color: lightgrey;
-  }/*
-  .section .cake-samples{
-
-    
-    /* margin-right: 20px; 
-    background-color: lightgrey;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   
-  }*/
-  .cake-samples{
-   
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-    padding: 50px;
-    background-color: lightgrey;
-
-}
   .cake-portrait{
     background-color: lightgrey;
   }  
@@ -178,16 +72,7 @@
     margin: 20px;
   }
   
-
-  .footer{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px;
-    background-color: lightgrey;
-  }
-  .footer .footer-list{
+.footer .footer-list{
     background-color: lightgrey;
       
   }
@@ -199,4 +84,136 @@
     background-color: darkgrey;
     margin: 20px;
   }
-  @media screen
+  @media (max-width: 400px){
+    .header .top-header {
+     background-color: lightgrey;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+      margin-top: 20px;
+    }
+    .nav-bar .nav-list{
+      background-color: lightgrey;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 30px
+      }
+      .container .main-container{
+      
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .main-container .image-section{
+      
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        margin-top: 20px;
+           }
+      .image-carousel{
+        background-color: lightgrey;
+        width: 300px;
+        height: 300px;
+        padding: 20px;
+      }  
+      .carousel-list .carousel-item{
+        background-color: lightgrey;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+     
+      }   
+      .cake-samples{
+   
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        padding: 50px;
+        background-color: lightgrey;
+    
+    }
+    
+  .footer{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color: lightgrey;
+  }
+  }
+  @media (min-width: 800px){
+    .header .top-header {
+      background-color: lightgrey;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly;
+       margin-bottom: 10px;
+       margin-top: 20px;
+     }
+     .nav-bar .nav-list{
+       background-color: lightgrey;
+       list-style: none;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       margin-right: 30px
+       }
+       .container .main-container{
+      background-color: lawngreen;
+        /*margin: 20px;*/
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+      }
+      .info-section{
+        width: 30%;
+        background-color: lightseagreen;
+        align-self: flex-start;
+        margin: 20px;
+      }
+      .image-section{
+        width: 70%;
+        background-color: magenta;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .image-carousel{
+        align-self: center;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+      }
+      .carousel-list .carousel-item{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 20px;
+
+              }
+            
+      .cake-samples ul{
+                display: flex;
+                justify-content: space-evenly;
+              }
+       .footer ul{
+         width: 100%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 50px;
+        background-color: lightgrey;
+      }
+  }
