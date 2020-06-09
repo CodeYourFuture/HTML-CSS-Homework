@@ -1,7 +1,6 @@
-
+/*general style */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
-/*general style */
 body {
     background-color: #e9c46a;
     font-family: 'Lobster', cursive;
@@ -84,6 +83,7 @@ section, header, .header-top {
 .description {
     background-color: #f4a261;
     padding: 1rem 5%;
+    margin-bottom: 1rem;
 }
 
 .title {
@@ -125,7 +125,6 @@ section, header, .header-top {
 
 
 /* product section style */
-
 .products > ul {
     display: flex;
     flex-direction: column;
@@ -148,7 +147,6 @@ section, header, .header-top {
 
 
 /* footer style */
-
 #footer {
     padding: 16px 0;
 }
@@ -160,8 +158,8 @@ section, header, .header-top {
 
 #footer > ul > li {
     padding: 0.5rem;
-    background-color: #e76f51;
-    border-radius: 10px;
-    width: 100px;
-    margin: 10px 0;
 }
+
+
+/* styles for larger screens */
+
