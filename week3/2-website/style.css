@@ -1,1 +1,22 @@
-/*  Add your styling here */
+.column:hover, .demo-content:hover {
+    transform: scale(1.1);
+    transition: ease 1s;
+
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .footer-copyright{
+      background-color:  rgb(167, 30, 15);
+  }
+
+  
