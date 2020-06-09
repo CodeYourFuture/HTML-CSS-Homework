@@ -1,8 +1,219 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+/*=============================================
+ =            RESET BROWSER DEFAULTS            =
+ =============================================*/
+
+html {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  color: var(--black-text);
+}
+
+/*=====  End of RESET BROWSER DEFAULTS  ======*/
+
+/*=============================================
+=            GLOBAL STYLES            =
+=============================================*/
+
+html {
+  --main-bg-color: #e0e4cc;
+  --featured-article-color: #a7dbd8;
+  --link-bg-color: #f38630;
+  --link-bg-hover-color: #fa6900;
+  --black-text: #3b3b3b;
+  --black-link-text: #030303;
+  --text-width: 46rem;
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+strong {
+  font-weight: 500;
+}
+
+p {
+  margin-bottom: 0.5rem;
+}
+
+.text-link {
+  color: var(--black-link-text);
+}
+
+.text-link:hover {
+  color: #fff;
+  background: var(--black-link-text);
+  padding: 0 0.1em;
+}
+
+::selection {
+  background-color: lightgrey;
+}
+
+/*=====  End of GLOBAL STYLES  ======*/
+
+/*=============================================
+ =            HEADER            =
+ =============================================*/
+
+header {
+  margin: 1rem 1rem 4rem 1rem;
+}
+
+.brand {
+  margin-bottom: 2rem;
+}
+
+.brand-heading {
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.brand-slogan {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  background: var(--link-bg-color);
+  padding: 0.5rem 0.75rem;
+  color: var(--black-link-text);
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 0.2rem;
+}
+
+.nav-link:hover {
+  background: var(--link-bg-hover-color);
+}
+
+nav > ul li {
+  display: inline-block;
+}
+
+/*=====  End of HEADER  ======*/
+
+/*=============================================
+=            MAIN            =
+=============================================*/
+
+main {
+  margin-bottom: 5rem;
+}
+
+.articles-heading-container {
+  max-width: var(--text-width);
+  margin: 0 auto;
+}
+
+.articles-heading {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px lightgrey;
+  font-weight: 500;
+  font-size: 1.75rem;
+}
+
+.article {
+  padding: 2rem 0.75rem;
+}
+
+.article:first-of-type {
+  background-color: var(--featured-article-color);
+}
+
+.article h3 {
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+  font-weight: 400;
+}
+
+.article:target h3 {
+  font-style: italic;
+}
+
+.article img {
+  margin: 1rem 0;
+}
+
+.article-wrapper {
+  margin: 0 auto;
+  max-width: var(--text-width);
+}
+
+.article-wrapper p {
+  text-align: justify;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.article-wrapper > p:first-of-type::first-letter {
+  font-size: 2rem;
+}
+
+/*=====  End of MAIN  ======*/
+
+/*=============================================
+=            FOOTER            =
+=============================================*/
+
+footer {
+  height: 10rem;
+  background-color: #69d2e7;
+  display: flex;
+  align-items: center;
+}
+
+.footer-content {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content p:first-child {
+  margin-left: 2rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.footer-content p:nth-child(2) {
+  margin-right: 2rem;
+}
+
+/*=====  End of FOOTER  ======*/
