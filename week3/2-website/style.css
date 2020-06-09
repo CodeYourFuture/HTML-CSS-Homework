@@ -1,39 +1,83 @@
 .d-block, .jumbotron {
-    height: 400px;
-    
+    height: 400px;   
+}
+.jumbotron {
+    background-color: #4cd3c2;
+    color:  white;
 }
 /* Change the size of the Navbar and nav-brand */
 .navbar {
     min-height: 50px;
+    margin-bottom: 20px;
   }
   
-  .navbar-brand {
-    padding: 0 20px;
+.navbar-brand {
+    
+    padding: 0 10px;
     height: 120px;
     line-height: 120px;
   }
-  .nav-link {
+.nav-link {
       margin: 0 70px;
       padding: 5px 10px;
-      border: 1px solid red;
+      border: 1px solid white;
       border-radius: 10px;
       text-transform: uppercase;
+      color: white;
   }
-  .justify-txt {
+.nav-1 {
+    background-color: #faeee7;
+  }
+.justify-txt {
       text-align: center;
   }
-  .carousel {
+.carousel {
     width:auto; /* Or try to use important */
-    
-  }
-  .card {
-    height: 24rem;
     margin-bottom: 20px;
   }
-  .card > img {
+.card {
+    height: 24rem;
+    margin-bottom: 20px;
+    border-color: #4cd3c2;
+  }
+
+.card > img {
       width: 100%;
       height: 50%;
   }
-  .bg-danger {
-      background-color: #f54291;
+
+ .back-color-nav {
+     background-color: #f54291;
+ }
+ .col {
+    overflow-wrap: break-word;
+ }
+
+ .btn-primary, 
+ .btn-primary:hover,
+ .btn-primary:active {
+    color: lightYellow ;
+    background-color: #0a97b0;
+    margin: 0 auto;
+    border-color: white;
+  }
+
+a:hover,
+a:visited {
+    font-weight: bold;
+    color: white;
+}
+footer .nav-link {
+    text-align: center;
+}
+
+
+/*           MEDIA QUERY        */
+@media only screen and (max-width: 767px) {
+    .nav-link  {
+      border: none;
+    }
+    .jumbotron {
+        height: 250px;
+    }
   }
