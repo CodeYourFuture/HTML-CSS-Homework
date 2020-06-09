@@ -1,1 +1,94 @@
-/*  Add your styling here */
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.d-block, .jumbotron {
+    height: 400px;   
+}
+.jumbotron {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #4cd3c2;
+    color:  white;
+}
+/* Change the size of the Navbar and nav-brand */
+.navbar {
+    min-height: 50px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+.navbar-brand {
+    
+    padding: 0 10px;
+    height: 120px;
+    line-height: 120px;
+  }
+.nav-link {
+    font-family: 'Roboto', sans-serif;
+      margin: 0 70px;
+      padding: 5px 10px;
+      border: 1px solid white;
+      border-radius: 10px;
+      text-transform: uppercase;
+      color: white;
+  }
+.nav-1 {
+    background-color: #faeee7;
+  }
+.justify-txt {
+      text-align: center;
+  }
+.carousel {
+    width:auto; /* Or try to use important */
+    margin-bottom: 20px;
+  }
+.card {
+    font-family: 'Open Sans', sans-serif;
+    height: 24rem;
+    margin-bottom: 20px;
+    border-color: #4cd3c2;
+  }
+
+.card > img {
+      width: 100%;
+      height: 50%;
+  }
+
+ .back-color-nav {
+     background-color: #f54291;
+ }
+ .col {
+    overflow-wrap: break-word;
+ }
+
+ .btn-primary, 
+ .btn-primary:hover,
+ .btn-primary:active {
+    color: lightYellow ;
+    background-color: #0a97b0;
+    margin: 0 auto;
+    border-color: white;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+a:hover,
+a:visited {
+    font-weight: bold;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+footer .nav-link {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*           MEDIA QUERY        */
+@media only screen and (max-width: 767px) {
+    .nav-link  {
+      border: none;
+    }
+    .jumbotron {
+        height: 250px;
+    }
+  }
