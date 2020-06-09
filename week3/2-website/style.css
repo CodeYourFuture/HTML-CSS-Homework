@@ -56,8 +56,9 @@ section, header, .header-top {
 .navigation > ul {
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: left; 
     padding: 16px 0; 
+    margin: 10px;
 }
 
 .navigation > ul > li {
@@ -163,3 +164,29 @@ section, header, .header-top {
 
 /* styles for larger screens */
 
+@media screen and (min-width: 400px) {
+    #footer > ul {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .products > ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .products > ul > li {
+        max-width: 40%;
+        margin: 10px;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .navigation > ul {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
