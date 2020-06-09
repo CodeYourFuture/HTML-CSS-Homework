@@ -5,4 +5,364 @@
  * - Be organised, use comments and separate your styles into meaningful chunks
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
- */
+*/
+
+
+
+*{
+    margin: 0; 
+    padding: 0;
+}
+body{
+    font-family: 'Comfortaa', cursive;
+}
+
+/* ---------------------------- */
+/* ---------------------------- */
+/* -------------- SECTION TITLE -------------- */
+/* ---------------------------- */
+/* ---------------------------- */
+ .section-title{
+    font-size: 35px;
+    width: max-content;
+    margin: 50px 0 50px auto;
+}
+
+.section-title-left{
+    margin: 50px auto 50px 0;
+}
+
+.section-title::after{
+    content: '';
+    width: 50%;
+    height: 4px;
+    background-color: #787878;
+    display: block;
+}
+
+
+
+/* ---------------------------- */
+/* ---------------------------- */
+/* -------------- NAV-BAR -------------- */
+/* ---------------------------- */
+/* ---------------------------- */
+.navigation{
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    background-color: white;
+    box-shadow: 1px 1px 2px black;
+    z-index: 10;
+}
+.nav-bar{
+    padding: 20px 5%;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    
+}
+
+.logo-link{
+    text-decoration: none;
+    font-size: 0px;
+}
+
+.logo{
+    width: 180px;
+    height: auto;
+}
+
+.nav-list{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-item{
+    font-size: 18px;
+    color: #787878;
+    text-decoration: none;
+    margin-left: 30px; 
+}
+
+.nav-item:hover{
+    color: black;
+}
+
+
+/* ---------------------------- */
+/* ---------------------------- */
+/* -------------- JUMBOTRON -------------- */
+/* ---------------------------- */
+/* ---------------------------- */
+.jumbotron{
+    padding: 50px 0;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jumbotron-box{
+    width: max-content;
+    background-color: #000000c7;
+    color: white;
+    padding: 100px;
+    text-align: center;
+}
+
+.jumbotron-heading{
+    margin-bottom: 30px;
+}
+
+
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/* ---------------------------- */
+/* ---------------------------- */
+/* -------------- ABOUT SECTION -------------- */
+/* ---------------------------- */
+/* ---------------------------- */
+
+.section-about{
+    margin-top: 200px;
+}
+
+.about-box{
+    margin-left: auto;
+    background-color: #f3f3f3;
+    padding: 50px 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+      
+}
+
+.about-img{
+    width: 40%;
+    height: auto;
+}
+
+.about-info{
+    margin-left: 100px;
+}
+
+.about-title{
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+
+.about-description{
+    color: #787878;
+}
+
+
+/* ---------------------------- */
+/* ---------------------------- */
+/* -------------- ARTICLE SECTION -------------- */
+/* ---------------------------- */
+/* ---------------------------- */
+
+.section-article{
+    margin: 200px 0;
+}
+
+.article-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.article{
+    width: 30%;
+    background-color: #f3f3f3;
+    transition: all .2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.article:first-child{
+    border-left: 1px solid rgb(231, 43, 43);
+}
+
+.article:hover{
+    transform: translateY(-5px);
+    box-shadow: 1px 1px 5px black;
+}
+
+.article-img{
+    width: 100%;
+}
+
+.article-info{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.article-title, .article-description, .article-button {
+    margin: 10px 0;
+}
+
+.article-title{
+    font-size: 25px;
+}
+
+.article-description{
+    color: #787878;
+}
+
+.article-button{
+    outline: none;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.article-button:hover{
+    background-color: black;
+    color: white;
+}
+
+.article-label{
+    background-color: rgb(231, 43, 43);
+    width: max-content;
+    padding: 10px 20px;
+    color: white;
+    position: absolute;
+    top: 50px;
+}
+
+/* ---------------------------- */
+/* ---------------------------- */
+/* -------------- FOOTER -------------- */
+/* ---------------------------- */
+/* ---------------------------- */
+
+.footer{
+    background-color: #787878;
+    padding: 20px 50px;
+    text-align: center;
+    color: white;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo{
+    font-size: 25px;
+    width: 30%;
+}
+
+.footer-social a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    margin: 0 20px;
+}
+
+.footer-social a:hover{
+    color: #f3f3f3;
+}
+
+.footer-contact{
+    text-align: left;
+}
+
+.footer-contact p {
+    margin: 10px 0;
+}
+
+.footer-contact p i{
+    margin-right: 10px;
+    color: black;
+    font-size: 20px;
+}
+
+.footer-copyright{
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+
+
+/* ---------------------------- */
+/* ---------------------------- */
+/* -------------- MEDIA QUERIES -------------- */
+/* ---------------------------- */
+/* ---------------------------- */
+
+
+@media (max-width: 1000px){
+    .about-info{
+        margin-left: 50px;
+    }
+
+    .footer-container{
+        flex-direction: column;
+    }
+
+    .footer-logo{
+        width: max-content;
+    }
+
+    .footer-social{
+        margin: 50px;
+    }
+    .footer-contact{
+        text-align: center;
+    }
+}
+
+@media (max-width: 900px){
+    .about-title{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 850px){
+
+    .logo{
+        width: 150px;
+    }
+    .about-box{
+        flex-direction: column;
+    }
+
+    .about-info{
+        margin-left: 0;
+    }
+
+    .about-img{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .article-box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .article{
+        width: 70%;
+        margin-bottom: 50px;
+    }
+}
+
