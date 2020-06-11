@@ -57,7 +57,7 @@ body {
  }
 
  /*group class code for logos*/
- .solo, .codepen, .codeorg,  .capgemini {
+ .icon-logo {
   width: 150px;
   height: 150px;
   border-radius: 10px;
@@ -171,7 +171,7 @@ ol {
 }
 
 /*selects and styles the second on the list*/
-.fulldev li:nth-child(2) {
+#fulldev li:nth-child(2) {
   color: rgb(212, 151, 27);
 }
 
