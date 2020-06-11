@@ -166,8 +166,8 @@ ol {
 }
 
 /*link to all the url on the boxes*/
-.external-{
-  text-align: justify;
+.external-link{
+  text-align: center;
 }
 
 /*selects and styles the second on the list*/
