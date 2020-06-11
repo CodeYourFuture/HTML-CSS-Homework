@@ -1,3 +1,4 @@
+/*General style*/
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -11,6 +12,7 @@ body {
   border-color: magenta;
 }
 
+/*Navigation style*/
 .topic {
   font-size: 2em;
   text-align: center;
@@ -18,7 +20,6 @@ body {
   background-color: #d4b16a;
 }
 
-/*the links for the menu*/
 .nav {
   color: white;
   background-color: rgb(197, 145, 40);
@@ -40,10 +41,28 @@ body {
   margin: 60px;
 }
 
-/*targets the heading child tag*/
-.pre > h2 {
+a:hover {
+  color: green;
+}
+
+#active {
+  background-color: rgb(189, 238, 144);
+}
+
+/*Introduction session style*/
+.introduce > h2 {
   text-decoration: underline;
   margin: 60px;
+}
+
+.introduce > p {
+  margin-top: 60px;
+  margin-bottom: 10px;
+  margin-right: 200px;
+  margin-left: 300px;
+  text-align: justify;
+  color: white;
+  font-size: 20px;
 }
 
 .profile-image {
@@ -56,34 +75,7 @@ body {
   height:auto;
  }
 
- /*group class code for logos*/
- .icon-logo {
-  width: 150px;
-  height: 150px;
-  border-radius: 10px;
-  border: 5px solid rgb(133, 79, 79);
-  margin-bottom: 10px;
-  margin-right: 60px;
-  margin-top: 0px;
-  max-width: 100%;
-  height:auto;
-  float:right;
- }
-
- .cyf_logo {
-  width: 100px;
-  height:75px;
-  border-radius: 5px;
-  border: 5px rgb(34, 24, 24);
-  margin-bottom: 30px;
-  margin-right: 110px;
-  margin-top: 5px;
-  max-width: 100%;
-  height:auto;
-  float: right;
-}
-
-/*handles the social media links*/
+ /*Social media style*/
 .social {
   padding: 0px;
   margin-right: 0px;
@@ -103,12 +95,11 @@ body {
   font-size: 40px;
 }
 
-/*allows change of color on hover event*/
 .social li:hover {
   padding: 20px 40px;
 }
 
-/*grouped code for all boxes*/
+/*Container section styles*/
 .course{ 
   background-color: #ffe9aa;
   box-sizing: border-box;
@@ -121,26 +112,19 @@ body {
   margin: 10px 30px 20px 280px;
 }
 
-/*targets only the Pre-Bootcamp menu link*/
-a[href*="Intro"] {
-  background-color: rgb(189, 238, 144);
-}
-
-/*selects the paragraph only as direct child*/
-.pre > p {
-  margin-top: 60px;
+.company-logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  border: 5px solid rgb(133, 79, 79);
   margin-bottom: 10px;
-  margin-right: 200px;
-  margin-left: 300px;
-  text-align: justify;
-  color: white;
-  font-size: 20px;
-}
-
-/*.link-image{
-  vertical-align: right;
-}*/
-
+  margin-right: 60px;
+  margin-top: 0px;
+  max-width: 100%;
+  height:auto;
+  float:right;
+ }
+ 
 h1,
 h2 {
   text-align: center;
@@ -175,10 +159,7 @@ ol {
   color: rgb(212, 151, 27);
 }
 
-/*for the href links*/
-a:hover {
-  color: green;
-}
+/*Footer*/
 
 #footer {
   background-color: lightpink;
@@ -189,4 +170,17 @@ a:hover {
   margin: auto;
   text-align: center;
   vertical-align: middle;
+}
+
+.cyf_logo {
+  width: 100px;
+  height:75px;
+  border-radius: 5px;
+  border: 5px rgb(34, 24, 24);
+  margin-bottom: 30px;
+  margin-right: 110px;
+  margin-top: 5px;
+  max-width: 100%;
+  height:auto;
+  float: right;
 }
