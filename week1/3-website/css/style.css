@@ -34,7 +34,7 @@ body {
   margin-bottom: 0px;
   }
 
-.link {
+.internal-link {
   color: rgb(77, 13, 52);
   text-align: center;
   margin: 60px;
@@ -166,7 +166,7 @@ ol {
 }
 
 /*link to all the url on the boxes*/
-.weblink{
+.external-{
   text-align: justify;
 }
 
