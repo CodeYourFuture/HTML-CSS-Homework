@@ -109,7 +109,7 @@ body {
 }
 
 /*grouped code for all boxes*/
-.prelim, .coursestart, .drop-in, .full{ 
+.course{ 
   background-color: #ffe9aa;
   box-sizing: border-box;
   width: 1000px;
