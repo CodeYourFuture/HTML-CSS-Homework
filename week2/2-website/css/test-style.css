@@ -30,12 +30,12 @@ body {
 
 .content-nav {
 	display: flex;
-	justify-content: center;
-	align-items: center;
 	border: 2px;
-	padding: 0rem;
-	margin: 0.5rem;
+	padding: 0.50rem;
+	margin: 0.50rem;
 	height: 3rem;
+	justify-content: center;
+	align-content: center;
 }
 
 .links {
@@ -44,13 +44,17 @@ body {
 	align-items: center;
 	list-style-type: none;
 	font-size: 1.1rem;
-	padding: 0rem;
-	margin: 0rem;
+	padding: 0.50rem;
+	margin: 0.50rem;
+	align-content: center;
 }
 .links li {
 	padding: 0.50rem;
-	margin: 1rem;
+	margin: 1rem 1rem 1rem 1rem;
+	align-content: flex-start;
 	cursor: pointer;
+}
+.links li {
 	color: rgb(189, 184, 184);
 }
 
@@ -64,6 +68,7 @@ body {
 .logo {
 	height: 2.75rem;
 	width: 2.75rem;
+	margin-right: 5rem;
 }
 
 /* Section-1 Introduction styling   */
@@ -134,36 +139,29 @@ button:hover {
 
 .devices {
 	display: flex;
-	flex-direction: row;
 	justify-content: center;
-	align-items: center;
+	align-content: center;
 }
 
 .devices li {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	padding: 0rem;
-	margin: 0rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
 	list-style-type: none;
-	box-sizing: border-box;
-	text-align: center;
+	align-content: center;
 }
 
 li img {
 	width: 50%;
 	height: 50%;
-	/* align-self: center; */
 }
-
+.caption {
+}
 li h3 {
 	font-size: 2rem;
 	font-weight: lighter;
 	text-align: center;
-	margin: 4rem;
-	padding: 4rem;
-	/* align-self: center; */
 }
 
 /* Footer styling   */
@@ -263,4 +261,4 @@ hr {
 	text-align: center;
 }
 
-/*	Media quaries styling  */
+/*	End of styling  */
