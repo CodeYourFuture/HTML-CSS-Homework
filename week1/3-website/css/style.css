@@ -68,7 +68,7 @@ a:hover {
 .profile-image {
   width: 150px;
   height: 150px;
-  float:left;
+  float: left;
   border-radius: 10px;
   border: 5px solid rgb(133, 79, 79);
   margin: 30px;
@@ -159,8 +159,7 @@ ol {
   color: rgb(212, 151, 27);
 }
 
-/*Footer*/
-
+/*Footer style*/
 #footer {
   background-color: lightpink;
   box-sizing: border-box;
