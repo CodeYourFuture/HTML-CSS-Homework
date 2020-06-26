@@ -6,3 +6,169 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+/*                        
+                             Reset padding & margin jsut for those elemnts thatt are being used           
+*/
+
+ html, body, p, img, h1, h2, footer {
+    padding: 0;
+    margin: 0;
+ }
+/*
+                                set edfault background, text colour and font-family
+*/
+ body{
+     background: #222e3f;
+     color: #B5ADB3;
+     font-family: 'Montserrat', sans-serif;
+ }
+
+ /*
+                                default heading values...
+ */
+ h1{
+     font-size: 6rem;
+     text-align: center;
+ }
+
+ h2 {
+     border-radius:  15px 15px 0 0;
+     background: #2b1d23;
+     padding: 0.2em;
+ }
+
+ h1, h2 {
+     font-family: 'Gravitas One', cursive;
+ }
+
+ /*
+                                                define our layout to be centred
+ */
+ #container{
+     width: 80%;
+     margin: 0 auto;
+ }
+
+ /*
+                                            Header elements
+ */
+header {
+    background: #bc4123;
+    border-radius: 0px 0px 20px 20px;
+    padding-top: 1em;
+}
+
+header h1 {
+    color: #222e3f;
+}
+
+ header, main{
+     margin: 0 auto  3em;
+ }
+
+ blockquote{
+     width: 55%;
+     height: 0.8em;
+    margin: 0 auto 0; 
+    margin-top: 1.5em;
+    padding-top: 0.6em;
+    background: #222e3f; 
+    text-align:  center;
+    font-size: 1.3em;
+    border-radius: 20px 20px 0 0;
+    color: #bc4123;
+    /* border-bottom: 2px solid #bc4123; */
+}
+
+ /*
+                                            Section elements
+ */
+ section {
+     width: 840px;                          /*   matches the width of the images...Hmmm, not quite responsive  */
+     margin: 0 auto;
+     margin-bottom: 3em;
+ }
+
+ section img {
+     width: 100%;
+     border-radius: 0px 0px 20px 20px;
+ }
+
+ section h2 {
+     font-size: 2em;
+ }
+ 
+ /*
+                                selectors to target the first Article
+ */
+  section  >  :first-child{
+    padding: 0.5em 1.5em 2em;
+    border-radius: 20px;
+    background: #2b1d23;
+ }
+
+ section > :first-child img{
+     margin: 0 auto;
+     border-radius: 20px;
+ }
+
+  section > :first-child p{
+     font-size: 1.5rem;
+      color:  #bc4123;
+ }
+
+ section > :first-child a {
+    color: #b5adb3;
+ }
+
+ section p {
+     margin: 1em 0;
+     font-size: 1.2em;
+ }
+
+  /*
+                                Article elements
+ */
+  article {
+      margin-bottom: 5em;
+ }
+
+ .more-content {
+     font-size: 1.1em;
+     text-align: right;
+}
+
+ /*
+                             Article elements
+ */
+iframe {
+    margin-bottom: 1em;
+    width: 100%;
+    border-radius: 20px;
+}
+
+ a {
+     color: #b5adb3;
+ }
+
+ /*
+                             Footer elements
+ */
+ footer {
+     background: #bc4123;
+     height: 1em;
+     font-size: 1.2em;
+     text-align: right;
+     padding: 1.5em 0;
+     border-radius: 20px 20px 0 0;
+     clear: both;
+ }
+
+ footer p{
+     height: 0.8em;
+     background: #222e3f;
+ }
+
+
+
+
