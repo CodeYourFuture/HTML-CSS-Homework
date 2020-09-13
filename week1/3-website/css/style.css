@@ -6,3 +6,58 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #4586de;
+  margin: 20px 80px;
+}
+
+.wrapper {
+  width: 800px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: white;
+}
+header {
+  padding: 50px 50px 50px 50px;
+}
+
+header > #logo {
+  font-size: 2em;
+}
+
+main {
+  padding: 50px;
+  overflow: hidden;
+}
+
+section {
+  float: left;
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 30%;
+  background-color: rgba(255, 255, 128, 0.5);
+  padding: 10px;
+}
+
+footer {
+  padding: 20px;
+  border-top: 1px solid blue;
+  text-align: center;
+}
+
+h3 {
+  margin: 10px;
+  background-color: red;
+  color: white;
+}
+
+article {
+  border-bottom: 1px solid blue;
+}
