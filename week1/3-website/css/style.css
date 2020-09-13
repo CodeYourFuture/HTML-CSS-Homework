@@ -54,8 +54,8 @@ footer {
 
 h3 {
   margin: 10px;
-  background-color: red;
-  color: white;
+  background-color: rgb(248, 245, 245);
+  color: rgb(182, 12, 12);
 }
 
 article {
