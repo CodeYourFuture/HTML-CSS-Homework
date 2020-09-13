@@ -58,10 +58,10 @@ h3 {
   color: rgb(182, 12, 12);
 }
 
-article {
-  border-bottom: 1px solid blue;
-}
-
 .articles:first-child {
   border: 1px solid rgb(7, 7, 14);
+}
+
+article {
+  border-bottom: 1px solid blue;
 }
