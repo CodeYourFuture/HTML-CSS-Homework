@@ -61,3 +61,7 @@ h3 {
 article {
   border-bottom: 1px solid blue;
 }
+
+.articles:first-child {
+  border: 1px solid rgb(7, 7, 14);
+}
