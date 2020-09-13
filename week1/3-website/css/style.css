@@ -59,7 +59,9 @@ h3 {
 }
 
 .articles:first-child {
+  background-color: gray;
   border: 1px solid rgb(7, 7, 14);
+  padding: 20px 20px 20px 20px;
 }
 
 article {
