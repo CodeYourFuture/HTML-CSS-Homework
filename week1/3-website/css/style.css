@@ -25,7 +25,10 @@ body {
 header {
   padding: 50px 50px 50px 50px;
 }
-
+/*Navigation Style*/
+nav {
+  font-weight: bold;
+}
 header > #logo {
   font-size: 2em;
 }
@@ -57,6 +60,7 @@ h3 {
   background-color: rgb(145, 145, 49);
   color: rgb(182, 12, 12);
 }
+/*First Article's style*/
 
 .articles:first-child {
   background-color: gray;
@@ -64,6 +68,7 @@ h3 {
   padding: 20px 20px 20px 20px;
 }
 
+/*general article styles*/
 article {
   border-bottom: 1px solid blue;
 }
